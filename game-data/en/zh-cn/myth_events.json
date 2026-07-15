@@ -1,0 +1,625 @@
+[
+  {
+    "id": "myth_zh-cn_1",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "An ancient temple collapsed, and you picked up a warm sacred relic. That night, you dreamed of an old monk preaching scriptures. Spirit +5.",
+    "pollution_type": true,
+    "effect": {
+      "SPR": 5
+    }
+  },
+  {
+    "id": "myth_zh-cn_2",
+    "rarity": "rare",
+    "grade": 2,
+    "fallback": "You found yellowed notes at a used book stall. The reasoning method in them suddenly enlightened you. Intelligence +3.",
+    "pollution_type": true,
+    "effect": {
+      "INT": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn_3",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "You rescued an old man who had fainted, and he gave you an ancient jade. After that, your speech carried natural affability. Charisma +3.",
+    "pollution_type": false,
+    "effect": {
+      "CHR": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn_4",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "You unearthed a broken sword at a construction site. When you touched it, the metal energy entered your body, greatly increasing your arm strength. Strength +4.",
+    "pollution_type": true,
+    "effect": {
+      "STR": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn_5",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "At death's door, you saw a gate of light. After waking, your chronic illness gradually healed, astonishing the doctors. Lifespan +6.",
+    "pollution_type": false,
+    "effect": {
+      "LIF": 6
+    }
+  },
+  {
+    "id": "myth_zh-cn_6",
+    "rarity": "common",
+    "grade": 2,
+    "fallback": "The old lottery ticket you bought on a whim won second prize, solving your urgent need. Money +4.",
+    "pollution_type": false,
+    "effect": {
+      "MNY": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn_7",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "After the rain, a double rainbow appeared. You watched quietly for a moment and suddenly felt the rhythm of the universe enter your heart. Spirit +2, Intelligence +2.",
+    "pollution_type": false,
+    "effect": {
+      "SPR": 2,
+      "INT": 2
+    }
+  },
+  {
+    "id": "myth_zh-cn_8",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "The old dog you adopted, before passing away, licked your palm, leaving a trace of spirit light. After that, you became perceptive of others' hearts. Charisma +3, Spirit +3.",
+    "pollution_type": true,
+    "effect": {
+      "CHR": 3,
+      "SPR": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn_9",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "You dreamed of playing chess with an ancient master. After waking, your chess skills were superior, and you felt light and clear-eyed. Intelligence +4, Lifespan +2.",
+    "pollution_type": true,
+    "effect": {
+      "INT": 4,
+      "LIF": 2
+    }
+  },
+  {
+    "id": "myth_zh-cn_10",
+    "rarity": "common",
+    "grade": 2,
+    "fallback": "While working out, you broke through your limits. Your inner energy surged, suddenly making you a strongman. Strength +3.",
+    "pollution_type": false,
+    "effect": {
+      "STR": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn_11",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "You found an ancient painting at a flea market and resold it at a high price, gaining recognition in the circle and both wealth and fame. Money +3, Charisma +2.",
+    "pollution_type": true,
+    "effect": {
+      "MNY": 3,
+      "CHR": 2
+    }
+  },
+  {
+    "id": "myth_zh-cn_12",
+    "rarity": "rare",
+    "grade": 2,
+    "fallback": "On the night of the full moon, you subconsciously drew a talisman. The next day, you could move a cup through the air. Spirit +4.",
+    "pollution_type": false,
+    "effect": {
+      "SPR": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn_13",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "You cracked the cipher of an ancient book and found a predecessor's hidden treasure, making a small fortune. Intelligence +3, Money +2.",
+    "pollution_type": true,
+    "effect": {
+      "INT": 3,
+      "MNY": 2
+    }
+  },
+  {
+    "id": "myth_zh-cn_14",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "You rescued countless people from a sea of fire without a scratch, and were hailed as a lucky star. Charisma +4, Spirit +3.",
+    "pollution_type": false,
+    "effect": {
+      "CHR": 4,
+      "SPR": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn_15",
+    "rarity": "rare",
+    "grade": 2,
+    "fallback": "You accidentally ate wild berries and suffered vomiting and diarrhea. After recovering, you were reborn, with increased strength and extended lifespan. Strength +3, Lifespan +3.",
+    "pollution_type": false,
+    "effect": {
+      "STR": 3,
+      "LIF": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn_16",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "A web novel became a sensation, sold for a high copyright fee, and fortune changed overnight. Money +5.",
+    "pollution_type": false,
+    "effect": {
+      "MNY": 5
+    }
+  },
+  {
+    "id": "myth_zh-cn_17",
+    "rarity": "common",
+    "grade": 2,
+    "fallback": "Volunteering brought good friends; conversations improved critical thinking and eloquence. Intelligence +2, Charisma +2.",
+    "pollution_type": false,
+    "effect": {
+      "INT": 2,
+      "CHR": 2
+    }
+  },
+  {
+    "id": "myth_zh-cn_18",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "On the night of your birthday, you inexplicably cried, as if recalling past lives. Since then, you sleep less but feel energetic. Spirit +3, Lifespan +2.",
+    "pollution_type": true,
+    "effect": {
+      "SPR": 3,
+      "LIF": 2
+    }
+  },
+  {
+    "id": "myth_zh-cn_19",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "Inherited a distant relative's belongings, gaining fitness methods and financial skills. Strength +2, Intelligence +2, Money +2.",
+    "pollution_type": true,
+    "effect": {
+      "STR": 2,
+      "INT": 2,
+      "MNY": 2
+    }
+  },
+  {
+    "id": "myth_zh-cn_20",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "By the ancient course of the Mississippi River, you found a page of a fragmented scripture. After reading it, you felt rejuvenated, as if reborn. Charisma +3, Spirit +3, Lifespan +3.",
+    "pollution_type": true,
+    "effect": {
+      "CHR": 3,
+      "SPR": 3,
+      "LIF": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn_21",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "Came across a used book stall; a blank divine book, upon flipping through it, a flash of inspiration struck, and your mind gradually opened.",
+    "pollution_type": false,
+    "effect": {
+      "INT": 3,
+      "RDM": 1
+    }
+  },
+  {
+    "id": "myth_zh-cn_22",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "On the subway, you caught a glimpse of your reflection; a golden flash in your eyes. From then on, you radiate with vitality and a spring-like smile.",
+    "pollution_type": true,
+    "effect": {
+      "CHR": 4,
+      "SPR": 2
+    }
+  },
+  {
+    "id": "myth_zh-cn_23",
+    "rarity": "common",
+    "grade": 2,
+    "fallback": "During a morning run, you met an old man in the fog who taught you a breathing technique. Practicing it made you as light as a swallow, and old ailments gradually healed.",
+    "pollution_type": false,
+    "effect": {
+      "STR": 3,
+      "LIF": 1
+    }
+  },
+  {
+    "id": "myth_zh-cn_24",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "In an abandoned mine, you picked up a fist-sized mana stone and sold it for a huge sum, suddenly becoming wealthy, as if heaven-sent.",
+    "pollution_type": true,
+    "effect": {
+      "MNY": 6
+    }
+  },
+  {
+    "id": "myth_zh-cn_25",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "Working late at night, phosphorescent flames outside the window formed words urging you to cherish life. From then on, you became carefree and unafraid of the impermanence.",
+    "pollution_type": false,
+    "effect": {
+      "SPR": 4,
+      "RDM": -1
+    }
+  },
+  {
+    "id": "myth_zh-cn_26",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "Accidentally entered an old ancestral hall in a condemned area; touching a broken stele caused fragments of ancient sorcerers' memories to flood into your mind.",
+    "pollution_type": true,
+    "effect": {
+      "INT": 2,
+      "CHR": 2,
+      "SPR": 2
+    }
+  },
+  {
+    "id": "myth_zh-cn_27",
+    "rarity": "common",
+    "grade": 2,
+    "fallback": "An old man at a food stall gave you a bowl of dragon bone soup. After drinking it, your whole body felt warm and all chronic ailments seemed to vanish.",
+    "pollution_type": false,
+    "effect": {
+      "LIF": 3,
+      "STR": 1
+    }
+  },
+  {
+    "id": "myth_zh-cn_28",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "Struck by lightning during a thunderstorm but survived. Instead, your senses became superhuman, and occasionally you can foresee fragments of the future.",
+    "pollution_type": false,
+    "effect": {
+      "RDM": 5,
+      "SPR": 1
+    }
+  },
+  {
+    "id": "myth_zh-cn_29",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "At the end of an alley, you encountered a down-and-out painter who drew your portrait, which surprisingly revealed the outline of a past life. Since then, you have an otherworldly aura.",
+    "pollution_type": true,
+    "effect": {
+      "CHR": 3,
+      "MNY": 1
+    }
+  },
+  {
+    "id": "myth_zh-cn_30",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "At a construction site, you unearthed a bronze fragment. Touching it greatly increased your arm strength; carrying bricks felt like pinching paper, astonishing your colleagues.",
+    "pollution_type": false,
+    "effect": {
+      "STR": 4,
+      "LIF": 2
+    }
+  },
+  {
+    "id": "myth_zh-cn_31",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "An ancient scroll sealed in dust suddenly opened, words cutting into the mind like knives. In a daze, I saw a predecessor leaning over the desk, ink still wet, and understanding dawned.",
+    "pollution_type": true,
+    "effect": {
+      "INT": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn_32",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "A dragon made of sugar painting, about to take flight. The old man smiled in silence. Returning home, for days everything went smoothly.",
+    "pollution_type": false,
+    "effect": {
+      "SPR": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn_33",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "Half a leftover note, blurred writing. Touching it felt warm and smooth as jade. In the mirror, the face seemed to have shadows of old kin.",
+    "pollution_type": true,
+    "effect": {
+      "CHR": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn_34",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "An old shadow at an empty station, a moment of looking back. Returning home, the night dreams were heavy, breath long, as if an old friend was guarding.",
+    "pollution_type": true,
+    "effect": {
+      "LIF": 5
+    }
+  },
+  {
+    "id": "myth_zh-cn_35",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "The bright pearl in the palm, not a pearl, but a spark of undying spirit. Clutching it, past joys surged like a tide.",
+    "pollution_type": false,
+    "effect": {
+      "SPR": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn_36",
+    "rarity": "common",
+    "grade": 2,
+    "fallback": "Old memories suddenly burst open like a floodgate. It was a former classmate, now meeting through a lingering spirit, mind clear.",
+    "pollution_type": true,
+    "effect": {
+      "INT": 2
+    }
+  },
+  {
+    "id": "myth_zh-cn_37",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "Ancient patterns entered the palm, heat flowing. From then on, never perplexed, as if millennia of wisdom were at hand.",
+    "pollution_type": true,
+    "effect": {
+      "INT": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn_38",
+    "rarity": "common",
+    "grade": 2,
+    "fallback": "The bracelet warm as blood, a legacy from ancestors. Couldn't pawn it, yet it gradually widened the path to wealth.",
+    "pollution_type": true,
+    "effect": {
+      "MNY": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn_39",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "Oil umbrella tilted lightly, a wisp of faint fragrance. For half a month after, walking as if on clouds, all worldly worries forgotten.",
+    "pollution_type": false,
+    "effect": {
+      "SPR": 5
+    }
+  },
+  {
+    "id": "myth_zh-cn_40",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "An ancient coin entered the dream, talking with the ancients. After waking, money came on its own, as if ancestors paved the way.",
+    "pollution_type": true,
+    "effect": {
+      "MNY": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn_41",
+    "rarity": "common",
+    "grade": 2,
+    "fallback": "Found a note in an old scroll, handwriting like one's own, glimpsing past shadows, mind slightly enlightened.",
+    "pollution_type": true,
+    "effect": {
+      "INT": 2
+    }
+  },
+  {
+    "id": "myth_zh-cn_42",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "The elevator dropped strangely, thousands of faces flashing by, soul shuddered, mind cleared a bit.",
+    "pollution_type": true,
+    "effect": {
+      "SPR": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn_43",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "Ancient jade in hand, dreamt of vicissitudes, in demeanor hidden elegance.",
+    "pollution_type": true,
+    "effect": {
+      "CHR": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn_44",
+    "rarity": "common",
+    "grade": 2,
+    "fallback": "Reflection in a puddle, youth paused for a moment, warmth in heart, contented peace.",
+    "pollution_type": false,
+    "effect": {
+      "SPR": 2
+    }
+  },
+  {
+    "id": "myth_zh-cn_45",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "Unexpectedly found money, fortune turned slightly, copper green mottled, as if continuing a past connection.",
+    "pollution_type": true,
+    "effect": {
+      "MNY": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn_46",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "Moonlight wove into threads, a cryptic symbol appeared in the palm, bones and muscles secretly strengthened, power was born from within.",
+    "pollution_type": false,
+    "effect": {
+      "STR": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn_47",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "A blank book was gifted, words emerged at the stroke of the pen, wisdom gushed like a spring, all were echoes of the past.",
+    "pollution_type": true,
+    "effect": {
+      "INT": 6
+    }
+  },
+  {
+    "id": "myth_zh-cn_48",
+    "rarity": "common",
+    "grade": 2,
+    "fallback": "Exotic fragrance awakened the mind, like drinking morning dew, vitality increased slightly, gradually moistening the body.",
+    "pollution_type": false,
+    "effect": {
+      "LIF": 2
+    }
+  },
+  {
+    "id": "myth_zh-cn_49",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "The old ring touched a finger, a heart sound entered the ear, amid the aura, an unusual color was added.",
+    "pollution_type": true,
+    "effect": {
+      "CHR": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn_50",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "Dialed and encountered an old acquaintance, the voice sounded as before, fortune twisted strangely, the past karma was not extinguished.",
+    "pollution_type": true,
+    "effect": {
+      "RDM": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn_51",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "This book was yellowed, the script squirmed like maggots, yet what it said eerily matched your current situation, as if an old soul was reborn through the paper, wisdom slightly increased.",
+    "pollution_type": true,
+    "effect": {
+      "INT": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn_52",
+    "rarity": "common",
+    "grade": 2,
+    "fallback": "The subway was empty, the broadcast suddenly sounded, calling an old name. You answered, and instantly felt your bones and muscles loosen, as if borrowing the strength of someone from the past.",
+    "pollution_type": false,
+    "effect": {
+      "STR": 2
+    }
+  },
+  {
+    "id": "myth_zh-cn_53",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "The plaster peeled off, revealing an old handwriting prophecy: 'This year you are here'. Your heartstrings trembled, inexplicable joy, as if fate had already written its stroke.",
+    "pollution_type": true,
+    "effect": {
+      "SPR": 5
+    }
+  },
+  {
+    "id": "myth_zh-cn_54",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "An old lady pressed a coin into your hand, saying 'Return to you', then vanished into the crowd. The coin was still warm, your luck turned for the better, as if a former debt had been cleared.",
+    "pollution_type": true,
+    "effect": {
+      "MNY": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn_55",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "In a dream, you got a number, dialed it, a voice said 'Finally arrived', then hung up. After waking, your reflection in the mirror bore an indescribable weather-beaten look, as if borrowing the visage of a past life.",
+    "pollution_type": true,
+    "effect": {
+      "CHR": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn_56",
+    "rarity": "rare",
+    "grade": 2,
+    "fallback": "An old photo appeared abruptly, you stood beside a deceased relative, but had no memory of it. As you stared, a chill ran down your spine and wisdom opened, suspecting you had inherited ancestral knowledge.",
+    "pollution_type": true,
+    "effect": {
+      "INT": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn_57",
+    "rarity": "common",
+    "grade": 2,
+    "fallback": "Under the rain eaves, you overheard a girl in a school uniform humming, tears fell unconsciously. The song ended and she vanished, but warmth rippled in your heart, like a stolen moment of joy.",
+    "pollution_type": false,
+    "effect": {
+      "SPR": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn_58",
+    "rarity": "uncommon",
+    "grade": 3,
+    "fallback": "The desired drink appeared on your desk daily, finally a note said 'Do not seek'. After drinking, you slept soundly at night, gradually recovering strength, as if someone was secretly taking care of you.",
+    "pollution_type": true,
+    "effect": {
+      "LIF": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn_59",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "On a broken wall, a notice showed a person eerily similar to you. After tearing it off, you dreamed of his past continuously. Upon waking, your life force was full, as if your souls had merged.",
+    "pollution_type": true,
+    "effect": {
+      "LIF": 6
+    }
+  },
+  {
+    "id": "myth_zh-cn_60",
+    "rarity": "rare",
+    "grade": 2,
+    "fallback": "An anonymous poetry copy, every word penetrated the heart. When you flipped to an empty page, ink suddenly appeared: 'Are you reading me?' Startled yet delighted, as if the poem's soul had communicated across time.",
+    "pollution_type": true,
+    "effect": {
+      "SPR": 5
+    }
+  }
+]

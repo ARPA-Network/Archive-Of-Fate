@@ -1,0 +1,1299 @@
+[
+  {
+    "id": "myth_zh-cn-cf_1",
+    "rarity": "common",
+    "grade": 2,
+    "fallback": "An ancient bamboo slip emerged from a secret realm, its characters like earthworms; upon viewing, the sea of consciousness surged, as if someone whispered teachings.",
+    "pollution_type": false,
+    "effect": {
+      "INT": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_2",
+    "rarity": "uncommon",
+    "grade": 3,
+    "fallback": "During tribulation, heavenly lightning tempered the body, bones cracking like firecrackers; upon waking, faint lightning patterns appeared on the skin, and strength increased by a thousand jin.",
+    "pollution_type": false,
+    "effect": {
+      "STR": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_3",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "Accidentally entered an ancient alchemy chamber, took a pill surrounded by rosy clouds; the spirit platform became clear, and the countenance regained a bit of youthful vitality.",
+    "pollution_type": true,
+    "effect": {
+      "SPR": 5,
+      "CHR": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_4",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "Heavenly Taiyi True Water descended, merging into the life spring; the wheel of lifespan reversed, white hair turned black, and an extra sixty years of life were gained.",
+    "pollution_type": true,
+    "effect": {
+      "LIF": 6
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_5",
+    "rarity": "common",
+    "grade": 2,
+    "fallback": "At the market gambling on rough stones, cutting one open filled the room with light; obtained several bags of medium-grade spirit stones, solving the need for cultivation resources.",
+    "pollution_type": false,
+    "effect": {
+      "MNY": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_6",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "By chance encountered an orchid temple in the mountains, played a game of Go with a beauty in a painting; mind and spirit were intoxicated, upon waking, a smile lingered on the lips.",
+    "pollution_type": false,
+    "effect": {
+      "CHR": 2,
+      "SPR": 2
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_7",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "Gained a glimpse of a fragment of a celestial book, forcefully deduced, spat blood three liters; yet the sea of consciousness opened, catching a trace of heavenly secrets.",
+    "pollution_type": true,
+    "effect": {
+      "INT": 4,
+      "RDM": 2
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_8",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "Ten thousand swords sang in unison in the sword tomb; a rusty sword recognized its master; man and sword became one, sword aura surged into the sky, cutting the chains of causality.",
+    "pollution_type": false,
+    "effect": {
+      "STR": 5,
+      "RDM": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_9",
+    "rarity": "common",
+    "grade": 2,
+    "fallback": "An old Taoist by the roadside gave wine; after drinking, became drowsy; upon waking, was a thousand li away, with an extra brocade pouch in the arms.",
+    "pollution_type": false,
+    "effect": {
+      "RDM": 2
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_10",
+    "rarity": "uncommon",
+    "grade": 3,
+    "fallback": "Found an elder's cave dwelling, broke through the restrictions, obtained cultivation techniques and spirit stones; moreover, grasped the true meaning of carefree, greatly advancing the state of mind.",
+    "pollution_type": false,
+    "effect": {
+      "SPR": 3,
+      "MNY": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_11",
+    "rarity": "common",
+    "grade": 2,
+    "fallback": "In a quiet room, comprehended the Dao; a spark of insight appeared, and the divine consciousness suddenly opened up.",
+    "pollution_type": false,
+    "effect": {
+      "INT": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_12",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "Accidentally entered an ancient cave, tempered the body with dragon blood; bones and sinews became like metal and stone.",
+    "pollution_type": true,
+    "effect": {
+      "STR": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_13",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "Collected lightning tribulation liquid from the aftermath of heavenly tribulation; drinking it increased lifespan by twenty years.",
+    "pollution_type": false,
+    "effect": {
+      "LIF": 5
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_14",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "Immortal-like jade bones were innate; once reborn, the countenance astonished the world, and the Dao heart also became clear.",
+    "pollution_type": true,
+    "effect": {
+      "CHR": 6
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_15",
+    "rarity": "common",
+    "grade": 2,
+    "fallback": "Watched the sunrise over a sea of clouds; the state of mind broadened, and worldly troubles vanished.",
+    "pollution_type": false,
+    "effect": {
+      "SPR": 2
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_16",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "Obtained a broken sword at the market, which unexpectedly contained a treasure left by a predecessor, traded for a thousand spirit stones.",
+    "pollution_type": true,
+    "effect": {
+      "MNY": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_17",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "An ancient stele with celestial script; after three years of arduous study, finally understood one page, and the Daoist art advanced further.",
+    "pollution_type": false,
+    "effect": {
+      "INT": 5
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_18",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "Encountered a celestial fate, catching a glimpse of the heavenly secrets; destiny overturned, fortune and misfortune intertwined.",
+    "pollution_type": true,
+    "effect": {
+      "RDM": 6
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_19",
+    "rarity": "rare",
+    "grade": 2,
+    "fallback": "Fighting a demon beast, on the verge of death, bloodline awakened, the sleeping ferocious power revived.",
+    "pollution_type": true,
+    "effect": {
+      "STR": 5
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_20",
+    "rarity": "uncommon",
+    "grade": 3,
+    "fallback": "Mistakenly drank a thousand-year vintage of drunken immortal brew, slept for three days, woke up with heart demon gone, joyful and carefree.",
+    "pollution_type": false,
+    "effect": {
+      "SPR": 5
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_21",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "Star core entered the body, sinews and bones reshaped, as if star power flowed within. The wheel of fate quietly turned.",
+    "pollution_type": true,
+    "effect": {
+      "STR": 6
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_22",
+    "rarity": "rare",
+    "grade": 2,
+    "fallback": "Red candles cast double shadows, the Dao heart also stirred by emotion. The karma of this life shall be shared with you.",
+    "pollution_type": false,
+    "effect": {
+      "SPR": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_23",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "Lightning tribulation tempered the body, a narrow escape from death. After the heavenly might, it turned out to be a blessing.",
+    "pollution_type": true,
+    "effect": {
+      "LIF": 5
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_24",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "All illusions shattered, the spirit platform clear. Past entanglements cut off with one stroke.",
+    "pollution_type": true,
+    "effect": {
+      "INT": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_25",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "Yellowed fragment, every word precious. Once comprehended, soared straight to the blue clouds.",
+    "pollution_type": true,
+    "effect": {
+      "INT": 6
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_26",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "A thousand layers of dreams, am I the butterfly? Waking up realized, living two lives.",
+    "pollution_type": true,
+    "effect": {
+      "INT": 5
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_27",
+    "rarity": "rare",
+    "grade": 2,
+    "fallback": "Stone door opened wide, treasure light shot into the sky. The cave dwelling of a predecessor, now my home.",
+    "pollution_type": true,
+    "effect": {
+      "MNY": 5
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_28",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "Sword scars like poetry, Dao marks like engraving. One sword drawn, heaven and earth lose color.",
+    "pollution_type": false,
+    "effect": {
+      "STR": 5
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_29",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "Dantian boiling like water, spiritual root reborn. Past mortal bones, today immortal fetus.",
+    "pollution_type": false,
+    "effect": {
+      "STR": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_30",
+    "rarity": "rare",
+    "grade": 2,
+    "fallback": "Heaven and earth as witness, karma as threads. Plant a cause today, reap the fruit another day.",
+    "pollution_type": true,
+    "effect": {
+      "RDM": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_31",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "Accidentally entered an ancient cave in a barren mountain, where dusty fragments of scrolls contained precious words. Suddenly enlightened, the divine sense became clear as if washed.",
+    "pollution_type": false,
+    "effect": {
+      "INT": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_32",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "The tribulation lightning split the mist, scenes from past lives flashed like paintings. In an instant, obsession vanished, leaving the spiritual platform empty and bright.",
+    "pollution_type": true,
+    "effect": {
+      "SPR": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_33",
+    "rarity": "common",
+    "grade": 2,
+    "fallback": "Sword light like a waterfall cleansed the marrow, bones and sinews resounded together, as if with the roar of dragons and tigers.",
+    "pollution_type": false,
+    "effect": {
+      "STR": 2
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_34",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "Dreamed into the ancient times, saw a true cultivator standing with hands behind his back. He pointed out, and myriad phenomena arose and perished. Upon waking, divine thought was clear.",
+    "pollution_type": true,
+    "effect": {
+      "INT": 5
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_35",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "An ice lotus bloomed, a strand of pure light entered the body. Flesh and bones emitted fragrance, as if a banished immortal.",
+    "pollution_type": false,
+    "effect": {
+      "CHR": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_36",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "The heart demon took the form of an old acquaintance. A sword strike cut it down, then lotus flowers appeared everywhere, and lifespan increased tricklingly.",
+    "pollution_type": true,
+    "effect": {
+      "LIF": 6
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_37",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "On the arena, magical arts clashed. Finally won the first place. The elder bestowed a storage pouch, spirit stones sparkling like a galaxy.",
+    "pollution_type": false,
+    "effect": {
+      "MNY": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_38",
+    "rarity": "common",
+    "grade": 2,
+    "fallback": "A flash of light passed, the whole body felt reshaped. Unknown power quietly flowed in, not knowing where it was added.",
+    "pollution_type": false,
+    "effect": {
+      "RDM": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_39",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "The ancient tribulation clouds had not dispersed. You stepped into the ruins, remnant lightning pierced the body. Bones and sinews were tempered, as if reborn.",
+    "pollution_type": true,
+    "effect": {
+      "STR": 5
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_40",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "The illusion was like a mirror. You saw your own obsession transform into a demon. With a thought of sudden enlightenment, the heart platform became clear.",
+    "pollution_type": false,
+    "effect": {
+      "SPR": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_41",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "A worn jade slip recorded a divine pill. You painstakingly refined it. Upon taking it, you suddenly felt vitality bursting forth.",
+    "pollution_type": true,
+    "effect": {
+      "LIF": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_42",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "Met a kindred spirit under the moon, traveled hand in hand. Hearts understood each other, the path was not lonely.",
+    "pollution_type": false,
+    "effect": {
+      "SPR": 2,
+      "INT": 2
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_43",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "Observed the stars at night, a treasure light fell to the ground. Obtained it, as if destiny was bestowed.",
+    "pollution_type": true,
+    "effect": {
+      "MNY": 6,
+      "CHR": 2
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_44",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "Sat in meditation under a waterfall, suddenly heard the water sounds all like sword hums. A single sword strike, mountains and rivers changed color.",
+    "pollution_type": false,
+    "effect": {
+      "STR": 6
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_45",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "The heart demon raged, you guarded the spiritual platform clear. After the tribulation, lingering fear remained, but the Dao heart became even firmer.",
+    "pollution_type": false,
+    "effect": {
+      "SPR": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_46",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "The secret realm was sealed for millennia. You broke through the formation and obtained the legacy of an ancient immortal. Wisdom like the sea, appearance renewed.",
+    "pollution_type": true,
+    "effect": {
+      "INT": 5,
+      "CHR": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_47",
+    "rarity": "common",
+    "grade": 2,
+    "fallback": "The thunder tribulation descended, and you withstood it with your physical body. When the golden core formed, you were reborn and transformed.",
+    "pollution_type": false,
+    "effect": {
+      "STR": 3,
+      "LIF": 2
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_48",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "Encountered a spirit fruit in the mountains, its exotic fragrance tempting. Eating it, a warm sensation flowed in your dantian, and an unknown change had occurred.",
+    "pollution_type": false,
+    "effect": {
+      "RDM": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_49",
+    "rarity": "common",
+    "grade": 2,
+    "fallback": "Meditating by the pool at midnight, the moonlight was like water. Suddenly your spiritual platform became clear, and the Dao came naturally.",
+    "pollution_type": false,
+    "effect": {
+      "INT": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_50",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "Stumbled into an ancient cultivator's cave dwelling and obtained a bottle of Foundation Establishment pills, which could be exchanged for a hundred spirit stones.",
+    "pollution_type": false,
+    "effect": {
+      "MNY": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_51",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "During the golden core tribulation, heavenly thunder pierced your body. After enduring painfully, your bones and muscles became like iron, and your cultivation advanced instead.",
+    "pollution_type": false,
+    "effect": {
+      "STR": 5
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_52",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "Cultivated in dual practice with your Dao companion for years, minds connected, Dao heart strengthened.",
+    "pollution_type": false,
+    "effect": {
+      "SPR": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_53",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "In the heart demon tribulation, experienced hundreds of life cycles. Upon waking, eyes were clear, and your appearance gained extra spiritual charm.",
+    "pollution_type": true,
+    "effect": {
+      "CHR": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_54",
+    "rarity": "common",
+    "grade": 2,
+    "fallback": "In the sect's small competition, your sword defeated all opponents, earning you Bone-strengthening Spirit Liquid, improving your physique.",
+    "pollution_type": false,
+    "effect": {
+      "STR": 2
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_55",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "In a dream, an immortal touched your head. Upon waking, you felt your lifespan had increased by a hundred years, as if from past life wisdom.",
+    "pollution_type": true,
+    "effect": {
+      "LIF": 6
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_56",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "Entered a secret realm and triggered an ancient teleportation formation. Unknown where you went, but a great fortune accompanied you.",
+    "pollution_type": false,
+    "effect": {
+      "RDM": 5
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_57",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "Obtained a fragmentary scroll by chance and comprehended the Dao on the night of a meteor shower. From then on, your heart platform was clear, and you could deduce all methods like looking at palm lines.",
+    "pollution_type": false,
+    "effect": {
+      "INT": 5
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_58",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "Tempered by heavenly tribulation, narrow escape from death. Thunderfire refined all mortal flesh, lifespan extended another hundred years, and heaven and earth celebrated together.",
+    "pollution_type": false,
+    "effect": {
+      "LIF": 6
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_59",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "Bathed in the spiritual pool, all filth removed. Skin glowed, aura transcendent, as if a banished immortal descended to the world.",
+    "pollution_type": true,
+    "effect": {
+      "CHR": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_60",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "An ancient beast fell, and blood rained torrentially. Bathing in its blood, bones and sinews thundered, strength enough to shake mountains.",
+    "pollution_type": false,
+    "effect": {
+      "STR": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_61",
+    "rarity": "common",
+    "grade": 2,
+    "fallback": "The inner demon struck, nearly falling into demonic hindrance. Breaking through illusions to see truth, the Dao heart became clearer and purer, untouched by the mundane world.",
+    "pollution_type": true,
+    "effect": {
+      "SPR": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_62",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "Straying into the long river of time, glimpsing past and present lives. The trajectory of fate deviated, and the heavenly mechanism reshaped.",
+    "pollution_type": true,
+    "effect": {
+      "RDM": 6
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_63",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "Excavated an ancient medicinal garden, full of spiritual herbs. Exchanged for ten thousand spirit stones, cultivation became worry-free.",
+    "pollution_type": false,
+    "effect": {
+      "MNY": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_64",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "A master passed down teachings in a dream, sword intent crisscrossing the sea of consciousness. Upon waking, a flick of the sleeve sent sword qi soaring into the sky.",
+    "pollution_type": true,
+    "effect": {
+      "INT": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_65",
+    "rarity": "common",
+    "grade": 2,
+    "fallback": "Accidentally consumed a Vermilion Fruit, meridians swelling. Endured the pain of burning body, strength suddenly increased by thirty percent.",
+    "pollution_type": false,
+    "effect": {
+      "STR": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_66",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "Sat in forgetfulness of the mundane world for thirty years, and suddenly attained enlightenment. Mind merged with heaven and earth, all obsessions turned into gentle breeze.",
+    "pollution_type": true,
+    "effect": {
+      "SPR": 5
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_67",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "Nine-layered heavenly tribulation lightning struck down, your soul left the body flickering like a candle flame. Suddenly saw the illusion of past-life Dao fruit, a wisp of spiritual light protected the heart vein, lifespan increased by a hundred years.",
+    "pollution_type": true,
+    "effect": {
+      "LIF": 5,
+      "STR": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_68",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "An ancient immortal's cave abode appeared in the void, the four characters on the stone wall 'Dao follows nature' turned into flowing light entering your mind. You suddenly comprehended the Taixu mystic method, the sea of consciousness surging like tide.",
+    "pollution_type": false,
+    "effect": {
+      "INT": 6,
+      "SPR": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_69",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "The inner demon took advantage of weakness to enter, in the illusion you fought fiercely with your Dao companion to the death. After waking, though your expression was haggard, a hint of cold allure appeared between your brows, soul energy fluctuated eerily.",
+    "pollution_type": true,
+    "effect": {
+      "CHR": 4,
+      "RDM": -2
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_70",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "Heavenly merit fell as golden rain, you spread your palm to receive it. It turned out to be ancient alchemy formulas and a mountain of spirit stones, the sect's fortune rose accordingly, and you gained insight in your heart.",
+    "pollution_type": false,
+    "effect": {
+      "MNY": 6,
+      "SPR": 2
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_71",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "Past-life karma entangled you, in a dream you cut down the obsession dragon. Upon waking, your physical body faintly glowed, power surged as if about to break through the void, but a few strands of white hair appeared.",
+    "pollution_type": true,
+    "effect": {
+      "STR": 6,
+      "LIF": 2
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_72",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "A demon tide suddenly attacked the sect, you sacrificed yourself to protect the mountain-protecting formation. Your essence blood scattered and turned into a spiritual light barrier. Although severely depleted after the battle, your Dao heart became as clear as a mirror.",
+    "pollution_type": false,
+    "effect": {
+      "SPR": 4,
+      "MNY": 2
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_73",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "Strayed into an ancient secret realm, where a broken sword slanted in the ground suddenly emitted a residual will of 'Slay Immortals'. Your divine sense was pierced, but thus you glimpsed the true essence of the sword Dao, your mind buzzing incessantly.",
+    "pollution_type": false,
+    "effect": {
+      "RDM": 5,
+      "INT": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_74",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "The reincarnation Dao fruit hung in the void. The moment your fingertip touched it, memories of three lives and seven kalpas poured in, your appearance returned to youth, lifespan entangled with karma threads indistinctly.",
+    "pollution_type": true,
+    "effect": {
+      "CHR": 5,
+      "LIF": 5
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_75",
+    "rarity": "common",
+    "grade": 2,
+    "fallback": "Obtained a fragmentary scroll in an ancient cave, the characters mottled but the Dao lingering, as if a predecessor whispered. You pondered for three days, the mind became clear.",
+    "pollution_type": true,
+    "effect": {
+      "INT": 2
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_76",
+    "rarity": "uncommon",
+    "grade": 3,
+    "fallback": "A nameless elixir enters the abdomen, heat like a dragon coursing through the meridians, old injuries vanish, bones and sinews strengthen.",
+    "pollution_type": false,
+    "effect": {
+      "STR": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_77",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "Time and space are chaotic, remnants of ancient immortals battle in the sky, each move and stance containing the Heavenly Dao. Your mind is shaken, as if understanding something.",
+    "pollution_type": true,
+    "effect": {
+      "INT": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_78",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "Thunder tribulation descends, ten thousand jun of force penetrating the body. You grit your teeth and endure, finally forging a diamond body through thunderfire.",
+    "pollution_type": false,
+    "effect": {
+      "STR": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_79",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "An old friend from the mortal world brings wine, drinking under the moon, the past like smoke. You laugh heartily, all inner demons dispelled.",
+    "pollution_type": false,
+    "effect": {
+      "SPR": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_80",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "The cave is deep and secluded, a withered skeleton sits cross-legged, a cosmos bag full of spirit stones, cultivation jade slips lying still. Legacy and karma, all shouldered together.",
+    "pollution_type": true,
+    "effect": {
+      "MNY": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_81",
+    "rarity": "common",
+    "grade": 2,
+    "fallback": "Watching the sea of clouds churning, the sword heart hums on its own. You draw your sword and dance, suddenly comprehending, a new move naturally formed.",
+    "pollution_type": false,
+    "effect": {
+      "STR": 2
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_82",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "A white fox comes of its own accord, nestling against your knee, its spirit eyes reflecting the moon. From then on, the mortal world has one more companion, the immortal path less lonely.",
+    "pollution_type": false,
+    "effect": {
+      "CHR": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_83",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "On the arena, sword light is like a stream, the elder strokes his beard and nods. He bestows upon you the 'Azure Spirit Sword' and says: 'Do not disappoint this weapon, do not disappoint the immortal path.'",
+    "pollution_type": false,
+    "effect": {
+      "MNY": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_84",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "White hair turns black, withered wood springs to life. Between life and death lies great terror, also great fortune. You laugh uproariously and continue the immortal path.",
+    "pollution_type": false,
+    "effect": {
+      "LIF": 5
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_85",
+    "rarity": "common",
+    "grade": 2,
+    "fallback": "In an ancient cave, you find half a volume of a remnant scripture, characters like tadpoles, yet they conceal the mysteries of foundation establishment.",
+    "pollution_type": true,
+    "effect": {
+      "INT": 2
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_86",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "In the inner demon tribulation, you sever attachments, your Dao heart becomes clear and bright, like a butterfly breaking free from its cocoon.",
+    "pollution_type": false,
+    "effect": {
+      "SPR": 2
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_87",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "In the secret realm, you engage in dual cultivation of body and spirit with an unknown Dao companion, seven days like seven tribulations, your countenance radiant.",
+    "pollution_type": true,
+    "effect": {
+      "CHR": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_88",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "Thunder tribulation strikes the body, the physical form collapses and reassembles. When the primordial spirit exits the body, heaven and earth turn white.",
+    "pollution_type": false,
+    "effect": {
+      "LIF": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_89",
+    "rarity": "common",
+    "grade": 2,
+    "fallback": "You rescue a lame spirit fox at the market, and a few days later it brings a pouch of spirit stones, as if repaying a kindness.",
+    "pollution_type": true,
+    "effect": {
+      "MNY": 2
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_90",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "An ancient teleportation array is accidentally activated, allowing entry into the ruins of an immortal palace. The furnace is still warm, and fortune returns to you.",
+    "pollution_type": true,
+    "effect": {
+      "STR": 5
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_91",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "In the sect grand competition, you win the championship with a single sword strike, astonishing the whole audience, and from then on, your immortal path is smooth.",
+    "pollution_type": false,
+    "effect": {
+      "SPR": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_92",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "Dreaming of a past life, your Dao companion smiles with a flower in hand: 'You are here.' Waking up with tears wetting your robes, your cultivation realm loosens.",
+    "pollution_type": true,
+    "effect": {
+      "INT": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_93",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "Sitting under the moon in meditation, you suddenly see a green Dao seed falling from the nine heavens, entering your dantian, and instantly your face radiates immortal light.",
+    "pollution_type": false,
+    "effect": {
+      "CHR": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_94",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "Stumbling into a dilapidated cave dwelling, you obtain a volume of an ancient immortal's handwritten notes, each word a gem; your wisdom greatly expands, and past troubles become thoroughly clear.",
+    "pollution_type": true,
+    "effect": {
+      "INT": 5
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_95",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "Surviving a tribulation, lightning serpents pierce your body, your bones and sinews shatter and reshape; upon waking, your physical body becomes extraordinarily strong.",
+    "pollution_type": false,
+    "effect": {
+      "STR": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_96",
+    "rarity": "common",
+    "grade": 2,
+    "fallback": "Cultivating together with your Dao companion for ten days, spirit and flesh merge, your Dao heart strengthens, and your heart is filled with joy.",
+    "pollution_type": true,
+    "effect": {
+      "SPR": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_97",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "By chance, you discover a spirit vein hidden deep in the mountains, mine countless spirit stones, and become wealthy overnight.",
+    "pollution_type": false,
+    "effect": {
+      "MNY": 5
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_98",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "While sitting quietly, you suddenly feel resonance with heaven and earth; the clear breeze and bright moon enter your embrace, your mind joyful, lingering for a long time.",
+    "pollution_type": false,
+    "effect": {
+      "SPR": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_99",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "Experiencing a hundred lifetimes in a dream, upon waking your eyes are filled with vicissitudes, and all worldly laws appear clear before you.",
+    "pollution_type": true,
+    "effect": {
+      "INT": 6
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_100",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "The sleeping true dragon bloodline within you awakens, power surges, and with every movement, a dragon's roar seems to accompany you.",
+    "pollution_type": true,
+    "effect": {
+      "STR": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_101",
+    "rarity": "common",
+    "grade": 2,
+    "fallback": "Accidentally drinking a thousand-year immortal brew, you are drunk for three days; upon waking, your complexion glows, your temperament transcends the mundane, like a banished immortal.",
+    "pollution_type": false,
+    "effect": {
+      "CHR": 2
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_102",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "Breaking into a time rift, you learn the secret art of reversing a single moment; past and future intertwine, and fate becomes unpredictable from then on.",
+    "pollution_type": true,
+    "effect": {
+      "RDM": 6
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_103",
+    "rarity": "common",
+    "grade": 2,
+    "fallback": "Gathering morning glow and evening purple qi, your sinews and bones grow stronger day by day, like steel and iron.",
+    "pollution_type": false,
+    "effect": {
+      "STR": 2
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_104",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "By chance, you obtain an ancient fragment of a bamboo slip; after studying it for three days, you suddenly achieve enlightenment, and your mind becomes clear.",
+    "pollution_type": false,
+    "effect": {
+      "INT": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_105",
+    "rarity": "uncommon",
+    "grade": 3,
+    "fallback": "The ancient cultivator's cave dwelling hides countless treasures, inexhaustible, but the predecessor's obsessions also cling to you.",
+    "pollution_type": true,
+    "effect": {
+      "MNY": 5
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_106",
+    "rarity": "rare",
+    "grade": 2,
+    "fallback": "Bathing in the immortal spring, all dirt washes away and brightness emerges; countenance like jade, aura ethereal.",
+    "pollution_type": false,
+    "effect": {
+      "CHR": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_107",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "Colored clouds at the horizon turn into music entering the ear; joy arises spontaneously, as if roaming freely with ancient sages.",
+    "pollution_type": true,
+    "effect": {
+      "SPR": 5
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_108",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "Receive an immortality elixir bequeathed by an enlightened immortal; taking it adds two hundred years of life, with time's essence within.",
+    "pollution_type": true,
+    "effect": {
+      "LIF": 6
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_109",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "Primordial spirit enters the profound, the river of fate appears before one; a chance touch of a thread of heavenly insight seems to glimpse past and present lives.",
+    "pollution_type": true,
+    "effect": {
+      "RDM": 6
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_110",
+    "rarity": "rare",
+    "grade": 2,
+    "fallback": "Comprehend the Dao through battle, attain sagehood physically; every move and gesture carries the power of a dragon and elephant.",
+    "pollution_type": false,
+    "effect": {
+      "STR": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_111",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "The spiritual platform is clear; suddenly feeling the world's spiritual energy pouring into the dantian like a stream, past obstructions are all unblocked.",
+    "pollution_type": false,
+    "effect": {
+      "INT": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_112",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "An ancient cave glows faintly, revealing a broken stele; cinnabar has faded but the characters remain clear; this place may be able to refine longevity.",
+    "pollution_type": true,
+    "effect": {
+      "MNY": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_113",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "Thunder tribulation pierces the body, inner demons dance wildly; with a sword, cut off obsessions; the physical body reforges, surpassing the past.",
+    "pollution_type": false,
+    "effect": {
+      "STR": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_114",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "Sitting opposite under the moon, spiritual breaths intermingle; in an instant, minds connect, the Dao heart grows firmer.",
+    "pollution_type": false,
+    "effect": {
+      "SPR": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_115",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "The tribulation clouds disperse, leaving marks on the cliff; faintly echoes the sound of the heavenly Dao, blessings come to the heart.",
+    "pollution_type": false,
+    "effect": {
+      "RDM": 5
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_116",
+    "rarity": "rare",
+    "grade": 2,
+    "fallback": "The rusty sword hums, as if an undying heroic spirit remains; the moment it acknowledges its master, the body turns cold then warm again.",
+    "pollution_type": true,
+    "effect": {
+      "STR": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_117",
+    "rarity": "common",
+    "grade": 2,
+    "fallback": "On the cliff edge, a red fruit glistens; entering the mouth it turns into a warm stream, adding life span out of nothing.",
+    "pollution_type": false,
+    "effect": {
+      "LIF": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_118",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "In the deepest meditation, past lives pass like smoke and clouds; upon waking, Dao practice greatly advances.",
+    "pollution_type": true,
+    "effect": {
+      "INT": 6
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_119",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "Sword points to the clouds, overpowering all heroes; amidst the acclaim of the full hall, your name spreads far and wide.",
+    "pollution_type": false,
+    "effect": {
+      "CHR": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_120",
+    "rarity": "common",
+    "grade": 2,
+    "fallback": "Ten years of illusion array like a great dream; waking up, the mountain flowers are as before, but the Dao heart has become clear.",
+    "pollution_type": true,
+    "effect": {
+      "INT": 2
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_121",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "By chance obtained ancient cultivation fragments, a trace of Dao resonance entered the body, features slightly adjusted, immortal bone emerging, as if predestined in a past life.",
+    "pollution_type": true,
+    "effect": {
+      "CHR": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_122",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "Heavenly thunder tempered the body, bones became like gold and jade, survived the calamity, with a shadow of someone else taking the tribulation on behalf.",
+    "pollution_type": true,
+    "effect": {
+      "STR": 5
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_123",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "Met the descendant of an old acquaintance, gifted a pill to extend life, mentioned old agreements, threads of destiny interweaving endlessly.",
+    "pollution_type": false,
+    "effect": {
+      "LIF": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_124",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "Before the Dao comprehension stele, heart seal inheritance, all phenomena return to one, as if an ancient sage saw the world through borrowed eyes.",
+    "pollution_type": true,
+    "effect": {
+      "INT": 6
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_125",
+    "rarity": "rare",
+    "grade": 2,
+    "fallback": "Obtained a buried treasure map from a predecessor, spiritual veins revealed, wealth rivaling a nation, causes and consequences hard to distinguish.",
+    "pollution_type": true,
+    "effect": {
+      "MNY": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_126",
+    "rarity": "rare",
+    "grade": 2,
+    "fallback": "Broke through the heart demon, one thought of purity, past attachments turned to smoke, this life's karma resolved itself.",
+    "pollution_type": false,
+    "effect": {
+      "SPR": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_127",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "Remnant soul entered a dream, imparting skills through crown top, fate suddenly changed, unknown whether blessing or calamity.",
+    "pollution_type": true,
+    "effect": {
+      "RDM": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_128",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "Nascent soul just formed, heavenly auspicious light descended, phoenix bearing a letter to congratulate, past life's Dao affinity now revealed.",
+    "pollution_type": true,
+    "effect": {
+      "INT": 5
+    }
+  }
+]

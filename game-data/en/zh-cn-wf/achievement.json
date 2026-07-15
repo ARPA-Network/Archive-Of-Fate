@@ -1,0 +1,625 @@
+{
+  "92000": {
+    "id": 92000,
+    "name": "Step into the Unknown",
+    "description": "You stepped into the dungeon for the first time, ancient whispers echoing in the dark corridors, and the adventure began.",
+    "grade": 0,
+    "hide": 0,
+    "condition": "FDLV >= 1"
+  },
+  "92001": {
+    "id": 92001,
+    "name": "Dungeon Conqueror",
+    "description": "You have conquered one hundred floors of the dungeon, and the abyss bears witness to your unshakable will and power.",
+    "grade": 2,
+    "hide": 0,
+    "condition": "FDLV >= 100"
+  },
+  "92002": {
+    "id": 92002,
+    "name": "Dragon Slayer",
+    "description": "You personally cut off the head of an ancient dragon, its blood staining your armor, and your name is sung by bards in all kingdoms.",
+    "grade": 2,
+    "hide": 0,
+    "condition": "MYTHC >= 1"
+  },
+  "92003": {
+    "id": 92003,
+    "name": "Sage's Wisdom",
+    "description": "Your wisdom has transcended the mundane. The Archmage of the Magic Academy crowned you with a crystal diadem, calling you a walking library.",
+    "grade": 1,
+    "hide": 0,
+    "condition": "HINT >= 120"
+  },
+  "92004": {
+    "id": 92004,
+    "name": "Richer Than a Kingdom",
+    "description": "Your wealth is enough to buy an entire kingdom. The Adventurers' Guild treasury is but a coin purse in your eyes.",
+    "grade": 2,
+    "hide": 0,
+    "condition": "HMNY >= 1000000"
+  },
+  "92005": {
+    "id": 92005,
+    "name": "Knight's Glory",
+    "description": "Before the eyes of the multitude, the king laid his sword on your shoulder, and you have sworn to protect the glory of this land as a knight.",
+    "grade": 1,
+    "hide": 0,
+    "condition": "SUM >= 5000"
+  },
+  "92006": {
+    "id": 92006,
+    "name": "Immortal Phoenix",
+    "description": "Death once held you in its embrace, but you returned from the ashes, your soul burning with an undying flame.",
+    "grade": 2,
+    "hide": 1,
+    "condition": "MYTHC >= 2 AND HSPR >= 80"
+  },
+  "92007": {
+    "id": 92007,
+    "name": "God Slayer",
+    "description": "You challenged the gods as a mortal, and divine blood stained the heavens red. The curtain of the old age fell under your blade.",
+    "grade": 3,
+    "hide": 1,
+    "condition": "MYTHC >= 4"
+  },
+  "92008": {
+    "id": 92008,
+    "name": "Master of Fate",
+    "description": "Your charm, wisdom, strength, and spirit have reached the pinnacle of mortals. Even the gods no longer dare to meddle with your thread of fate.",
+    "grade": 3,
+    "hide": 1,
+    "condition": "HCHR >= 100 AND HINT >= 100 AND HSTR >= 100 AND HSPR >= 100"
+  },
+  "92009": {
+    "id": 92009,
+    "name": "Immortal Legend",
+    "description": "You survived a full hundred and twenty springs and autumns, witnessing the rise and fall of empires and the fall of dragons, becoming a walking epic.",
+    "grade": 2,
+    "hide": 0,
+    "condition": "HAGE >= 120"
+  },
+  "92010": {
+    "id": 92010,
+    "name": "Eternal Tale",
+    "description": "Your name has been sung by bards for a thousand years—living ninety years, you are nearly a demigod among mortals.",
+    "grade": 3,
+    "hide": 0,
+    "condition": "HAGE >= 90"
+  },
+  "92011": {
+    "id": 92011,
+    "name": "Martyr",
+    "description": "A star that fell before dawn, extinguishing its light. You crossed the Styx before the age of twenty, yet ignited the spark of future legends.",
+    "grade": 2,
+    "hide": 1,
+    "condition": "HAGE <= 20"
+  },
+  "92012": {
+    "id": 92012,
+    "name": "Myth Weaver",
+    "description": "The shadow of dragon wings, the whispers of deities—you have personally witnessed the chapters of myth three times, and fate has branded runes on your footprints.",
+    "grade": 3,
+    "hide": 0,
+    "condition": "MYTHC >= 3"
+  },
+  "92013": {
+    "id": 92013,
+    "name": "Beauty That Topples Cities",
+    "description": "Your face makes the moon shy and elves pause. Your beauty is unmatched in Eldland.",
+    "grade": 1,
+    "hide": 0,
+    "condition": "HCHR > 120"
+  },
+  "92014": {
+    "id": 92014,
+    "name": "Grand Sage",
+    "description": "The secrets of the stars are open to you, and the sages of the Magic Academy honor you as their peer.",
+    "grade": 1,
+    "hide": 0,
+    "condition": "HINT > 120"
+  },
+  "92015": {
+    "id": 92015,
+    "name": "Bloodline of the War God",
+    "description": "Your body is tougher than dragon scales. Neither blade nor time can leave a mark on you.",
+    "grade": 2,
+    "hide": 0,
+    "condition": "HSTR > 150"
+  },
+  "92016": {
+    "id": 92016,
+    "name": "Lord of the Treasury",
+    "description": "The dwarf's treasure vault pales before you. Your gold coins could buy an entire kingdom.",
+    "grade": 2,
+    "hide": 0,
+    "condition": "HMNY > 200"
+  },
+  "92017": {
+    "id": 92017,
+    "name": "Eternal Ecstasy",
+    "description": "Your mind has reached the pure land of bliss, and no worldly worries can trouble you again.",
+    "grade": 2,
+    "hide": 0,
+    "condition": "HSPR > 150"
+  },
+  "92018": {
+    "id": 92018,
+    "name": "Favor of Fate",
+    "description": "The gods have charted your path. The threads of fate are woven into a brilliant tapestry in your hands.",
+    "grade": 3,
+    "hide": 0,
+    "condition": "FDLV >= 5"
+  },
+  "92019": {
+    "id": 92019,
+    "name": "Miracle of the Fool",
+    "description": "Low intelligence? No, that is the lamb's veil of the chosen. You, in the guise of a fool, have touched myth.",
+    "grade": 2,
+    "hide": 1,
+    "condition": "HINT <= 30 AND MYTHC >= 1"
+  },
+  "92020": {
+    "id": 92020,
+    "name": "New Recruit's Arrival",
+    "description": "You pushed open the creaky oak door of the guild for the first time, the warmth of the hearth and the scent of parchment greeted you—from then on, your name was engraved on the adventurer's roster.",
+    "grade": 0,
+    "hide": 0,
+    "condition": "HSTR >= 15"
+  },
+  "92021": {
+    "id": 92021,
+    "name": "Dungeon Conqueror",
+    "description": "When the last monster's wail came from the damp cave depths, you walked out over gravel and debris, sunlight piercing the gloom—the dungeon had bowed at your feet.",
+    "grade": 1,
+    "hide": 0,
+    "condition": "MYTHC >= 1"
+  },
+  "92022": {
+    "id": 92022,
+    "name": "Arcane Scholar",
+    "description": "Atop the tower of the magic academy, you deciphered forbidden scrolls, elements condensing into flames at your fingertips—knowledge is the sharpest sword in your hand.",
+    "grade": 1,
+    "hide": 0,
+    "condition": "HINT >= 60"
+  },
+  "92023": {
+    "id": 92023,
+    "name": "Knighted",
+    "description": "Kneeling on the ancient stone floor, a longsword lightly touched your shoulders, the king's voice echoed in the sanctuary—'Arise, knight.' From then on, your shield bore honor.",
+    "grade": 2,
+    "hide": 0,
+    "condition": "HCHR >= 50 AND HSTR >= 50"
+  },
+  "92024": {
+    "id": 92024,
+    "name": "Dragon's Fall",
+    "description": "When those sky-shadowing wings finally plunged into the volcano crater, you stood in the dragon-blood-soaked ashes, gripping the still-humming dragonslayer sword—an epic was thus composed.",
+    "grade": 3,
+    "hide": 1,
+    "condition": "MYTHC >= 3"
+  },
+  "92025": {
+    "id": 92025,
+    "name": "Favorite of the Gods",
+    "description": "Golden tears flowed from the eyes of the statue, you were bathed in holy light, whispers of ancient times echoed in your ears—you are no longer mortal, but a chosen agent of the gods.",
+    "grade": 3,
+    "hide": 1,
+    "condition": "HSPR >= 85"
+  },
+  "92026": {
+    "id": 92026,
+    "name": "Richer Than a Nation",
+    "description": "Your treasury overflowed with dwarven mithril and noble jewels, merchants trembled at your name—wealth became your sturdiest city wall.",
+    "grade": 1,
+    "hide": 0,
+    "condition": "HMNY >= 10000"
+  },
+  "92027": {
+    "id": 92027,
+    "name": "Immortal",
+    "description": "A century of frost and snow whitened your beard, you sat in the corner of the tavern, the heroes who once fought alongside you have become ballads, while you still raise your glass, awaiting the next dawn's adventure.",
+    "grade": 2,
+    "hide": 0,
+    "condition": "HAGE >= 100"
+  },
+  "92028": {
+    "id": 92028,
+    "name": "Conqueror of Fate",
+    "description": "The threads of the Three Fates snapped between your fingers, at countless crossroads you chose the most impossible path—now even the stars change course for you.",
+    "grade": 2,
+    "hide": 1,
+    "condition": "SUM >= 50"
+  },
+  "92029": {
+    "id": 92029,
+    "name": "Legend Forger",
+    "description": "Bards sing your name, scholars annotate your biography, children imitate your moves—you are no longer a person, but a living legend.",
+    "grade": 2,
+    "hide": 1,
+    "condition": "MYTHC >= 5"
+  },
+  "92030": {
+    "id": 92030,
+    "name": "First Steps on the Journey",
+    "description": "First step into the adventurer's guild hall, feeling the turning of the gears of fate.",
+    "grade": 0,
+    "hide": 0,
+    "condition": "HINT >= 1"
+  },
+  "92031": {
+    "id": 92031,
+    "name": "Dragon Slayer",
+    "description": "Slay an adult dragon atop the Ancient Dragon Peak, the dragon-blood-soaked blade marks the beginning of a legend.",
+    "grade": 3,
+    "hide": 0,
+    "condition": "MYTHC >= 1"
+  },
+  "92032": {
+    "id": 92032,
+    "name": "Archmage's Proof",
+    "description": "Pass the Nine-Circle Trial atop the magic academy's tower, arcane radiance adorns you like stars.",
+    "grade": 2,
+    "hide": 0,
+    "condition": "HINT >= 80"
+  },
+  "92033": {
+    "id": 92033,
+    "name": "End of a Legend",
+    "description": "Die of old age, your tombstone engraved with your magnificent life, bards sing it endlessly.",
+    "grade": 3,
+    "hide": 1,
+    "condition": "HAGE >= 80 AND SUM(MYTHC) >= 5"
+  },
+  "92034": {
+    "id": 92034,
+    "name": "Scarred All Over",
+    "description": "Accumulated over a hundred injuries on adventures; scars are medals of survival.",
+    "grade": 1,
+    "hide": 0,
+    "condition": "SUM(FDLV) >= 100"
+  },
+  "92035": {
+    "id": 92035,
+    "name": "Blissful Revelry",
+    "description": "Win nine rounds of bets at the Eternal Carnival, drunkenly falling into the goblet of a deity.",
+    "grade": 1,
+    "hide": 0,
+    "condition": "HSPR >= 99"
+  },
+  "92036": {
+    "id": 92036,
+    "name": "Chosen by the Gods",
+    "description": "Favored by the Three Fates simultaneously, granted the authority to rewrite worldlines.",
+    "grade": 3,
+    "hide": 1,
+    "condition": "MYTHC >= 3"
+  },
+  "92037": {
+    "id": 92037,
+    "name": "Hidden Among the Crowd",
+    "description": "Abandon all fame, live a peaceful and warm life as a mortal.",
+    "grade": 0,
+    "hide": 1,
+    "condition": "HCHR = 0 AND HINT = 0 AND HSTR = 0 AND HAGE >= 60"
+  },
+  "92038": {
+    "id": 92038,
+    "name": "Rookie's Debut",
+    "description": "You grasped the sword hilt for the first time, stepped into the adventurer's guild, and left your name on the quest board. The adventure begins.",
+    "grade": 0,
+    "hide": 0,
+    "condition": "FDLV >= 1"
+  },
+  "92039": {
+    "id": 92039,
+    "name": "Dual Master",
+    "description": "Your wisdom and strength are equally important; magic and swordsmanship complement each other in your hands, making you a tactical master feared on the battlefield.",
+    "grade": 1,
+    "hide": 0,
+    "condition": "HINT >= 12 AND HSTR >= 12"
+  },
+  "92040": {
+    "id": 92040,
+    "name": "Peak of Wealth",
+    "description": "The wealth you have amassed is enough to buy a small kingdom, and merchants whisper of your generosity and shrewdness.",
+    "grade": 2,
+    "hide": 0,
+    "condition": "HMNY >= 50"
+  },
+  "92041": {
+    "id": 92041,
+    "name": "Immortal Legend",
+    "description": "You have experienced dozens of life-and-death battles, yet always manage to return from the brink of the underworld. Death refuses to embrace you.",
+    "grade": 2,
+    "hide": 0,
+    "condition": "HAGE >= 70 AND HSTR >= 15"
+  },
+  "92042": {
+    "id": 92042,
+    "name": "Dragon Slayer",
+    "description": "The roar of the ancient red dragon did not intimidate you. With a mortal body, you beheaded it, and dragon blood stained the entire wasteland. Your name is engraved on the stone of epics.",
+    "grade": 3,
+    "hide": 0,
+    "condition": "MYTHC >= 3 AND HSTR >= 25"
+  },
+  "92043": {
+    "id": 92043,
+    "name": "Favored by the Gods",
+    "description": "You have been chosen by at least one deity, blessed in holy light. A sacred mark shines on your forehead, and you have become the god's agent in the mortal world.",
+    "grade": 3,
+    "hide": 1,
+    "condition": "MYTHC >= 5 AND HSPR >= 20"
+  },
+  "92044": {
+    "id": 92044,
+    "name": "Abyss Conqueror",
+    "description": "You delved into the deepest level of the forbidden dungeon and defeated the ancient evil that had lurked for a thousand years. Darkness collapsed behind you, and light shone again.",
+    "grade": 3,
+    "hide": 1,
+    "condition": "FDLV >= 20 AND MYTHC >= 2"
+  },
+  "92045": {
+    "id": 92045,
+    "name": "Arcane Sage",
+    "description": "You have grasped the ultimate truth of magic and mastered lost forbidden spells. Even the heads of magic academies come to seek your advice.",
+    "grade": 2,
+    "hide": 0,
+    "condition": "HINT >= 25 AND MYTHC >= 1"
+  },
+  "92046": {
+    "id": 92046,
+    "name": "Admired by All",
+    "description": "Your good deeds and achievements are sung by the people. Statues of you stand in every city, and children recite poems of your heroic tales.",
+    "grade": 1,
+    "hide": 0,
+    "condition": "HSPR >= 15 AND HMNY >= 20 AND HCHR >= 12"
+  },
+  "92047": {
+    "id": 92047,
+    "name": "Tragic Hero",
+    "description": "You once held supreme glory, but in the end, you passed away in solitude. No one knows your fate, only the wind still whispers your name.",
+    "grade": 1,
+    "hide": 1,
+    "condition": "HAGE >= 80 AND HSPR <= 5"
+  },
+  "92048": {
+    "id": 92048,
+    "name": "Eternal Rest",
+    "description": "Your life spanned a hundred years, witnessing the rise and fall of countless dynasties. When death finally took you, the gods set a feast for you among the clouds.",
+    "grade": 3,
+    "hide": 0,
+    "condition": "HAGE >= 100"
+  },
+  "92049": {
+    "id": 92049,
+    "name": "Myth Weaver",
+    "description": "The threads of fate tremble at your fingertips. You have rewritten legends time and again. The world will sing your name until the stars burn out.",
+    "grade": 3,
+    "hide": 0,
+    "condition": "MYTHC >= 5"
+  },
+  "92050": {
+    "id": 92050,
+    "name": "Alluring Gaze",
+    "description": "Your beauty is like an elven creation, undimmed by mortal dust. With a single glance, kings lay down their armor, and evil dragons lower their heads.",
+    "grade": 1,
+    "hide": 0,
+    "condition": "HCHR >= 95"
+  },
+  "92051": {
+    "id": 92051,
+    "name": "Eternal Radiance",
+    "description": "Your wisdom illuminates the darkest corners of Eldran. The Arcane Academy carves your name on the dome, alongside the first sages.",
+    "grade": 2,
+    "hide": 0,
+    "condition": "HINT >= 95"
+  },
+  "92052": {
+    "id": 92052,
+    "name": "Unyielding Iron Wall",
+    "description": "Your body is like Dragon Steel from the mountain peaks, the earth trembles at your steps. Before thousands of troops, you stand alone.",
+    "grade": 2,
+    "hide": 0,
+    "condition": "HSTR >= 95"
+  },
+  "92053": {
+    "id": 92053,
+    "name": "Golden Bloodline",
+    "description": "Golden waterfalls flow through your fingers; the wealth you possess rivals a kingdom. Every gold coin on the continent has heard your name.",
+    "grade": 1,
+    "hide": 0,
+    "condition": "HMNY >= 99999"
+  },
+  "92054": {
+    "id": 92054,
+    "name": "Blissful Ascension",
+    "description": "Your soul overflows with pure joy, like a beacon of the celestial kingdom, and even angels sing for you.",
+    "grade": 1,
+    "hide": 0,
+    "condition": "HSPR >= 100"
+  },
+  "92055": {
+    "id": 92055,
+    "name": "Master of Fate",
+    "description": "You have reached the apex of the staircase of fate, overlooking the rise and fall of all beings. The realms unfold before you like an open ancient scroll.",
+    "grade": 3,
+    "hide": 0,
+    "condition": "FDLV >= 10"
+  },
+  "92056": {
+    "id": 92056,
+    "name": "Blade of Dual Souls",
+    "description": "You are equally proficient in swordsmanship and spellcasting, the only supreme master of magic and martial arts in a millennium. Light and shadow on the battlefield are your twin servants.",
+    "grade": 2,
+    "hide": 0,
+    "condition": "HSTR >= 80 AND HINT >= 80"
+  },
+  "92057": {
+    "id": 92057,
+    "name": "Fallen Meteor",
+    "description": "You vanished suddenly in your most brilliant years, yet left behind an immortal legend. The gods sighed for you and hid your soul in the morning star.",
+    "grade": 3,
+    "hide": 1,
+    "condition": "HAGE < 20 AND MYTHC >= 3"
+  },
+  "92058": {
+    "id": 92058,
+    "name": "Myth's Dawn",
+    "description": "You have touched the powers once sung in epics, and the gears of fate begin to turn.",
+    "grade": 0,
+    "hide": 0,
+    "condition": "MYTHC >= 1"
+  },
+  "92059": {
+    "id": 92059,
+    "name": "Skull of the Sage",
+    "description": "Your wisdom rivals that of the Arcane Academy's tutors. The esoteric arts incomprehensible to mortals are as clear as a spring in your eyes.",
+    "grade": 1,
+    "hide": 0,
+    "condition": "HINT >= 90"
+  },
+  "92060": {
+    "id": 92060,
+    "name": "Iron Blood",
+    "description": "Your body is like armor forged by dwarf blacksmiths, tempered through countless hammer strikes; swords and diseases can hardly shake it.",
+    "grade": 1,
+    "hide": 0,
+    "condition": "HSTR >= 90"
+  },
+  "92061": {
+    "id": 92061,
+    "name": "Divine Countenance",
+    "description": "Your appearance has transcended the mundane; even the goddess of beauty in the astral realm casts envious glances.",
+    "grade": 1,
+    "hide": 0,
+    "condition": "HCHR >= 90"
+  },
+  "92062": {
+    "id": 92062,
+    "name": "Golden Law",
+    "description": "You possess enough gold coins to buy an entire city-state; the Adventurer's Guild treasury has opened a separate vault for you.",
+    "grade": 2,
+    "hide": 0,
+    "condition": "HMNY >= 10000"
+  },
+  "92063": {
+    "id": 92063,
+    "name": "Century Watcher",
+    "description": "You have traversed a century of fireworks and war songs; your long lifespan has made you a living legend.",
+    "grade": 2,
+    "hide": 0,
+    "condition": "HAGE >= 100"
+  },
+  "92064": {
+    "id": 92064,
+    "name": "Heart of Elysium",
+    "description": "Whether facing a dragon or a deity, the corners of your mouth always carry that carefree smile.",
+    "grade": 0,
+    "hide": 1,
+    "condition": "HSPR >= 90"
+  },
+  "92065": {
+    "id": 92065,
+    "name": "Aria of Destiny",
+    "description": "You are not a bystander to myth, but a poet who personally writes legends upon the nebulae.",
+    "grade": 3,
+    "hide": 0,
+    "condition": "MYTHC >= 3"
+  },
+  "92066": {
+    "id": 92066,
+    "name": "Crown of Eldran",
+    "description": "You stand at the pinnacle of mortal destiny; even the gods must listen to your name.",
+    "grade": 3,
+    "hide": 0,
+    "condition": "FDLV >= 10"
+  },
+  "92067": {
+    "id": 92067,
+    "name": "Proof of Omnipotence",
+    "description": "Your talents are balanced and outstanding; you have achieved a harmony in beauty, wisdom, physique, and soul unattainable by mortals.",
+    "grade": 2,
+    "hide": 0,
+    "condition": "SUM(HCHR, HINT, HSTR, HSPR) >= 320"
+  },
+  "92068": {
+    "id": 92068,
+    "name": "First Entry into the Hall",
+    "description": "You step into the Adventurer's Guild hall for the first time; the fireplace's flames reflect countless legendary badges, and the wheel of fortune turns from here.",
+    "grade": 0,
+    "hide": 0,
+    "condition": "FDLV >= 1"
+  },
+  "92069": {
+    "id": 92069,
+    "name": "Dragon Slayer",
+    "description": "When dragonfire scorches the sky, your sword pierces the scales, and the dragon's wail echoes through the valley—you become an epic, and also fear incarnate.",
+    "grade": 3,
+    "hide": 1,
+    "condition": "MYTHC >= 3"
+  },
+  "92070": {
+    "id": 92070,
+    "name": "Golden Touch",
+    "description": "In the depths of the Eternal Night Maze, you unraveled the Dwarf King's treasure puzzle lock; gold pours like a waterfall, and the kingdom trembles.",
+    "grade": 1,
+    "hide": 0,
+    "condition": "HMNY >= 5000"
+  },
+  "92071": {
+    "id": 92071,
+    "name": "Sage's Crown",
+    "description": "The Great Library's arcane rites recognize you as master; infinite knowledge floods your mind, and even the gods whisper your name.",
+    "grade": 2,
+    "hide": 0,
+    "condition": "HINT >= 120"
+  },
+  "92072": {
+    "id": 92072,
+    "name": "Indestructible Body",
+    "description": "You return from under Death's scythe, scarred but standing tall; life is as resilient as bronze.",
+    "grade": 1,
+    "hide": 0,
+    "condition": "HSTR >= 100 AND SUM >= 3"
+  },
+  "92073": {
+    "id": 92073,
+    "name": "Fate's Favorite",
+    "description": "The goddess of luck lifts her skirt for you; you dodge three unavoidable disasters in a row, and people call you the Chosen One.",
+    "grade": 2,
+    "hide": 0
+  },
+  "92074": {
+    "id": 92074,
+    "name": "Knight's Oath",
+    "description": "At the Rose Court, you kneel on one knee to receive knighthood; from then on, honor is your life, and your blade strikes only for justice.",
+    "grade": 1,
+    "hide": 0,
+    "condition": "HCHR >= 60 AND HSTR >= 80"
+  },
+  "92075": {
+    "id": 92075,
+    "name": "Arcane Weaver",
+    "description": "You master three forbidden spells simultaneously; the Weave trembles at your fingertips, and even the Dean shows a look of terror.",
+    "grade": 2,
+    "hide": 1,
+    "condition": "HINT >= 100 AND MYTHC >= 1"
+  },
+  "92076": {
+    "id": 92076,
+    "name": "Wandering King",
+    "description": "You abandoned your throne and vanished into the wilderness, yet your name remains a forbidden legend at banquets across the kingdoms.",
+    "grade": 3,
+    "hide": 1,
+    "condition": "HAGE >= 90 AND HMNY >= 10000 AND HCHR <= 30"
+  },
+  "92077": {
+    "id": 92077,
+    "name": "Final Act",
+    "description": "You have reached the end of the Archive of Fate; all stories end here, and all beginnings are born anew.",
+    "grade": 3,
+    "hide": 1,
+    "condition": "HAGE >= 100"
+  }
+}

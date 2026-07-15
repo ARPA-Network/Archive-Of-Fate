@@ -1,0 +1,466 @@
+{
+  "90000": {
+    "id": 90000,
+    "name": "A Common Life",
+    "description": "You lived a long, ordinary life. No miracles, but also no regrets.",
+    "grade": 0,
+    "hide": 0,
+    "condition": "HAGE >= 80"
+  },
+  "90001": {
+    "id": 90001,
+    "name": "A Fleeting Glimpse",
+    "description": "For a moment, you seemed to catch a glimmer of light behind the world's curtain.",
+    "grade": 1,
+    "hide": 0,
+    "condition": "MYTHC >= 1"
+  },
+  "90002": {
+    "id": 90002,
+    "name": "Whispers of Old Things",
+    "description": "You heard your old family possessions whispering late at night, but by dawn everything was normal.",
+    "grade": 2,
+    "hide": 1,
+    "condition": "MYTHC >= 2"
+  },
+  "90003": {
+    "id": 90003,
+    "name": "Psychic Scholar",
+    "description": "You tried to explain the inexplicable with reason, filling notebooks with half-understood symbols.",
+    "grade": 2,
+    "hide": 0,
+    "condition": "HINT >= 15 AND MYTHC >= 2"
+  },
+  "90004": {
+    "id": 90004,
+    "name": "Ember Scavenger",
+    "description": "You gradually got used to those uncanny moments, even started looking forward to the next.",
+    "grade": 3,
+    "hide": 0,
+    "condition": "MYTHC >= 5"
+  },
+  "90005": {
+    "id": 90005,
+    "name": "Ghostly Romance",
+    "description": "You fell in love with a presence that seemed neither here nor there. Your friends said you were losing it.",
+    "grade": 2,
+    "hide": 1,
+    "condition": "HCHR >= 10 AND MYTHC >= 3"
+  },
+  "90006": {
+    "id": 90006,
+    "name": "Iron Will",
+    "description": "Your life was a solid block of iron—nothing strange ever happened. Maybe that's the strangest thing of all.",
+    "grade": 1,
+    "hide": 0,
+    "condition": "HAGE >= 70 AND MYTHC = 0"
+  },
+  "90007": {
+    "id": 90007,
+    "name": "Shooting Star",
+    "description": "Your story ended almost as soon as it began.",
+    "grade": 0,
+    "hide": 0,
+    "condition": "HAGE < 20"
+  },
+  "90008": {
+    "id": 90008,
+    "name": "Forged Heart, Sharpened Blade",
+    "description": "You carved a path through a sea of exams and became the golden child every parent envied.",
+    "grade": 1,
+    "hide": 0,
+    "condition": "HINT >= 18"
+  },
+  "90009": {
+    "id": 90009,
+    "name": "Worldly Riches",
+    "description": "You made more than enough money, but discovered some things can never be bought.",
+    "grade": 1,
+    "hide": 0,
+    "condition": "HMNY >= 1000000"
+  },
+  "90010": {
+    "id": 90010,
+    "name": "The Lone Wanderer",
+    "description": "You never stepped into anyone's cage of wedlock, and watched the scenery alone.",
+    "grade": 1,
+    "hide": 0,
+    "condition": "HSPR >= 10 AND HAGE >= 50"
+  },
+  "90011": {
+    "id": 90011,
+    "name": "Sickly but Long-lived",
+    "description": "You were frail and sickly as a child, yet outlived many healthier people.",
+    "grade": 2,
+    "hide": 0,
+    "condition": "HSTR < 5 AND HAGE >= 60"
+  },
+  "90012": {
+    "id": 90012,
+    "name": "Heard the Truth at Dawn",
+    "description": "After witnessing the truth, you faded away without a sound.",
+    "grade": 3,
+    "hide": 1,
+    "condition": "HAGE < 30 AND MYTHC >= 1"
+  },
+  "90013": {
+    "id": 90013,
+    "name": "The Chosen One",
+    "description": "You always escaped danger at the last moment, as if fate itself was on your side.",
+    "grade": 2,
+    "hide": 0,
+    "condition": "FDLV >= 5"
+  },
+  "90014": {
+    "id": 90014,
+    "name": "Psychic Awakening",
+    "description": "One midnight, you realized you could understand the conversations of stray cats.",
+    "grade": 3,
+    "hide": 1,
+    "condition": "MYTHC >= 3 AND HSPR >= 15"
+  },
+  "90015": {
+    "id": 90015,
+    "name": "All Glories Fade",
+    "description": "You sat on the mountaintop and hit rock bottom, and ended up sipping tea calmly in a small cottage.",
+    "grade": 1,
+    "hide": 0,
+    "condition": "HAGE >= 60 AND HMNY < 10000"
+  },
+  "90016": {
+    "id": 90016,
+    "name": "School Urban Legend",
+    "description": "After evening study, you saw chalk writing on the blackboard by itself in an empty classroom.",
+    "grade": 1,
+    "hide": 0,
+    "condition": "HAGE < 22 AND MYTHC >= 1"
+  },
+  "90017": {
+    "id": 90017,
+    "name": "Overtime Sighting",
+    "description": "Working late, you noticed your shadow wasn't moving with you.",
+    "grade": 2,
+    "hide": 1,
+    "condition": "HAGE >= 30 AND HAGE < 50 AND MYTHC >= 2"
+  },
+  "90018": {
+    "id": 90018,
+    "name": "Deathbed Vision",
+    "description": "On your deathbed, you saw all the departed loved ones standing beside you, their expressions peaceful.",
+    "grade": 2,
+    "hide": 0,
+    "condition": "HAGE >= 70 AND MYTHC >= 3"
+  },
+  "90019": {
+    "id": 90019,
+    "name": "The Veil Torn",
+    "description": "That day, you finally knew for sure: something was wrong with this world.",
+    "grade": 3,
+    "hide": 1,
+    "condition": "MYTHC >= 10"
+  },
+  "90020": {
+    "id": 90020,
+    "name": "Ordinary Life",
+    "description": "You lived an ordinary life—nothing special, no miracles. Sometimes you recall the quiet reflection in your teacup, like another world.",
+    "grade": 0,
+    "hide": 0,
+    "condition": "HAGE >= 60 AND MYTHC == 0"
+  },
+  "90021": {
+    "id": 90021,
+    "name": "A Flicker of Light",
+    "description": "Late one night working overtime, you saw the office plant sway without wind. When you turned back, it was just an ordinary rubber tree.",
+    "grade": 0,
+    "hide": 0,
+    "condition": "MYTHC >= 1"
+  },
+  "90022": {
+    "id": 90022,
+    "name": "Mana's Favor",
+    "description": "A stone appeared in your drawer that you can never lose. You stay dry walking home in the rain. The neighbor's cat always sits upright when it sees you.",
+    "grade": 1,
+    "hide": 0,
+    "condition": "MYTHC >= 3"
+  },
+  "90023": {
+    "id": 90023,
+    "name": "Longevity Star",
+    "description": "You outlived most people; your birthday cake requires a fire permit for all the candles. But you still hate to blow them out.",
+    "grade": 1,
+    "hide": 0,
+    "condition": "HAGE >= 90"
+  },
+  "90024": {
+    "id": 90024,
+    "name": "Peak Beauty",
+    "description": "Your high school graduation photo was displayed in a studio window. Years later, classmates still say, \"You should have been a star.\"",
+    "grade": 1,
+    "hide": 0,
+    "condition": "HCHR >= 9"
+  },
+  "90025": {
+    "id": 90025,
+    "name": "Genius Student",
+    "description": "You solve math problems like a game; teachers whisper if you secretly used mana embers on your studies.",
+    "grade": 1,
+    "hide": 0,
+    "condition": "HINT >= 9"
+  },
+  "90026": {
+    "id": 90026,
+    "name": "Iron Body",
+    "description": "You brave rainstorms, pull all-nighters, eat street food, yet your medical report is better than a fitness trainer's. The doctor frowns and mutters, \"Metabolic anomaly.\"",
+    "grade": 2,
+    "hide": 0,
+    "condition": "HSTR >= 9"
+  },
+  "90027": {
+    "id": 90027,
+    "name": "Wealthy",
+    "description": "You never worried about money. As a child, you thought all kids had their own pool; as an adult, you realized it's true.",
+    "grade": 1,
+    "hide": 0,
+    "condition": "HMNY >= 9"
+  },
+  "90028": {
+    "id": 90028,
+    "name": "Happy Poor",
+    "description": "You live in a cramped studio and eat instant noodles, but when you play harmonica on the rooftop at dusk, the whole building's worries seem to fade.",
+    "grade": 2,
+    "hide": 0,
+    "condition": "HSPR >= 8 AND HMNY <= 3"
+  },
+  "90029": {
+    "id": 90029,
+    "name": "Fortune's Favorite",
+    "description": "Your life feels orchestrated; every door opens for you, even aging becomes graceful—someone winks at you in the mirror.",
+    "grade": 3,
+    "hide": 1,
+    "condition": "HCHR >= 8 AND HINT >= 8 AND HSTR >= 8 AND HMNY >= 8 AND HSPR >= 8 AND HAGE >= 80"
+  },
+  "90030": {
+    "id": 90030,
+    "name": "Blessed Mediocrity",
+    "description": "You lived past eighty without encountering any supernatural phenomena. Ordinary is fine.",
+    "grade": 0,
+    "hide": 0,
+    "condition": "MYTHC = 0 AND HAGE >= 80"
+  },
+  "90031": {
+    "id": 90031,
+    "name": "Early Death",
+    "description": "You left before truly seeing the world.",
+    "grade": 0,
+    "hide": 0,
+    "condition": "HAGE <= 5"
+  },
+  "90032": {
+    "id": 90032,
+    "name": "Top Student",
+    "description": "Your mind is sharp as if cheating; always top three in exams; while others cram, you sleep.",
+    "grade": 2,
+    "hide": 1,
+    "condition": "HINT >= 90"
+  },
+  "90033": {
+    "id": 90033,
+    "name": "Stunning Beauty",
+    "description": "With such looks, people want to spend money on you just walking down the street.",
+    "grade": 2,
+    "hide": 1,
+    "condition": "HCHR >= 90"
+  },
+  "90034": {
+    "id": 90034,
+    "name": "Mana-Proof",
+    "description": "Lived all these years without sensing any mana. Guess you're just not meant for the mystical.",
+    "grade": 1,
+    "hide": 0,
+    "condition": "MYTHC = 0 AND HAGE >= 60"
+  },
+  "90035": {
+    "id": 90035,
+    "name": "A Different World",
+    "description": "Twice you seemed to see the world's hidden layer; after waking, you smiled for a long time.",
+    "grade": 2,
+    "hide": 1,
+    "condition": "MYTHC >= 2 AND HSPR >= 80"
+  },
+  "90036": {
+    "id": 90036,
+    "name": "Weak Body, Strong Will",
+    "description": "Grew up on medicine; everyone thought you wouldn't last long, but you made it past your eightieth birthday.",
+    "grade": 3,
+    "hide": 0,
+    "condition": "HSTR <= 20 AND HAGE >= 80"
+  },
+  "90037": {
+    "id": 90037,
+    "name": "Sad Old Age",
+    "description": "Lived a long life, but the light inside went out long ago.",
+    "grade": 1,
+    "hide": 0,
+    "condition": "HAGE >= 80 AND HSPR <= 10"
+  },
+  "90038": {
+    "id": 90038,
+    "name": "Embers at Last",
+    "description": "One unremarkable afternoon, a pure spark of mana leapt from your fingertip—so the world still has embers after all.",
+    "grade": 3,
+    "hide": 1,
+    "condition": "FDLV >= 3"
+  },
+  "90039": {
+    "id": 90039,
+    "name": "Mortal Life",
+    "description": "Lived peacefully to sixty without seeing anything strange; that's a blessing.",
+    "grade": 0,
+    "hide": 0,
+    "condition": "HAGE >= 60 AND MYTHC = 0"
+  },
+  "90040": {
+    "id": 90040,
+    "name": "Longevity",
+    "description": "You lived past ninety, outlasting your peers and becoming the family's elder.",
+    "grade": 1,
+    "hide": 0,
+    "condition": "HAGE >= 90"
+  },
+  "90041": {
+    "id": 90041,
+    "name": "Brilliant Mind",
+    "description": "Your IQ crushed everyone else's. From childhood, you were the golden child everyone's parents compared you to.",
+    "grade": 1,
+    "hide": 0,
+    "condition": "HINT >= 95"
+  },
+  "90042": {
+    "id": 90042,
+    "name": "Stunning Looks",
+    "description": "You were so good-looking people kept sneaking glances at you on the street. You could have lived off your face.",
+    "grade": 1,
+    "hide": 0,
+    "condition": "HCHR >= 95"
+  },
+  "90043": {
+    "id": 90043,
+    "name": "Born Rich",
+    "description": "Choosing your parents is a skill. Your family was well-off, and you never worried about money your whole life.",
+    "grade": 1,
+    "hide": 0,
+    "condition": "HMNY >= 90"
+  },
+  "90044": {
+    "id": 90044,
+    "name": "Optimist",
+    "description": "You were cheerful all day long, as if happiness was free candy.",
+    "grade": 0,
+    "hide": 0,
+    "condition": "HSPR >= 95"
+  },
+  "90045": {
+    "id": 90045,
+    "name": "Lonely Heart",
+    "description": "You felt lonely inside. Happiness never seemed to last. You walked most of life's path alone.",
+    "grade": 0,
+    "hide": 0,
+    "condition": "HSPR <= 10 AND HAGE >= 30"
+  },
+  "90046": {
+    "id": 90046,
+    "name": "Reincarnation Veteran",
+    "description": "You've restarted your life in this archive over and over. This is your tenth time, like flipping through an old photo album.",
+    "grade": 0,
+    "hide": 0,
+    "condition": "SUM >= 10"
+  },
+  "90047": {
+    "id": 90047,
+    "name": "Glimpse of Something",
+    "description": "One night, you saw your shadow didn't follow you under the streetlight. You rubbed your eyes and thought it was a hallucination.",
+    "grade": 2,
+    "hide": 1,
+    "condition": "MYTHC >= 1"
+  },
+  "90048": {
+    "id": 90048,
+    "name": "Aura-Infused",
+    "description": "You've gotten used to occasionally seeing things others can't see. You can't tell real from illusion, and sometimes you even want to reach out and touch them.",
+    "grade": 3,
+    "hide": 1,
+    "condition": "MYTHC >= 5"
+  },
+  "90049": {
+    "id": 90049,
+    "name": "First Glimpse of Embers",
+    "description": "Late one night at work, you saw a faint glow on a can of iced coffee at the convenience store. It vanished instantly. You stood there for a few seconds, then paid and left, going back to your desk to edit a PPT.",
+    "grade": 1,
+    "hide": 0,
+    "condition": "MYTHC >= 1"
+  },
+  "90050": {
+    "id": 90050,
+    "name": "Psychic Survivor",
+    "description": "That night, the whispers in the subway tunnel made your skin crawl. You sprinted out of the station. The next day, you went to work as usual—but you never took the last train again.",
+    "grade": 2,
+    "hide": 1,
+    "condition": "MYTHC >= 2 AND HSTR >= 50"
+  },
+  "90051": {
+    "id": 90051,
+    "name": "Truth of Housing Prices",
+    "description": "One afternoon while house-hunting, you suddenly 'saw' something buried under the foundation. You kept a poker face while bargaining with the agent and got an unbelievable discount.",
+    "grade": 2,
+    "hide": 1,
+    "condition": "HAGE >= 25 AND MYTHC >= 1 AND HMNY >= 100"
+  },
+  "90052": {
+    "id": 90052,
+    "name": "Overtime Trance",
+    "description": "After three days straight of working, you glimpsed floating runes in the air. You jotted one down on a sticky note, then collapsed onto your desk and fell asleep. You woke up remembering nothing.",
+    "grade": 1,
+    "hide": 0,
+    "condition": "HINT >= 70 AND HSPR <= 30 AND HAGE >= 22"
+  },
+  "90053": {
+    "id": 90053,
+    "name": "Loved Once",
+    "description": "You once cooked her a bowl of noodles late at night. And when moving, you found a note she'd left behind. Those moments felt more real than any aura.",
+    "grade": 0,
+    "hide": 0,
+    "condition": "HCHR >= 60 AND HSPR >= 60 AND HAGE >= 18"
+  },
+  "90054": {
+    "id": 90054,
+    "name": "Embers Researcher",
+    "description": "You spent your whole life studying the residual embers of magic, publishing countless papers, yet growing more uncertain about what you were really searching for.",
+    "grade": 3,
+    "hide": 0,
+    "condition": "HINT >= 90 AND MYTHC >= 3 AND HAGE >= 60"
+  },
+  "90055": {
+    "id": 90055,
+    "name": "Urban Legend",
+    "description": "After that, every party they asked you to tell that story. You learned to pause at the right moments, savoring the audience's screams.",
+    "grade": 1,
+    "hide": 0,
+    "condition": "MYTHC >= 1 AND HSTR <= 40"
+  },
+  "90056": {
+    "id": 90056,
+    "name": "Hospice Care",
+    "description": "The nurse said you smiled in your final moments. No one knew who you saw coming for you at that moment.",
+    "grade": 2,
+    "hide": 1,
+    "condition": "HAGE >= 70 AND HSTR <= 30 AND MYTHC >= 1"
+  },
+  "90057": {
+    "id": 90057,
+    "name": "Mortal Ascension",
+    "description": "That day, you went for your usual morning run—but never returned to the ground. The neighbors called the police. Only you knew you had simply gone to a higher place.",
+    "grade": 3,
+    "hide": 1,
+    "condition": "FDLV >= 1"
+  }
+}

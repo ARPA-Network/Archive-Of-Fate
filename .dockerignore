@@ -1,0 +1,11 @@
+**/node_modules
+**/dist
+src/front-end
+src/uiux
+src/contracts/out
+src/contracts/cache
+src/contracts/broadcast
+**/.env
+**/.env.*
+.git
+*.md

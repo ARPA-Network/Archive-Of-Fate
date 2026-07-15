@@ -1,0 +1,1098 @@
+{
+  "91000": {
+    "id": 91000,
+    "name": "初入仙途",
+    "description": "成功引气入体，踏入炼气期，从此仙凡有别。",
+    "grade": 0,
+    "hide": 0,
+    "condition": "FDLV >= 1"
+  },
+  "91001": {
+    "id": 91001,
+    "name": "筑基有成",
+    "description": "百日筑基，道基稳固，寿元大增。",
+    "grade": 1,
+    "hide": 0,
+    "condition": "FDLV >= 2"
+  },
+  "91002": {
+    "id": 91002,
+    "name": "金丹大成",
+    "description": "龙虎交汇，金丹自成，周身异象纷呈。",
+    "grade": 2,
+    "hide": 0,
+    "condition": "FDLV >= 3"
+  },
+  "91003": {
+    "id": 91003,
+    "name": "元婴出窍",
+    "description": "碎丹成婴，元婴出窍，神游太虚。",
+    "grade": 2,
+    "hide": 0,
+    "condition": "FDLV >= 4"
+  },
+  "91004": {
+    "id": 91004,
+    "name": "化神飞升",
+    "description": "勘破生死，化神圆满，霞举飞升三界震动。",
+    "grade": 3,
+    "hide": 0,
+    "condition": "FDLV >= 5"
+  },
+  "91005": {
+    "id": 91005,
+    "name": "劫火真金",
+    "description": "天雷淬体，劫火炼魂，道心在毁灭中重生。",
+    "grade": 2,
+    "hide": 0,
+    "condition": "MYTHC >= 1 AND FDLV >= 3"
+  },
+  "91006": {
+    "id": 91006,
+    "name": "心魔斩尽",
+    "description": "一念清明，万魔皆灭，道心通明见真我。",
+    "grade": 3,
+    "hide": 1,
+    "condition": "HSPR >= 95 AND FDLV >= 4"
+  },
+  "91007": {
+    "id": 91007,
+    "name": "长命百岁",
+    "description": "凡身已历百载春秋，人间几度沧桑。",
+    "grade": 1,
+    "hide": 0,
+    "condition": "HAGE >= 100"
+  },
+  "91008": {
+    "id": 91008,
+    "name": "富敌宗门",
+    "description": "灵石堆积如山，法宝无数，连宗门都要借你三分。",
+    "grade": 2,
+    "hide": 0,
+    "condition": "HMNY >= 10000"
+  },
+  "91009": {
+    "id": 91009,
+    "name": "倾城仙姿",
+    "description": "肌如玉，颜如冰，回眸一笑百媚生，六宫粉黛无颜色。",
+    "grade": 1,
+    "hide": 0,
+    "condition": "HCHR >= 90"
+  },
+  "91010": {
+    "id": 91010,
+    "name": "金丹换骨",
+    "description": "一粒金丹入腹，脱胎换骨，寿享五百载。",
+    "grade": 1,
+    "hide": 0,
+    "condition": "FDLV >= 3"
+  },
+  "91011": {
+    "id": 91011,
+    "name": "元神通幽",
+    "description": "元婴出窍，神游太虚，天地之大皆可去得。",
+    "grade": 2,
+    "hide": 0,
+    "condition": "FDLV >= 4"
+  },
+  "91012": {
+    "id": 91012,
+    "name": "我自逍遥",
+    "description": "化神之后，万法随心，笑看众生争渡。",
+    "grade": 3,
+    "hide": 0,
+    "condition": "FDLV >= 5"
+  },
+  "91013": {
+    "id": 91013,
+    "name": "朱颜未改",
+    "description": "术法驻颜，百岁老怪仍是少年模样。",
+    "grade": 1,
+    "hide": 0,
+    "condition": "HCHR >= 90 AND HAGE >= 150"
+  },
+  "91014": {
+    "id": 91014,
+    "name": "天选之人",
+    "description": "根骨精奇，气运加身，出世便引风云动。",
+    "grade": 2,
+    "hide": 1,
+    "condition": "SUM >= 300"
+  },
+  "91015": {
+    "id": 91015,
+    "name": "灵石成山",
+    "description": "身家丰厚，灵石堆山，丹药法宝不计其数。",
+    "grade": 0,
+    "hide": 0,
+    "condition": "HMNY >= 1000"
+  },
+  "91016": {
+    "id": 91016,
+    "name": "肉身成圣",
+    "description": "专修体魄，气血如龙，不借法宝可抗天威。",
+    "grade": 2,
+    "hide": 0,
+    "condition": "HSTR >= 120"
+  },
+  "91017": {
+    "id": 91017,
+    "name": "明悟真我",
+    "description": "一朝顿悟，道心通明，世间万法皆是虚妄。",
+    "grade": 1,
+    "hide": 0,
+    "condition": "HINT >= 100"
+  },
+  "91018": {
+    "id": 91018,
+    "name": "历劫不灭",
+    "description": "五劫加身而不陨，神话般的存在，仙魔皆惧。",
+    "grade": 3,
+    "hide": 1,
+    "condition": "MYTHC >= 5"
+  },
+  "91019": {
+    "id": 91019,
+    "name": "琴瑟和鸣",
+    "description": "红袖添香，道侣情深，飞升路上一人不少。",
+    "grade": 3,
+    "hide": 0,
+    "condition": "HCHR >= 80 AND HSPR >= 95 AND FDLV >= 4"
+  },
+  "91020": {
+    "id": 91020,
+    "name": "炼气初现",
+    "description": "一缕灵气入体，凡胎始褪凡尘。",
+    "grade": 0,
+    "hide": 0,
+    "condition": "FDLV >= 1"
+  },
+  "91021": {
+    "id": 91021,
+    "name": "筑基问仙",
+    "description": "丹田筑就根基，仙路自此方始。",
+    "grade": 0,
+    "hide": 0,
+    "condition": "FDLV >= 2"
+  },
+  "91022": {
+    "id": 91022,
+    "name": "金丹道种",
+    "description": "龙虎交会，金丹初成，寿元倍增。",
+    "grade": 1,
+    "hide": 0,
+    "condition": "FDLV >= 3"
+  },
+  "91023": {
+    "id": 91023,
+    "name": "元婴化形",
+    "description": "紫府元婴出窍，翱翔天地，神通自成。",
+    "grade": 2,
+    "hide": 0,
+    "condition": "FDLV >= 4"
+  },
+  "91024": {
+    "id": 91024,
+    "name": "化神劫渡",
+    "description": "三灾九难已过，元神不灭，半步仙班。",
+    "grade": 3,
+    "hide": 0,
+    "condition": "FDLV >= 5"
+  },
+  "91025": {
+    "id": 91025,
+    "name": "千年仙寿",
+    "description": "寿逾五百载，凡尘已是几度轮回。",
+    "grade": 2,
+    "hide": 0,
+    "condition": "HAGE >= 500"
+  },
+  "91026": {
+    "id": 91026,
+    "name": "天雷淬体",
+    "description": "雷劫加身而不灭，肉身化为宝筏。",
+    "grade": 2,
+    "hide": 1,
+    "condition": "MYTHC >= 1"
+  },
+  "91027": {
+    "id": 91027,
+    "name": "情劫问情",
+    "description": "得一人心，白首同修，道侣情缘深重。",
+    "grade": 1,
+    "hide": 0,
+    "condition": "HCHR >= 80 AND HSPR >= 80"
+  },
+  "91028": {
+    "id": 91028,
+    "name": "仙二代",
+    "description": "生于修仙世家，仙资灵材自幼不缺。",
+    "grade": 1,
+    "hide": 0,
+    "condition": "HMNY >= 10000"
+  },
+  "91029": {
+    "id": 91029,
+    "name": "逍遥仙途",
+    "description": "无牵无挂，心境圆满，笑傲九天。",
+    "grade": 3,
+    "hide": 0,
+    "condition": "HSPR >= 100 AND SUM >= 5000"
+  },
+  "91030": {
+    "id": 91030,
+    "name": "初窥门径",
+    "description": "引气入体，丹田初暖，自此踏上仙途。前路漫漫，道心方启。",
+    "grade": 0,
+    "hide": 0,
+    "condition": "FDLV >= 1"
+  },
+  "91031": {
+    "id": 91031,
+    "name": "筑基有成",
+    "description": "百日筑基，脱胎换骨，凡躯渐化仙骨。御器凌空，方知天地之阔。",
+    "grade": 1,
+    "hide": 0,
+    "condition": "FDLV >= 2"
+  },
+  "91032": {
+    "id": 91032,
+    "name": "金丹真人",
+    "description": "一颗金丹吞入腹，始知我命不由天。寿逾数百，真人之号已得。",
+    "grade": 2,
+    "hide": 0,
+    "condition": "FDLV >= 3"
+  },
+  "91033": {
+    "id": 91033,
+    "name": "元婴散仙",
+    "description": "碎丹成婴，神游太虚，第二元神出窍。天下修士，俯首称臣。",
+    "grade": 3,
+    "hide": 0,
+    "condition": "FDLV >= 4"
+  },
+  "91034": {
+    "id": 91034,
+    "name": "化神老祖",
+    "description": "神合天地，凡尘因果尽断。举手投足，山河震颤，大道已近眼前。",
+    "grade": 3,
+    "hide": 0,
+    "condition": "FDLV >= 5"
+  },
+  "91035": {
+    "id": 91035,
+    "name": "红颜枯骨",
+    "description": "绝世容颜引动劫波，道侣反目，情债缠身。一朝秋风起，红粉化骷髅。",
+    "grade": 1,
+    "hide": 1,
+    "condition": "HCHR >= 90 AND HSPR <= 20"
+  },
+  "91036": {
+    "id": 91036,
+    "name": "千年王八",
+    "description": "任你惊才绝艳，不及我苟活千年。寿元绵长，笑看同辈化黄土。",
+    "grade": 2,
+    "hide": 0,
+    "condition": "HAGE >= 500"
+  },
+  "91037": {
+    "id": 91037,
+    "name": "九死未悔",
+    "description": "经脉寸断，道基将毁，却屡屡从尸山血海中爬出。命硬至此，天道亦惧三分。",
+    "grade": 2,
+    "hide": 1,
+    "condition": "HSTR <= 20 AND HAGE >= 200"
+  },
+  "91038": {
+    "id": 91038,
+    "name": "财可通神",
+    "description": "灵石如山，法宝如林。此世虽未飞升，却已富甲一方，连渡劫天雷亦可买人代扛。",
+    "grade": 1,
+    "hide": 0,
+    "condition": "HMNY >= 1000"
+  },
+  "91039": {
+    "id": 91039,
+    "name": "气运之子",
+    "description": "天降瑞彩，地涌金莲，机缘不断，仿佛天道私生子。旁人苦求不得，你却唾手可得。",
+    "grade": 3,
+    "hide": 0,
+    "condition": "MYTHC >= 5"
+  },
+  "91040": {
+    "id": 91040,
+    "name": "仙路初启",
+    "description": "凡骨褪尽，踏入仙途，筑基功成。",
+    "grade": 1,
+    "hide": 0,
+    "condition": "FDLV >= 2"
+  },
+  "91041": {
+    "id": 91041,
+    "name": "金丹九转",
+    "description": "一粒金丹吞入腹，始知我命不由天。",
+    "grade": 2,
+    "hide": 0,
+    "condition": "FDLV >= 3"
+  },
+  "91042": {
+    "id": 91042,
+    "name": "元婴初胎",
+    "description": "元婴坐紫府，寿元逾千载。",
+    "grade": 3,
+    "hide": 0,
+    "condition": "FDLV >= 4"
+  },
+  "91043": {
+    "id": 91043,
+    "name": "破碎虚空",
+    "description": "神游太虚，肉身成圣，一念破界而去。",
+    "grade": 3,
+    "hide": 0,
+    "condition": "FDLV >= 5"
+  },
+  "91044": {
+    "id": 91044,
+    "name": "千古寿仙",
+    "description": "历经千载风雨，凡世几度轮回，唯仙途不朽。",
+    "grade": 3,
+    "hide": 0,
+    "condition": "HAGE >= 1000"
+  },
+  "91045": {
+    "id": 91045,
+    "name": "肉身成圣",
+    "description": "不借法宝，肉身横渡雷劫，万古不朽。",
+    "grade": 2,
+    "hide": 1,
+    "condition": "HSTR >= 500"
+  },
+  "91046": {
+    "id": 91046,
+    "name": "天机算尽",
+    "description": "推演天机，阵道入神，万物皆在掌中。",
+    "grade": 2,
+    "hide": 0,
+    "condition": "HINT >= 500"
+  },
+  "91047": {
+    "id": 91047,
+    "name": "财可通神",
+    "description": "仙石十方，灵脉为家，富甲九州三十六洞天。",
+    "grade": 1,
+    "hide": 0,
+    "condition": "HMNY >= 100000"
+  },
+  "91048": {
+    "id": 91048,
+    "name": "红尘笑忘",
+    "description": "不求长生，但得逍遥，百年红尘一笑间。",
+    "grade": 0,
+    "hide": 1,
+    "condition": "HSPR >= 300 AND FDLV <= 2 AND HAGE >= 200"
+  },
+  "91049": {
+    "id": 91049,
+    "name": "天命所归",
+    "description": "气运加身，屡逢仙缘，神话九现而登顶。",
+    "grade": 3,
+    "hide": 0,
+    "condition": "MYTHC >= 5"
+  },
+  "91050": {
+    "id": 91050,
+    "name": "炼气始动",
+    "description": "引天地灵气入体，踏入炼气期，道途自此始。",
+    "grade": 0,
+    "hide": 0,
+    "condition": "FDLV >= 1"
+  },
+  "91051": {
+    "id": 91051,
+    "name": "筑基铸道",
+    "description": "凝液成基，道台初立，修行根基已固。",
+    "grade": 1,
+    "hide": 0,
+    "condition": "FDLV >= 2"
+  },
+  "91052": {
+    "id": 91052,
+    "name": "金丹大成",
+    "description": "龙虎交汇，金丹内结，神通自生，寿元大涨。",
+    "grade": 2,
+    "hide": 0,
+    "condition": "FDLV >= 3"
+  },
+  "91053": {
+    "id": 91053,
+    "name": "元婴证道",
+    "description": "碎丹成婴，元神初现，可离体遨游，天地任纵横。",
+    "grade": 2,
+    "hide": 0,
+    "condition": "FDLV >= 4"
+  },
+  "91054": {
+    "id": 91054,
+    "name": "化神真仙",
+    "description": "元神化神，感悟天道，距飞升仅一步之遥，众生共尊。",
+    "grade": 3,
+    "hide": 0,
+    "condition": "FDLV >= 5"
+  },
+  "91055": {
+    "id": 91055,
+    "name": "寿元天齐",
+    "description": "修仙二百载，岁月如歌，道心不灭。",
+    "grade": 2,
+    "hide": 0,
+    "condition": "HAGE >= 200"
+  },
+  "91056": {
+    "id": 91056,
+    "name": "逆天改命",
+    "description": "世人皆言天命难违，你却已书写神话。",
+    "grade": 1,
+    "hide": 0,
+    "condition": "MYTHC >= 1"
+  },
+  "91057": {
+    "id": 91057,
+    "name": "天命眷顾",
+    "description": "神话三现，天道亦为你侧目。",
+    "grade": 2,
+    "hide": 1,
+    "condition": "MYTHC >= 3"
+  },
+  "91058": {
+    "id": 91058,
+    "name": "谪仙之姿",
+    "description": "容颜绝世，仙姿玉骨，不似凡尘中人。",
+    "grade": 2,
+    "hide": 1,
+    "condition": "HCHR >= 95"
+  },
+  "91059": {
+    "id": 91059,
+    "name": "万贯仙财",
+    "description": "灵石堆如山，富可敌宗门。",
+    "grade": 1,
+    "hide": 0,
+    "condition": "HMNY >= 100000"
+  },
+  "91060": {
+    "id": 91060,
+    "name": "初窥仙途",
+    "description": "灵根觉醒，一缕灵气入体，终踏炼气之阶。",
+    "grade": 0,
+    "hide": 0,
+    "condition": "FDLV >= 1"
+  },
+  "91061": {
+    "id": 91061,
+    "name": "筑基有成",
+    "description": "丹田筑基，脱去凡俗胎骨，寿元陡增百载。",
+    "grade": 1,
+    "hide": 0,
+    "condition": "FDLV >= 2"
+  },
+  "91062": {
+    "id": 91062,
+    "name": "金丹大道",
+    "description": "龙虎交汇，一粒金丹吞入腹，始知我命不由天。",
+    "grade": 2,
+    "hide": 0,
+    "condition": "FDLV >= 3"
+  },
+  "91063": {
+    "id": 91063,
+    "name": "元婴出窍",
+    "description": "元婴坐紫府，神游太虚外，天地万象尽收眼底。",
+    "grade": 2,
+    "hide": 0,
+    "condition": "FDLV >= 4"
+  },
+  "91064": {
+    "id": 91064,
+    "name": "化神飞升",
+    "description": "元神大成，引动天劫，即将破碎虚空而去。",
+    "grade": 3,
+    "hide": 0,
+    "condition": "FDLV >= 5"
+  },
+  "91065": {
+    "id": 91065,
+    "name": "红颜道侣",
+    "description": "觅得同心道侣，琴瑟和鸣，共赴长生之约。",
+    "grade": 1,
+    "hide": 1,
+    "condition": "HSPR >= 200"
+  },
+  "91066": {
+    "id": 91066,
+    "name": "秘境奇缘",
+    "description": "于绝地秘境中得逆天造化，天地规则亦为之侧目。",
+    "grade": 2,
+    "hide": 0,
+    "condition": "MYTHC >= 2"
+  },
+  "91067": {
+    "id": 91067,
+    "name": "九死渡劫",
+    "description": "天劫之下九死一生，道心却愈发澄澈，如淬火神兵。",
+    "grade": 2,
+    "hide": 1,
+    "condition": "LIF <= 10 AND FDLV >= 4"
+  },
+  "91068": {
+    "id": 91068,
+    "name": "仙姿佚貌",
+    "description": "容颜绝世，风姿如谪仙临尘，四方修士皆为之倾倒。",
+    "grade": 1,
+    "hide": 0,
+    "condition": "HCHR >= 95"
+  },
+  "91069": {
+    "id": 91069,
+    "name": "万贯仙财",
+    "description": "灵石堆砌成山，宝材无数，笑傲修仙界。",
+    "grade": 0,
+    "hide": 0,
+    "condition": "HMNY >= 500"
+  },
+  "91070": {
+    "id": 91070,
+    "name": "初窥门径",
+    "description": "引天地灵气入体，褪凡胎而成修士，炼气功成，始入仙途。",
+    "grade": 0,
+    "hide": 0,
+    "condition": "FDLV >= 1"
+  },
+  "91071": {
+    "id": 91071,
+    "name": "元婴出世",
+    "description": "碎丹成婴，元神化形，天地间多一尊逍遥客，少一个红尘人。",
+    "grade": 2,
+    "hide": 0,
+    "condition": "FDLV >= 4"
+  },
+  "91072": {
+    "id": 91072,
+    "name": "化神真君",
+    "description": "元神返虚，沟通大道，举手投足间风云变色，是为化神。",
+    "grade": 3,
+    "hide": 0,
+    "condition": "FDLV >= 5"
+  },
+  "91073": {
+    "id": 91073,
+    "name": "白日飞升",
+    "description": "历九重雷劫而不灭，证得真仙，破界飞升，留传说于人间。",
+    "grade": 3,
+    "hide": 0,
+    "condition": "FDLV >= 6"
+  },
+  "91074": {
+    "id": 91074,
+    "name": "倾国仙姿",
+    "description": "玉骨冰肌，天人之姿，修仙界中亦属绝色，顾盼间引无数心魔。",
+    "grade": 1,
+    "hide": 0,
+    "condition": "HCHR >= 120"
+  },
+  "91075": {
+    "id": 91075,
+    "name": "参玄悟道",
+    "description": "慧光通明，洞彻天机，演算诸法如观掌纹，道心之坚世所罕见。",
+    "grade": 2,
+    "hide": 0,
+    "condition": "HINT >= 150"
+  },
+  "91076": {
+    "id": 91076,
+    "name": "魔劫余生",
+    "description": "几度心魔噬魂，道心几碎，却于绝境中破而后立，反得大悟。",
+    "grade": 2,
+    "hide": 1,
+    "condition": "MYTHC >= 5"
+  },
+  "91077": {
+    "id": 91077,
+    "name": "长生不死",
+    "description": "寿逾千载，看尽沧海桑田，仙路漫漫，唯你一人独行至今。",
+    "grade": 3,
+    "hide": 0,
+    "condition": "HAGE >= 1000"
+  },
+  "91078": {
+    "id": 91078,
+    "name": "初窥门径",
+    "description": "引气入体，终脱凡胎，仙道自此始。",
+    "grade": 0,
+    "hide": 0,
+    "condition": "FDLV >= 1"
+  },
+  "91079": {
+    "id": 91079,
+    "name": "道基初成",
+    "description": "百日筑基，灵根稳固，寿元延百载。",
+    "grade": 1,
+    "hide": 0,
+    "condition": "FDLV >= 2"
+  },
+  "91080": {
+    "id": 91080,
+    "name": "金丹九转",
+    "description": "一粒金丹吞入腹，始知我命不由天。",
+    "grade": 2,
+    "hide": 0,
+    "condition": "FDLV >= 3"
+  },
+  "91081": {
+    "id": 91081,
+    "name": "元婴破茧",
+    "description": "碎丹成婴，神游太虚，天地同寿非虚言。",
+    "grade": 3,
+    "hide": 0,
+    "condition": "FDLV >= 4"
+  },
+  "91082": {
+    "id": 91082,
+    "name": "化神登仙",
+    "description": "元神合道，历劫不灭，九天之上第一仙。",
+    "grade": 3,
+    "hide": 1,
+    "condition": "FDLV >= 5"
+  },
+  "91083": {
+    "id": 91083,
+    "name": "灵石万贯",
+    "description": "储物袋中灵石如山，修行资粮不愁。",
+    "grade": 1,
+    "hide": 0,
+    "condition": "HMNY >= 10000"
+  },
+  "91084": {
+    "id": 91084,
+    "name": "仙侣情缘",
+    "description": "得遇道侣，琴瑟和鸣，仙途不孤。",
+    "grade": 2,
+    "hide": 0,
+    "condition": "HSPR >= 90 AND HAGE >= 50"
+  },
+  "91085": {
+    "id": 91085,
+    "name": "渡劫证道",
+    "description": "雷劫淬体，九死一生，终得天道认可。",
+    "grade": 2,
+    "hide": 0,
+    "condition": "MYTHC >= 1"
+  },
+  "91086": {
+    "id": 91086,
+    "name": "两百春秋",
+    "description": "修道二百载，看尽人间沧海桑田。",
+    "grade": 1,
+    "hide": 0,
+    "condition": "HAGE >= 200"
+  },
+  "91087": {
+    "id": 91087,
+    "name": "仙姿永驻",
+    "description": "肌若凝脂，颜如玉，百岁不见衰容。",
+    "grade": 1,
+    "hide": 0,
+    "condition": "HCHR >= 90"
+  },
+  "91088": {
+    "id": 91088,
+    "name": "初窥仙途",
+    "description": "引气入体，方知天地之大，从此踏入逆天之路。",
+    "grade": 0,
+    "hide": 0,
+    "condition": "FDLV >= 1"
+  },
+  "91089": {
+    "id": 91089,
+    "name": "筑基有成",
+    "description": "丹田筑就道基，仙路初现，寿元已然不同凡俗。",
+    "grade": 1,
+    "hide": 0,
+    "condition": "FDLV >= 2"
+  },
+  "91090": {
+    "id": 91090,
+    "name": "金丹真人",
+    "description": "龙虎交汇，金丹一粒吞入腹，始知我命由我不由天。",
+    "grade": 2,
+    "hide": 0,
+    "condition": "FDLV >= 3"
+  },
+  "91091": {
+    "id": 91091,
+    "name": "元婴老祖",
+    "description": "碎丹成婴，元神初成，举手投足挪移山海。",
+    "grade": 3,
+    "hide": 0,
+    "condition": "FDLV >= 4"
+  },
+  "91092": {
+    "id": 91092,
+    "name": "化神天尊",
+    "description": "元神合道，法相天地，一念之间星河倒转。",
+    "grade": 3,
+    "hide": 1,
+    "condition": "FDLV >= 5"
+  },
+  "91093": {
+    "id": 91093,
+    "name": "百岁之身",
+    "description": "红尘百年，容颜未改，世人尊称一声“老神仙”。",
+    "grade": 1,
+    "hide": 0,
+    "condition": "HAGE >= 100"
+  },
+  "91094": {
+    "id": 91094,
+    "name": "千古神话",
+    "description": "三次改写天命，坊间流传的传说，皆是你走过的路。",
+    "grade": 3,
+    "hide": 0,
+    "condition": "MYTHC >= 3"
+  },
+  "91095": {
+    "id": 91095,
+    "name": "仙姿无双",
+    "description": "回眸一笑，令山河失色；九天仙子，不过如此。",
+    "grade": 2,
+    "hide": 0,
+    "condition": "HCHR >= 90"
+  },
+  "91096": {
+    "id": 91096,
+    "name": "家财万贯",
+    "description": "灵石铺地，法宝盈库，修行资源取之不尽。",
+    "grade": 1,
+    "hide": 0,
+    "condition": "HMNY >= 1000"
+  },
+  "91097": {
+    "id": 91097,
+    "name": "逍遥世间",
+    "description": "心无挂碍，御剑乘云，天地之间任我逍遥。",
+    "grade": 2,
+    "hide": 0,
+    "condition": "HSPR >= 100"
+  },
+  "91098": {
+    "id": 91098,
+    "name": "初窥仙门",
+    "description": "感气入体，踏上炼气之途，仙凡从此殊途。",
+    "grade": 0,
+    "hide": 0,
+    "condition": "FDLV >= 1"
+  },
+  "91099": {
+    "id": 91099,
+    "name": "筑基有成",
+    "description": "丹田筑就道基，寿元增至百五，道途从此稳矣。",
+    "grade": 1,
+    "hide": 0,
+    "condition": "FDLV >= 2"
+  },
+  "91100": {
+    "id": 91100,
+    "name": "金丹大道",
+    "description": "龙虎交汇，金丹凝结，可称真人，御剑千里。",
+    "grade": 2,
+    "hide": 0,
+    "condition": "FDLV >= 3"
+  },
+  "91101": {
+    "id": 91101,
+    "name": "元婴出世",
+    "description": "碎丹成婴，神魂不灭，移山倒海，威震一方。",
+    "grade": 3,
+    "hide": 0,
+    "condition": "FDLV >= 4"
+  },
+  "91102": {
+    "id": 91102,
+    "name": "白日飞升",
+    "description": "渡过天劫，霞举飞升，位列仙班，寿与天齐。",
+    "grade": 3,
+    "hide": 1,
+    "condition": "FDLV >= 6"
+  },
+  "91103": {
+    "id": 91103,
+    "name": "千年道行",
+    "description": "修行千载，阅尽凡尘沧桑，方知长生寂寞。",
+    "grade": 2,
+    "hide": 0,
+    "condition": "HAGE >= 1000"
+  },
+  "91104": {
+    "id": 91104,
+    "name": "谪仙之貌",
+    "description": "容姿绝世，望之若仙，修仙界亦为之倾倒。",
+    "grade": 1,
+    "hide": 0,
+    "condition": "HCHR >= 95"
+  },
+  "91105": {
+    "id": 91105,
+    "name": "算无遗策",
+    "description": "心智近妖，推演天机，万事皆在掌中。",
+    "grade": 1,
+    "hide": 0,
+    "condition": "HINT >= 95"
+  },
+  "91106": {
+    "id": 91106,
+    "name": "不灭仙体",
+    "description": "肉身成圣，金刚不坏，历万劫而不朽。",
+    "grade": 1,
+    "hide": 0,
+    "condition": "HSTR >= 95"
+  },
+  "91107": {
+    "id": 91107,
+    "name": "天命所归",
+    "description": "屡逢奇遇，气运加身，仿佛天道之子。",
+    "grade": 2,
+    "hide": 0,
+    "condition": "MYTHC >= 3"
+  },
+  "91108": {
+    "id": 91108,
+    "name": "初涉仙道",
+    "description": "一缕灵气入体，正式脱离凡尘，自此山高水长，仙途渺渺。",
+    "grade": 0,
+    "hide": 0,
+    "condition": "FDLV >= 1"
+  },
+  "91109": {
+    "id": 91109,
+    "name": "羽化登仙",
+    "description": "九劫已过，天门洞开，白日飞升，从此跳出三界外，不在五行中。",
+    "grade": 3,
+    "hide": 0,
+    "condition": "FDLV >= 5"
+  },
+  "91110": {
+    "id": 91110,
+    "name": "千年一梦",
+    "description": "修仙不知岁月，回首已是千年身，故人凋零，唯道永存。",
+    "grade": 2,
+    "hide": 0,
+    "condition": "HAGE >= 1000"
+  },
+  "91111": {
+    "id": 91111,
+    "name": "天机莫测",
+    "description": "慧根深种，推演天机如观掌纹，是为万中无一的修道奇才。",
+    "grade": 1,
+    "hide": 0,
+    "condition": "HINT >= 95"
+  },
+  "91112": {
+    "id": 91112,
+    "name": "灵石如雨",
+    "description": "坐拥仙晶矿脉，灵石堆积如山，天下财富尽入囊中，修仙何愁资源。",
+    "grade": 1,
+    "hide": 0,
+    "condition": "HMNY >= 1000000"
+  },
+  "91113": {
+    "id": 91113,
+    "name": "仙姿佚貌",
+    "description": "貌若天人，一顾倾人城，再顾倾人国，修仙界亦为容颜侧目。",
+    "grade": 1,
+    "hide": 0,
+    "condition": "HCHR >= 95"
+  },
+  "91114": {
+    "id": 91114,
+    "name": "道心通明",
+    "description": "历经千劫而不坠本心，道心澄澈如琉璃，万法不侵，是为真仙种。",
+    "grade": 1,
+    "hide": 0,
+    "condition": "HSPR >= 95"
+  },
+  "91115": {
+    "id": 91115,
+    "name": "九转轮回",
+    "description": "屡次轮回重修，生死之间悟道，第九世终窥大道门径。",
+    "grade": 2,
+    "hide": 0,
+    "condition": "SUM >= 10"
+  },
+  "91116": {
+    "id": 91116,
+    "name": "神话永恒",
+    "description": "连番创下不世传说，名留仙史，后人仰望，已是神话中人。",
+    "grade": 3,
+    "hide": 1,
+    "condition": "MYTHC >= 3"
+  },
+  "91117": {
+    "id": 91117,
+    "name": "初悟气感",
+    "description": "首次引气入体，仙途始启，凡尘渐远。",
+    "grade": 0,
+    "hide": 0,
+    "condition": "FDLV >= 1"
+  },
+  "91118": {
+    "id": 91118,
+    "name": "筑基奠基",
+    "description": "以百日苦修，筑得仙基，从此超凡脱俗。",
+    "grade": 1,
+    "hide": 0,
+    "condition": "FDLV >= 2"
+  },
+  "91119": {
+    "id": 91119,
+    "name": "金丹破障",
+    "description": "丹成九转，碎却凡胎，寿元暴涨三百。",
+    "grade": 2,
+    "hide": 0,
+    "condition": "FDLV >= 3"
+  },
+  "91120": {
+    "id": 91120,
+    "name": "元婴初啼",
+    "description": "丹田孕婴，宛若新生，元婴出窍游千里。",
+    "grade": 2,
+    "hide": 0,
+    "condition": "FDLV >= 4"
+  },
+  "91121": {
+    "id": 91121,
+    "name": "化神返虚",
+    "description": "神与道合，返璞归真，即将飞升。",
+    "grade": 3,
+    "hide": 0,
+    "condition": "FDLV >= 5"
+  },
+  "91122": {
+    "id": 91122,
+    "name": "老而不死",
+    "description": "享寿逾三百载，看尽几代王朝兴衰。",
+    "grade": 3,
+    "hide": 0,
+    "condition": "HAGE >= 300"
+  },
+  "91123": {
+    "id": 91123,
+    "name": "劫历三灾",
+    "description": "三次天劫加身，毙而复生，天亦难收。",
+    "grade": 3,
+    "hide": 1,
+    "condition": "MYTHC >= 3"
+  },
+  "91124": {
+    "id": 91124,
+    "name": "只羡鸳鸯",
+    "description": "得遇良缘，琴瑟和鸣，仙路不独行。",
+    "grade": 1,
+    "hide": 0,
+    "condition": "HSPR >= 90"
+  },
+  "91125": {
+    "id": 91125,
+    "name": "万贯仙财",
+    "description": "积得灵石如山，天下秘宝任取。",
+    "grade": 2,
+    "hide": 0,
+    "condition": "HMNY >= 1000"
+  },
+  "91126": {
+    "id": 91126,
+    "name": "三花聚顶",
+    "description": "才貌体三绝，同辈无出其右。",
+    "grade": 2,
+    "hide": 0,
+    "condition": "HCHR >= 80 AND HINT >= 80 AND HSTR >= 80"
+  },
+  "91127": {
+    "id": 91127,
+    "name": "初踏仙途",
+    "description": "炼气入体，灵根初醒，从此凡尘是路人。",
+    "grade": 0,
+    "hide": 0,
+    "condition": "FDLV >= 1"
+  },
+  "91128": {
+    "id": 91128,
+    "name": "筑基有成",
+    "description": "丹田如鼎，道基初固，仙路自此少三灾。",
+    "grade": 1,
+    "hide": 0,
+    "condition": "FDLV >= 2"
+  },
+  "91129": {
+    "id": 91129,
+    "name": "金丹真人",
+    "description": "一粒金丹吞入腹，始知我命不由天。",
+    "grade": 2,
+    "hide": 0,
+    "condition": "FDLV >= 3"
+  },
+  "91130": {
+    "id": 91130,
+    "name": "元婴老祖",
+    "description": "赤婴坐紫府，神通自生，寿元千载可期。",
+    "grade": 2,
+    "hide": 0,
+    "condition": "FDLV >= 4"
+  },
+  "91131": {
+    "id": 91131,
+    "name": "化神天尊",
+    "description": "元神化万千，心念一动，山河变色，只差一步破虚空。",
+    "grade": 3,
+    "hide": 1,
+    "condition": "FDLV >= 5"
+  },
+  "91132": {
+    "id": 91132,
+    "name": "寿比仙岳",
+    "description": "三百载春秋弹指过，青山犹在，此身未老。",
+    "grade": 1,
+    "hide": 0,
+    "condition": "HAGE >= 300"
+  },
+  "91133": {
+    "id": 91133,
+    "name": "仙缘深厚",
+    "description": "三入秘境得造化，仙家洞府亦常客。",
+    "grade": 2,
+    "hide": 0,
+    "condition": "MYTHC >= 3"
+  },
+  "91134": {
+    "id": 91134,
+    "name": "红颜如雪",
+    "description": "玉骨冰肌殊绝色，纵是仙人也回眸。",
+    "grade": 1,
+    "hide": 0,
+    "condition": "HCHR >= 90"
+  },
+  "91135": {
+    "id": 91135,
+    "name": "灵山之主",
+    "description": "灵石如山脉，富可敌一方宗派。",
+    "grade": 2,
+    "hide": 0,
+    "condition": "HMNY >= 50000"
+  },
+  "91136": {
+    "id": 91136,
+    "name": "轮回过客",
+    "description": "百世轮回中，你见过不同的烟火，却仍走在这条仙途上。",
+    "grade": 1,
+    "hide": 0,
+    "condition": "SUM >= 20"
+  }
+}

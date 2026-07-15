@@ -1,0 +1,761 @@
+[
+  {
+    "id": "myth_zh-cn-wf_1",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "古龙之血烙印于臂，低语化作万钧之力，命运自此与龙翼同振。",
+    "pollution_type": false,
+    "effect": {
+      "STR": 6
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_2",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "观星塔顶见证虚空裂隙，万卷知识灌入魂魄，星辰之痕刻于额间。",
+    "pollution_type": true,
+    "effect": {
+      "INT": 5,
+      "SPR": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_3",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "白鹿引你至林间古泉，饮下月光凝露，面容浮现精灵族的远古辉光。",
+    "pollution_type": true,
+    "effect": {
+      "CHR": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_4",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "陨落神祇将最后祷言织入你心跳，你成了活着的圣所，凡躯承载慈悲。",
+    "pollution_type": false,
+    "effect": {
+      "SPR": 5,
+      "LIF": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_5",
+    "rarity": "common",
+    "grade": 2,
+    "fallback": "古战场拾得一枚未锈骑士徽章，铁匠认出是失落的英雄遗物，重金求购。",
+    "pollution_type": false,
+    "effect": {
+      "MNY": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_6",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "在沉没的竞技场与逝去冠军之影角斗，胜后得其剑术真髓灌顶。",
+    "pollution_type": true,
+    "effect": {
+      "STR": 4,
+      "INT": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_7",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "月下与风精共舞，裙裾染上无痕仙尘，言语从此自带微风魔力。",
+    "pollution_type": true,
+    "effect": {
+      "CHR": 3,
+      "SPR": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_8",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "命运之弦被隐者拨动，你与万千世界的倒影擦肩，手中紧握一枚悖论之种。",
+    "pollution_type": false,
+    "effect": {
+      "RDM": 6
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_9",
+    "rarity": "common",
+    "grade": 2,
+    "fallback": "食用了龙烬之壤长出的血果，重伤时心脏骤跳如战鼓，断骨瞬间重续。",
+    "pollution_type": false,
+    "effect": {
+      "LIF": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_10",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "阁楼旧箱翻出疯王手稿，解密其中一项失传法阵，知识变作铸币厂。",
+    "pollution_type": true,
+    "effect": {
+      "INT": 4,
+      "MNY": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_11",
+    "rarity": "common",
+    "grade": 2,
+    "fallback": "你触摸古龙残鳞，龙力涌入四肢，仿佛利爪撕开命运之幕。",
+    "pollution_type": false,
+    "effect": {
+      "STR": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_12",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "魔法学院密室里，你解开失传符文，无数前人智慧的低语在脑中回响。",
+    "pollution_type": true,
+    "effect": {
+      "INT": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_13",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "月下精灵女王为你加冕，她的祝福如轻纱覆身，凡尘目光自此追随。",
+    "pollution_type": false,
+    "effect": {
+      "CHR": 5
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_14",
+    "rarity": "common",
+    "grade": 2,
+    "fallback": "挖掘古代战场，你得到沾血金币，币上刻着遗忘王族的贪婪与誓言。",
+    "pollution_type": true,
+    "effect": {
+      "MNY": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_15",
+    "rarity": "uncommon",
+    "grade": 3,
+    "fallback": "你饮下圣泉之水，灵魂如洗去尘埃，喜悦如晨光照亮前路。",
+    "pollution_type": false,
+    "effect": {
+      "SPR": 6
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_16",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "死神与你对弈，你赢得残局，从此生命与冥界之息交织，不死亦非生。",
+    "pollution_type": true,
+    "effect": {
+      "LIF": 5
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_17",
+    "rarity": "rare",
+    "grade": 2,
+    "fallback": "命运纺车逆转，你触碰丝线，无数可能性的碎片涌入掌心。",
+    "pollution_type": true,
+    "effect": {
+      "RDM": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_18",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "骑士册封仪式上，圣剑光芒笼罩，先祖英魂低语，勇气贯透胸膛。",
+    "pollution_type": false,
+    "effect": {
+      "STR": 2
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_19",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "你窥见古神沉睡之梦，智慧如星光坠落，灼烧凡俗思维，却点亮真理。",
+    "pollution_type": false,
+    "effect": {
+      "INT": 6
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_20",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "龙血浴身，鳞生肤下，你化为半龙之躯，威严与诅咒并存，命运自此非人。",
+    "pollution_type": true,
+    "effect": {
+      "CHR": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_21",
+    "rarity": "common",
+    "grade": 2,
+    "fallback": "你的臂膀被古龙之血溅染，那一刻，你感到山岳般的力量涌遍全身。——命运之丝轻轻拨动。",
+    "pollution_type": false,
+    "effect": {
+      "STR": 2
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_22",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "在魔法学院尘封的密室里，你触碰到先贤的笔记，智慧如潮水涌入脑海，却依稀听见远古的低语。",
+    "pollution_type": true,
+    "effect": {
+      "INT": 2
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_23",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "冒险中，你偶然发现了失落矮人王的金库，财富如星光铺满眼前。——命运的馈赠，早已标好价码。",
+    "pollution_type": false,
+    "effect": {
+      "MNY": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_24",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "诸神于云端为你加冕，荣光织就你的披风，但镜中的你眼中却有前人的忧伤。",
+    "pollution_type": true,
+    "effect": {
+      "CHR": 6
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_25",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "在月光下的精灵遗迹，你饮下生命之泉，快乐如林间清风拂过心田。",
+    "pollution_type": false,
+    "effect": {
+      "SPR": 2
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_26",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "古龙的心脏在你胸腔跳动，生命之火重燃，但旧主的记忆如余烬未息。",
+    "pollution_type": true,
+    "effect": {
+      "LIF": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_27",
+    "rarity": "common",
+    "grade": 2,
+    "fallback": "一枚神秘的命运硬币翻转，决定你将获得何种恩赐。——一切皆是未知。",
+    "pollution_type": false,
+    "effect": {
+      "RDM": 2
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_28",
+    "rarity": "uncommon",
+    "grade": 3,
+    "fallback": "握住那柄受过诅咒的巨剑，上古英魂的力量涌入双臂，却也带来了他们的执念。",
+    "pollution_type": true,
+    "effect": {
+      "STR": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_29",
+    "rarity": "rare",
+    "grade": 2,
+    "fallback": "智慧之泉的洗礼，让你的思维如星辰般明晰，往昔难题豁然开朗。",
+    "pollution_type": false,
+    "effect": {
+      "INT": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_30",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "美神亲手为你描画容颜，从此凡人见你皆神驰目眩，而镜中或许照见神明的哀愁。",
+    "pollution_type": true,
+    "effect": {
+      "CHR": 5
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_31",
+    "rarity": "common",
+    "grade": 2,
+    "fallback": "山泉涌出地脉精华，你沐浴后旧伤尽愈，此乃埃尔德兰对你的初次馈赠。",
+    "pollution_type": false,
+    "effect": {
+      "LIF": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_32",
+    "rarity": "common",
+    "grade": 2,
+    "fallback": "冒险者公会地下室内，一柄布满裂痕的战锤与你共鸣，英雄残魂注入你双臂。",
+    "pollution_type": true,
+    "effect": {
+      "STR": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_33",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "古代商路的幽灵商队与你擦肩，留下满箱异国金币，耳畔犹闻驼铃与议价声。",
+    "pollution_type": true,
+    "effect": {
+      "MNY": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_34",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "暴风雨中，一张海图自行展开，星位为你标出新航路。这是只属于你的史诗开端。",
+    "pollution_type": false,
+    "effect": {
+      "INT": 2,
+      "SPR": 2
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_35",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "贤者塔顶观星，你参透一颗天体的轨迹，智识与灵魂同步升华。历代观星者与你并肩。",
+    "pollution_type": true,
+    "effect": {
+      "INT": 3,
+      "SPR": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_36",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "一支失落的精灵诗琴无人拨动而自鸣，音符重塑你的仪态与心智，琴弦缠绕着古老咏者的命运。",
+    "pollution_type": true,
+    "effect": {
+      "CHR": 3,
+      "INT": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_37",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "古龙之心碎片融入胸膛，龙威煅体，面容俊美，命火熊熊。龙魂残忆低语：你即吾裔。",
+    "pollution_type": true,
+    "effect": {
+      "STR": 4,
+      "CHR": 2,
+      "LIF": 2
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_38",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "神祇走过的虹桥重现，你行于其上，容姿、灵魂与生命皆获圣化。诸神旧影侧目。",
+    "pollution_type": true,
+    "effect": {
+      "CHR": 3,
+      "SPR": 3,
+      "LIF": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_39",
+    "rarity": "common",
+    "grade": 2,
+    "fallback": "你的容光如晨曦洒落，连酒馆的竖琴手都为你即兴弹唱。",
+    "pollution_type": false,
+    "effect": {
+      "CHR": 2
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_40",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "秘法塔的尘封书卷向你展开，古老的智慧如星辰灌顶。",
+    "pollution_type": false,
+    "effect": {
+      "INT": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_41",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "巨龙的咆哮中，你握剑的手臂不再颤抖，大地予你雄力。",
+    "pollution_type": true,
+    "effect": {
+      "STR": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_42",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "在地城深处，命匣绽放金辉，国王们遗落的珍宝向你低语。",
+    "pollution_type": true,
+    "effect": {
+      "MNY": 5
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_43",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "精灵古木的灵气涤荡魂灵，你听见世界初生的歌谣。",
+    "pollution_type": false,
+    "effect": {
+      "SPR": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_44",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "命定之刻，时光长河为你暂驻，旧伤与疫咒尽皆消弭。",
+    "pollution_type": true,
+    "effect": {
+      "LIF": 5
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_45",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "命运纺车停转，你窥见编织的丝线，将一缕混沌握于手中。",
+    "pollution_type": true,
+    "effect": {
+      "RDM": 6
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_46",
+    "rarity": "common",
+    "grade": 2,
+    "fallback": "流浪法师留下残页，你读懂了世界边角的真理。",
+    "pollution_type": false,
+    "effect": {
+      "INT": 2
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_47",
+    "rarity": "uncommon",
+    "grade": 3,
+    "fallback": "月神轻吻你的眉梢，从此凡尘难掩你的辉光。",
+    "pollution_type": false,
+    "effect": {
+      "CHR": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_48",
+    "rarity": "rare",
+    "grade": 2,
+    "fallback": "星空下，独角兽饮你掌中之水，烦忧随涟漪散尽。",
+    "pollution_type": true,
+    "effect": {
+      "SPR": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_49",
+    "rarity": "common",
+    "grade": 2,
+    "fallback": "路遇白袍预言者，指尖星光入额，忽觉思绪清明，前路似有微光指引。",
+    "pollution_type": false,
+    "effect": {
+      "INT": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_50",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "废墟中拾得古龙鳞片，握之掌心滚烫，血脉之中涌起沉寂的咆哮。",
+    "pollution_type": false,
+    "effect": {
+      "STR": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_51",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "林间月光如水，独角兽眸中映着星辰，低头以角触你心口，旧伤尽愈如初生。",
+    "pollution_type": false,
+    "effect": {
+      "LIF": 5
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_52",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "古战场烽烟重燃，英灵手持断剑而现，赐汝英雄之名，剑光如虹贯入血脉。",
+    "pollution_type": true,
+    "effect": {
+      "STR": 3,
+      "CHR": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_53",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "云间降下金翼使，掷一枚命运金币入你囊中，叮当声响中，财命运势为之扭转。",
+    "pollution_type": false,
+    "effect": {
+      "MNY": 6
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_54",
+    "rarity": "rare",
+    "grade": 2,
+    "fallback": "饮尽夜星之泉，水中倒影忽似神灵雕琢，世人皆叹天人之姿。",
+    "pollution_type": false,
+    "effect": {
+      "CHR": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_55",
+    "rarity": "uncommon",
+    "grade": 3,
+    "fallback": "指尖轻触法阵符文，知识洪流涌入魂海，刹那通晓古今奥术之秘。",
+    "pollution_type": true,
+    "effect": {
+      "INT": 5
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_56",
+    "rarity": "common",
+    "grade": 2,
+    "fallback": "旅店火光摇曳，歌谣里忽闻己名，举杯一笑，心头阴霾尽散。",
+    "pollution_type": false,
+    "effect": {
+      "SPR": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_57",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "古龙振翼，山岳颤栗，冒险者心中旧日传说再度苏醒。",
+    "pollution_type": true,
+    "effect": {
+      "STR": 5
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_58",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "学士翻古籍，失传奥法重现，然代价未可知。",
+    "pollution_type": false,
+    "effect": {
+      "INT": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_59",
+    "rarity": "common",
+    "grade": 2,
+    "fallback": "金剑加肩，誓言铿锵，旧日英魂似在低语。",
+    "pollution_type": true,
+    "effect": {
+      "SPR": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_60",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "地城深处，远古金币堆积如山，拾取者却闻前人泣诉。",
+    "pollution_type": true,
+    "effect": {
+      "MNY": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_61",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "苍穹裂开，圣光垂落，凡人窥见命运纺线之片刻。",
+    "pollution_type": false,
+    "effect": {
+      "SPR": 6
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_62",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "五人成盟，酒馆中歃血，旧日英雄之影悄然笼罩。",
+    "pollution_type": true,
+    "effect": {
+      "CHR": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_63",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "龙息拂过，生命之火重燃，然龙之命运亦缠绕自身。",
+    "pollution_type": true,
+    "effect": {
+      "LIF": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_64",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "诸神投骰，凡人命轨更易，未知前路或承旧业。",
+    "pollution_type": false,
+    "effect": {
+      "RDM": 6
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_65",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "发掘古战场，断剑犹鸣，持有者感到昔日执念。",
+    "pollution_type": true,
+    "effect": {
+      "MNY": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_66",
+    "rarity": "common",
+    "grade": 2,
+    "fallback": "通过试炼，法袍加身，然知识背后是无数先贤未竟之路。",
+    "pollution_type": false,
+    "effect": {
+      "INT": 2
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_67",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "远古红龙之魂烙印于汝身，龙火洗炼筋骨，汝血沸如岩浆，命运自此与巨龙一族交织。",
+    "pollution_type": true,
+    "effect": {
+      "STR": 5,
+      "LIF": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_68",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "石中剑鸣动，汝手触之，历代圣骑士之记忆涌入灵台，汝影与古英雄重叠，威仪自发。",
+    "pollution_type": true,
+    "effect": {
+      "STR": 4,
+      "CHR": 2
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_69",
+    "rarity": "rare",
+    "grade": 2,
+    "fallback": "汝于星塔之巅解禁古卷，秘仪灌注识海，星穹奥秘如书展卷，智慧之光洗练灵魂。",
+    "pollution_type": false,
+    "effect": {
+      "INT": 6
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_70",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "与诡术之神对赌，汝以命运为注，赢取满室黄金，家道自此昌隆，然神祇之笑萦绕不去。",
+    "pollution_type": false,
+    "effect": {
+      "MNY": 6
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_71",
+    "rarity": "common",
+    "grade": 2,
+    "fallback": "月下精灵轻吻汝额，古老血脉苏醒，容姿焕发如星辰，且携一缕永生之欢愉。",
+    "pollution_type": true,
+    "effect": {
+      "CHR": 4,
+      "SPR": 2
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_72",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "无名勇者之墓现世，其魂赠汝秘藏宝图与毕生所学，命运丝线牵系往昔之憾。",
+    "pollution_type": true,
+    "effect": {
+      "MNY": 3,
+      "INT": 2
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_73",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "于光明大教堂受洗，圣光淬体，汝被册封为王国骑士，荣光与武力并耀。",
+    "pollution_type": false,
+    "effect": {
+      "STR": 3,
+      "CHR": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_74",
+    "rarity": "common",
+    "grade": 2,
+    "fallback": "失足落入时光裂隙，竟见未来自己递来祝福，生命力与快乐充盈，然命运闭环难解。",
+    "pollution_type": true,
+    "effect": {
+      "LIF": 4,
+      "SPR": 2
+    }
+  }
+]

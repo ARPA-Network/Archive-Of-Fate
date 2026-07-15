@@ -1,0 +1,1646 @@
+{
+  "1000": {
+    "id": 1000,
+    "name": "Naturally Beautiful",
+    "description": "You were born a bit more attractive than others, and people can't help but steal glances at you.",
+    "grade": 0,
+    "effect": {
+      "CHR": 2
+    },
+    "status": -1
+  },
+  "1001": {
+    "id": 1001,
+    "name": "Ordinary",
+    "description": "You blend into a crowd and no one notices, but at least you have peace and quiet.",
+    "grade": 0,
+    "effect": {
+      "CHR": -1
+    },
+    "status": 1
+  },
+  "1002": {
+    "id": 1002,
+    "name": "Good Physique",
+    "description": "You aced PE class all through school, and could run a mile without getting winded.",
+    "grade": 0,
+    "effect": {
+      "STR": 2
+    },
+    "status": -1
+  },
+  "1003": {
+    "id": 1003,
+    "name": "Sickly",
+    "description": "You catch a cold every time the seasons change, always have a medicine box handy, and know the hospital corridor better than your own bedroom.",
+    "grade": 0,
+    "effect": {
+      "STR": -2
+    },
+    "status": 2
+  },
+  "1004": {
+    "id": 1004,
+    "name": "Sharp Mind",
+    "description": "You pick up new things quickly, and teachers and neighbors always praise your intelligence.",
+    "grade": 0,
+    "effect": {
+      "INT": 2
+    },
+    "status": -1
+  },
+  "1005": {
+    "id": 1005,
+    "name": "Dull",
+    "description": "Your brain feels rusty; things that others grasp instantly take you ages to figure out.",
+    "grade": 0,
+    "effect": {
+      "INT": -2
+    },
+    "status": 2
+  },
+  "1006": {
+    "id": 1006,
+    "name": "Wealthy Family",
+    "description": "Your parents have your back, your allowance never runs out, and you even get to travel abroad occasionally.",
+    "grade": 0,
+    "effect": {
+      "MNY": 2
+    },
+    "status": -1
+  },
+  "1007": {
+    "id": 1007,
+    "name": "Destitute",
+    "description": "You rely on student loans for tuition, and spend your weekends either working or on your way to work.",
+    "grade": 0,
+    "effect": {
+      "MNY": -2
+    },
+    "status": 2
+  },
+  "1008": {
+    "id": 1008,
+    "name": "Optimist",
+    "description": "You treat the sky falling as a blanket; no matter how tough things get, a good night's sleep makes it better.",
+    "grade": 0,
+    "effect": {
+      "SPR": 2
+    },
+    "status": -1
+  },
+  "1009": {
+    "id": 1009,
+    "name": "Sensitive and Moody",
+    "description": "You always have something weighing on your mind; even a cloudy day can make you feel down all day.",
+    "grade": 0,
+    "effect": {
+      "SPR": -2
+    },
+    "status": 2
+  },
+  "1010": {
+    "id": 1010,
+    "name": "Slender Figure",
+    "description": "You can eat anything without gaining weight, always fit into size small, and your friends are green with envy.",
+    "grade": 0,
+    "effect": {
+      "CHR": 1,
+      "STR": 1
+    },
+    "status": -1
+  },
+  "1011": {
+    "id": 1011,
+    "name": "Chubby Build",
+    "description": "You gain weight just from drinking water, and your wardrobe is filling up with more size L clothes.",
+    "grade": 0,
+    "effect": {
+      "CHR": -1,
+      "STR": 1
+    }
+  },
+  "1012": {
+    "id": 1012,
+    "name": "Nearsighted",
+    "description": "Without glasses, you can't recognize anyone five meters away; the world looks like it's in soft focus.",
+    "grade": 0,
+    "effect": {
+      "INT": -1,
+      "CHR": -1
+    },
+    "status": 2
+  },
+  "1013": {
+    "id": 1013,
+    "name": "Night Owl",
+    "description": "You come alive at night and survive on coffee all day.",
+    "grade": 0,
+    "effect": {
+      "STR": -1,
+      "SPR": 1
+    },
+    "status": 1
+  },
+  "1014": {
+    "id": 1014,
+    "name": "Social Butterfly",
+    "description": "You can strike up a conversation with anyone, have friends everywhere, and your contacts list never ends.",
+    "grade": 0,
+    "effect": {
+      "CHR": 1,
+      "SPR": 1
+    },
+    "status": -1
+  },
+  "1015": {
+    "id": 1015,
+    "name": "Socially Anxious",
+    "description": "You'd rather text than call, and would rather stay home than go out.",
+    "grade": 0,
+    "effect": {
+      "CHR": -1,
+      "SPR": -1
+    },
+    "status": 2
+  },
+  "1016": {
+    "id": 1016,
+    "name": "Crafty and Meticulous",
+    "description": "Your handmade projects are always the best in class, and your handwriting is neat and beautiful.",
+    "grade": 0,
+    "effect": {
+      "INT": 1
+    },
+    "status": -1
+  },
+  "1017": {
+    "id": 1017,
+    "name": "Directionally Challenged",
+    "description": "Even with GPS, you walk the wrong way; the city is a maze to you.",
+    "grade": 0,
+    "effect": {
+      "INT": -1
+    },
+    "status": 1
+  },
+  "1018": {
+    "id": 1018,
+    "name": "Melodious Voice",
+    "description": "Your voice sounds like wind chimes, and when you sing at karaoke, the whole room falls silent.",
+    "grade": 0,
+    "effect": {
+      "CHR": 1
+    }
+  },
+  "1019": {
+    "id": 1019,
+    "name": "Tone Deaf",
+    "description": "Humming a tune makes dogs howl, and your music teacher always tells you to lip-sync.",
+    "grade": 0,
+    "effect": {
+      "CHR": -1
+    },
+    "status": 1
+  },
+  "1020": {
+    "id": 1020,
+    "name": "Constant Love Letters",
+    "description": "Since middle school, pink love letters have often appeared in your desk. Your romantic luck is absurdly good.",
+    "grade": 0,
+    "effect": {
+      "CHR": 2
+    },
+    "condition": "AGE >= 16",
+    "status": -2
+  },
+  "1021": {
+    "id": 1021,
+    "name": "Forever Single",
+    "description": "You've been single since birth, never even held hands. You avoid couples on the street.",
+    "grade": 0,
+    "effect": {
+      "SPR": -1
+    },
+    "status": 1
+  },
+  "1022": {
+    "id": 1022,
+    "name": "Genius Genes",
+    "description": "You ace exams without studying. Tests feel like a game to you.",
+    "grade": 1,
+    "effect": {
+      "INT": 3
+    },
+    "status": -2
+  },
+  "1023": {
+    "id": 1023,
+    "name": "Iron Constitution",
+    "description": "You almost never get sick. Even a fever passes after a good sleep. When everyone around you has the flu, you're always fine.",
+    "grade": 1,
+    "effect": {
+      "STR": 3
+    },
+    "status": -2
+  },
+  "1024": {
+    "id": 1024,
+    "name": "Naturally Wealthy",
+    "description": "Your family isn't mega-rich, but you never lack money. Your allowance is enough to make your peers jealous for half a year.",
+    "grade": 1,
+    "effect": {
+      "MNY": 3
+    },
+    "status": -2
+  },
+  "1025": {
+    "id": 1025,
+    "name": "Finding Joy in Misery",
+    "description": "No matter how tough life gets, you always find something to laugh about. Your mindset is rock-solid.",
+    "grade": 1,
+    "effect": {
+      "SPR": 3
+    },
+    "status": -2
+  },
+  "1026": {
+    "id": 1026,
+    "name": "Faint Aether Sense",
+    "description": "Sometimes you feel a subtle ripple in the air, like static brushing against your skin.",
+    "grade": 1,
+    "effect": {
+      "INT": 1,
+      "SPR": 1
+    }
+  },
+  "1027": {
+    "id": 1027,
+    "name": "Ember Echoes",
+    "description": "Occasionally, among old objects, you hear faint murmurs, as if sounds leak from cracks in time.",
+    "grade": 1,
+    "effect": {
+      "INT": 2,
+      "SPR": -1
+    }
+  },
+  "1028": {
+    "id": 1028,
+    "name": "Lucky One",
+    "description": "You win free drinks frequently, and when guessing on tests, you choose right more often than others.",
+    "grade": 1,
+    "effect": {
+      "SPR": 1,
+      "CHR": 1,
+      "INT": 1
+    },
+    "status": -2
+  },
+  "1029": {
+    "id": 1029,
+    "name": "Precocious",
+    "description": "You matured earlier than your peers. You always see things down to the bone.",
+    "grade": 1,
+    "effect": {
+      "INT": 2,
+      "SPR": -1
+    },
+    "status": -1
+  },
+  "1030": {
+    "id": 1030,
+    "name": "Trustworthy Face",
+    "description": "Though young, you have a face that inspires trust. People go out of their way to help you.",
+    "grade": 1,
+    "effect": {
+      "CHR": -1,
+      "MNY": 2
+    }
+  },
+  "1031": {
+    "id": 1031,
+    "name": "Sickly Beauty",
+    "description": "Your complexion is pale as porcelain, with a fragile beauty that stirs pity.",
+    "grade": 1,
+    "effect": {
+      "CHR": 2,
+      "STR": -2
+    },
+    "status": 1
+  },
+  "1032": {
+    "id": 1032,
+    "name": "Athletic Star",
+    "description": "The reigning champion at school sports meets. You excel at running, jumping, and throwing.",
+    "grade": 1,
+    "effect": {
+      "STR": 3,
+      "CHR": 1
+    },
+    "status": -2
+  },
+  "1033": {
+    "id": 1033,
+    "name": "Blessed by Fortune",
+    "description": "Trouble always bypasses you. You find money on the ground, and a guardian angel appears whenever you're in need.",
+    "grade": 2,
+    "effect": {
+      "MNY": 2,
+      "SPR": 2
+    },
+    "status": -3
+  },
+  "1034": {
+    "id": 1034,
+    "name": "Unquenched Spirit",
+    "description": "A faint ember of spiritual insight lingers within you. Some nights, you dream of scenes not from this life.",
+    "grade": 2,
+    "effect": {
+      "INT": 3,
+      "SPR": -2
+    }
+  },
+  "1035": {
+    "id": 1035,
+    "name": "Stroke of Genius",
+    "description": "At critical moments, a flash of insight strikes, helping you avoid big trouble or seize a great opportunity.",
+    "grade": 2,
+    "effect": {
+      "SPR": 3,
+      "INT": 1
+    },
+    "status": -3
+  },
+  "1036": {
+    "id": 1036,
+    "name": "Natural Leader",
+    "description": "In a crowd, you're always the one making decisions. Others willingly follow your lead.",
+    "grade": 2,
+    "effect": {
+      "CHR": 3,
+      "INT": 1
+    },
+    "status": -3
+  },
+  "1037": {
+    "id": 1037,
+    "name": "Steel Bones",
+    "description": "Falling and breaking a bone is nothing to you. Your recovery is astonishing; pain fades quickly.",
+    "grade": 2,
+    "effect": {
+      "STR": 5
+    },
+    "status": -3
+  },
+  "1038": {
+    "id": 1038,
+    "name": "Academic Prodigy",
+    "description": "You're exceptionally gifted. Books you read once you remember, and complex theories click instantly.",
+    "grade": 2,
+    "effect": {
+      "INT": 5
+    },
+    "status": -3
+  },
+  "1039": {
+    "id": 1039,
+    "name": "Born with a Silver Spoon",
+    "description": "Your family wealth is beyond imagination. Whatever you want, someone brings it to you.",
+    "grade": 3,
+    "effect": {
+      "MNY": 5,
+      "CHR": 1
+    },
+    "exclude": [
+      1007,
+      1041
+    ],
+    "status": -5
+  },
+  "1040": {
+    "id": 1040,
+    "name": "Aether Awakening",
+    "description": "You occasionally sense the faint threads of aether on the hidden side of the world, like rough drafts left by fate.",
+    "grade": 3,
+    "effect": {
+      "INT": 3,
+      "SPR": -3,
+      "CHR": 1
+    },
+    "exclusive": 1
+  },
+  "1041": {
+    "id": 1041,
+    "name": "Child of Poverty",
+    "description": "Your family was dirt poor, but it forged a backbone of steel in you.",
+    "grade": 0,
+    "effect": {
+      "STR": 1,
+      "SPR": -1
+    },
+    "exclude": [
+      1039,
+      1006
+    ],
+    "status": 3
+  },
+  "1042": {
+    "id": 1042,
+    "name": "Bookish Family",
+    "description": "Growing up surrounded by books, your speech and demeanor are a cut above the rest.",
+    "grade": 0,
+    "effect": {
+      "INT": 1,
+      "CHR": 1
+    },
+    "status": -1
+  },
+  "1043": {
+    "id": 1043,
+    "name": "Sickly and Sensitive",
+    "description": "Frail in body and delicate in mind, you always give off an air of needing care.",
+    "grade": 0,
+    "effect": {
+      "STR": -1,
+      "SPR": -1
+    },
+    "status": 2
+  },
+  "1044": {
+    "id": 1044,
+    "name": "Silver-Tongued",
+    "description": "You never lose an argument and can give speeches on the fly; your eloquence earns you many points.",
+    "grade": 0,
+    "effect": {
+      "CHR": 1,
+      "INT": 1
+    },
+    "status": -1
+  },
+  "1045": {
+    "id": 1045,
+    "name": "Taciturn",
+    "description": "You speak barely three sentences a day, with a presence as low as wallpaper.",
+    "grade": 0,
+    "effect": {
+      "CHR": -1
+    }
+  },
+  "1046": {
+    "id": 1046,
+    "name": "Keen Palate",
+    "description": "You can taste if MSG is added to a dish, and your cooking skills have improved accordingly.",
+    "grade": 0,
+    "effect": {
+      "STR": 1,
+      "SPR": 1
+    }
+  },
+  "1047": {
+    "id": 1047,
+    "name": "Pollen Allergy",
+    "description": "Spring is a nightmare for you, with endless sneezing and watery eyes.",
+    "grade": 0,
+    "effect": {
+      "STR": -1,
+      "CHR": -1
+    },
+    "status": 1
+  },
+  "1048": {
+    "id": 1048,
+    "name": "Early to Bed, Early to Rise",
+    "description": "You've had a disciplined routine since childhood, like an old veteran, and you're always full of energy.",
+    "grade": 0,
+    "effect": {
+      "STR": 1,
+      "INT": 1
+    },
+    "status": -1
+  },
+  "1049": {
+    "id": 1049,
+    "name": "Old Soul",
+    "description": "You always feel you don't belong to this era, occasionally sensing the lingering warmth of the past.",
+    "grade": 1,
+    "effect": {
+      "SPR": -1,
+      "INT": 2
+    }
+  },
+  "1050": {
+    "id": 1050,
+    "name": "Aether Embers",
+    "description": "Your senses occasionally pick up the residual mana embers in the city; those fleeting glimmers confuse and fascinate you.",
+    "grade": 3,
+    "effect": {
+      "INT": 2,
+      "SPR": 2,
+      "LIF": 1
+    },
+    "exclude": [
+      1055
+    ],
+    "status": 2,
+    "exclusive": 1
+  },
+  "1051": {
+    "id": 1051,
+    "name": "Civil Service Exam Momentum",
+    "description": "Countless nights of study have engraved an instinctive exam reflex in you, but the string in your heart has long been wound too tight.",
+    "grade": 2,
+    "effect": {
+      "INT": 2,
+      "MNY": 1,
+      "SPR": -1
+    },
+    "status": 1
+  },
+  "1052": {
+    "id": 1052,
+    "name": "Hollywood Extra's Dream",
+    "description": "Your years as an extra in Hollywood didn't make you famous, but they honed your ability to get into character instantly. Too bad your bank balance is inversely proportional to your dreams.",
+    "grade": 2,
+    "effect": {
+      "CHR": 2,
+      "MNY": -2,
+      "SPR": 1
+    },
+    "status": 1
+  },
+  "1053": {
+    "id": 1053,
+    "name": "Night Shift Assembly Line",
+    "description": "Night after night on the assembly line, repeating the same motions, your body is habitually tired and your reactions a bit dull, but your endurance for staying up late is unmatched.",
+    "grade": 1,
+    "effect": {
+      "STR": 1,
+      "SPR": -1
+    }
+  },
+  "1054": {
+    "id": 1054,
+    "name": "ALS Symptoms",
+    "description": "The doctor says the ghost of ALS lurks inside you; the occasional muscle twitch is its breath. This forces you to rely twice as much on your mind to live.",
+    "grade": 1,
+    "effect": {
+      "STR": -3,
+      "INT": 2
+    },
+    "condition": "AGE >= 25",
+    "status": -1
+  },
+  "1055": {
+    "id": 1055,
+    "name": "Aether Insulated",
+    "description": "You seem naturally insulated from aether embers; any supernatural phenomenon automatically fails in your presence. This makes you exceptionally rational, but also cuts off your ability to perceive warmth.",
+    "grade": 1,
+    "effect": {
+      "INT": 1,
+      "SPR": -1
+    },
+    "exclude": [
+      1050
+    ]
+  },
+  "1056": {
+    "id": 1056,
+    "name": "Rich Kid Abstract",
+    "description": "Your bank balance frees you from any real-world pressure, so you devote yourself to abstract painting, as happy as a resident of another planet.",
+    "grade": 0,
+    "effect": {
+      "MNY": 3,
+      "INT": -1,
+      "SPR": 1
+    }
+  },
+  "1057": {
+    "id": 1057,
+    "name": "Paranormal Airwaves",
+    "description": "You host a late-night paranormal radio show with a small but loyal audience. In the empty studio, you always feel something hidden in the static.",
+    "grade": 0,
+    "effect": {
+      "SPR": 1,
+      "INT": 1
+    }
+  },
+  "1058": {
+    "id": 1058,
+    "name": "Delivery Driver's Poems",
+    "description": "You write poems in your notepad between delivery runs for Uber Eats. Running strengthens your legs, and verses brighten your days.",
+    "grade": 0,
+    "effect": {
+      "STR": 1,
+      "SPR": 1
+    }
+  },
+  "1059": {
+    "id": 1059,
+    "name": "Vintage Warmth",
+    "description": "When you repair old items, your fingertips occasionally touch the residual emotional warmth of the objects, making you the most knowledgeable person about antiques on the block.",
+    "grade": 0,
+    "effect": {
+      "INT": 1,
+      "SPR": 1
+    }
+  },
+  "1060": {
+    "id": 1060,
+    "name": "Ember Whispers",
+    "description": "You occasionally hear the murmurs of lingering magic. They teach you a bit of occult knowledge but also make it hard to sleep. Unexplainable coincidences occasionally happen in your life.",
+    "grade": 1,
+    "effect": {
+      "INT": 1,
+      "SPR": -1,
+      "RDM": 1
+    }
+  },
+  "1061": {
+    "id": 1061,
+    "name": "Test Prep Echoes",
+    "description": "Years of grinding through endless practice exams have made you breeze through any test, but drained your passion.",
+    "grade": 1,
+    "effect": {
+      "INT": 2,
+      "SPR": -1
+    }
+  },
+  "1062": {
+    "id": 1062,
+    "name": "Low Tide Starlight",
+    "description": "You've seen the faint glimmer at the bottom of the entertainment industry. That grind slightly improved your looks and resilience, but having your dreams stranded doesn't feel good.",
+    "grade": 0,
+    "effect": {
+      "CHR": 1,
+      "STR": 1,
+      "SPR": -1
+    }
+  },
+  "1063": {
+    "id": 1063,
+    "name": "Steel Bones, Night Eyes",
+    "description": "The repetition of the assembly line and long nights of alertness gave you unusually tough bones, but wore down your spirit.",
+    "grade": 0,
+    "effect": {
+      "STR": 2,
+      "SPR": -1
+    }
+  },
+  "1064": {
+    "id": 1064,
+    "name": "Frozen Lake Problem Solver",
+    "description": "Your brain was a precision instrument, but ALS slowly takes your body. You start with intelligence far beyond normal, but your life is like a candle in the wind.",
+    "grade": 3,
+    "effect": {
+      "INT": 4,
+      "STR": -3,
+      "LIF": -20
+    },
+    "status": 2,
+    "exclusive": 1
+  },
+  "1065": {
+    "id": 1065,
+    "name": "Midnight Tracks",
+    "description": "With your hands on the wheel, you know every dark corner of this city. You've heard countless late-night stories from backseat passengers, accumulating a wealth of worldly wisdom.",
+    "grade": 0,
+    "effect": {
+      "INT": 1,
+      "SPR": 1
+    }
+  },
+  "1066": {
+    "id": 1066,
+    "name": "Golden Paintbrush Spoon",
+    "description": "Never worrying about money for paint, your artistic sense is sharp, but spending too much time in the studio has left you poor at grooming and a bit out of touch with society.",
+    "grade": 1,
+    "effect": {
+      "MNY": 3,
+      "INT": 1,
+      "CHR": -1
+    }
+  },
+  "1067": {
+    "id": 1067,
+    "name": "Off-Tune Frequency",
+    "description": "Your radio occasionally picks up signals from the other side, which makes your stories especially scary. It also leaves you feeling unsettled and things around you a bit off.",
+    "grade": 0,
+    "effect": {
+      "CHR": 1,
+      "SPR": -1
+    }
+  },
+  "1068": {
+    "id": 1068,
+    "name": "Wind-Breaking Verses",
+    "description": "Weaving through the city's streets and alleys, you've seen the most of everyday life, which fuels your poetry but also deepens your loneliness.",
+    "grade": 0,
+    "effect": {
+      "INT": 1,
+      "SPR": -1
+    }
+  },
+  "1069": {
+    "id": 1069,
+    "name": "Ancient Herbal Secrets",
+    "description": "You rummage through ancient texts and discover long-lost recipes in the depths of your medicine cabinet. They can nourish your body, but sourcing the ingredients is costly.",
+    "grade": 0,
+    "effect": {
+      "STR": 1,
+      "INT": 1,
+      "MNY": -1
+    }
+  },
+  "1070": {
+    "id": 1070,
+    "name": "Residual Echo Perception",
+    "description": "You occasionally hear the whispers of residual magic, and during your livestreams, you always pick up unexplainable noises.",
+    "grade": 2,
+    "effect": {
+      "INT": 1,
+      "RDM": 2
+    }
+  },
+  "1071": {
+    "id": 1071,
+    "name": "Test Prep Safety Net",
+    "description": "The exams you've taken could fill three reservoirs. Landing a government job is your safety net, but the pursuit of security has extinguished your passion.",
+    "grade": 1,
+    "effect": {
+      "INT": 2,
+      "SPR": -1
+    }
+  },
+  "1072": {
+    "id": 1072,
+    "name": "Acting and Tea for Survival",
+    "description": "You hand out resumes on film sets and run a bubble tea shop to pay rent, treating life as a script. It's tiring, but you enjoy it.",
+    "grade": 0,
+    "effect": {
+      "CHR": 1,
+      "MNY": 1,
+      "SPR": -1
+    }
+  },
+  "1073": {
+    "id": 1073,
+    "name": "Day-Night Flip",
+    "description": "Your body clock is shattered: day shift on the assembly line, night shift watching monitors. Your body protests, but you stay silent.",
+    "grade": 0,
+    "effect": {
+      "STR": 2,
+      "SPR": -2
+    }
+  },
+  "1074": {
+    "id": 1074,
+    "name": "Background Glimmer",
+    "description": "You always manage to get on camera on set. The assistant director says you have potential, but your dream of a lead role seems distant.",
+    "grade": 1,
+    "effect": {
+      "CHR": 2
+    }
+  },
+  "1075": {
+    "id": 1075,
+    "name": "Frozen Ground Insight",
+    "description": "ALS has locked your body, but not your mind. You use an eye-tracking device to continue solving math olympiad problems, with a glimmer of magical residue in your eyes.",
+    "grade": 3,
+    "effect": {
+      "INT": 5,
+      "STR": -3,
+      "LIF": -3
+    },
+    "exclusive": 1
+  },
+  "1076": {
+    "id": 1076,
+    "name": "Street Narratives",
+    "description": "You've driven countless late-night passengers, heard life stories stranger than any radio show, and occasionally picked up passengers who weren't really there.",
+    "grade": 0,
+    "effect": {
+      "MNY": 1,
+      "SPR": 1,
+      "RDM": 1
+    }
+  },
+  "1077": {
+    "id": 1077,
+    "name": "Lavish Canvas",
+    "description": "You never worry about money for paint. Your style is bold but misunderstood; gallery owners say you're wasting your talent.",
+    "grade": 0,
+    "effect": {
+      "MNY": 2,
+      "SPR": -2
+    }
+  },
+  "1078": {
+    "id": 1078,
+    "name": "Midnight Frequency",
+    "description": "Every night at 2 AM, your radio picks up strange interference. Some say it's another world tuning in.",
+    "grade": 2,
+    "effect": {
+      "INT": 1,
+      "RDM": 2
+    },
+    "exclusive": 1
+  },
+  "1079": {
+    "id": 1079,
+    "name": "Riding Verses",
+    "description": "The miles you clock on your e-bike become poems written between deliveries. The rider group calls you 'the poet'.",
+    "grade": 0,
+    "effect": {
+      "INT": 1,
+      "SPR": 1
+    }
+  },
+  "1080": {
+    "id": 1080,
+    "name": "Echoed Whispers",
+    "description": "You occasionally hear the lingering whispers of the world, keeping you from sleep, yet revealing the cracks of fate to you.",
+    "grade": 2,
+    "effect": {
+      "INT": 2,
+      "SPR": -2,
+      "RDM": 1
+    }
+  },
+  "1081": {
+    "id": 1081,
+    "name": "Exam Grind",
+    "description": "Countless exams and late-night study sessions gave you a sharp edge for standardized tests, but wore down your health and happiness.",
+    "grade": 0,
+    "effect": {
+      "INT": 2,
+      "STR": -1,
+      "SPR": -1
+    }
+  },
+  "1082": {
+    "id": 1082,
+    "name": "LA Dreamer's Filter",
+    "description": "You have a face the camera loves, but rent and failed auditions constantly drain your savings and passion.",
+    "grade": 1,
+    "effect": {
+      "CHR": 2,
+      "MNY": -1,
+      "SPR": -1
+    },
+    "exclude": [
+      1087
+    ]
+  },
+  "1083": {
+    "id": 1083,
+    "name": "Boba Break",
+    "description": "You have the craft of making sweet drinks and the patience to chat with customers, but standing for hours has left your lower back aching.",
+    "grade": 0,
+    "effect": {
+      "MNY": 1,
+      "SPR": 1,
+      "STR": -1
+    }
+  },
+  "1084": {
+    "id": 1084,
+    "name": "Night Shift Lights",
+    "description": "Factory assembly lines or late-night security booths—you're used to staying awake while others sleep, at the cost of dull eyes and slow social connections.",
+    "grade": 0,
+    "effect": {
+      "STR": 2,
+      "CHR": -1,
+      "SPR": -1
+    },
+    "exclude": [
+      1085
+    ]
+  },
+  "1085": {
+    "id": 1085,
+    "name": "Frozen Heart",
+    "description": "ALS gave you a reprieve, your body slowly stiffening, but within the trapped shell, your mind breaks free, burning like wildfire.",
+    "grade": 3,
+    "effect": {
+      "INT": 5,
+      "STR": -3,
+      "SPR": -2
+    },
+    "status": -2
+  },
+  "1086": {
+    "id": 1086,
+    "name": "Taxi Night Talks",
+    "description": "You weave through the city's veins; every passenger is a flowing story, but your lower back and lungs are no longer young.",
+    "grade": 0,
+    "effect": {
+      "INT": 1,
+      "SPR": 1,
+      "STR": -1
+    }
+  },
+  "1087": {
+    "id": 1087,
+    "name": "Born with a Silver Brush",
+    "description": "You were born with a silver spoon; your palette never lacks expensive paints, but the abstract color blocks on the canvas reflect the emptiness inside.",
+    "grade": 1,
+    "effect": {
+      "MNY": 2,
+      "CHR": 2,
+      "SPR": -1
+    },
+    "exclude": [
+      1082
+    ]
+  },
+  "1088": {
+    "id": 1088,
+    "name": "Otherworldly Streamer",
+    "description": "Your voice has an addictive magnetism, but whenever the microphone lights up, you hear echoes that don't belong to this world.",
+    "grade": 0,
+    "effect": {
+      "CHR": 2,
+      "SPR": -2,
+      "RDM": 1
+    }
+  },
+  "1089": {
+    "id": 1089,
+    "name": "Delivery Sonnets",
+    "description": "You write poems from the bumps of the delivery bag, every order a rhyme, but the wind and rain have stolen the glow from your skin.",
+    "grade": 0,
+    "effect": {
+      "INT": 1,
+      "CHR": -1,
+      "STR": -1
+    }
+  },
+  "1090": {
+    "id": 1090,
+    "name": "Botanical Echoes",
+    "description": "Growing up in an old apothecary, you can instinctively smell the residual mana in herbs, and your prescriptions sometimes work wonders.",
+    "grade": 3,
+    "effect": {
+      "INT": 3,
+      "STR": 1,
+      "LIF": 2,
+      "SPR": 1
+    },
+    "status": -2
+  },
+  "1091": {
+    "id": 1091,
+    "name": "Fragmented Spirit Vision",
+    "description": "You occasionally glimpse the afterimages of mana embers, and you use that to tell occult stories online for tips.",
+    "grade": 2,
+    "effect": {
+      "INT": 2,
+      "SPR": -2,
+      "MNY": 1
+    },
+    "status": -1
+  },
+  "1092": {
+    "id": 1092,
+    "name": "Late Night Radio",
+    "description": "You tell ghost stories on a late-night radio show, and sometimes the caller on the line sounds not quite human.",
+    "grade": 2,
+    "effect": {
+      "INT": 2,
+      "SPR": -2
+    }
+  },
+  "1093": {
+    "id": 1093,
+    "name": "Wasted Inspiration",
+    "description": "From a wealthy family, your studio is piled with paint and canvas, but what you paint is incomprehensible even to yourself.",
+    "grade": 2,
+    "effect": {
+      "MNY": 3,
+      "CHR": 1,
+      "INT": -1
+    },
+    "exclude": [
+      1095,
+      1097
+    ]
+  },
+  "1094": {
+    "id": 1094,
+    "name": "Hollywood Fold",
+    "description": "You worked as an extra in Hollywood and ran a boba shop on Venice Beach—you've seen too many people with shattered dreams.",
+    "grade": 0,
+    "effect": {
+      "CHR": 1,
+      "SPR": 1,
+      "MNY": -1
+    }
+  },
+  "1095": {
+    "id": 1095,
+    "name": "Steel Moon",
+    "description": "You tightened screws in an electronics factory and kept night watch in office buildings; your spine aged ten years ahead of your peers.",
+    "grade": 0,
+    "effect": {
+      "STR": -1,
+      "MNY": 1
+    },
+    "exclude": [
+      1093
+    ]
+  },
+  "1096": {
+    "id": 1096,
+    "name": "Meter Poet",
+    "description": "Behind the wheel, you've heard countless human stories; after late shifts, you scribble poems in a small notebook.",
+    "grade": 0,
+    "effect": {
+      "INT": 1,
+      "SPR": 1
+    }
+  },
+  "1097": {
+    "id": 1097,
+    "name": "Scooter Poetry Club",
+    "description": "In between deliveries, you pull out crumpled paper under a streetlight to write poems; once, a poem actually got published.",
+    "grade": 0,
+    "effect": {
+      "INT": 1,
+      "SPR": 1,
+      "STR": -1
+    },
+    "exclude": [
+      1093
+    ]
+  },
+  "1098": {
+    "id": 1098,
+    "name": "Formula Elegy",
+    "description": "After dropping out of a PhD program, you write code to pay the mortgage; at 3 a.m., staring at endless sequences, you always think of the lab rats.",
+    "grade": 0,
+    "effect": {
+      "INT": 1,
+      "MNY": 1,
+      "SPR": -1
+    }
+  },
+  "1099": {
+    "id": 1099,
+    "name": "Spirit Vision",
+    "description": "You sometimes see twisted shadows under streetlights, hear a baby's cry at abandoned construction sites—maybe just tinnitus, maybe the embers of mana.",
+    "grade": 1,
+    "effect": {
+      "SPR": 2,
+      "RDM": 1
+    }
+  },
+  "1100": {
+    "id": 1100,
+    "name": "Exam Battle Tactics",
+    "description": "You believe every problem you've solved will pave the way to the future, even though the desk lamp at 2 AM makes your eyes ache.",
+    "grade": 0,
+    "effect": {
+      "INT": 2,
+      "SPR": -1
+    }
+  },
+  "1101": {
+    "id": 1101,
+    "name": "Chasing Dreams in New York",
+    "description": "You drag your suitcase out of Penn Station, backpack filled with acting dreams, only $300 left in your pocket.",
+    "grade": 0,
+    "effect": {
+      "CHR": 1,
+      "MNY": -1,
+      "SPR": 1
+    }
+  },
+  "1102": {
+    "id": 1102,
+    "name": "Splashing Money and Paint",
+    "description": "In a Chelsea gallery, you splatter paint. Guests applaud 'soul,' but you know they're more impressed by your father's checkbook.",
+    "grade": 3,
+    "effect": {
+      "MNY": 4,
+      "CHR": 2,
+      "INT": -1
+    },
+    "status": -1
+  },
+  "1103": {
+    "id": 1103,
+    "name": "Viral Superstition",
+    "description": "You turn your hometown's 'village shaman' stories into short videos with eerie background music. Millions of views, comments shouting 'respect.'",
+    "grade": 0,
+    "effect": {
+      "MNY": 1,
+      "SPR": 1,
+      "INT": -1
+    }
+  },
+  "1104": {
+    "id": 1104,
+    "name": "Assembly Line Rhythm",
+    "description": "You stand before the conveyor belt, left hand picks, right hand assembles, movements steadier than a machine. But at night you dream of becoming a spare part.",
+    "grade": 0,
+    "effect": {
+      "STR": 1,
+      "SPR": -2
+    }
+  },
+  "1105": {
+    "id": 1105,
+    "name": "Versatile Actor",
+    "description": "You can be a pancake stall auntie or a CEO. The director praises your 'chameleon face,' but rent reminders always pull you out of character.",
+    "grade": 2,
+    "effect": {
+      "CHR": 3,
+      "SPR": 2,
+      "MNY": -1
+    },
+    "exclude": [
+      1101
+    ],
+    "status": -1
+  },
+  "1106": {
+    "id": 1106,
+    "name": "Frozen Progression",
+    "description": "When you finish the last exam question, the pencil slips from your fingers. The doctor says it's a rare neurodegenerative disease. You feel as if mana is being drained from the world.",
+    "grade": 2,
+    "effect": {
+      "STR": -3,
+      "INT": 3,
+      "SPR": 1
+    },
+    "exclude": [
+      1100
+    ],
+    "status": 1
+  },
+  "1107": {
+    "id": 1107,
+    "name": "Herbal Remnants",
+    "description": "You follow your grandfather's handwritten book, grinding herbs seven times by moonlight. You call it ritual, but your fever really broke.",
+    "grade": 1,
+    "effect": {
+      "STR": 2,
+      "SPR": 1
+    }
+  },
+  "1108": {
+    "id": 1108,
+    "name": "Late-Night Frequency",
+    "description": "Your radio show often picks up crackling interference. Some listeners say they hear calls from deceased loved ones in the silent gaps.",
+    "grade": 1,
+    "effect": {
+      "INT": 2,
+      "RDM": 1,
+      "SPR": -1
+    }
+  },
+  "1109": {
+    "id": 1109,
+    "name": "Psychic Embers",
+    "description": "You occasionally catch faint glimmers of aether in the air. When you livestream ghost stories, you always encounter the real thing.",
+    "grade": 3,
+    "effect": {
+      "INT": 2,
+      "SPR": 1,
+      "STR": -1
+    },
+    "exclude": [
+      1110,
+      1118,
+      1116
+    ]
+  },
+  "1110": {
+    "id": 1110,
+    "name": "Exam Relics",
+    "description": "You excel at finding optimal solutions on test papers, but in life you choose the safest answer.",
+    "grade": 2,
+    "effect": {
+      "INT": 2,
+      "SPR": -1,
+      "MNY": 1
+    },
+    "exclude": [
+      1109,
+      1113
+    ]
+  },
+  "1111": {
+    "id": 1111,
+    "name": "Stage and Register",
+    "description": "You're an extra on set and a bubble tea barista behind the counter. Both stages leave you with mixed feelings.",
+    "grade": 1,
+    "effect": {
+      "CHR": 2,
+      "MNY": 1,
+      "SPR": -2
+    },
+    "exclude": [
+      1115
+    ]
+  },
+  "1112": {
+    "id": 1112,
+    "name": "Rust and Moonlight",
+    "description": "The day's assembly line teaches you numbness. Night shifts at the security booth let you count the city's silence.",
+    "grade": 1,
+    "effect": {
+      "STR": 1,
+      "INT": -1,
+      "SPR": -1,
+      "MNY": 1
+    },
+    "exclude": [
+      1115
+    ]
+  },
+  "1113": {
+    "id": 1113,
+    "name": "Frozen Exam Hall",
+    "description": "You were the top student in your small town, until your body froze like the time spent on test prep.",
+    "grade": 3,
+    "effect": {
+      "INT": 3,
+      "STR": -3,
+      "LIF": -2
+    },
+    "exclude": [
+      1110,
+      1109
+    ],
+    "status": -2,
+    "exclusive": 1
+  },
+  "1114": {
+    "id": 1114,
+    "name": "Midnight Radio",
+    "description": "You drive the night shift taxi. The radio occasionally picks up a channel that only broadcasts lost and found announcements.",
+    "grade": 1,
+    "effect": {
+      "MNY": 1,
+      "INT": 1,
+      "SPR": -1
+    }
+  },
+  "1115": {
+    "id": 1115,
+    "name": "Squandering Paint",
+    "description": "You dump your paint supply savings onto the canvas. One painting always seeps strange faces at midnight.",
+    "grade": 0,
+    "effect": {
+      "MNY": 4,
+      "SPR": 1,
+      "INT": -1
+    },
+    "exclude": [
+      1111,
+      1112
+    ],
+    "status": 2
+  },
+  "1116": {
+    "id": 1116,
+    "name": "Frequency Embers",
+    "description": "You host a late-night radio show. Once, using an old-fashioned radio, you received a song request from thirty years ago.",
+    "grade": 3,
+    "effect": {
+      "INT": 2,
+      "SPR": 1,
+      "RDM": 1
+    },
+    "exclude": [
+      1109,
+      1118
+    ]
+  },
+  "1118": {
+    "id": 1118,
+    "name": "Digital Ghost",
+    "description": "The programs you write always have one extra, untraceable process, as if something lives inside the binary.",
+    "grade": 1,
+    "effect": {
+      "INT": 2,
+      "SPR": -1
+    },
+    "exclude": [
+      1109,
+      1116
+    ]
+  },
+  "1119": {
+    "id": 1119,
+    "name": "Residual Sensitivity",
+    "description": "You can feel residual emotions from old objects. This sensitivity makes you feel out of place with those around you.",
+    "grade": 1,
+    "effect": {
+      "CHR": -1,
+      "INT": 2,
+      "SPR": -1
+    }
+  },
+  "1120": {
+    "id": 1120,
+    "name": "Exam Anchor",
+    "description": "Over a decade of test-taking experience keeps your mind steady as a rock, but the strained muscles in your lower back are all too real.",
+    "grade": 0,
+    "effect": {
+      "INT": 1,
+      "STR": -1,
+      "SPR": 1
+    }
+  },
+  "1121": {
+    "id": 1121,
+    "name": "Stage Dream Shards",
+    "description": "Years as a background extra have honed your ability to instantly become a character on camera, but in the dead of night, you sometimes can't tell which life is real.",
+    "grade": 1,
+    "effect": {
+      "CHR": 2,
+      "SPR": -2,
+      "MNY": 1
+    }
+  },
+  "1122": {
+    "id": 1122,
+    "name": "Double Shift Rotation",
+    "description": "Working day shifts on the assembly line and night shifts monitoring security cameras has hardened your body like iron, but you can't remember the last time you laughed out loud.",
+    "grade": 1,
+    "effect": {
+      "STR": 3,
+      "SPR": -3,
+      "CHR": -1
+    }
+  },
+  "1123": {
+    "id": 1123,
+    "name": "Occult Tales Bewitch",
+    "description": "You spend your days fabricating paranormal experiences online, but gradually, you notice truly inexplicable cold spots appearing around you.",
+    "grade": 1,
+    "effect": {
+      "INT": 1,
+      "CHR": 1,
+      "SPR": -1,
+      "RDM": 1
+    }
+  },
+  "1124": {
+    "id": 1124,
+    "name": "Frozen Will",
+    "description": "ALS is slowly freezing your body, but your consciousness has become razor-sharp through intensive reading, as if able to pierce barriers invisible to ordinary people.",
+    "grade": 3,
+    "effect": {
+      "INT": 3,
+      "STR": -5,
+      "SPR": -2
+    }
+  },
+  "1125": {
+    "id": 1125,
+    "name": "Street Radar",
+    "description": "After driving a taxi for half a lifetime, you know every corner of the city that’s said to be haunted, and you always take a detour before trouble starts.",
+    "grade": 0,
+    "effect": {
+      "INT": 1,
+      "SPR": 1,
+      "LIF": 1
+    }
+  },
+  "1126": {
+    "id": 1126,
+    "name": "Money Painting Dreams",
+    "description": "Family money allows you to host the most extravagant solo exhibitions, and your twisted colors and lines, it is said, have been treasured by a cult that visits your gallery daily.",
+    "grade": 2,
+    "effect": {
+      "MNY": 4,
+      "SPR": 2,
+      "INT": 1,
+      "CHR": -1
+    }
+  },
+  "1127": {
+    "id": 1127,
+    "name": "Midnight Mystique Frequency",
+    "description": "Your voice is low and magnetic. Listeners of your late-night radio show say it helps them sleep, but some whisper that your broadcasts have attracted some 'ancient listeners' from the other side.",
+    "grade": 0,
+    "effect": {
+      "CHR": 1,
+      "SPR": -1,
+      "INT": 1
+    }
+  },
+  "1128": {
+    "id": 1128,
+    "name": "Poetic Delivery",
+    "description": "In the gaps between deliveries, you jot down poems in your phone's notepad. Others say you're just a delivery driver pretending to be a poet, but you know those lines soothe your scraped knees in the dead of night.",
+    "grade": 0,
+    "effect": {
+      "STR": 1,
+      "INT": 1,
+      "SPR": 1
+    }
+  },
+  "1129": {
+    "id": 1129,
+    "name": "Embers Rekindled",
+    "description": "The embers of your mana have unexpectedly rekindled, like a candle flickering in the wind, yet they make you shine among ordinary mortals.",
+    "grade": 3,
+    "effect": {
+      "CHR": 1,
+      "INT": 1,
+      "STR": 1,
+      "SPR": 1,
+      "RDM": 1
+    }
+  },
+  "1130": {
+    "id": 1130,
+    "name": "Frozen Mind",
+    "description": "The day you were diagnosed with ALS, your world turned to snow, but it unlocked a logic that ordinary minds cannot reach.",
+    "grade": 2,
+    "effect": {
+      "INT": 4,
+      "STR": -3,
+      "LIF": -5
+    },
+    "exclusive": 1
+  },
+  "1131": {
+    "id": 1131,
+    "name": "Money Brush",
+    "description": "Your studio is stocked with the most expensive paints, but your works are criticized as 'soulless' — like painting with money.",
+    "grade": 2,
+    "effect": {
+      "MNY": 3,
+      "CHR": 1,
+      "SPR": -2
+    }
+  },
+  "1132": {
+    "id": 1132,
+    "name": "Residual Sight",
+    "description": "You can see faint, floating specks of light in the air. Others call it a hallucination, but you always manage to avoid trouble at just the right moment.",
+    "grade": 1,
+    "effect": {
+      "INT": 1,
+      "RDM": 1,
+      "SPR": -1
+    }
+  },
+  "1133": {
+    "id": 1133,
+    "name": "Iron Clock",
+    "description": "You've grown used to a sleep-reversed schedule, with the roar of machine presses as your lullaby, but your health is quietly being drained away.",
+    "grade": 1,
+    "effect": {
+      "STR": 2,
+      "SPR": -2
+    }
+  },
+  "1134": {
+    "id": 1134,
+    "name": "Night Channel",
+    "description": "Your late-night radio show receives mysterious calls, some say they are whispers of the dead; you dismiss it as a show effect, but gradually you can't tell anymore.",
+    "grade": 1,
+    "effect": {
+      "RDM": 2,
+      "SPR": -1,
+      "CHR": 1
+    }
+  },
+  "1135": {
+    "id": 1135,
+    "name": "Street Improv",
+    "description": "You always turn life into a joke. Even selling bubble tea feels like acting, but your pockets never seem to hold money.",
+    "grade": 0,
+    "effect": {
+      "CHR": 1,
+      "SPR": 1,
+      "MNY": -1
+    }
+  },
+  "1136": {
+    "id": 1136,
+    "name": "Wandering Poet's Heart",
+    "description": "A poetry collection is tied to your scooter's rear rack; you scribble broken lines at red lights. What you deliver isn't just food—it's the rhythm of life.",
+    "grade": 0,
+    "effect": {
+      "INT": 2,
+      "STR": -2,
+      "SPR": 1
+    }
+  },
+  "1137": {
+    "id": 1137,
+    "name": "Embers in Paint",
+    "description": "Your casually applied splotches of color always seem to outline mana embers unconsciously, which collectors take as divine revelation, but each painting leaves you in a daze for days.",
+    "grade": 3,
+    "effect": {
+      "MNY": 3,
+      "INT": 2,
+      "SPR": -2
+    }
+  },
+  "1138": {
+    "id": 1138,
+    "name": "Glacial Reasoning",
+    "description": "Your thoughts race like a torrent beneath ice, but your body is slowly freezing, leaving only your mind to calculate the countdown.",
+    "grade": 2,
+    "effect": {
+      "INT": 4,
+      "STR": -4,
+      "SPR": -3
+    }
+  },
+  "1139": {
+    "id": 1139,
+    "name": "Exam-Sea Scar",
+    "description": "You've been repeatedly washed over by a sea of exam questions, so any test feels like dictation, but your understanding of social nuances is thinner than a textbook.",
+    "grade": 1,
+    "effect": {
+      "INT": 4,
+      "SPR": -2,
+      "CHR": -1
+    }
+  },
+  "1140": {
+    "id": 1140,
+    "name": "Spiritual Conduit",
+    "description": "You can faintly sense residual mana fluctuations, occasionally conversing with whispers of the departed, but afterward you feel as drained as if you'd stayed up for three nights.",
+    "grade": 1,
+    "effect": {
+      "INT": 2,
+      "SPR": 1,
+      "STR": -1
+    }
+  },
+  "1141": {
+    "id": 1141,
+    "name": "Theatrical Phantom",
+    "description": "You once had lines on a Hollywood set, now you're stirring pearls in a bubble tea shop, but occasionally when facing a camera, you still instinctively recite a line.",
+    "grade": 0,
+    "effect": {
+      "CHR": 1,
+      "MNY": 1,
+      "SPR": -2
+    }
+  },
+  "1142": {
+    "id": 1142,
+    "name": "Day-Night Inversion",
+    "description": "Your biological clock is locked to late nights, the rhythm of the assembly line ingrained in your bones. In the night shift security booth, you hear subtle sounds beyond the machinery's roar.",
+    "grade": 0,
+    "effect": {
+      "STR": -2,
+      "INT": 1
+    }
+  },
+  "1143": {
+    "id": 1143,
+    "name": "City's Living Map",
+    "description": "You have every alley in this city mapped in your mind. The faint static from late-night radio, others can't make out, but you know it's the drift of some spiritual resonance.",
+    "grade": 0,
+    "effect": {
+      "INT": 1,
+      "MNY": 1,
+      "SPR": -1
+    }
+  },
+  "1144": {
+    "id": 1144,
+    "name": "Poetry on Two Wheels",
+    "description": "Half a poetry book is stuffed in the trunk of your e-bike. Between deliveries, you jot down how the wind feels against your face. Occasionally a customer tips you a few extra dollars.",
+    "grade": 0,
+    "effect": {
+      "STR": 1,
+      "INT": 1,
+      "MNY": -1
+    }
+  },
+  "1145": {
+    "id": 1145,
+    "name": "Cyber Medium",
+    "description": "You read horoscopes, perform divination, and interpret dreams online for people. You have quite a few followers, but in real life, your landlord's rent reminders outnumber private messages.",
+    "grade": 0,
+    "effect": {
+      "SPR": 2,
+      "MNY": -2,
+      "RDM": 1
+    }
+  },
+  "1146": {
+    "id": 1146,
+    "name": "Digital Ghost",
+    "description": "You hide behind code, thriving online, but once out of your room, even saying 'thank you' to a delivery driver takes all your courage.",
+    "grade": 0,
+    "effect": {
+      "INT": 3,
+      "CHR": -2,
+      "SPR": -1
+    }
+  }
+}

@@ -1,0 +1,1098 @@
+{
+  "91000": {
+    "id": 91000,
+    "name": "First Step into Immortality",
+    "description": "Successfully guided qi into the body, stepping into the Qi Refining stage, from then on immortals and mortals are separated.",
+    "grade": 0,
+    "hide": 0,
+    "condition": "FDLV >= 1"
+  },
+  "91001": {
+    "id": 91001,
+    "name": "Foundation Established",
+    "description": "Hundred days of foundation building, the Dao foundation is stable, lifespan greatly increased.",
+    "grade": 1,
+    "hide": 0,
+    "condition": "FDLV >= 2"
+  },
+  "91002": {
+    "id": 91002,
+    "name": "Golden Core Great Achievement",
+    "description": "Dragon and tiger converge, the Golden Core forms itself, myriad phenomena manifest around.",
+    "grade": 2,
+    "hide": 0,
+    "condition": "FDLV >= 3"
+  },
+  "91003": {
+    "id": 91003,
+    "name": "Nascent Soul Emerges",
+    "description": "Shatter the Golden Core to form the Nascent Soul, the Nascent Soul leaves the body, spirit roams the void.",
+    "grade": 2,
+    "hide": 0,
+    "condition": "FDLV >= 4"
+  },
+  "91004": {
+    "id": 91004,
+    "name": "Ascension to Immortality",
+    "description": "See through life and death, complete the Spirit Transformation stage, rise with clouds, shaking the three realms.",
+    "grade": 3,
+    "hide": 0,
+    "condition": "FDLV >= 5"
+  },
+  "91005": {
+    "id": 91005,
+    "name": "True Gold in Tribulation Fire",
+    "description": "Heavenly thunder tempers the body, tribulation fire refines the soul, the Dao heart is reborn amidst destruction.",
+    "grade": 2,
+    "hide": 0,
+    "condition": "MYTHC >= 1 AND FDLV >= 3"
+  },
+  "91006": {
+    "id": 91006,
+    "name": "Heart Demons Vanquished",
+    "description": "Once the mind is clear, myriad demons are extinguished, the Dao heart is transparent, seeing the true self.",
+    "grade": 3,
+    "hide": 1,
+    "condition": "HSPR >= 95 AND FDLV >= 4"
+  },
+  "91007": {
+    "id": 91007,
+    "name": "Longevity of a Hundred Years",
+    "description": "The mortal body has already experienced a hundred springs and autumns, the mortal world has seen many changes.",
+    "grade": 1,
+    "hide": 0,
+    "condition": "HAGE >= 100"
+  },
+  "91008": {
+    "id": 91008,
+    "name": "Richer than a Sect",
+    "description": "Spirit stones piled like mountains, countless magical artifacts, even the sect must defer to you.",
+    "grade": 2,
+    "hide": 0,
+    "condition": "HMNY >= 10000"
+  },
+  "91009": {
+    "id": 91009,
+    "name": "Celestial Beauty that Topples Cities",
+    "description": "Skin like jade, face like ice, a glance and a smile bring a hundred charms, leaving all palace beauties colorless.",
+    "grade": 1,
+    "hide": 0,
+    "condition": "HCHR >= 90"
+  },
+  "91010": {
+    "id": 91010,
+    "name": "Golden Core Transforms Bones",
+    "description": "One golden core pill enters the abdomen, reborn with new bones and sinews, enjoying five hundred years of life.",
+    "grade": 1,
+    "hide": 0,
+    "condition": "FDLV >= 3"
+  },
+  "91011": {
+    "id": 91011,
+    "name": "Primordial Spirit Travels the Abyss",
+    "description": "Nascent Soul leaves the body, spirit roams the void, all heaven and earth are accessible.",
+    "grade": 2,
+    "hide": 0,
+    "condition": "FDLV >= 4"
+  },
+  "91012": {
+    "id": 91012,
+    "name": "Carefree and Unrestrained",
+    "description": "After Spirit Transformation, all laws follow the heart, smiling at the multitudes striving for crossing.",
+    "grade": 3,
+    "hide": 0,
+    "condition": "FDLV >= 5"
+  },
+  "91013": {
+    "id": 91013,
+    "name": "Youthful Face Unchanged",
+    "description": "With magic to preserve youth, a hundred-year-old strange still looks like a young man.",
+    "grade": 1,
+    "hide": 0,
+    "condition": "HCHR >= 90 AND HAGE >= 150"
+  },
+  "91014": {
+    "id": 91014,
+    "name": "Chosen by Heaven",
+    "description": "Bone structure extraordinary, luck bestowed, stirring wind and clouds from birth.",
+    "grade": 2,
+    "hide": 1,
+    "condition": "SUM >= 300"
+  },
+  "91015": {
+    "id": 91015,
+    "name": "Spirit Stones Form a Mountain",
+    "description": "Wealth abundant, spirit stones pile like a mountain, elixirs and artifacts beyond count.",
+    "grade": 0,
+    "hide": 0,
+    "condition": "HMNY >= 1000"
+  },
+  "91016": {
+    "id": 91016,
+    "name": "Physical Body Achieves Sainthood",
+    "description": "Specializing in body cultivation, blood and qi like a dragon, resisting heavenly might without magic artifacts.",
+    "grade": 2,
+    "hide": 0,
+    "condition": "HSTR >= 120"
+  },
+  "91017": {
+    "id": 91017,
+    "name": "Enlightened to True Self",
+    "description": "Instantaneous enlightenment, the Dao heart is transparent, all worldly methods are but illusions.",
+    "grade": 1,
+    "hide": 0,
+    "condition": "HINT >= 100"
+  },
+  "91018": {
+    "id": 91018,
+    "name": "Perished in Tribulations",
+    "description": "Endured five calamities without falling, a mythical existence, both immortals and demons fear.",
+    "grade": 3,
+    "hide": 1,
+    "condition": "MYTHC >= 5"
+  },
+  "91019": {
+    "id": 91019,
+    "name": "Harmony of Zither and Se",
+    "description": "A red-sleeved companion adds fragrance, Dao couple deep in love, on the path of ascension no one is missing.",
+    "grade": 3,
+    "hide": 0,
+    "condition": "HCHR >= 80 AND HSPR >= 95 AND FDLV >= 4"
+  },
+  "91020": {
+    "id": 91020,
+    "name": "Qi Refining Emergence",
+    "description": "A wisp of spiritual energy enters the body, mortal fetus begins to shed mortal dust.",
+    "grade": 0,
+    "hide": 0,
+    "condition": "FDLV >= 1"
+  },
+  "91021": {
+    "id": 91021,
+    "name": "Foundation Establishment Quest for Immortality",
+    "description": "Foundation built in the dantian, the path to immortality begins from here.",
+    "grade": 0,
+    "hide": 0,
+    "condition": "FDLV >= 2"
+  },
+  "91022": {
+    "id": 91022,
+    "name": "Golden Core Dao Seed",
+    "description": "Dragon and tiger converge, golden core initially formed, lifespan doubled.",
+    "grade": 1,
+    "hide": 0,
+    "condition": "FDLV >= 3"
+  },
+  "91023": {
+    "id": 91023,
+    "name": "Nascent Soul Transformation",
+    "description": "Purple mansion nascent soul exits, soars through heaven and earth, magical powers self-formed.",
+    "grade": 2,
+    "hide": 0,
+    "condition": "FDLV >= 4"
+  },
+  "91024": {
+    "id": 91024,
+    "name": "Transcending Soul Tribulation",
+    "description": "Three calamities and nine tribulations passed, primordial spirit indestructible, half-step to immortal rank.",
+    "grade": 3,
+    "hide": 0,
+    "condition": "FDLV >= 5"
+  },
+  "91025": {
+    "id": 91025,
+    "name": "Millennium Immortal Longevity",
+    "description": "Lifespan exceeds five hundred years, the mortal world has already cycled through several reincarnations.",
+    "grade": 2,
+    "hide": 0,
+    "condition": "HAGE >= 500"
+  },
+  "91026": {
+    "id": 91026,
+    "name": "Heavenly Thunder Tempered Body",
+    "description": "Thunder tribulation strikes but not extinguished, physical body transformed into a precious raft.",
+    "grade": 2,
+    "hide": 1,
+    "condition": "MYTHC >= 1"
+  },
+  "91027": {
+    "id": 91027,
+    "name": "Love Tribulation Questioning Love",
+    "description": "Gain one person's heart, cultivate together until white hair, deep bond of Dao companions.",
+    "grade": 1,
+    "hide": 0,
+    "condition": "HCHR >= 80 AND HSPR >= 80"
+  },
+  "91028": {
+    "id": 91028,
+    "name": "Immortal Second Generation",
+    "description": "Born into an immortal cultivation family, immortal resources and spiritual materials never lacking since childhood.",
+    "grade": 1,
+    "hide": 0,
+    "condition": "HMNY >= 10000"
+  },
+  "91029": {
+    "id": 91029,
+    "name": "Carefree Immortal Path",
+    "description": "No attachments, heart state complete, laughing proudly in the nine heavens.",
+    "grade": 3,
+    "hide": 0,
+    "condition": "HSPR >= 100 AND SUM >= 5000"
+  },
+  "91030": {
+    "id": 91030,
+    "name": "First Glimpse of the Path",
+    "description": "Lead qi into the body, dantian first warms, henceforth step onto the immortal path. The road ahead is long, the Dao heart just awakened.",
+    "grade": 0,
+    "hide": 0,
+    "condition": "FDLV >= 1"
+  },
+  "91031": {
+    "id": 91031,
+    "name": "Foundation Establishment Achieved",
+    "description": "Hundred-day foundation establishment, reborn with new bones, mortal frame gradually transforms into immortal bones. Controlling artifacts and soaring in the void, only then know the vastness of heaven and earth.",
+    "grade": 1,
+    "hide": 0,
+    "condition": "FDLV >= 2"
+  },
+  "91032": {
+    "id": 91032,
+    "name": "Golden Core True Person",
+    "description": "Swallow a golden core into the belly, then know that my destiny is not controlled by heaven. Lifespan over hundreds, the title of True Person already obtained.",
+    "grade": 2,
+    "hide": 0,
+    "condition": "FDLV >= 3"
+  },
+  "91033": {
+    "id": 91033,
+    "name": "Nascent Soul Loose Immortal",
+    "description": "Shatter the core to form an infant, spirit roams the void, second primordial spirit exits. All cultivators under heaven bow their heads and submit.",
+    "grade": 3,
+    "hide": 0,
+    "condition": "FDLV >= 4"
+  },
+  "91034": {
+    "id": 91034,
+    "name": "Transcending Soul Patriarch",
+    "description": "Spirit merges with heaven and earth, all mortal causality severed. A wave of the hand, mountains and rivers tremble, the great Dao is already near.",
+    "grade": 3,
+    "hide": 0,
+    "condition": "FDLV >= 5"
+  },
+  "91035": {
+    "id": 91035,
+    "name": "Beauty and Bones",
+    "description": "Peerless appearance stirs up tribulation waves, Dao companion turns hostile, love debt entangles. Once autumn wind rises, rosy beauty turns to white bones.",
+    "grade": 1,
+    "hide": 1,
+    "condition": "HCHR >= 90 AND HSPR <= 20"
+  },
+  "91036": {
+    "id": 91036,
+    "name": "Millennium Turtle",
+    "description": "No matter how brilliant and talented you are, you can't match me surviving for a thousand years. Lifespan long, laughing as peers turn into yellow earth.",
+    "grade": 2,
+    "hide": 0,
+    "condition": "HAGE >= 500"
+  },
+  "91037": {
+    "id": 91037,
+    "name": "Nine Deaths Unrepentant",
+    "description": "Meridians shattered inch by inch, Dao foundation about to be destroyed, yet repeatedly crawl out from mountains of corpses and seas of blood. Fate this tough, even heaven fears three parts.",
+    "grade": 2,
+    "hide": 1,
+    "condition": "HSTR <= 20 AND HAGE >= 200"
+  },
+  "91038": {
+    "id": 91038,
+    "name": "Money Can Reach the Gods",
+    "description": "Spirit stones like mountains, magical treasures like forests. Although not yet ascended in this life, already the wealthiest in the land, even the heavenly tribulation thunder can be paid for someone else to endure.",
+    "grade": 1,
+    "hide": 0,
+    "condition": "HMNY >= 1000"
+  },
+  "91039": {
+    "id": 91039,
+    "name": "Child of Fortune",
+    "description": "Heaven sends auspicious colors, earth gushes golden lotuses, opportunities never cease, as if the favorite child of heaven. Others beg bitterly but cannot obtain, yet you get them as easily as reaching out.",
+    "grade": 3,
+    "hide": 0,
+    "condition": "MYTHC >= 5"
+  },
+  "91040": {
+    "id": 91040,
+    "name": "First Step on Immortal Path",
+    "description": "Cast off mortal bones, step onto the immortal path, foundation established.",
+    "grade": 1,
+    "hide": 0,
+    "condition": "FDLV >= 2"
+  },
+  "91041": {
+    "id": 91041,
+    "name": "Nine Cycles of Golden Elixir",
+    "description": "Swallow one golden elixir, and know that fate is not controlled by heaven.",
+    "grade": 2,
+    "hide": 0,
+    "condition": "FDLV >= 3"
+  },
+  "91042": {
+    "id": 91042,
+    "name": "Nascent Soul Embryo",
+    "description": "Nascent Soul sits in the Purple Mansion, lifespan exceeds a thousand years.",
+    "grade": 3,
+    "hide": 0,
+    "condition": "FDLV >= 4"
+  },
+  "91043": {
+    "id": 91043,
+    "name": "Shattering the Void",
+    "description": "Spirit roams the Great Void, physical body attains sainthood, a single thought breaks through realms.",
+    "grade": 3,
+    "hide": 0,
+    "condition": "FDLV >= 5"
+  },
+  "91044": {
+    "id": 91044,
+    "name": "Millennium Longevity Immortal",
+    "description": "Enduring a thousand years of storms, mortal world cycles repeatedly, only immortal path is eternal.",
+    "grade": 3,
+    "hide": 0,
+    "condition": "HAGE >= 1000"
+  },
+  "91045": {
+    "id": 91045,
+    "name": "Physical Body Attaining Sainthood",
+    "description": "Without relying on treasures, the physical body crosses tribulation lightning, immortal through the ages.",
+    "grade": 2,
+    "hide": 1,
+    "condition": "HSTR >= 500"
+  },
+  "91046": {
+    "id": 91046,
+    "name": "Exhausting Heavenly Secrets",
+    "description": "Deduce heavenly secrets, array path reaches divine level, all things within grasp.",
+    "grade": 2,
+    "hide": 0,
+    "condition": "HINT >= 500"
+  },
+  "91047": {
+    "id": 91047,
+    "name": "Wealth Can Reach the Gods",
+    "description": "Ten sides of immortal stones, spirit veins as home, richest in the thirty-six caves and seventy-two blessed lands.",
+    "grade": 1,
+    "hide": 0,
+    "condition": "HMNY >= 100000"
+  },
+  "91048": {
+    "id": 91048,
+    "name": "Laughing Away the Mortal World",
+    "description": "Seek not immortality, but joy; a hundred years of red dust vanish in one laugh.",
+    "grade": 0,
+    "hide": 1,
+    "condition": "HSPR >= 300 AND FDLV <= 2 AND HAGE >= 200"
+  },
+  "91049": {
+    "id": 91049,
+    "name": "Mandate of Heaven",
+    "description": "Fortune favors, countless immortal encounters, nine myths appear, reaching the summit.",
+    "grade": 3,
+    "hide": 0,
+    "condition": "MYTHC >= 5"
+  },
+  "91050": {
+    "id": 91050,
+    "name": "Qi Refining Begins",
+    "description": "Draw heaven and earth qi into body, step into Qi Refining stage, path begins here.",
+    "grade": 0,
+    "hide": 0,
+    "condition": "FDLV >= 1"
+  },
+  "91051": {
+    "id": 91051,
+    "name": "Foundation Establishment",
+    "description": "Condense liquid into foundation, dao platform first erected, cultivation foundation solidified.",
+    "grade": 1,
+    "hide": 0,
+    "condition": "FDLV >= 2"
+  },
+  "91052": {
+    "id": 91052,
+    "name": "Golden Elixir Great Achievement",
+    "description": "Dragon and tiger merge, golden elixir forms within, divine powers arise, lifespan greatly increases.",
+    "grade": 2,
+    "hide": 0,
+    "condition": "FDLV >= 3"
+  },
+  "91053": {
+    "id": 91053,
+    "name": "Nascent Soul Proving Dao",
+    "description": "Shatter elixir to form infant, primordial spirit appears, able to roam outside body, heaven and earth boundless.",
+    "grade": 2,
+    "hide": 0,
+    "condition": "FDLV >= 4"
+  },
+  "91054": {
+    "id": 91054,
+    "name": "Spirit Transformation True Immortal",
+    "description": "Primordial spirit transforms into spirit, comprehending heavenly dao, only one step from ascension, revered by all.",
+    "grade": 3,
+    "hide": 0,
+    "condition": "FDLV >= 5"
+  },
+  "91055": {
+    "id": 91055,
+    "name": "Lifespan Equal to Heaven",
+    "description": "Cultivating immortality for two hundred years, years like a song, dao heart imperishable.",
+    "grade": 2,
+    "hide": 0,
+    "condition": "HAGE >= 200"
+  },
+  "91056": {
+    "id": 91056,
+    "name": "Defying Heaven to Change Fate",
+    "description": "All say fate is hard to defy, yet you have written a myth.",
+    "grade": 1,
+    "hide": 0,
+    "condition": "MYTHC >= 1"
+  },
+  "91057": {
+    "id": 91057,
+    "name": "Favor of Heaven",
+    "description": "Three myths appear, even heavenly dao glances at you.",
+    "grade": 2,
+    "hide": 1,
+    "condition": "MYTHC >= 3"
+  },
+  "91058": {
+    "id": 91058,
+    "name": "Banished Immortal's Countenance",
+    "description": "Peerless beauty, immortal grace and jade bones, not like one of the mundane world.",
+    "grade": 2,
+    "hide": 1,
+    "condition": "HCHR >= 95"
+  },
+  "91059": {
+    "id": 91059,
+    "name": "Vast Immortal Wealth",
+    "description": "Spirit stones piled like mountains, wealth rivaling a sect.",
+    "grade": 1,
+    "hide": 0,
+    "condition": "HMNY >= 100000"
+  },
+  "91060": {
+    "id": 91060,
+    "name": "First Glimpse of Immortal Path",
+    "description": "Spiritual Root awakens, a wisp of Qi enters the body, finally stepping onto the Qi Refining stage.",
+    "grade": 0,
+    "hide": 0,
+    "condition": "FDLV >= 1"
+  },
+  "91061": {
+    "id": 91061,
+    "name": "Foundation Establishment Achieved",
+    "description": "Foundation built in Dantian, shedding mortal bones, lifespan suddenly increases by a hundred years.",
+    "grade": 1,
+    "hide": 0,
+    "condition": "FDLV >= 2"
+  },
+  "91062": {
+    "id": 91062,
+    "name": "Golden Core Great Way",
+    "description": "Dragon and tiger converge, one golden core swallowed into the abdomen, realizing that one's fate is not controlled by heaven.",
+    "grade": 2,
+    "hide": 0,
+    "condition": "FDLV >= 3"
+  },
+  "91063": {
+    "id": 91063,
+    "name": "Nascent Soul Emerges",
+    "description": "Nascent Soul sits in the Purple Mansion, spirit roams beyond the Tai Xu, all phenomena of heaven and earth are captured in sight.",
+    "grade": 2,
+    "hide": 0,
+    "condition": "FDLV >= 4"
+  },
+  "91064": {
+    "id": 91064,
+    "name": "Divine Transformation Ascension",
+    "description": "Primordial Spirit reaches great accomplishment, attracting heavenly tribulation, about to shatter the void and depart.",
+    "grade": 3,
+    "hide": 0,
+    "condition": "FDLV >= 5"
+  },
+  "91065": {
+    "id": 91065,
+    "name": "Beloved Dao Companion",
+    "description": "Found a like-minded Dao companion, harmonious as lute and zither, together embarking on the path to immortality.",
+    "grade": 1,
+    "hide": 1,
+    "condition": "HSPR >= 200"
+  },
+  "91066": {
+    "id": 91066,
+    "name": "Mystic Realm Serendipity",
+    "description": "Obtained heaven-defying fortune in a deadly mystic realm, even the laws of heaven and earth take notice.",
+    "grade": 2,
+    "hide": 0,
+    "condition": "MYTHC >= 2"
+  },
+  "91067": {
+    "id": 91067,
+    "name": "Nine Deaths Tribulation",
+    "description": "Survived nine deaths in the heavenly tribulation, yet the Dao heart becomes even clearer, like a divine weapon tempered by fire.",
+    "grade": 2,
+    "hide": 1,
+    "condition": "LIF <= 10 AND FDLV >= 4"
+  },
+  "91068": {
+    "id": 91068,
+    "name": "Immortal Beauty",
+    "description": "Peerless countenance, bearing like a banished immortal descending to the mortal world, captivating all cultivators.",
+    "grade": 1,
+    "hide": 0,
+    "condition": "HCHR >= 95"
+  },
+  "91069": {
+    "id": 91069,
+    "name": "Boundless Immortal Wealth",
+    "description": "Spirit stones piled into mountains, countless precious materials, laughing proudly in the cultivation world.",
+    "grade": 0,
+    "hide": 0,
+    "condition": "HMNY >= 500"
+  },
+  "91070": {
+    "id": 91070,
+    "name": "First Step on the Path",
+    "description": "Draw heaven and earth's spiritual Qi into the body, shed mortal shell to become a cultivator, Qi Refining accomplished, entering the immortal path.",
+    "grade": 0,
+    "hide": 0,
+    "condition": "FDLV >= 1"
+  },
+  "91071": {
+    "id": 91071,
+    "name": "Nascent Soul Emerges",
+    "description": "Shatter the golden core to form an infant, Primordial Spirit takes form, one more carefree wanderer between heaven and earth, one less person in the mundane world.",
+    "grade": 2,
+    "hide": 0,
+    "condition": "FDLV >= 4"
+  },
+  "91072": {
+    "id": 91072,
+    "name": "Divine Transformation True Lord",
+    "description": "Primordial Spirit returns to emptiness, communicates with the great Dao, every move causes wind and clouds to change, this is Divine Transformation.",
+    "grade": 3,
+    "hide": 0,
+    "condition": "FDLV >= 5"
+  },
+  "91073": {
+    "id": 91073,
+    "name": "Daytime Ascension",
+    "description": "Survive the ninefold heavenly thunder tribulation without perishing, attain true immortality, break through the realm and ascend, leaving a legend in the mortal world.",
+    "grade": 3,
+    "hide": 0,
+    "condition": "FDLV >= 6"
+  },
+  "91074": {
+    "id": 91074,
+    "name": "Captivating Immortal Grace",
+    "description": "Jade bones and ice skin, heavenly beauty, even in the cultivation world she is unparalleled, her glances stir countless heart demons.",
+    "grade": 1,
+    "hide": 0,
+    "condition": "HCHR >= 120"
+  },
+  "91075": {
+    "id": 91075,
+    "name": "Mystery Meditation and Dao Enlightenment",
+    "description": "Wisdom light penetrates through, thoroughly understands heavenly secrets, calculating all methods like observing palm lines, Dao heart's firmness rarely seen in the world.",
+    "grade": 2,
+    "hide": 0,
+    "condition": "HINT >= 150"
+  },
+  "91076": {
+    "id": 91076,
+    "name": "Surviving the Demon Calamity",
+    "description": "Several times heart demons devoured the soul, Dao heart nearly shattered, yet in desperation breaks down and rebuilds, instead attaining great enlightenment.",
+    "grade": 2,
+    "hide": 1,
+    "condition": "MYTHC >= 5"
+  },
+  "91077": {
+    "id": 91077,
+    "name": "Immortality and Eternal Life",
+    "description": "Lifespan exceeds a thousand years, witnessed seas change to mulberry fields, the immortal path is long, only you walk alone to this day.",
+    "grade": 3,
+    "hide": 0,
+    "condition": "HAGE >= 1000"
+  },
+  "91078": {
+    "id": 91078,
+    "name": "First Glimpse of the Path",
+    "description": "Draw Qi into the body, finally shed mortal shell, the immortal path begins from here.",
+    "grade": 0,
+    "hide": 0,
+    "condition": "FDLV >= 1"
+  },
+  "91079": {
+    "id": 91079,
+    "name": "Dao Foundation Initially Established",
+    "description": "Foundation built over a hundred days, spiritual root stabilized, lifespan extended by a hundred years.",
+    "grade": 1,
+    "hide": 0,
+    "condition": "FDLV >= 2"
+  },
+  "91080": {
+    "id": 91080,
+    "name": "Golden Elixir Ninefold",
+    "description": "Swallowing a golden elixir, one realizes that one's fate is not determined by heaven.",
+    "grade": 2,
+    "hide": 0,
+    "condition": "FDLV >= 3"
+  },
+  "91081": {
+    "id": 91081,
+    "name": "Nascent Soul Breaks Cocoon",
+    "description": "Shattering the elixir to form the Nascent Soul, the spirit roams the void, sharing the lifespan of heaven and earth is no empty talk.",
+    "grade": 3,
+    "hide": 0,
+    "condition": "FDLV >= 4"
+  },
+  "91082": {
+    "id": 91082,
+    "name": "Divine Transformation Ascends to Immortal",
+    "description": "The primordial spirit unites with the Dao, surviving tribulations without perishing, becoming the first immortal above the nine heavens.",
+    "grade": 3,
+    "hide": 1,
+    "condition": "FDLV >= 5"
+  },
+  "91083": {
+    "id": 91083,
+    "name": "Spirit Stones in Abundance",
+    "description": "Spirit stones are like mountains in the storage pouch, cultivation resources are worry-free.",
+    "grade": 1,
+    "hide": 0,
+    "condition": "HMNY >= 10000"
+  },
+  "91084": {
+    "id": 91084,
+    "name": "Immortal Couple Bond",
+    "description": "Meeting a Dao companion, the zither and se blend in harmony, the immortal path is not lonely.",
+    "grade": 2,
+    "hide": 0,
+    "condition": "HSPR >= 90 AND HAGE >= 50"
+  },
+  "91085": {
+    "id": 91085,
+    "name": "Crossing Tribulation to Prove the Dao",
+    "description": "The lightning tribulation tempers the body, surviving through a hundred deaths, finally earning the recognition of heaven's Dao.",
+    "grade": 2,
+    "hide": 0,
+    "condition": "MYTHC >= 1"
+  },
+  "91086": {
+    "id": 91086,
+    "name": "Two Hundred Springs and Autumns",
+    "description": "Cultivating the Dao for two hundred years, witnessing the vicissitudes of the mortal world.",
+    "grade": 1,
+    "hide": 0,
+    "condition": "HAGE >= 200"
+  },
+  "91087": {
+    "id": 91087,
+    "name": "Immortal Visage Everlasting",
+    "description": "Skin like congealed fat, face like jade, a hundred years without signs of aging.",
+    "grade": 1,
+    "hide": 0,
+    "condition": "HCHR >= 90"
+  },
+  "91088": {
+    "id": 91088,
+    "name": "First Glimpse of the Immortal Path",
+    "description": "Drawing qi into the body, one realizes the vastness of heaven and earth, and thus steps onto the path of defying heaven.",
+    "grade": 0,
+    "hide": 0,
+    "condition": "FDLV >= 1"
+  },
+  "91089": {
+    "id": 91089,
+    "name": "Foundation Establishment Accomplished",
+    "description": "Building the Dao foundation in the dantian, the immortal path begins to appear, lifespan already beyond the ordinary.",
+    "grade": 1,
+    "hide": 0,
+    "condition": "FDLV >= 2"
+  },
+  "91090": {
+    "id": 91090,
+    "name": "Golden Elixir True Person",
+    "description": "Dragon and tiger intertwine, swallowing a golden elixir, one knows that fate is in one's own hands, not heaven's.",
+    "grade": 2,
+    "hide": 0,
+    "condition": "FDLV >= 3"
+  },
+  "91091": {
+    "id": 91091,
+    "name": "Nascent Soul Ancestor",
+    "description": "Shattering the elixir to form the Nascent Soul, the primordial spirit is initially formed, with a lift of the hand one can move mountains and seas.",
+    "grade": 3,
+    "hide": 0,
+    "condition": "FDLV >= 4"
+  },
+  "91092": {
+    "id": 91092,
+    "name": "Divine Transformation Heavenly Venerable",
+    "description": "The primordial spirit unites with the Dao, the Dharma form fills the heavens, in a single thought, the starry river turns upside down.",
+    "grade": 3,
+    "hide": 1,
+    "condition": "FDLV >= 5"
+  },
+  "91093": {
+    "id": 91093,
+    "name": "Century-Old Body",
+    "description": "A hundred years in the mortal world, countenance unchanged, people respectfully call you 'Old Immortal'.",
+    "grade": 1,
+    "hide": 0,
+    "condition": "HAGE >= 100"
+  },
+  "91094": {
+    "id": 91094,
+    "name": "Millennium Legend",
+    "description": "Rewriting fate three times, the legends spread among the marketplaces are all roads you have walked.",
+    "grade": 3,
+    "hide": 0,
+    "condition": "MYTHC >= 3"
+  },
+  "91095": {
+    "id": 91095,
+    "name": "Unmatched Immortal Grace",
+    "description": "A smile turning back makes mountains and rivers lose color; even the celestial maidens of the nine heavens are no more than this.",
+    "grade": 2,
+    "hide": 0,
+    "condition": "HCHR >= 90"
+  },
+  "91096": {
+    "id": 91096,
+    "name": "Boundless Wealth",
+    "description": "Spirit stones pave the ground, magical treasures fill the warehouse, cultivation resources are inexhaustible.",
+    "grade": 1,
+    "hide": 0,
+    "condition": "HMNY >= 1000"
+  },
+  "91097": {
+    "id": 91097,
+    "name": "Carefree in the World",
+    "description": "With no attachments in the heart, riding a sword on the clouds, roaming freely between heaven and earth.",
+    "grade": 2,
+    "hide": 0,
+    "condition": "HSPR >= 100"
+  },
+  "91098": {
+    "id": 91098,
+    "name": "First Entry into the Immortal Gate",
+    "description": "Feeling qi entering the body, stepping onto the path of Qi Refinement, immortals and mortals part ways from then on.",
+    "grade": 0,
+    "hide": 0,
+    "condition": "FDLV >= 1"
+  },
+  "91099": {
+    "id": 91099,
+    "name": "Foundation Establishment Accomplished",
+    "description": "Building the Dao foundation in the dantian, lifespan extends to one hundred fifty, the Dao path is henceforth stable.",
+    "grade": 1,
+    "hide": 0,
+    "condition": "FDLV >= 2"
+  },
+  "91100": {
+    "id": 91100,
+    "name": "Golden Core Path",
+    "description": "Dragon and tiger converge, golden core solidifies, one can be called a true person, sword flying for a thousand miles.",
+    "grade": 2,
+    "hide": 0,
+    "condition": "FDLV >= 3"
+  },
+  "91101": {
+    "id": 91101,
+    "name": "Nascent Soul Emergence",
+    "description": "Core shatters into infant, soul indestructible, moving mountains and overturning seas, awe-inspiring one region.",
+    "grade": 3,
+    "hide": 0,
+    "condition": "FDLV >= 4"
+  },
+  "91102": {
+    "id": 91102,
+    "name": "Daytime Ascension",
+    "description": "Surviving heavenly tribulation, ascending in rosy clouds, entering the ranks of immortals, as long-lived as heaven.",
+    "grade": 3,
+    "hide": 1,
+    "condition": "FDLV >= 6"
+  },
+  "91103": {
+    "id": 91103,
+    "name": "A Millennium of Cultivation",
+    "description": "Cultivating for a thousand years, witnessing all mortal vicissitudes, only then realizing the loneliness of immortality.",
+    "grade": 2,
+    "hide": 0,
+    "condition": "HAGE >= 1000"
+  },
+  "91104": {
+    "id": 91104,
+    "name": "Banned Immortal Appearance",
+    "description": "Unearthly beauty, looks like an immortal, even the cultivation world is captivated.",
+    "grade": 1,
+    "hide": 0,
+    "condition": "HCHR >= 95"
+  },
+  "91105": {
+    "id": 91105,
+    "name": "No Flaw in Calculation",
+    "description": "Mind nearly demonic, deducing heavenly secrets, all things within grasp.",
+    "grade": 1,
+    "hide": 0,
+    "condition": "HINT >= 95"
+  },
+  "91106": {
+    "id": 91106,
+    "name": "Indestructible Immortal Body",
+    "description": "Body becomes saint, diamond indestructible, enduring myriad tribulations without decay.",
+    "grade": 1,
+    "hide": 0,
+    "condition": "HSTR >= 95"
+  },
+  "91107": {
+    "id": 91107,
+    "name": "Destiny Ordained",
+    "description": "Repeatedly encountering miraculous opportunities, fortune favoring, as if a child of heaven's way.",
+    "grade": 2,
+    "hide": 0,
+    "condition": "MYTHC >= 3"
+  },
+  "91108": {
+    "id": 91108,
+    "name": "First Step into Immortal Path",
+    "description": "A wisp of spiritual energy enters the body, officially departing the mortal world, henceforth mountains high and waters long, immortal path distant.",
+    "grade": 0,
+    "hide": 0,
+    "condition": "FDLV >= 1"
+  },
+  "91109": {
+    "id": 91109,
+    "name": "Feathered Ascension to Immortality",
+    "description": "Nine tribulations passed, heavenly gate opens, ascending in daytime, thus leaping out of the three realms, not within the five elements.",
+    "grade": 3,
+    "hide": 0,
+    "condition": "FDLV >= 5"
+  },
+  "91110": {
+    "id": 91110,
+    "name": "A Millennial Dream",
+    "description": "Cultivation knows not years, look back and a thousand years have passed, old friends withered, only the Dao remains eternal.",
+    "grade": 2,
+    "hide": 0,
+    "condition": "HAGE >= 1000"
+  },
+  "91111": {
+    "id": 91111,
+    "name": "Unfathomable Heavenly Secrets",
+    "description": "Root of wisdom deeply planted, deducing heavenly secrets like reading palm lines, a rare cultivation genius among ten thousand.",
+    "grade": 1,
+    "hide": 0,
+    "condition": "HINT >= 95"
+  },
+  "91112": {
+    "id": 91112,
+    "name": "Spirit Stones Like Rain",
+    "description": "Owning immortal crystal veins, spirit stones piled like mountains, all world's wealth enters the pocket, why worry about resources in cultivation.",
+    "grade": 1,
+    "hide": 0,
+    "condition": "HMNY >= 1000000"
+  },
+  "91113": {
+    "id": 91113,
+    "name": "Immortal Grace and Beauty",
+    "description": "Looks like a celestial, one glance topples a city, second glance topples a nation, even the cultivation world turns heads for the countenance.",
+    "grade": 1,
+    "hide": 0,
+    "condition": "HCHR >= 95"
+  },
+  "91114": {
+    "id": 91114,
+    "name": "Dao Heart Clear and Bright",
+    "description": "Enduring myriad tribulations without falling from original heart, dao heart clear as crystal, ten thousand dharmas cannot invade, truly an immortal seed.",
+    "grade": 1,
+    "hide": 0,
+    "condition": "HSPR >= 95"
+  },
+  "91115": {
+    "id": 91115,
+    "name": "Nine Cycles of Reincarnation",
+    "description": "Repeatedly reincarnating and rebuilding cultivation, comprehending dao between life and death, ninth life finally glimpses the gate of great dao.",
+    "grade": 2,
+    "hide": 0,
+    "condition": "SUM >= 10"
+  },
+  "91116": {
+    "id": 91116,
+    "name": "Myth Eternal",
+    "description": "Repeatedly creating legendary tales, name recorded in immortal history, future generations look up, already a figure of myth.",
+    "grade": 3,
+    "hide": 1,
+    "condition": "MYTHC >= 3"
+  },
+  "91117": {
+    "id": 91117,
+    "name": "First Sense of Qi",
+    "description": "First time drawing qi into the body, immortal path begins, mortal world gradually fades.",
+    "grade": 0,
+    "hide": 0,
+    "condition": "FDLV >= 1"
+  },
+  "91118": {
+    "id": 91118,
+    "name": "Foundation Established",
+    "description": "Through a hundred days of arduous cultivation, lays immortal foundation, henceforth transcends the mundane.",
+    "grade": 1,
+    "hide": 0,
+    "condition": "FDLV >= 2"
+  },
+  "91119": {
+    "id": 91119,
+    "name": "Golden Core Barrier Broken",
+    "description": "Elixir completed nine cycles, shattered mortal body, lifespan surged by three hundred years.",
+    "grade": 2,
+    "hide": 0,
+    "condition": "FDLV >= 3"
+  },
+  "91120": {
+    "id": 91120,
+    "name": "Nascent Soul's First Cry",
+    "description": "The dantian nurtures an infant, as if reborn; the Nascent Soul exits the body and roams a thousand miles.",
+    "grade": 2,
+    "hide": 0,
+    "condition": "FDLV >= 4"
+  },
+  "91121": {
+    "id": 91121,
+    "name": "Divine Transformation and Return to Void",
+    "description": "The spirit merges with the Dao, returning to simplicity; soon to ascend.",
+    "grade": 3,
+    "hide": 0,
+    "condition": "FDLV >= 5"
+  },
+  "91122": {
+    "id": 91122,
+    "name": "Old but Not Dead",
+    "description": "Lived over three hundred years, witnessing the rise and fall of several dynasties.",
+    "grade": 3,
+    "hide": 0,
+    "condition": "HAGE >= 300"
+  },
+  "91123": {
+    "id": 91123,
+    "name": "Enduring Three Calamities",
+    "description": "Struck by three heavenly tribulations, died and revived; even heaven cannot take him.",
+    "grade": 3,
+    "hide": 1,
+    "condition": "MYTHC >= 3"
+  },
+  "91124": {
+    "id": 91124,
+    "name": "Only Envy the Mandarin Ducks",
+    "description": "Found a perfect match, harmonious like lute and zither; the immortal path is not walked alone.",
+    "grade": 1,
+    "hide": 0,
+    "condition": "HSPR >= 90"
+  },
+  "91125": {
+    "id": 91125,
+    "name": "Myriad Strings of Immortal Wealth",
+    "description": "Amassed spirit stones like mountains; any secret treasure in the world can be taken.",
+    "grade": 2,
+    "hide": 0,
+    "condition": "HMNY >= 1000"
+  },
+  "91126": {
+    "id": 91126,
+    "name": "Three Flowers Crowned at the Summit",
+    "description": "Peerless in talent, appearance, and physique; no contemporary surpasses him.",
+    "grade": 2,
+    "hide": 0,
+    "condition": "HCHR >= 80 AND HINT >= 80 AND HSTR >= 80"
+  },
+  "91127": {
+    "id": 91127,
+    "name": "First Step on the Immortal Path",
+    "description": "Refined Qi into the body, spirit root awakened; henceforth a stranger to the mortal world.",
+    "grade": 0,
+    "hide": 0,
+    "condition": "FDLV >= 1"
+  },
+  "91128": {
+    "id": 91128,
+    "name": "Foundation Establishment Achieved",
+    "description": "Dantian like a cauldron, the foundation of the Dao initially solidified; the immortal path henceforth has fewer calamities.",
+    "grade": 1,
+    "hide": 0,
+    "condition": "FDLV >= 2"
+  },
+  "91129": {
+    "id": 91129,
+    "name": "Golden Core True Person",
+    "description": "Swallowed a golden core into the belly; only then knew my fate is not controlled by heaven.",
+    "grade": 2,
+    "hide": 0,
+    "condition": "FDLV >= 3"
+  },
+  "91130": {
+    "id": 91130,
+    "name": "Nascent Soul Patriarch",
+    "description": "A red infant sits in the Purple Mansion; supernatural powers arise naturally; a lifespan of a thousand years is foreseeable.",
+    "grade": 2,
+    "hide": 0,
+    "condition": "FDLV >= 4"
+  },
+  "91131": {
+    "id": 91131,
+    "name": "Divine Transformation Heavenly Venerable",
+    "description": "The primordial spirit transforms into myriad; with a thought, mountains and rivers change color; only one step away from breaking the void.",
+    "grade": 3,
+    "hide": 1,
+    "condition": "FDLV >= 5"
+  },
+  "91132": {
+    "id": 91132,
+    "name": "Longevity Comparable to Immortal Peaks",
+    "description": "Three hundred springs and autumns pass in a snap; green mountains remain, this body not aged.",
+    "grade": 1,
+    "hide": 0,
+    "condition": "HAGE >= 300"
+  },
+  "91133": {
+    "id": 91133,
+    "name": "Deep Immortal Affinity",
+    "description": "Entered secret realms three times and obtained fortune; a frequent visitor to immortal caves.",
+    "grade": 2,
+    "hide": 0,
+    "condition": "MYTHC >= 3"
+  },
+  "91134": {
+    "id": 91134,
+    "name": "Red Beauty Like Snow",
+    "description": "Jade bone and ice skin, peerless beauty; even immortals would turn their heads.",
+    "grade": 1,
+    "hide": 0,
+    "condition": "HCHR >= 90"
+  },
+  "91135": {
+    "id": 91135,
+    "name": "Master of the Spirit Mountain",
+    "description": "Spirit stones like a mountain range; wealth rivaling a sect.",
+    "grade": 2,
+    "hide": 0,
+    "condition": "HMNY >= 50000"
+  },
+  "91136": {
+    "id": 91136,
+    "name": "Passerby of Reincarnation",
+    "description": "In a hundred reincarnations, you have seen different fireworks, yet still walk on this immortal path.",
+    "grade": 1,
+    "hide": 0,
+    "condition": "SUM >= 20"
+  }
+}

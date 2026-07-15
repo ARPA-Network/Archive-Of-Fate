@@ -1,0 +1,108 @@
+
+@font-face {
+  font-family: 'Departure Mono';
+  src: 
+       url('/fonts/DepartureMono-Regular.woff') format('woff'),
+       url('/fonts/DepartureMono-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Fusion Pixel';
+  src: 
+       url('/fonts/fusion-pixel-12px.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background:
+    radial-gradient(140% 90% at 50% 0%, #0b1322 0%, #05070d 55%, #010207 100%) fixed;
+  overflow: hidden;
+  font-family: 'Departure Mono', 'Fusion Pixel', 'PingFang SC', 'Microsoft YaHei', 'Segoe UI', system-ui, monospace;
+  color: #ffffff;
+  -webkit-font-smoothing: antialiased;
+}
+
+#app {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent; 
+  overflow: hidden;
+}
+
+#stage {
+  position: relative;
+  width: 750px;
+  height: 1334px;
+  transform-origin: center center;
+  background: var(--c-outer);
+  overflow: hidden;
+  flex: none;
+}
+
+.layer {
+  position: absolute;
+  inset: 0;
+  width: 750px;
+  height: 1334px;
+}
+
+#layer-view {
+  z-index: 1;
+}
+#layer-dialog {
+  z-index: 2;
+  pointer-events: none; 
+}
+#layer-popup {
+  z-index: 3;
+  pointer-events: none;
+}
+
+.page {
+  position: absolute;
+  inset: 0;
+  width: 750px;
+  height: 1334px;
+  overflow: hidden;
+  background: var(--c-outer);
+}
+
+.dialog-mask {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: auto;
+}
+
+.scroll {
+  overflow-y: auto;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+}
+.scroll::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}

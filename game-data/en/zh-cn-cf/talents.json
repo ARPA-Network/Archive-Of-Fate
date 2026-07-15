@@ -1,0 +1,3180 @@
+{
+  "2000": {
+    "id": 2000,
+    "name": "Sword Soul Born of Heaven",
+    "description": "Born with a sword bone, eyes like cold stars; unsheathed, it already makes the three-foot blade in the scabbard tremble incessantly, sword intent piercing the nine heavens.",
+    "grade": 3,
+    "effect": {
+      "STR": 3,
+      "INT": 2,
+      "SPR": 1
+    },
+    "exclude": [
+      2001
+    ],
+    "status": 1,
+    "exclusive": 1
+  },
+  "2001": {
+    "id": 2001,
+    "name": "Awakening of Innate Wisdom",
+    "description": "After a thousand reincarnations, awakening in one morning; past life's Dao techniques surge like tides, yet heaven's backlash mars longevity.",
+    "grade": 2,
+    "effect": {
+      "INT": 3,
+      "SPR": 2,
+      "LIF": -1
+    },
+    "exclude": [
+      2000
+    ],
+    "status": 1
+  },
+  "2002": {
+    "id": 2002,
+    "name": "Betraying Demon to Testify the Dao",
+    "description": "Slay the demon fetus, break the blood curse, exchange crimson for plain white; henceforth Dao heart as iron, never ask about the past.",
+    "grade": 1,
+    "effect": {
+      "SPR": 3,
+      "CHR": -2
+    }
+  },
+  "2003": {
+    "id": 2003,
+    "name": "Array Deriving Heaven's Mind",
+    "description": "Fingers trace arrays on the ground, mind calculates exhaustively the heavenly derivation; mountains and rivers as pawns, borrow momentum to trap dragons, yet the Dao heart is thus confined to a square inch.",
+    "grade": 1,
+    "effect": {
+      "INT": 3,
+      "MNY": 1,
+      "SPR": -1
+    }
+  },
+  "2004": {
+    "id": 2004,
+    "name": "Herbs and Grass Alchemical Heart",
+    "description": "Know the spirituality of all herbs, tend a single furnace's alchemical fire; though in a humble thatched hut, still refine the art of reviving the dead.",
+    "grade": 0,
+    "effect": {
+      "INT": 1,
+      "MNY": 1
+    }
+  },
+  "2005": {
+    "id": 2005,
+    "name": "Idle Clouds and Wild Cranes",
+    "description": "One boat, one hat, far rivers and lakes; envy not immortality, envy not immortals; only take a carefree Dao heart, leisurely watch clouds rise and fall.",
+    "grade": 0,
+    "effect": {
+      "SPR": 2,
+      "RDM": 1
+    }
+  },
+  "2006": {
+    "id": 2006,
+    "name": "Beast Blood Infused Body",
+    "description": "Mistakenly consumed Pixiu's essence blood, sinews and bones like beast; yet violent qi hard to dispel, the spiritual platform sometimes clear, sometimes dim.",
+    "grade": 0,
+    "effect": {
+      "STR": 2,
+      "INT": -1
+    }
+  },
+  "2007": {
+    "id": 2007,
+    "name": "Butterfly Shadow and Dark Spy",
+    "description": "Body like butterfly, shadow like apparition; skilled in heart-charming, secret-stealing, trace-concealing arts; walks between light and dark unstained by dust.",
+    "grade": 0,
+    "effect": {
+      "CHR": 2,
+      "INT": 1,
+      "SPR": -1
+    }
+  },
+  "2008": {
+    "id": 2008,
+    "name": "Monster Bone Defying Fate",
+    "description": "Ribs grow rebellious bone, heaven's thunder often favors; yet vitality far exceeds peers, truly going against heaven.",
+    "grade": 0,
+    "effect": {
+      "STR": 2,
+      "LIF": -1,
+      "RDM": 1
+    }
+  },
+  "2009": {
+    "id": 2009,
+    "name": "Alchemy Tribulation Furnace Slave",
+    "description": "Alchemy chamber as prison, furnace fire scorches soul; though obtaining true alchemy teachings, ends up with yin deficiency and fire excess, lifespan diminished.",
+    "grade": 0,
+    "effect": {
+      "INT": 1,
+      "LIF": -1
+    }
+  },
+  "2010": {
+    "id": 2010,
+    "name": "Fate-Defying Monster Bone",
+    "description": "Spine grows monster bone, burns like a branding iron every full moon; exchanges lifespan for boundless divine power.",
+    "grade": 3,
+    "effect": {
+      "STR": 5,
+      "RDM": 3,
+      "LIF": -3
+    },
+    "exclude": [
+      2012
+    ],
+    "status": 1,
+    "exclusive": 1
+  },
+  "2011": {
+    "id": 2011,
+    "name": "Heaven-Endowed Sword Cultivator",
+    "description": "Sword heart heaven-made, sharpness bursts from scabbard; yet a tree outstanding in the forest will be destroyed by the wind.",
+    "grade": 2,
+    "effect": {
+      "INT": 3,
+      "STR": 2,
+      "CHR": -1
+    },
+    "exclude": [
+      2014
+    ]
+  },
+  "2012": {
+    "id": 2012,
+    "name": "Reincarnation Sword Venerable",
+    "description": "Previous life's Sword Venerable reincarnates, fragmented memories like tides; mortal body cannot bear the supreme sword intent.",
+    "grade": 2,
+    "effect": {
+      "INT": 4,
+      "STR": -2,
+      "SPR": 1
+    },
+    "exclude": [
+      2010
+    ],
+    "status": 1
+  },
+  "2013": {
+    "id": 2013,
+    "name": "Loose Cultivator Alchemist",
+    "description": "No sect, no school, alchemy Dao self-enlightened; heart nature free and carefree, pity spiritual ores often lacking.",
+    "grade": 1,
+    "effect": {
+      "INT": 2,
+      "SPR": 1,
+      "MNY": -2
+    }
+  },
+  "2014": {
+    "id": 2014,
+    "name": "Rebel of the Demon Path",
+    "description": "Betrayed the demon sect, body stained with karmic fire; while Dao heart struggles, glimpses secret techniques to counter-feed.",
+    "grade": 1,
+    "effect": {
+      "STR": 3,
+      "INT": 1,
+      "SPR": -2
+    },
+    "exclude": [
+      2015,
+      2011
+    ]
+  },
+  "2015": {
+    "id": 2015,
+    "name": "Reclusive Loose Cultivator",
+    "description": "Avoids the world for pure cultivation, heart without hindrance; yet isolated from the world, inevitably ignorant.",
+    "grade": 0,
+    "effect": {
+      "SPR": 2,
+      "INT": -1,
+      "MNY": -1
+    },
+    "status": -1
+  },
+  "2016": {
+    "id": 2016,
+    "name": "Beast Cultivator",
+    "description": "Resonates with demon beasts' qi and blood, body physique robust; but divine sense occasionally falls into chaos.",
+    "grade": 1,
+    "effect": {
+      "STR": 3,
+      "INT": -2,
+      "SPR": 1
+    }
+  },
+  "2017": {
+    "id": 2017,
+    "name": "Dark Butterfly Spy",
+    "description": "Body transforms into dark butterfly for stealth and assassination; demeanor sinister and changeable, Dao heart gradually stained with dust.",
+    "grade": 0,
+    "effect": {
+      "CHR": 2,
+      "SPR": -2,
+      "INT": 1
+    },
+    "status": -1
+  },
+  "2018": {
+    "id": 2018,
+    "name": "Heavenly Book Array Fanatic",
+    "description": "Addicted to ancient array diagrams, divine sense surpasses others; yet results in physique extremely frail.",
+    "grade": 0,
+    "effect": {
+      "INT": 3,
+      "STR": -3,
+      "SPR": 1
+    },
+    "status": -1
+  },
+  "2019": {
+    "id": 2019,
+    "name": "Heaven-Endowed Sword Bone",
+    "description": "Born with a sword bone, realizes supreme sword intent; yet the sword heart's clarity must be nurtured with essence blood.",
+    "grade": 3,
+    "effect": {
+      "INT": 4,
+      "SPR": 3,
+      "STR": -2,
+      "LIF": -1
+    },
+    "exclude": [
+      2020
+    ],
+    "status": -1,
+    "exclusive": 1
+  },
+  "2020": {
+    "id": 2020,
+    "name": "Cultivation Fruit Reforged",
+    "description": "The fruit of previous life's cultivation remains; reborn with partial memories, yet the soul is worn and lifespan is lacking.",
+    "grade": 2,
+    "effect": {
+      "INT": 3,
+      "SPR": 2,
+      "LIF": -2
+    },
+    "exclude": [
+      2019
+    ],
+    "status": -1
+  },
+  "2021": {
+    "id": 2021,
+    "name": "Danxia Hermit",
+    "description": "A rogue alchemist who tasted hundreds of herbs, using heaven and earth as furnace, but without sect shelter, wealth scattered.",
+    "grade": 1,
+    "effect": {
+      "INT": 2,
+      "MNY": -2,
+      "SPR": 1,
+      "RDM": 2
+    }
+  },
+  "2022": {
+    "id": 2022,
+    "name": "Beast Spirit Symbiosis",
+    "description": "Cultivated alongside demonic beasts since childhood, body robust, but demonic qi invades, appearance altered.",
+    "grade": 1,
+    "effect": {
+      "STR": 3,
+      "CHR": -2,
+      "LIF": 1
+    }
+  },
+  "2023": {
+    "id": 2023,
+    "name": "Abandoned Demon Return to Truth",
+    "description": "Betrayed the demon sect, bearing residual demonic techniques, unstable dao heart, often hunted.",
+    "grade": 0,
+    "effect": {
+      "STR": 2,
+      "SPR": -1,
+      "MNY": -1,
+      "RDM": 1
+    }
+  },
+  "2024": {
+    "id": 2024,
+    "name": "Mountain Forest Recluse",
+    "description": "Hidden in the wilds, forgetful of worldly affairs, carefree, yet purse is thin.",
+    "grade": 0,
+    "effect": {
+      "SPR": 2,
+      "MNY": -2
+    }
+  },
+  "2025": {
+    "id": 2025,
+    "name": "Celestial Mechanism Array Deduction",
+    "description": "Obsessed with array formation, exhausts the celestial mechanism, spends a fortune to set arrays, purse empty.",
+    "grade": 0,
+    "effect": {
+      "INT": 2,
+      "MNY": -2,
+      "RDM": 1
+    }
+  },
+  "2026": {
+    "id": 2026,
+    "name": "Shadowy Butterfly Secret Agent",
+    "description": "Lurks in the shadows, butterfly wings conceal blades; immortal beauty confuses foes, yet dao heart unsettled.",
+    "grade": 0,
+    "effect": {
+      "CHR": 2,
+      "INT": 1,
+      "SPR": -2,
+      "RDM": 1
+    }
+  },
+  "2027": {
+    "id": 2027,
+    "name": "Heavenly Book Obsessed Soul",
+    "description": "Addicted to ancient heavenly books, deducing arrays, forgets to eat and sleep, body weak and frail.",
+    "grade": 0,
+    "effect": {
+      "INT": 2,
+      "STR": -1,
+      "MNY": -1,
+      "RDM": 1
+    }
+  },
+  "2028": {
+    "id": 2028,
+    "name": "Embers of the Alchemy Furnace",
+    "description": "Once a furnace slave of the alchemy sect, suffered fire poison, body weak and will broken, only remnant alchemy experience.",
+    "grade": 0,
+    "effect": {
+      "INT": 1,
+      "STR": -2,
+      "SPR": -1,
+      "RDM": 1
+    }
+  },
+  "2029": {
+    "id": 2029,
+    "name": "Sword Heart Clear Light",
+    "description": "Born with a sword heart, clear and unobstructed, sword path straight to the truth.",
+    "grade": 3,
+    "effect": {
+      "INT": 3,
+      "STR": 2,
+      "SPR": 1
+    }
+  },
+  "2030": {
+    "id": 2030,
+    "name": "Wildfire Alchemy Heart",
+    "description": "Obtained alchemy formulas in the wilds, refines spirit pills from common herbs, forms his own path.",
+    "grade": 1,
+    "effect": {
+      "INT": 2,
+      "MNY": -1
+    }
+  },
+  "2031": {
+    "id": 2031,
+    "name": "Remnant Soul with Past Wisdom",
+    "description": "Though previous life's cultivation is scattered, a spark of clarity remains; traces linger on the path retaken.",
+    "grade": 2,
+    "effect": {
+      "INT": 3,
+      "STR": -1
+    }
+  },
+  "2032": {
+    "id": 2032,
+    "name": "Rebel Demon Witness to the Way",
+    "description": "Abandons demon path for immortal path, though spurned by both realms, dao heart turns firm.",
+    "grade": 0,
+    "effect": {
+      "SPR": 2,
+      "CHR": -1
+    }
+  },
+  "2033": {
+    "id": 2033,
+    "name": "Spirit Beast Conduit",
+    "description": "Born able to communicate with all beasts, physical body contains demonic beast power.",
+    "grade": 1,
+    "effect": {
+      "STR": 2,
+      "INT": -1
+    }
+  },
+  "2034": {
+    "id": 2034,
+    "name": "Array Path Heavenly Book",
+    "description": "Views mountains and rivers like palm lines, arrays naturally formed in mind.",
+    "grade": 2,
+    "effect": {
+      "INT": 3,
+      "STR": -1,
+      "MNY": 1
+    }
+  },
+  "2035": {
+    "id": 2035,
+    "name": "Reincarnation Sword Seal",
+    "description": "Sword soul imprint never extinguished across reincarnations, each life pursues supreme sword path.",
+    "grade": 1,
+    "effect": {
+      "INT": 2,
+      "STR": 2,
+      "SPR": -1
+    }
+  },
+  "2036": {
+    "id": 2036,
+    "name": "Shadowy Butterfly Elusive Trail",
+    "description": "Moves like a shadowy butterfly, traces hard to find, specializes in covert espionage.",
+    "grade": 0,
+    "effect": {
+      "INT": 2,
+      "CHR": 1,
+      "SPR": -1
+    }
+  },
+  "2037": {
+    "id": 2037,
+    "name": "Heaven-Born Sword Bone",
+    "description": "Born with sword bone, sharp aura piercing, sword heart clear, yet too rigid and easy to break, dao heart sometimes turbulent.",
+    "grade": 2,
+    "effect": {
+      "STR": 3,
+      "INT": 2,
+      "SPR": -1
+    },
+    "status": -1
+  },
+  "2038": {
+    "id": 2038,
+    "name": "Demon Blood Reversed Meridians",
+    "description": "Rebelled from the demon sect, meridians retain demonic qi, physique unusual, but dao heart as fragile as stacked eggs.",
+    "grade": 1,
+    "effect": {
+      "STR": 2,
+      "INT": 1,
+      "SPR": -1
+    }
+  },
+  "2039": {
+    "id": 2039,
+    "name": "Alchemy Heart Wise Root",
+    "description": "A rogue cultivator who enters the path through alchemy, though poor but free, comprehends heaven and earth creation amidst furnace smoke.",
+    "grade": 0,
+    "effect": {
+      "INT": 1,
+      "MNY": -1,
+      "SPR": 1
+    }
+  },
+  "2040": {
+    "id": 2040,
+    "name": "Myriad Beast Tongue",
+    "description": "Born with the ability to communicate with all beasts, close to nature, elegant in demeanor, but often lost in thought.",
+    "grade": 0,
+    "effect": {
+      "CHR": 2,
+      "INT": -1,
+      "SPR": 1
+    }
+  },
+  "2041": {
+    "id": 2041,
+    "name": "Array Dao Mastery",
+    "description": "Obsessed with array deduction, keen perception, can borrow the power of heaven and earth, but exhausts resources and has a frail physique.",
+    "grade": 1,
+    "effect": {
+      "INT": 3,
+      "MNY": -2,
+      "STR": -1
+    }
+  },
+  "2042": {
+    "id": 2042,
+    "name": "Butterfly Shadow Traceless",
+    "description": "Like a ghostly butterfly moving through shadows, sharp senses, vanishes without a trace, but often in danger, and the Dao heart is hard to maintain.",
+    "grade": 0,
+    "effect": {
+      "INT": 2,
+      "CHR": 1,
+      "SPR": -1
+    }
+  },
+  "2043": {
+    "id": 2043,
+    "name": "Demon Bone Reversed Scale",
+    "description": "Bearing ancient demon bones, unparalleled physique, reversed scales faintly visible, though despised by the world, the Dao heart grows stronger instead.",
+    "grade": 2,
+    "effect": {
+      "STR": 4,
+      "CHR": -3,
+      "SPR": 2,
+      "INT": -1
+    }
+  },
+  "2044": {
+    "id": 2044,
+    "name": "Ancient Artifact Remnant Spirit",
+    "description": "In a previous life, a remnant soul of a spiritual artifact, accidentally reincarnated as human, with early wisdom, but a weak physique.",
+    "grade": 0,
+    "effect": {
+      "INT": 3,
+      "STR": -2,
+      "LIF": -1
+    }
+  },
+  "2045": {
+    "id": 2045,
+    "name": "Artifact Heart Clear Insight",
+    "description": "Born with resonance with spiritual artifacts, crafting tools with divine aid, but a delicate mind invites envy, and family background is ordinary.",
+    "grade": 1,
+    "effect": {
+      "INT": 4,
+      "MNY": -2
+    }
+  },
+  "2046": {
+    "id": 2046,
+    "name": "Guardian Sword Withered Bones",
+    "description": "Generations guarding a sword tomb, body stained with the rise and fall of sword qi, solid bones but solitary temperament, poor at socializing.",
+    "grade": 0,
+    "effect": {
+      "STR": 2,
+      "SPR": -1
+    }
+  },
+  "2047": {
+    "id": 2047,
+    "name": "Buried Sword for Years",
+    "description": "Cultivated in seclusion in a sword tomb for decades, communing with myriad sword souls, comprehending supreme sword intent, but lifespan is damaged.",
+    "grade": 2,
+    "effect": {
+      "INT": 4,
+      "STR": 2,
+      "LIF": -3
+    }
+  },
+  "2048": {
+    "id": 2048,
+    "name": "Taste Grass Test Poison",
+    "description": "To know medicinal properties, tasted all herbs, gained true knowledge of herbs, but accumulated poison hard to reverse, hidden dangers lurk.",
+    "grade": 0,
+    "effect": {
+      "INT": 2,
+      "LIF": -2
+    }
+  },
+  "2049": {
+    "id": 2049,
+    "name": "Hang Pot Help World",
+    "description": "Travels widely to diagnose and dispense medicine, steady Dao heart, often aided by noble people, with some family wealth.",
+    "grade": 1,
+    "effect": {
+      "SPR": 3,
+      "MNY": 2
+    }
+  },
+  "2050": {
+    "id": 2050,
+    "name": "Demon Sect Abandoned Child",
+    "description": "Abandoned by the demon sect since childhood, possessing nothing, only survival wisdom and a wary heart.",
+    "grade": 0,
+    "effect": {
+      "INT": 2,
+      "SPR": -1,
+      "MNY": -2
+    }
+  },
+  "2051": {
+    "id": 2051,
+    "name": "Blood Fiend Hidden Meridian",
+    "description": "Bearing the demon sect's blood fiend abnormal meridian, strong bones, gloomy demeanor, resented by peers.",
+    "grade": 0,
+    "effect": {
+      "STR": 3,
+      "CHR": -2
+    }
+  },
+  "2052": {
+    "id": 2052,
+    "name": "No Return to Shore",
+    "description": "Betrayed the demon sect, abandoned darkness for light, possesses demonic foundation but determined to reform, Dao heart firmer, but lifespan greatly reduced, and rejected by old subordinates.",
+    "grade": 3,
+    "effect": {
+      "SPR": 5,
+      "LIF": -3,
+      "CHR": -2
+    },
+    "exclude": [
+      2050,
+      2051
+    ],
+    "exclusive": 1
+  },
+  "2053": {
+    "id": 2053,
+    "name": "Wild Prescription Alchemist",
+    "description": "Gathers wild herbs, practices strange alchemical formulas, has extraordinary insight but lacks wealth.",
+    "grade": 0,
+    "effect": {
+      "INT": 3,
+      "MNY": -2,
+      "SPR": -1
+    }
+  },
+  "2054": {
+    "id": 2054,
+    "name": "Elixir Toxin Soaked Body",
+    "description": "Long-term self-testing of elixirs, immune to all poisons, bones mutated, but lifespan unknowingly eroded.",
+    "grade": 2,
+    "effect": {
+      "STR": 3,
+      "LIF": -3,
+      "INT": 1
+    }
+  },
+  "2055": {
+    "id": 2055,
+    "name": "Artifact Spirit Reincarnation",
+    "description": "Once a spirit of a superior realm spiritual treasure, reincarnated as human, sharp divine sense, but weak flesh and damaged lifespan.",
+    "grade": 3,
+    "effect": {
+      "INT": 3,
+      "SPR": 1,
+      "STR": -2,
+      "LIF": -1
+    },
+    "exclude": [
+      2056
+    ],
+    "exclusive": 1
+  },
+  "2056": {
+    "id": 2056,
+    "name": "Artifact Spirit First Awakening",
+    "description": "Although reincarnated as an artifact spirit, spiritual awareness not yet recovered, only vaguely sensing artifact fluctuations.",
+    "grade": 0,
+    "effect": {
+      "INT": 1,
+      "RDM": 1
+    },
+    "exclude": [
+      2055
+    ]
+  },
+  "2057": {
+    "id": 2057,
+    "name": "Sword Tomb Remnant Soul",
+    "description": "Guards a sword tomb since childhood, cohabiting with ancient sword remnant souls, daily listening to sword sounds to comprehend the Dao, bones like a sword, but solitary and taciturn.",
+    "grade": 2,
+    "effect": {
+      "STR": 2,
+      "INT": 1,
+      "SPR": -1,
+      "CHR": -1
+    },
+    "exclude": [
+      2058
+    ]
+  },
+  "2058": {
+    "id": 2058,
+    "name": "Sword Fiend Entering Body",
+    "description": "Long residing in a sword tomb, fiend qi invades the body, physique tougher than metal and stone, but often backlashed by sword intent, Dao heart tainted.",
+    "grade": 0,
+    "effect": {
+      "STR": 2,
+      "SPR": -1,
+      "LIF": 1
+    },
+    "exclude": [
+      2057
+    ]
+  },
+  "2059": {
+    "id": 2059,
+    "name": "Hanging Pot Roaming Healer",
+    "description": "Carries a medicine box, travels as a doctor, deeply understands the nature of herbs, heals the world, Dao heart fulfilled.",
+    "grade": 1,
+    "effect": {
+      "INT": 1,
+      "SPR": 2,
+      "STR": -1
+    },
+    "exclude": [
+      2060
+    ]
+  },
+  "2060": {
+    "id": 2060,
+    "name": "Wandering Medicine Peddler",
+    "description": "Wandering the streets and alleys, selling elixirs for a living, with modest savings, but traveling day and night, spiritual root slightly damaged.",
+    "grade": 0,
+    "effect": {
+      "MNY": 1,
+      "SPR": -1,
+      "INT": -1
+    },
+    "exclude": [
+      2059
+    ]
+  },
+  "2061": {
+    "id": 2061,
+    "name": "Rebel Bone of the Demonic Path",
+    "description": "Once a true disciple of the Demonic Path, suddenly awakened and defected, demonic power not yet dissipated, Dao heart reshaped, cultivating both orthodox and demonic.",
+    "grade": 1,
+    "effect": {
+      "INT": 2,
+      "CHR": -1,
+      "SPR": -1,
+      "RDM": 1
+    },
+    "exclude": [
+      2062
+    ]
+  },
+  "2062": {
+    "id": 2062,
+    "name": "Soul-Chasing Brand",
+    "description": "Betrayed the Demonic Path, implanted with a Soul-Chasing Brand, tormented day and night, yet thus the soul becomes tenacious and divine sense extraordinary.",
+    "grade": 0,
+    "effect": {
+      "INT": 2,
+      "SPR": -1,
+      "LIF": -1
+    },
+    "exclude": [
+      2061
+    ]
+  },
+  "2063": {
+    "id": 2063,
+    "name": "Elixir-Obsessed Recluse",
+    "description": "A loose cultivator obsessed with the Dao of elixirs, exhausting family wealth, yet skilled in alchemy, sharp divine sense, and elixir fragrance lingering around the body.",
+    "grade": 1,
+    "effect": {
+      "INT": 2,
+      "MNY": -2,
+      "SPR": 1
+    },
+    "exclude": [
+      2064
+    ]
+  },
+  "2064": {
+    "id": 2064,
+    "name": "Rudimentary Knowledge of Alchemy",
+    "description": "A loose cultivator newly stepping into the Dao of alchemy, using leftover herbs to concoct pills for a living, barely sustaining cultivation.",
+    "grade": 0,
+    "effect": {
+      "INT": 1,
+      "MNY": -1
+    },
+    "exclude": [
+      2063
+    ]
+  },
+  "2065": {
+    "id": 2065,
+    "name": "Spirit Embryo Implanted with Sword",
+    "description": "You were once the spirit of an ancient hidden sword, born anew with a new body, sword intent imprinted into the soul, but indifferent to human emotions, making the Dao heart hard to fulfill.",
+    "grade": 3,
+    "effect": {
+      "CHR": -1,
+      "INT": 3,
+      "STR": 2,
+      "SPR": -1
+    }
+  },
+  "2066": {
+    "id": 2066,
+    "name": "Ambition of Master-Betraying Seizure",
+    "description": "You feigned submission, and when the Demon Lord was crossing his tribulation, you turned against him, seizing half his lifetime cultivation. Thus your cultivation soared, but the remnant soul of the Demon Lord remains unextinguished, gnawing at your mind day and night.",
+    "grade": 3,
+    "effect": {
+      "STR": 3,
+      "INT": 2,
+      "SPR": -2,
+      "CHR": -1
+    }
+  },
+  "2067": {
+    "id": 2067,
+    "name": "Body Forged from Remnant Artifact",
+    "description": "You were originally the artifact spirit of a broken jade vase, condensing a human form amidst ruins, Dao rhythm arising of itself, yet your form is as fragile as porcelain.",
+    "grade": 2,
+    "effect": {
+      "INT": 2,
+      "CHR": 2,
+      "SPR": -1,
+      "LIF": -1
+    }
+  },
+  "2068": {
+    "id": 2068,
+    "name": "Scripture of Evading Death in Green Satchel",
+    "description": "By chance obtained a fragmented scroll of the Scripture of Evading Death in Green Satchel, mastering the miraculous art of prolonging life, with a long lifespan, yet at the cost of diminished virtue, and your appearance no longer as before.",
+    "grade": 2,
+    "effect": {
+      "LIF": 2,
+      "INT": 1,
+      "SPR": 1,
+      "CHR": -1
+    },
+    "status": -1
+  },
+  "2069": {
+    "id": 2069,
+    "name": "Sword Bone Buried in Frost",
+    "description": "In youth, by chance entered an ancient sword cultivator's burial ground, inheriting a set of frost-white sword bones. Henceforth the sword heart is enlightened, yet as cold as ancient swords.",
+    "grade": 2,
+    "effect": {
+      "STR": 3,
+      "INT": 1,
+      "SPR": -1,
+      "CHR": -1
+    }
+  },
+  "2070": {
+    "id": 2070,
+    "name": "Heart of Dao Tested by Furnace Ashes",
+    "description": "Using the remnant ashes of an abandoned alchemy furnace as a guide, sat in meditation for ten years, finally refining a single 'Ashen Elixir', from then on the body possesses the hardness of metal and stone, and the Dao heart remains unstained by dust.",
+    "grade": 1,
+    "effect": {
+      "STR": 2,
+      "SPR": 2,
+      "MNY": -1,
+      "CHR": -1
+    }
+  },
+  "2071": {
+    "id": 2071,
+    "name": "Ambition of Ten Thousand Swords Returning to Ruins",
+    "description": "Guarded the ruin of ten thousand swords in silence for ten years, the mournful cries of broken swords tempered into muscle and bone, yet the deathly stillness corrodes lifespan.",
+    "grade": 1,
+    "effect": {
+      "STR": 1,
+      "INT": 1,
+      "LIF": -1,
+      "SPR": -1
+    }
+  },
+  "2072": {
+    "id": 2072,
+    "name": "Tribulation of Turning Back from Blood Sea",
+    "description": "One night abandoned demonic thoughts, blood river reversed into the heart. Though bearing the name of a defector, gained a clear Dao heart, yet former sectmates will never stop until death.",
+    "grade": 1,
+    "effect": {
+      "STR": 1,
+      "SPR": 2,
+      "CHR": -1,
+      "MNY": -1
+    }
+  },
+  "2073": {
+    "id": 2073,
+    "name": "Art of Traveling to Heal the World",
+    "description": "Carrying a medicine satchel, traveled through the mundane world, skilled in acupuncture and stone therapy, yet healing the common people delayed personal cultivation.",
+    "grade": 1,
+    "effect": {
+      "INT": 2,
+      "MNY": 1,
+      "SPR": 1,
+      "STR": -1
+    },
+    "status": -1
+  },
+  "2074": {
+    "id": 2074,
+    "name": "Art of Wildfire and Rosy Clouds",
+    "description": "Without sect support, borrowed mountain and earth fire to refine medicine, elixir completed after nine cycles, yet years of smoke and fire damaged the foundation.",
+    "grade": 1,
+    "effect": {
+      "INT": 1,
+      "MNY": 2,
+      "SPR": 1,
+      "STR": -1
+    },
+    "status": -1
+  },
+  "2075": {
+    "id": 2075,
+    "name": "Remnant Artifact Nurturing Spirit",
+    "description": "Once a fragment of an ancient treasure, a wisp of true spirit remains, lodged in a mortal body.",
+    "grade": 0,
+    "effect": {
+      "STR": -1,
+      "SPR": 1,
+      "LIF": 1
+    },
+    "exclude": [
+      2076
+    ],
+    "status": 1
+  },
+  "2076": {
+    "id": 2076,
+    "name": "Spiritual Pivot Transformed into Artifact",
+    "description": "Innate spirit embryo, soul fused with a Dharma treasure, able to transform into an artifact to attack enemies.",
+    "grade": 2,
+    "effect": {
+      "INT": 2,
+      "STR": 1,
+      "SPR": -1
+    },
+    "exclude": [
+      2075
+    ],
+    "status": -1
+  },
+  "2077": {
+    "id": 2077,
+    "name": "Ancient Sword Weeping Blood",
+    "description": "The ancient sword in the tomb wails mournfully every night; the tomb keeper is steeped in sword balefulness, with hidden killing intent.",
+    "grade": 0,
+    "effect": {
+      "STR": 2,
+      "SPR": -2,
+      "CHR": -1
+    },
+    "exclude": [
+      2078
+    ],
+    "status": 1
+  },
+  "2078": {
+    "id": 2078,
+    "name": "Sword Soul Returning to Ruins",
+    "description": "The souls of ten thousand swords in the sword tomb acknowledge you as master; the tomb keeper receives the infusion of sword intent, yet the heart meridian is easily damaged.",
+    "grade": 3,
+    "effect": {
+      "INT": 3,
+      "STR": 2,
+      "LIF": -2
+    },
+    "exclude": [
+      2077
+    ],
+    "status": -3,
+    "exclusive": 1
+  },
+  "2079": {
+    "id": 2079,
+    "name": "Golden Needle to Overcome Calamity",
+    "description": "A wandering bell doctor by chance obtained the secret method of golden needles, able to revive the dead, yet depletes vitality.",
+    "grade": 0,
+    "effect": {
+      "INT": 1,
+      "SPR": 1,
+      "STR": -1
+    },
+    "exclude": [
+      2080
+    ],
+    "status": 1
+  },
+  "2080": {
+    "id": 2080,
+    "name": "Cinnabar Toxin Detection",
+    "description": "Refined a pair of poison-detecting eyes, tasting hundreds of herbs to understand pill properties, yet suffered backlash from drug toxins.",
+    "grade": 1,
+    "effect": {
+      "INT": 2,
+      "SPR": 1,
+      "LIF": -1
+    },
+    "exclude": [
+      2079
+    ]
+  },
+  "2081": {
+    "id": 2081,
+    "name": "Master Usurping Essence",
+    "description": "Betrayed the demon sect, killed master to seize foundation, cultivation surged, but deep inner demons took root.",
+    "grade": 0,
+    "effect": {
+      "INT": 2,
+      "SPR": -2,
+      "STR": 1
+    },
+    "exclude": [
+      2082
+    ],
+    "status": 1
+  },
+  "2082": {
+    "id": 2082,
+    "name": "Demon Fetus Parasite",
+    "description": "Carrying a demon fetus, stealing host's spiritual energy, strength skyrocketed, yet it is a body of possession.",
+    "grade": 2,
+    "effect": {
+      "INT": 3,
+      "STR": 2,
+      "CHR": -2,
+      "SPR": -3
+    },
+    "exclude": [
+      2081
+    ],
+    "status": -2
+  },
+  "2083": {
+    "id": 2083,
+    "name": "Pill Dust Entering Dao",
+    "description": "Long confined in the pill room, face covered in dust, yet pill qi unblocked meridians, stabilizing the dao foundation.",
+    "grade": 0,
+    "effect": {
+      "STR": 1,
+      "SPR": 1,
+      "CHR": -1
+    },
+    "exclude": [
+      2084
+    ],
+    "status": 1
+  },
+  "2084": {
+    "id": 2084,
+    "name": "Waste Pill Turned Treasure",
+    "description": "Skilled at refining waste pills into precious medicines, turning decay into miracle, but at the cost of lifespan.",
+    "grade": 1,
+    "effect": {
+      "MNY": 2,
+      "INT": 1,
+      "LIF": -1
+    },
+    "exclude": [
+      2083
+    ]
+  },
+  "2085": {
+    "id": 2085,
+    "name": "Nascent Demon Heart",
+    "description": "Dao heart tainted, inner demon secretly growing, the path of cultivation fraught with peril.",
+    "grade": 1,
+    "effect": {
+      "SPR": -1
+    },
+    "status": 1
+  },
+  "2086": {
+    "id": 2086,
+    "name": "Heavenly Demon Bones",
+    "description": "Skeleton naturally mutated, demon essence self-tempering, terrifying combat power, but gradually losing humanity.",
+    "grade": 3,
+    "effect": {
+      "STR": 5
+    },
+    "status": -3
+  },
+  "2088": {
+    "id": 2088,
+    "name": "Incomplete Dao Foundation",
+    "description": "Hasty reincarnation, dao foundation flawed, physique slightly weaker, but past life experience remains.",
+    "grade": 1,
+    "effect": {
+      "STR": -1
+    },
+    "status": 1
+  },
+  "2089": {
+    "id": 2089,
+    "name": "Demon Blood Atavism",
+    "description": "Ancient great demon bloodline awakened, physique skyrocketed, with occasional uncontrollable beast nature.",
+    "grade": 3,
+    "effect": {
+      "STR": 4
+    },
+    "status": -2
+  },
+  "2090": {
+    "id": 2090,
+    "name": "Spirit Beast Pact",
+    "description": "Born with telepathic connection to spirit beasts, with a little training they become loyal aides.",
+    "grade": 1,
+    "effect": {
+      "CHR": 1
+    }
+  },
+  "2091": {
+    "id": 2091,
+    "name": "Array Heart Clear Insight",
+    "description": "Heart clever and quick, perceiving arrays like reading patterns, smooth deduction of profound methods.",
+    "grade": 2,
+    "effect": {
+      "INT": 2
+    },
+    "status": -1
+  },
+  "2092": {
+    "id": 2092,
+    "name": "Array Mark Body Protection",
+    "description": "Stumbled into an ancient formation as a child, gained strange mark imprint, vigorous vitality, calamities hard to harm.",
+    "grade": 1,
+    "effect": {
+      "LIF": 2
+    }
+  },
+  "2093": {
+    "id": 2093,
+    "name": "Pill Heart Divine Hand",
+    "description": "Born with a exquisite pill heart, pharmacology innate, fire control meticulous, pill success rate far exceeds peers.",
+    "grade": 2,
+    "effect": {
+      "INT": 2
+    },
+    "status": -1
+  },
+  "2094": {
+    "id": 2094,
+    "name": "Herb Affinity",
+    "description": "Born into a medicinal merchant family, knows all herbs, abundant resources.",
+    "grade": 1,
+    "effect": {
+      "MNY": 1
+    }
+  },
+  "2095": {
+    "id": 2095,
+    "name": "Demon Heart Self-Crossing",
+    "description": "Once fallen into the demon path, yet kept a trace of clarity in the abyss, forging inner demons into divine weapons.",
+    "grade": 2,
+    "effect": {
+      "STR": 2,
+      "SPR": -1
+    }
+  },
+  "2096": {
+    "id": 2096,
+    "name": "Inner Demon Karma",
+    "description": "Past life grudges entangled endlessly, stirring inner demons, yet thereby seeing through human hearts.",
+    "grade": 1,
+    "effect": {
+      "INT": 2,
+      "SPR": -2
+    }
+  },
+  "2097": {
+    "id": 2097,
+    "name": "Reincarnation Dao Mark",
+    "description": "Soul deeply branded with reincarnation mark, dao heart immortal, lifespan long, mysteriously favored by heaven's dao.",
+    "grade": 3,
+    "effect": {
+      "SPR": 2,
+      "LIF": 2
+    }
+  },
+  "2098": {
+    "id": 2098,
+    "name": "Bloodline Resonance",
+    "description": "Flowing with ancient beast bloodline, physical body extremely powerful, yet appearance differs from normal.",
+    "grade": 1,
+    "effect": {
+      "STR": 2,
+      "CHR": -2
+    }
+  },
+  "2099": {
+    "id": 2099,
+    "name": "Beast Taming Spirit Communication",
+    "description": "Born with telepathy with demon beasts, comprehension transcendent, but due to long years in mountains, family is poor.",
+    "grade": 2,
+    "effect": {
+      "INT": 2,
+      "MNY": -1
+    }
+  },
+  "2100": {
+    "id": 2100,
+    "name": "Array Deriving Heaven's Dao",
+    "description": "In your eyes, all heavenly laws can be deduced into formations; divine sense as strong as a Jindan cultivator, but formation materials cost greatly.",
+    "grade": 2,
+    "effect": {
+      "INT": 3,
+      "MNY": -1
+    }
+  },
+  "2101": {
+    "id": 2101,
+    "name": "Fulu True Interpretation",
+    "description": "Born into a family of Fulu (talisman) masters, has browsed countless talismans since childhood. Family is wealthy, but neglected physical training.",
+    "grade": 1,
+    "effect": {
+      "MNY": 2,
+      "STR": -1
+    }
+  },
+  "2102": {
+    "id": 2102,
+    "name": "Danxin Tongming",
+    "description": "Heart like crystal, can discern the root of all things' medicinal properties. Alchemy is as easy as drinking tea, but too focused, causing occasional disturbances in the Dao heart.",
+    "grade": 3,
+    "effect": {
+      "INT": 3,
+      "MNY": 1,
+      "SPR": -1
+    }
+  },
+  "2103": {
+    "id": 2103,
+    "name": "Spirit Plant Affinity",
+    "description": "Naturally close to plants and spirits, wherever goes, spiritual plants thrive. Family rose due to medicinal garden, but physical constitution is weak.",
+    "grade": 1,
+    "effect": {
+      "MNY": 2,
+      "STR": -2
+    }
+  },
+  "2104": {
+    "id": 2104,
+    "name": "Heart Demon Devours Soul",
+    "description": "Heart demon nascent, devouring soul and eroding bones, thus the Dao heart is tarnished, but the demonic nature feeds back, making the body extraordinary.",
+    "grade": 0,
+    "effect": {
+      "STR": 1,
+      "SPR": -2,
+      "LIF": -1
+    },
+    "status": -2
+  },
+  "2105": {
+    "id": 2105,
+    "name": "Demon Origin Seeds Dao",
+    "description": "Uses demon seed as foundation, merging demon and Dao paths. Comprehension and immortal aptitude both increase, but alas, not accepted by the world, family wealth scarce.",
+    "grade": 1,
+    "effect": {
+      "CHR": 1,
+      "INT": 2,
+      "MNY": -2
+    }
+  },
+  "2106": {
+    "id": 2106,
+    "name": "Past Wisdom Not Yet Veiled",
+    "description": "Reincarnated, past wisdom not fully awakened, but occasionally gains spiritual light from previous life. Comprehension is outstanding, but easily stirs the Dao heart.",
+    "grade": 1,
+    "effect": {
+      "INT": 2,
+      "SPR": -1
+    },
+    "status": 1
+  },
+  "2107": {
+    "id": 2107,
+    "name": "Nine Deaths Return to Truth",
+    "description": "Through nine deaths and one life, comprehends the true essence at the brink of reincarnation. Constitution, comprehension, and Dao heart all greatly improved, lifespan also increased.",
+    "grade": 3,
+    "effect": {
+      "STR": 2,
+      "INT": 2,
+      "SPR": 2,
+      "LIF": 3
+    }
+  },
+  "2108": {
+    "id": 2108,
+    "name": "Demon Vein Atavism",
+    "description": "Thin demon blood awakens, body becomes strong, but immortal aptitude slightly damaged, and lifespan inherently deficient.",
+    "grade": 0,
+    "effect": {
+      "STR": 2,
+      "CHR": -1,
+      "LIF": -2
+    }
+  },
+  "2109": {
+    "id": 2109,
+    "name": "Spirit Beast Symbiosis",
+    "description": "Since childhood, has a telepathic connection with a spirit beast, can borrow its spiritual power. Both comprehension and carefree nature benefit.",
+    "grade": 1,
+    "effect": {
+      "INT": 1,
+      "SPR": 1
+    },
+    "status": 1
+  },
+  "2110": {
+    "id": 2110,
+    "name": "Heavenly Deduction Array Diagram",
+    "description": "Soul sense naturally can deduce the array diagrams of heaven and earth. Comprehension is superb, but neglects body cultivation, constitution slightly lacking.",
+    "grade": 2,
+    "effect": {
+      "INT": 3,
+      "STR": -1
+    },
+    "status": 2
+  },
+  "2111": {
+    "id": 2111,
+    "name": "Nine Palaces Break Illusion",
+    "description": "A pair of illusion-breaking eyes, can detect array flaws in three breaths. But being adept at this, family wealth gradually depletes.",
+    "grade": 0,
+    "effect": {
+      "INT": 1,
+      "MNY": -1
+    }
+  },
+  "2112": {
+    "id": 2112,
+    "name": "Medicine Spirit Reincarnation",
+    "description": "Originally a reincarnation of a spirit medicine, naturally has a medicine body, immune to all poisons. Comprehension and immortal aptitude are both excellent, constitution a bit weak.",
+    "grade": 2,
+    "effect": {
+      "INT": 2,
+      "CHR": 2,
+      "STR": -1
+    },
+    "status": 2
+  },
+  "2113": {
+    "id": 2113,
+    "name": "Elixir Tribulation Embers",
+    "description": "Although the elixir tribulation failed, gained insight from the embers. Dao heart becomes more steadfast, but fire poison sears the body, damaging constitution and slightly reducing lifespan.",
+    "grade": 0,
+    "effect": {
+      "SPR": 2,
+      "STR": -1,
+      "LIF": -1
+    }
+  },
+  "2114": {
+    "id": 2114,
+    "name": "Demon Scar Slightly Appears",
+    "description": "Occasionally a demon shadow appears in the heart mirror. Though it disturbs the Dao heart, it sharpens the soul sense a bit.",
+    "grade": 0,
+    "effect": {
+      "SPR": -1,
+      "INT": 1
+    }
+  },
+  "2115": {
+    "id": 2115,
+    "name": "Heavenly Demon Contract Seal",
+    "description": "Forges a soul contract with an extraterrestrial heavenly demon. On the brink of Dao heart collapse, in exchange for astonishing talent, but lifespan greatly damaged.",
+    "grade": 2,
+    "effect": {
+      "SPR": -3,
+      "INT": 3,
+      "LIF": -5
+    },
+    "exclude": [
+      2114
+    ],
+    "status": -2,
+    "exclusive": 1
+  },
+  "2116": {
+    "id": 2116,
+    "name": "Past Wisdom Slightly Remains",
+    "description": "Reincarnation did not wash away past life completely. Occasionally gains fragments of spiritual light, comprehension slightly better than ordinary.",
+    "grade": 0,
+    "effect": {
+      "INT": 1
+    }
+  },
+  "2117": {
+    "id": 2117,
+    "name": "Past Resources Suddenly Appear",
+    "description": "Resources buried in the previous life suddenly appear in the heart sea, guiding use, and soul sense slightly increases thereby.",
+    "grade": 1,
+    "effect": {
+      "MNY": 2,
+      "INT": 1
+    }
+  },
+  "2118": {
+    "id": 2118,
+    "name": "Demon Vein First Awakening",
+    "description": "The beast bloodline within slightly awakens, body gradually strengthens, but demon patterns faintly appear on the face.",
+    "grade": 0,
+    "effect": {
+      "STR": 1,
+      "CHR": -1
+    }
+  },
+  "2119": {
+    "id": 2119,
+    "name": "Tianyao Edict",
+    "description": "Bloodline atavism, receives the edict of an ancient great Yao, body unparalleled, but the demonic transformation is terrifying, and lifespan is also extended.",
+    "grade": 3,
+    "effect": {
+      "STR": 3,
+      "CHR": -2,
+      "LIF": 2
+    },
+    "status": -2,
+    "exclusive": 1
+  },
+  "2120": {
+    "id": 2120,
+    "name": "Array Heart Nascent",
+    "description": "Heart aperture naturally can sense the flow of array veins, but often gets lost in deduction, causing the Dao heart to waver.",
+    "grade": 0,
+    "effect": {
+      "INT": 1,
+      "SPR": -1
+    }
+  },
+  "2121": {
+    "id": 2121,
+    "name": "Heaven and Earth Chess Eye",
+    "description": "Sees all things as chess pieces on a board, divine sense like a net covering all directions, yet provokes heaven's envy, shortening lifespan.",
+    "grade": 1,
+    "effect": {
+      "INT": 2,
+      "LIF": -2
+    }
+  },
+  "2122": {
+    "id": 2122,
+    "name": "Herb-Spirit Body",
+    "description": "Body contains the clarity of herbs and trees, identifying them with ease, but physical constitution is slightly inferior.",
+    "grade": 0,
+    "effect": {
+      "INT": 1,
+      "STR": -1
+    }
+  },
+  "2123": {
+    "id": 2123,
+    "name": "Xuan Tripod Dao Fetus",
+    "description": "Dantian is like a Xuanji alchemy tripod, able to turn all things into medicine, but suffers backlash from medicinal qi, firming the Dao heart.",
+    "grade": 2,
+    "effect": {
+      "INT": 2,
+      "SPR": 2,
+      "STR": -2
+    },
+    "status": -1,
+    "exclusive": 1
+  },
+  "2124": {
+    "id": 2124,
+    "name": "Embers of Alchemy Fire",
+    "description": "By chance obtained a damaged furnace and half a manual in early years, though foundation is weak, using herbs as kindling, refined a wisp of alchemy fire.",
+    "grade": 3,
+    "effect": {
+      "INT": 3,
+      "CHR": -1,
+      "STR": -2,
+      "SPR": 1
+    }
+  },
+  "2125": {
+    "id": 2125,
+    "name": "Mortal Bone Seeking Immortality",
+    "description": "Originally a country doctor, by chance saved a dying rogue cultivator, received half a scroll of 'Herbal Nourishing Qi Art', lamenting that even mortal bones can seek immortality.",
+    "grade": 2,
+    "effect": {
+      "INT": 2,
+      "MNY": -1,
+      "SPR": 1,
+      "LIF": 1
+    }
+  },
+  "2126": {
+    "id": 2126,
+    "name": "Abandoned Disciple's Proud Bone",
+    "description": "Expelled from the clan, left the mountain alone carrying a broken sword, vowing to prove the Great Dao without relying on clan power.",
+    "grade": 2,
+    "effect": {
+      "CHR": 1,
+      "INT": 1,
+      "STR": 1,
+      "MNY": -3
+    },
+    "exclude": [
+      2132
+    ]
+  },
+  "2127": {
+    "id": 2127,
+    "name": "Cloud Mountain Returning Crane",
+    "description": "Spurned wealth and built a hut on a green cliff, befriended cranes; though lifespan is long, ignores worldly affairs, carefree on the immortal path.",
+    "grade": 2,
+    "effect": {
+      "SPR": 3,
+      "MNY": -2,
+      "CHR": 1
+    }
+  },
+  "2128": {
+    "id": 2128,
+    "name": "Sword Bone Engravings",
+    "description": "Chosen as a sword attendant from youth, nurtured a life sword with bone as scabbard, every sword scar is cultivation.",
+    "grade": 2,
+    "effect": {
+      "STR": 2,
+      "CHR": -2,
+      "LIF": 1
+    }
+  },
+  "2129": {
+    "id": 2129,
+    "name": "Miscellaneous Servant Stealing Lessons",
+    "description": "Taking advantage of sweeping duties, secretly eavesdropped on outer sect lectures, used water marks as pen, diligent in bitter cultivation.",
+    "grade": 1,
+    "effect": {
+      "INT": 2,
+      "SPR": -1
+    },
+    "exclude": [
+      2133
+    ]
+  },
+  "2130": {
+    "id": 2130,
+    "name": "Sword Ear Listening to Wind",
+    "description": "A blind sword slave, ears replace eyes, listening to wind to discern weapons; though lost one sense, divine sense is strengthened.",
+    "grade": 1,
+    "effect": {
+      "INT": 2,
+      "CHR": -1,
+      "SPR": 1
+    }
+  },
+  "2131": {
+    "id": 2131,
+    "name": "Prolonged Illness Makes a Doctor",
+    "description": "Weak and sickly from childhood, often tested medicine on himself, though not yet entered the Dao, already knows a hundred herbs.",
+    "grade": 0,
+    "effect": {
+      "INT": 1,
+      "STR": -2
+    }
+  },
+  "2132": {
+    "id": 2132,
+    "name": "Dust on Brocade Robes",
+    "description": "Once wore brocade, now wears coarse clothes; cast aside by family like worn shoes, only a faded jade pendant remains.",
+    "grade": 0,
+    "effect": {
+      "MNY": -2,
+      "CHR": -1
+    },
+    "exclude": [
+      2126
+    ]
+  },
+  "2133": {
+    "id": 2133,
+    "name": "Dust Sweeper",
+    "description": "Swept dust all his life, back slightly hunched, only knows that fallen leaves must not be slighted.",
+    "grade": 0,
+    "effect": {
+      "SPR": 1,
+      "CHR": -1
+    },
+    "exclude": [
+      2129
+    ]
+  },
+  "2134": {
+    "id": 2134,
+    "name": "Mortal Bone Penetrating Mystery",
+    "description": "Born of common stock, yet has clear enlightenment of technique principles, but mediocre physical root.",
+    "grade": 0,
+    "effect": {
+      "INT": 2,
+      "STR": -1
+    }
+  },
+  "2135": {
+    "id": 2135,
+    "name": "Market Fortune-Telling",
+    "description": "Makes a living telling fortunes on the street, steeped in the mundane world, yet trained the ability to observe qi and phenomena.",
+    "grade": 0,
+    "effect": {
+      "INT": 1,
+      "SPR": 1,
+      "MNY": -1
+    }
+  },
+  "2136": {
+    "id": 2136,
+    "name": "Abandoned Disciple Unyielding",
+    "description": "Cast out beyond the sect gate, instead the Dao heart was tempered like iron.",
+    "grade": 0,
+    "effect": {
+      "SPR": 2,
+      "MNY": -2
+    },
+    "exclude": [
+      2139
+    ]
+  },
+  "2137": {
+    "id": 2137,
+    "name": "Moss on Footsteps",
+    "description": "Swept mountain paths for years, moss grew underfoot, physical root strengthened through labor.",
+    "grade": 0,
+    "effect": {
+      "STR": 1,
+      "MNY": -1
+    }
+  },
+  "2138": {
+    "id": 2138,
+    "name": "Sword Tomb Guardian",
+    "description": "Guarded the sword tomb for many years, spending days with broken swords, divine sense gradually imbued with sharp qi.",
+    "grade": 0,
+    "effect": {
+      "INT": 1,
+      "STR": 1,
+      "CHR": -1
+    }
+  },
+  "2139": {
+    "id": 2139,
+    "name": "Broken Gate Lone Star",
+    "description": "Family destroyed, alone like a star, demeanor calm and heavy, insight greatly increased.",
+    "grade": 0,
+    "effect": {
+      "CHR": 1,
+      "INT": 1,
+      "MNY": -2
+    },
+    "exclude": [
+      2136
+    ]
+  },
+  "2140": {
+    "id": 2140,
+    "name": "Mountain Leisure Crane",
+    "description": "Does not admire sects, alone hidden in a secluded mountain, heart carefree, but resources are meager.",
+    "grade": 1,
+    "effect": {
+      "SPR": 2,
+      "MNY": -1,
+      "STR": -1
+    }
+  },
+  "2141": {
+    "id": 2141,
+    "name": "Angler of Giant Turtles",
+    "description": "Hiding in rivers and seas, fishing with a straight hook, the Dao heart penetrates the profound, yet cares not for worldly affairs.",
+    "grade": 1,
+    "effect": {
+      "SPR": 2,
+      "MNY": -1,
+      "INT": -1
+    }
+  },
+  "2142": {
+    "id": 2142,
+    "name": "Menial Dragon in Hiding",
+    "description": "Three years of sweeping, unexpectedly gleaned traces of the great Dao from specks of dust, spirit consciousness clear and open.",
+    "grade": 2,
+    "effect": {
+      "INT": 3,
+      "MNY": -3
+    },
+    "exclude": [
+      2137
+    ]
+  },
+  "2143": {
+    "id": 2143,
+    "name": "Sword Blood Contract Slave",
+    "description": "Feeds the sword with blood; the sword is life itself. The bone structure is altered, but the immortal demeanor is cold and stern.",
+    "grade": 3,
+    "effect": {
+      "STR": 3,
+      "CHR": -2,
+      "LIF": -2
+    },
+    "exclude": [
+      2138
+    ],
+    "exclusive": 1
+  },
+  "2144": {
+    "id": 2144,
+    "name": "Blood Descendant Tainted by Dust",
+    "description": "An abandoned child of a cultivation aristocratic family, though fallen into the mortal world, still harbors a trace of ancestral Dao rhyme in the bloodline.",
+    "grade": 1,
+    "effect": {
+      "CHR": 2,
+      "MNY": -2
+    }
+  },
+  "2145": {
+    "id": 2145,
+    "name": "Dusty Heart Unstained",
+    "description": "When sweeping, you remain unstained by even a speck of dust; amidst mundane affairs, you keep the Dao heart pure, and insight gradually opens.",
+    "grade": 2,
+    "effect": {
+      "SPR": 2,
+      "INT": 1,
+      "RDM": 1
+    }
+  },
+  "2146": {
+    "id": 2146,
+    "name": "Cloud and Water Carefree",
+    "description": "Like idle clouds and wild cranes, not concerned with worldly affairs; heart unites with heaven and earth, carefree and content.",
+    "grade": 2,
+    "effect": {
+      "SPR": 3,
+      "STR": -1
+    }
+  },
+  "2147": {
+    "id": 2147,
+    "name": "Sword Bone Slave Heart",
+    "description": "A sword slave of the Sword Forging Manor, tempered day and night; the body is like a sword blank, but the heart is shackled.",
+    "grade": 3,
+    "effect": {
+      "STR": 3,
+      "SPR": -2
+    },
+    "exclusive": 1
+  },
+  "2148": {
+    "id": 2148,
+    "name": "Village School Enlightenment",
+    "description": "In the village school, you occasionally read the sages' books and comprehend a thread of the ultimate truth of heaven and earth between the lines.",
+    "grade": 0,
+    "effect": {
+      "INT": 2,
+      "STR": -1
+    }
+  },
+  "2149": {
+    "id": 2149,
+    "name": "Abandoned Child Battles Heaven",
+    "description": "The family cast you aside like a worn shoe, but you go against heaven with a resolute heart, and your vitality becomes even more tenacious.",
+    "grade": 0,
+    "effect": {
+      "SPR": 2,
+      "MNY": -1,
+      "LIF": 1
+    }
+  },
+  "2150": {
+    "id": 2150,
+    "name": "Sweeping into Opportunity",
+    "description": "While sweeping, you mistakenly entered an abandoned alchemy room and swallowed an aged residual pill, causing a physical mutation.",
+    "grade": 1,
+    "effect": {
+      "STR": 2,
+      "RDM": 2
+    }
+  },
+  "2151": {
+    "id": 2151,
+    "name": "Mountain Hermit Cultivation",
+    "description": "You built a hut deep in the mountains, dining on clouds and drinking dew, with an immortal demeanor beyond the mundane.",
+    "grade": 0,
+    "effect": {
+      "CHR": 2,
+      "SPR": 1,
+      "MNY": -1
+    }
+  },
+  "2153": {
+    "id": 2153,
+    "name": "Mortal Body, Art of Calculation",
+    "description": "A mortal body, without spiritual root, yet uses divination to deduce heavenly secrets, and with a mortal frame performs heaven-defying deeds.",
+    "grade": 0,
+    "effect": {
+      "INT": 2,
+      "STR": -1
+    }
+  },
+  "2154": {
+    "id": 2154,
+    "name": "Abandoned Lineage, Leftover Pearl",
+    "description": "An abandoned child of a noble family, bloodline tainted, yet the immortal demeanor remains, with extraordinary bearing.",
+    "grade": 0,
+    "effect": {
+      "CHR": 2,
+      "MNY": -2
+    }
+  },
+  "2155": {
+    "id": 2155,
+    "name": "Sweeping Dust Sees Truth",
+    "description": "Holding a broom to sweep dust for ten years, you glimpsed the true meaning in the smallest details, and the Dao heart gradually brightened.",
+    "grade": 0,
+    "effect": {
+      "INT": 1,
+      "SPR": 2,
+      "MNY": -1
+    }
+  },
+  "2156": {
+    "id": 2156,
+    "name": "Cloud Seclusion Carefree",
+    "description": "Secluded from the world in clouds, dining on clouds and drinking dew, possessing nothing yet with a carefree Dao heart.",
+    "grade": 0,
+    "effect": {
+      "SPR": 3,
+      "STR": -1
+    }
+  },
+  "2157": {
+    "id": 2157,
+    "name": "Sword Bone Slave Body",
+    "description": "Using the body as a sheath, nourishing the sword with bones; the sword has not yet been drawn, but the person is already crippled.",
+    "grade": 0,
+    "effect": {
+      "STR": 3,
+      "SPR": -2
+    }
+  },
+  "2158": {
+    "id": 2158,
+    "name": "Mortal World Sorcerer",
+    "description": "Enter the mortal world, refine the mundane heart, stir up the winds and clouds with sorcery, and seek the Dao in the marketplace.",
+    "grade": 0,
+    "effect": {
+      "CHR": 1,
+      "INT": 1,
+      "SPR": -1
+    }
+  },
+  "2159": {
+    "id": 2159,
+    "name": "Heaven-Defying Abandoned Child",
+    "description": "Forsaken by heaven's fate, yet determined to go against it, using blood to attract spirits, with insight that astonishes the heavens.",
+    "grade": 1,
+    "effect": {
+      "INT": 4,
+      "CHR": -2,
+      "MNY": -2
+    },
+    "exclude": [
+      2154
+    ]
+  },
+  "2160": {
+    "id": 2160,
+    "name": "Menial Illuminated Mystery",
+    "description": "A menial body, day after day; suddenly one day witnessing falling leaves and awakening, spirit consciousness greatly expanded.",
+    "grade": 1,
+    "effect": {
+      "INT": 3,
+      "SPR": 2,
+      "MNY": -2
+    }
+  },
+  "2161": {
+    "id": 2161,
+    "name": "Wild Mountain Dao Seed",
+    "description": "Originally a mountain woodcutter, by chance obtained an immortal fate; the Dao seed is buried deep, and once it breaks through the soil, it may reach the sky.",
+    "grade": 2,
+    "effect": {
+      "SPR": 4,
+      "INT": 2,
+      "MNY": -3
+    },
+    "condition": "AGE = 30",
+    "status": -2
+  },
+  "2162": {
+    "id": 2162,
+    "name": "Sword Obsession Like Folly",
+    "description": "Obsessed with the sword, extreme in the Way, feeding the sword with blood, using lifespan as fuel, the sword path reaches divinity.",
+    "grade": 3,
+    "effect": {
+      "STR": 5,
+      "INT": -2,
+      "SPR": -3,
+      "LIF": -30
+    },
+    "exclusive": 1
+  },
+  "2163": {
+    "id": 2163,
+    "name": "Sword Tomb Guardian",
+    "description": "Entered a sword tomb as a child, gained recognition from the ancient sword Cangfeng, sword qi tempered the body, greatly reduced lifespan, but unparalleled bone structure.",
+    "grade": 3,
+    "effect": {
+      "STR": 5,
+      "LIF": -3
+    },
+    "exclusive": 1
+  },
+  "2164": {
+    "id": 2164,
+    "name": "Faint Qingying Spirit",
+    "description": "Former life was the spirit of a celestial sword fragment, reincarnated as a human, soul fire weak, but divine sense sharp, Dao heart clear.",
+    "grade": 2,
+    "effect": {
+      "INT": 3,
+      "SPR": 2,
+      "LIF": -2
+    },
+    "status": 1,
+    "exclusive": 1
+  },
+  "2166": {
+    "id": 2166,
+    "name": "Abyss Dragon Scales of Demonic Abyss",
+    "description": "Once a disciple of the demonic sect, fled the sect, suffered a soul-tracking curse, physique strong but Dao heart disturbed, lifespan diminished.",
+    "grade": 1,
+    "effect": {
+      "STR": 2,
+      "SPR": 1,
+      "LIF": -1
+    },
+    "status": 1
+  },
+  "2167": {
+    "id": 2167,
+    "name": "Artifact Spirit Awakening",
+    "description": "A trace of artifact spirit soul hides within, occasionally awakens, bearing an extraordinary demeanor, insight slightly increased.",
+    "grade": 0,
+    "effect": {
+      "CHR": 1,
+      "INT": 1
+    },
+    "status": 1
+  },
+  "2168": {
+    "id": 2168,
+    "name": "Tomb Guard Orphan",
+    "description": "Grew up in a sword tomb from childhood, physique resilient, but solitude clouded the Dao heart.",
+    "grade": 0,
+    "effect": {
+      "STR": 2,
+      "SPR": -1
+    }
+  },
+  "2169": {
+    "id": 2169,
+    "name": "Barefoot Wandering Healer",
+    "description": "Practices medicine barefoot, possesses nothing, but has tasted all herbs, physique slightly strengthened.",
+    "grade": 0,
+    "effect": {
+      "MNY": -1,
+      "LIF": 1
+    },
+    "status": 2
+  },
+  "2170": {
+    "id": 2170,
+    "name": "Rebel Against the Dao and Classics",
+    "description": "Rebelled from the demonic path, mind steadfast, but years of wandering damaged appearance.",
+    "grade": 0,
+    "effect": {
+      "STR": 1,
+      "SPR": 1,
+      "CHR": -1
+    }
+  },
+  "2171": {
+    "id": 2171,
+    "name": "Herb and Pill Heart",
+    "description": "A loose cultivator practicing alchemy, using common herbs to refine spirit pills, family wealth dissipates, insight gradually grows.",
+    "grade": 0,
+    "effect": {
+      "INT": 2,
+      "MNY": -1
+    }
+  },
+  "2172": {
+    "id": 2172,
+    "name": "Loose Cultivator's Alchemy Path",
+    "description": "A loose cultivator stumbled upon an alchemy formula, has slight wealth, but Dao heart unsteady, hard to resist temptation.",
+    "grade": 0,
+    "effect": {
+      "MNY": 1,
+      "INT": 1,
+      "SPR": -1
+    },
+    "status": 1
+  },
+  "2173": {
+    "id": 2173,
+    "name": "Faint Qingying Light",
+    "description": "Former life was the spirit of celestial artifact 'Qingying', remnant soul undying, incarnated into mortal womb, lingering charm remains, but physical body flawed.",
+    "grade": 2,
+    "effect": {
+      "SPR": 2,
+      "INT": 1,
+      "STR": -1,
+      "LIF": -10
+    },
+    "exclude": [
+      2174
+    ]
+  },
+  "2174": {
+    "id": 2174,
+    "name": "Spiritual Artifact Primordial Embryo",
+    "description": "Artifact spirit of ancient celestial artifact reincarnated as human, naturally attuned to spirits, celestial appearance unparalleled, only the physical body cannot bear the weight of the mortal world.",
+    "grade": 3,
+    "effect": {
+      "INT": 3,
+      "CHR": 3,
+      "STR": -3,
+      "LIF": -20
+    },
+    "exclude": [
+      2173
+    ],
+    "status": 1,
+    "exclusive": 1
+  },
+  "2175": {
+    "id": 2175,
+    "name": "Tomb Guardian Sword Bone",
+    "description": "Generations guarding the sword tomb, tempered by myriad sword intents, forged sword bone, bearing steady as a mountain.",
+    "grade": 1,
+    "effect": {
+      "STR": 2,
+      "CHR": 1,
+      "SPR": -1
+    },
+    "exclude": [
+      2176
+    ]
+  },
+  "2176": {
+    "id": 2176,
+    "name": "Sword Heart Hidden in Sheath",
+    "description": "Descendant of Xiao Cangjian's lineage, sword intent hidden in the heart sheath, divine sense sharp, concealed without revealing.",
+    "grade": 2,
+    "effect": {
+      "INT": 2,
+      "STR": 1,
+      "LIF": 5
+    },
+    "exclude": [
+      2175
+    ],
+    "status": -1
+  },
+  "2177": {
+    "id": 2177,
+    "name": "Hanging Gourd Dusty Wanderer",
+    "description": "Hangs a gourd to help the world, travels as a doctor, polishes the heart through the mundane world, though poor, the Dao heart grows firmer.",
+    "grade": 1,
+    "effect": {
+      "SPR": 2,
+      "MNY": -2,
+      "INT": 1
+    },
+    "exclude": [
+      2178
+    ]
+  },
+  "2178": {
+    "id": 2178,
+    "name": "Traveling and Knowing Herbs",
+    "description": "Travels far and wide, identifies grasses and distinguishes medicines, roughly understands medical theory, slightly comprehends.",
+    "grade": 0,
+    "effect": {
+      "INT": 1,
+      "STR": -1,
+      "SPR": 1
+    },
+    "exclude": [
+      2177
+    ]
+  },
+  "2179": {
+    "id": 2179,
+    "name": "Rebel Demon Heart",
+    "description": "Rebelled from the demonic sect, inner demon not removed but rebounded into the body, cultivation surges wildly, but Dao heart collapses, fate twists.",
+    "grade": 3,
+    "effect": {
+      "INT": 4,
+      "STR": 2,
+      "SPR": -4,
+      "LIF": -10
+    },
+    "exclude": [
+      2180
+    ],
+    "status": -2,
+    "exclusive": 1
+  },
+  "2180": {
+    "id": 2180,
+    "name": "Blood Path Purified Soul",
+    "description": "A demonic path defector, after a blood-soaked path finally gains a purified soul, Dao heart reforged, but past cultivation becomes a shackle, insight diminished.",
+    "grade": 1,
+    "effect": {
+      "SPR": 3,
+      "INT": -2,
+      "CHR": -1
+    },
+    "exclude": [
+      2179
+    ]
+  },
+  "2181": {
+    "id": 2181,
+    "name": "Pill Dust Marrow Cleansing",
+    "description": "A loose cultivator without support, uses pill dust to temper the body, cleanses the marrow and transforms the sinews, bone structure strong, but alchemy consumed wealth, family fortune gone.",
+    "grade": 1,
+    "effect": {
+      "STR": 3,
+      "MNY": -2,
+      "LIF": 10
+    },
+    "exclude": [
+      2182
+    ],
+    "status": -1
+  },
+  "2182": {
+    "id": 2182,
+    "name": "Furnace Fire Heart Cleansing",
+    "description": "Long resides by the alchemy furnace, refines heart with fire, divine sense gradually clears, comprehends the alchemy path, but physique weak due to prolonged sitting.",
+    "grade": 2,
+    "effect": {
+      "INT": 3,
+      "SPR": 1,
+      "STR": -2
+    },
+    "exclude": [
+      2181
+    ],
+    "status": -1
+  },
+  "2184": {
+    "id": 2184,
+    "name": "Xiao Hidden Sword",
+    "description": "Nameless guardian of the sword graveyard, hearing swords for a millennium, comprehending the remnant sword intent, possessing the bone of hidden sword.",
+    "grade": 2,
+    "effect": {
+      "STR": 4,
+      "INT": 2,
+      "SPR": 1
+    },
+    "exclude": [
+      2185
+    ],
+    "status": 1,
+    "exclusive": 1
+  },
+  "2185": {
+    "id": 2185,
+    "name": "Sword Graveyard Keeper",
+    "description": "Accompanied by remnant swords since childhood, body bathed in sword aura, bones like dark iron, understanding the lament of swords.",
+    "grade": 1,
+    "effect": {
+      "STR": 2,
+      "INT": 1,
+      "SPR": 1
+    },
+    "exclude": [
+      2184
+    ]
+  },
+  "2186": {
+    "id": 2186,
+    "name": "Green Firefly",
+    "description": "Spirit of the ancient artifact 'Green Firefly Lamp', after taking form, body draped in clear radiance, spirit penetrating the netherworld, yet unable to let go of its former master's obsession.",
+    "grade": 1,
+    "effect": {
+      "CHR": 3,
+      "INT": 3,
+      "SPR": -1
+    },
+    "exclude": [],
+    "exclusive": 1
+  },
+  "2188": {
+    "id": 2188,
+    "name": "Wandering Healer",
+    "description": "Practicing medicine to help the world, traveling far and wide, versed in medicine, divination, astrology, and physiognomy; though not wealthy, enjoys worldly freedom.",
+    "grade": 0,
+    "effect": {
+      "INT": 1,
+      "SPR": 2,
+      "MNY": -1
+    },
+    "exclude": [
+      2192
+    ]
+  },
+  "2191": {
+    "id": 2191,
+    "name": "Discarded of the Demon Path",
+    "description": "Expelled from the demon sect, incomplete techniques, damaged spiritual root, yet honed cunning and tenacity between life and death.",
+    "grade": 0,
+    "effect": {
+      "STR": 1,
+      "INT": 1,
+      "SPR": -1,
+      "CHR": -1
+    },
+    "exclude": []
+  },
+  "2192": {
+    "id": 2192,
+    "name": "Benevolent Medical Immortal",
+    "description": "Medical skills reaching the divine, benevolent heart saving the world; once saved a tribulation-crossing cultivator, rewarded with a scroll of medical fragments, thus transcending the mundane.",
+    "grade": 0,
+    "effect": {
+      "INT": 2,
+      "SPR": 2,
+      "LIF": 2
+    },
+    "exclude": [
+      2188
+    ]
+  },
+  "2193": {
+    "id": 2193,
+    "name": "Remnant Soul of Artifact Spirit",
+    "description": "You were originally the spirit of an ancient sword, when the sword shattered your soul scattered, reincarnated as a human, spiritual consciousness not extinguished.",
+    "grade": 0,
+    "effect": {
+      "SPR": 1,
+      "INT": 1,
+      "STR": -1
+    }
+  },
+  "2194": {
+    "id": 2194,
+    "name": "Grave-tending Orphan",
+    "description": "Entered the sword graveyard by mistake as a child, accompanied by dead swords, temperament solitary and cold, understanding the breath of swords.",
+    "grade": 0,
+    "effect": {
+      "INT": 1,
+      "SPR": 2,
+      "CHR": -1
+    }
+  },
+  "2196": {
+    "id": 2196,
+    "name": "Alchemy Practicing Loose Cultivator",
+    "description": "Self-taught, using heaven and earth as furnace, grass and wood as medicine, though humble, achieved mastery in alchemy.",
+    "grade": 1,
+    "effect": {
+      "INT": 2,
+      "STR": 1,
+      "MNY": -1,
+      "SPR": 1
+    }
+  },
+  "2197": {
+    "id": 2197,
+    "name": "Sword Spirit Symbiosis",
+    "description": "Symbiotic with an ancient sentient sword; the sword is you, you are the sword, fully revealed.",
+    "grade": 1,
+    "effect": {
+      "STR": 3,
+      "INT": 1,
+      "CHR": 1,
+      "SPR": -1
+    }
+  },
+  "2198": {
+    "id": 2198,
+    "name": "Xiao Family Hidden Sword",
+    "description": "Line of sword graveyard guardians, hiding swords in heart, burying swords in graves, bearing endless sword intent.",
+    "grade": 2,
+    "effect": {
+      "INT": 3,
+      "STR": 2,
+      "SPR": 1,
+      "CHR": -2
+    },
+    "exclusive": 1
+  },
+  "2199": {
+    "id": 2199,
+    "name": "Green Firefly Sword Spirit",
+    "description": "Artifact spirit within sword, taking form as a green firefly, accompanying master in life, sword intent clear, but lifespan damaged.",
+    "grade": 3,
+    "effect": {
+      "CHR": 4,
+      "INT": 3,
+      "STR": 2,
+      "LIF": -2
+    },
+    "exclusive": 1
+  },
+  "2200": {
+    "id": 2200,
+    "name": "Inner Demon Dao Seed",
+    "description": "You take inner demons as the seed of the Dao, awakening to true nature within illusions, yet the Dao heart is often disturbed.",
+    "grade": 1,
+    "effect": {
+      "INT": 2,
+      "SPR": -1
+    }
+  },
+  "2201": {
+    "id": 2201,
+    "name": "Demon Primordial Blood Devour",
+    "description": "You cultivate demon sect secret arts, able to devour the essence blood of living beings for your own use, but each action depletes your own lifespan.",
+    "grade": 2,
+    "effect": {
+      "STR": 3,
+      "LIF": -20
+    }
+  },
+  "2202": {
+    "id": 2202,
+    "name": "Innate Wisdom Heavenly Revelation",
+    "description": "You are a reincarnated celestial, a spark of true spirit remains clear in the spiritual platform; cultivation and enlightenment seem divinely aided, yet past karma manifests as tribulation obstacles.",
+    "grade": 3,
+    "effect": {
+      "INT": 4,
+      "SPR": -2
+    },
+    "exclusive": 1
+  },
+  "2203": {
+    "id": 2203,
+    "name": "Samsara Dao Seal",
+    "description": "You have endured countless cycles of reincarnation, Dao heart firm as a rock, yet soul damaged, celestial aptitude dimmed.",
+    "grade": 1,
+    "effect": {
+      "SPR": 3,
+      "CHR": -2
+    }
+  },
+  "2204": {
+    "id": 2204,
+    "name": "Telepathic Connection",
+    "description": "Born able to communicate telepathically with beasts, easily gaining the favor of spirit creatures, but personal cultivation talent slightly mediocre.",
+    "grade": 0,
+    "effect": {
+      "CHR": 2,
+      "INT": -1
+    }
+  },
+  "2205": {
+    "id": 2205,
+    "name": "Blood-refined Beast Embryo",
+    "description": "You incubate an exotic beast egg with your essence blood, life linked; initially weak, but if it grows, you will gain a powerful ally.",
+    "grade": 0,
+    "effect": {
+      "LIF": -15,
+      "STR": 2
+    }
+  },
+  "2206": {
+    "id": 2206,
+    "name": "Dual Cultivation of Talismans and Formations",
+    "description": "You cultivate both talismans and formations, each enhancing the other, but divided attention causes a slight flaw in the Dao heart.",
+    "grade": 0,
+    "effect": {
+      "INT": 2,
+      "SPR": -1
+    }
+  },
+  "2207": {
+    "id": 2207,
+    "name": "Formation Principle Clarity",
+    "description": "Since childhood often observing the stars, you have a unique understanding of formation principles, but unfortunately lacking in physical fitness.",
+    "grade": 0,
+    "effect": {
+      "INT": 2,
+      "STR": -1
+    }
+  },
+  "2208": {
+    "id": 2208,
+    "name": "Pill Fragrance Immortal Bone",
+    "description": "Fed on spirit pills in youth, body exudes rare fragrance, immortal bearing unparalleled, but consumed much family wealth.",
+    "grade": 0,
+    "effect": {
+      "CHR": 2,
+      "MNY": -2
+    }
+  },
+  "2209": {
+    "id": 2209,
+    "name": "Herbal Affinity",
+    "description": "Born with resonance with flora, speeds up spiritual herb growth, doubles alchemy efficiency, but lacking in combat prowess.",
+    "grade": 0,
+    "effect": {
+      "MNY": 2,
+      "STR": -1
+    }
+  },
+  "2210": {
+    "id": 2210,
+    "name": "Demonic Heart Implanting Dao",
+    "description": "Heart demon takes root as a seed in the Dao foundation, greatly boosting combat power but destabilizing the Dao heart.",
+    "grade": 3,
+    "effect": {
+      "STR": 3,
+      "SPR": -2
+    },
+    "status": 1,
+    "exclusive": 1
+  },
+  "2211": {
+    "id": 2211,
+    "name": "Reincarnation Imprint",
+    "description": "A lingering reincarnation mark grants extraordinary insight, though the body remains young and weak.",
+    "grade": 2,
+    "effect": {
+      "INT": 3,
+      "STR": -2
+    }
+  },
+  "2212": {
+    "id": 2212,
+    "name": "Slaughter Proves Dao",
+    "description": "Stopping killing with killing, blood sacrifice to the heavens, grants formidable combat power but risks demonic corruption.",
+    "grade": 1,
+    "effect": {
+      "STR": 2,
+      "CHR": -1,
+      "SPR": -1
+    }
+  },
+  "2213": {
+    "id": 2213,
+    "name": "Heavenly Secret Array Eye",
+    "description": "Born with innate insight into array formations and extraordinary spiritual sense, yet mentally draining.",
+    "grade": 1,
+    "effect": {
+      "INT": 2,
+      "SPR": -1
+    }
+  },
+  "2214": {
+    "id": 2214,
+    "name": "Past Life Dao Fruit",
+    "description": "Remnants of a past life's Dao fruit grant abundant cultivation experience, though the Dao heart is clouded.",
+    "grade": 0,
+    "effect": {
+      "INT": 1,
+      "SPR": -1
+    }
+  },
+  "2215": {
+    "id": 2215,
+    "name": "Beast Vein Resonance",
+    "description": "Possesses a faint demonic beast bloodline, slightly stronger physique but wild nature hard to suppress.",
+    "grade": 0,
+    "effect": {
+      "STR": 1,
+      "CHR": -1
+    }
+  },
+  "2216": {
+    "id": 2216,
+    "name": "Ten Thousand Beasts Whispers",
+    "description": "Able to mentally commune with low-level demonic beasts, yet frequently plagued by bestial impulses.",
+    "grade": 0,
+    "effect": {
+      "SPR": 1,
+      "STR": -1
+    }
+  },
+  "2217": {
+    "id": 2217,
+    "name": "Array Foundation Stability",
+    "description": "Array foundations are sturdy, yet resource-intensive.",
+    "grade": 0,
+    "effect": {
+      "INT": 1,
+      "MNY": -1
+    }
+  },
+  "2218": {
+    "id": 2218,
+    "name": "Herbal Scent Spirit Body",
+    "description": "Naturally fragrant with medicine, attracts pill energy during alchemy, yet physically frail.",
+    "grade": 0,
+    "effect": {
+      "CHR": 1,
+      "STR": -1
+    }
+  },
+  "2220": {
+    "id": 2220,
+    "name": "Myriad Phenomena Star Array",
+    "description": "Innate spiritual perception can deduce the celestial movements and lay grand formations, yet the Dao heart is unstable, prone to demonic corruption.",
+    "grade": 3,
+    "effect": {
+      "INT": 5,
+      "SPR": -3
+    },
+    "exclude": [
+      2228
+    ],
+    "exclusive": 1
+  },
+  "2221": {
+    "id": 2221,
+    "name": "Demon Disintegration",
+    "description": "Using demonic blood to unleash potential, greatly enhancing physique at the cost of haggard appearance and a corrupted Dao heart.",
+    "grade": 2,
+    "effect": {
+      "STR": 4,
+      "CHR": -2,
+      "SPR": -3
+    },
+    "exclude": [
+      2225
+    ]
+  },
+  "2222": {
+    "id": 2222,
+    "name": "Reincarnation Mark",
+    "description": "Past life cultivation manifests as sudden flashes of insight, yet lifespan is diminished, requiring reforging of the foundational bones.",
+    "grade": 1,
+    "effect": {
+      "INT": 3,
+      "LIF": -2
+    },
+    "exclude": [
+      2226
+    ],
+    "status": -2
+  },
+  "2223": {
+    "id": 2223,
+    "name": "Possessed by Spirit",
+    "description": "Bound with a demonic spirit since childhood, granting a robust physique but a sinister appearance, shunned by society.",
+    "grade": 1,
+    "effect": {
+      "STR": 2,
+      "CHR": -2,
+      "SPR": 1
+    },
+    "exclude": [
+      2227
+    ]
+  },
+  "2224": {
+    "id": 2224,
+    "name": "Hundred Herbs Spirit Communication",
+    "description": "Naturally attuned to the essence of herbs, recognizing countless medicines, and inheriting many family pill recipes.",
+    "grade": 1,
+    "effect": {
+      "INT": 2,
+      "MNY": 2
+    },
+    "exclude": [
+      2229
+    ]
+  },
+  "2225": {
+    "id": 2225,
+    "name": "Heart Demon Emerges",
+    "description": "A nascent heart demon clouds the cultivation path, marring the Dao heart slightly, yet demonic thoughts also sharpen spiritual insights.",
+    "grade": 0,
+    "effect": {
+      "SPR": -2,
+      "INT": 1
+    },
+    "exclude": [
+      2221
+    ]
+  },
+  "2226": {
+    "id": 2226,
+    "name": "Past Life Remnant Thoughts",
+    "description": "Fragments of past life memories linger, granting occasional epiphanies, yet they unsettle the mind.",
+    "grade": 0,
+    "effect": {
+      "INT": 1,
+      "SPR": -1
+    },
+    "exclude": [
+      2222
+    ]
+  },
+  "2227": {
+    "id": 2227,
+    "name": "Wild Blood Awakening",
+    "description": "A faint beast bloodline stirs, slightly enhancing physical strength while roughening the appearance.",
+    "grade": 0,
+    "effect": {
+      "STR": 1,
+      "CHR": -1
+    },
+    "exclude": [
+      2223
+    ]
+  },
+  "2228": {
+    "id": 2228,
+    "name": "Glimpse Array Patterns",
+    "description": "Stumbling upon a fragment of array patterns, gaining a glimpse of celestial mysteries, yet mentally taxing.",
+    "grade": 0,
+    "effect": {
+      "INT": 1,
+      "SPR": -1
+    },
+    "exclude": [
+      2220
+    ]
+  },
+  "2229": {
+    "id": 2229,
+    "name": "Heart of Grass and Wood",
+    "description": "Having a faint connection with plants and trees, making entry into the Dao of Alchemy slightly easier.",
+    "grade": 0,
+    "effect": {
+      "INT": 1,
+      "SPR": 1
+    },
+    "exclude": [
+      2224
+    ]
+  },
+  "2230": {
+    "id": 2230,
+    "name": "Remnant Shell of Heavenly Demon",
+    "description": "You are a wisp of demonic thought reincarnated from the fall of an ancient Heavenly Demon, possessing supreme demonic nature. Heart demons accompany you constantly, and the path of immortality is extremely perilous.",
+    "grade": 3,
+    "effect": {
+      "SPR": -3,
+      "INT": 3,
+      "STR": 2
+    },
+    "status": -2,
+    "exclusive": 1
+  },
+  "2231": {
+    "id": 2231,
+    "name": "Hard to Cross the Heart Demon",
+    "description": "Heart demons entangle the body, shaking the Dao heart. Yet if one can cut through with the Sword of Wisdom, it becomes an opportunity to break the cocoon and become a butterfly.",
+    "grade": 0,
+    "effect": {
+      "SPR": -1,
+      "INT": 1
+    }
+  },
+  "2232": {
+    "id": 2232,
+    "name": "Remnant Soul Rekindled",
+    "description": "The remnant soul of a past life has not been extinguished, granting this life a clear divine sense. However, the soul is damaged, and lifespan is hard to extend.",
+    "grade": 2,
+    "effect": {
+      "INT": 3,
+      "LIF": -2
+    },
+    "status": -1
+  },
+  "2233": {
+    "id": 2233,
+    "name": "Unfinished Karmic Bonds",
+    "description": "Karmic entanglements from a past life, this life begins with an unavoidable fateful encounter.",
+    "grade": 0,
+    "effect": {
+      "RDM": 1
+    }
+  },
+  "2234": {
+    "id": 2234,
+    "name": "Bloodline of Ten Thousand Beasts",
+    "description": "A trace of ancient ferocious beast blood flows within, granting a powerful physical body but also carrying a hint of bestial nature.",
+    "grade": 0,
+    "effect": {
+      "STR": 1,
+      "CHR": -1
+    }
+  },
+  "2235": {
+    "id": 2235,
+    "name": "Spirit Beast Companion",
+    "description": "Growing up with a spirit beast companion, sharing a heart-to-heart connection. Though it consumes considerable resources, it alleviates loneliness on the path of Dao.",
+    "grade": 0,
+    "effect": {
+      "SPR": 1,
+      "MNY": -1
+    }
+  },
+  "2236": {
+    "id": 2236,
+    "name": "Trapped Dragon Formation",
+    "description": "By chance, you learned a fragment of an ancient trapping formation, which can trap enemies unseen at a critical moment.",
+    "grade": 0,
+    "effect": {
+      "STR": 1
+    }
+  },
+  "2237": {
+    "id": 2237,
+    "name": "Innate Alchemy Meridians",
+    "description": "Your meridians are naturally close to alchemical energy, making alchemy twice as effective with half the effort. Bathed in medicinal power year-round, your lifespan slightly surpasses ordinary people.",
+    "grade": 1,
+    "effect": {
+      "INT": 2,
+      "LIF": 1
+    }
+  },
+  "2238": {
+    "id": 2238,
+    "name": "Herb Proficiency",
+    "description": "Familiar with the Hundred Herbs Scripture since childhood, able to identify medicinal herbs without hindrance, convenient for gathering herbs and trading.",
+    "grade": 0,
+    "effect": {
+      "MNY": 1
+    }
+  },
+  "2239": {
+    "id": 2239,
+    "name": "First Glimpse of Talisman Dao",
+    "description": "By chance obtained a fragmentary talisman manual, drawing spiritual talismans with a mortal body, getting a first glimpse of the Mystic Gate.",
+    "grade": 0,
+    "effect": {
+      "INT": 2,
+      "MNY": -1
+    },
+    "exclude": [
+      2244
+    ]
+  },
+  "2240": {
+    "id": 2240,
+    "name": "Embers of a Fallen Clan",
+    "description": "The immortal clan collapsed, left alone and adrift, possessing nothing but with unwavering will.",
+    "grade": 0,
+    "effect": {
+      "MNY": -2,
+      "SPR": 1
+    },
+    "exclude": [
+      2246
+    ],
+    "status": 1
+  },
+  "2241": {
+    "id": 2241,
+    "name": "Concealed Blade Beneath the Broom",
+    "description": "Sweeping outside the Sutra Depository, absorbing the wisdom of ancient classics through osmosis, hidden wisdom sprouts.",
+    "grade": 0,
+    "effect": {
+      "INT": 2,
+      "CHR": -1
+    },
+    "exclude": [
+      2245
+    ]
+  },
+  "2242": {
+    "id": 2242,
+    "name": "Wandering Wild Guest",
+    "description": "Abandoning fame, roaming with sandals, accompanied by mist and clouds.",
+    "grade": 0,
+    "effect": {
+      "SPR": 2,
+      "MNY": -1
+    },
+    "exclude": [
+      2247
+    ]
+  },
+  "2243": {
+    "id": 2243,
+    "name": "Stone Heart of Sword Sharpening",
+    "description": "Polishing the sword day and night, the mind gradually aligns with the sword aura, yet the seven emotions gradually diminish.",
+    "grade": 0,
+    "effect": {
+      "STR": 2,
+      "SPR": -1
+    },
+    "exclude": [
+      2248
+    ]
+  },
+  "2244": {
+    "id": 2244,
+    "name": "Bitter Refinement of Cinnabar Heart",
+    "description": "Addicted to furnace fire and cinnabar, consuming spirit and torturing bones, yet refining a discerning eye for objects.",
+    "grade": 0,
+    "effect": {
+      "INT": 2,
+      "STR": -1
+    },
+    "exclude": [
+      2239
+    ]
+  },
+  "2245": {
+    "id": 2245,
+    "name": "Dust Gone, Light Emerges",
+    "description": "Sweeping away the frost-covered leaves before the steps, suddenly seeing the bright platform like a mirror, achieving a sudden enlightenment of the true Dao.",
+    "grade": 1,
+    "effect": {
+      "INT": 3,
+      "CHR": 1
+    },
+    "exclude": [
+      2241
+    ]
+  },
+  "2246": {
+    "id": 2246,
+    "name": "Fallen Cold Clan",
+    "description": "Bearing an immortal vein but abandoned by the clan, cold eyes tempering a resilient Dao heart.",
+    "grade": 1,
+    "effect": {
+      "MNY": -2,
+      "SPR": 3
+    },
+    "exclude": [
+      2240
+    ]
+  },
+  "2247": {
+    "id": 2247,
+    "name": "Lone Crane in Cloudy Wilderness",
+    "description": "Secluding from the world for millennia, living as long as mountains, the heart soaring high like a lone crane, untouched by worldly tribulations.",
+    "grade": 2,
+    "effect": {
+      "SPR": 3,
+      "LIF": 1,
+      "MNY": -2
+    },
+    "exclude": [
+      2242
+    ]
+  },
+  "2248": {
+    "id": 2248,
+    "name": "Forging Life with Sword Bone",
+    "description": "Using heart blood as a guide, forging a sword bone in childhood. From then on, the body is the sword, and the path is solitary and absolute.",
+    "grade": 3,
+    "effect": {
+      "STR": 4,
+      "INT": -2,
+      "SPR": -1,
+      "LIF": -1
+    },
+    "exclude": [
+      2243
+    ],
+    "exclusive": 1
+  },
+  "2249": {
+    "id": 2249,
+    "name": "Fulfa Tong Shen",
+    "description": "Cinnabar dots a talisman, white paper connects to the divine; even a mortal body can steal the secrets of heaven and earth.",
+    "grade": 1,
+    "effect": {
+      "INT": 2,
+      "SPR": 1,
+      "MNY": -1
+    }
+  },
+  "2250": {
+    "id": 2250,
+    "name": "Nine Arithmetic Classics",
+    "description": "Numbers hide the Dao; using calculation to break formations, the wisdom of mortals can also glimpse the heavens.",
+    "grade": 0,
+    "effect": {
+      "INT": 1,
+      "MNY": -1
+    }
+  },
+  "2251": {
+    "id": 2251,
+    "name": "Withered Glory's Legacy Vein",
+    "description": "Once a favored of heaven, now fallen to dust; in one thought of withering and glory, the bloodline still remains.",
+    "grade": 1,
+    "effect": {
+      "STR": 2,
+      "CHR": 1,
+      "SPR": -1
+    }
+  },
+  "2252": {
+    "id": 2252,
+    "name": "Discarded Slipper of a Grand Clan",
+    "description": "A grand clan like a worn-out slipper, discarding me like dust; unwilling in heart, the Dao heart grows firmer.",
+    "grade": 0,
+    "effect": {
+      "SPR": 2,
+      "MNY": -2,
+      "CHR": -1
+    }
+  },
+  "2253": {
+    "id": 2253,
+    "name": "Rebel Fate Mixed Dust",
+    "description": "Sweep away the dust before the steps, only then realize the body is a treasure; a menial worker defies fate, attaining sainthood through the physical body.",
+    "grade": 2,
+    "effect": {
+      "STR": 3,
+      "SPR": 2,
+      "MNY": -2
+    },
+    "exclude": [
+      2254
+    ],
+    "status": 1
+  },
+  "2254": {
+    "id": 2254,
+    "name": "Bodhi Sweeping Shadow",
+    "description": "Holding the broom for three years, shadows enter the Dao heart; the mortal body gradually sheds, immortal bones secretly grow.",
+    "grade": 0,
+    "effect": {
+      "STR": 1,
+      "SPR": 1,
+      "CHR": -1
+    },
+    "exclude": [
+      2253
+    ]
+  },
+  "2255": {
+    "id": 2255,
+    "name": "Picking Chrysanthemums by the Eastern Fence",
+    "description": "Picking chrysanthemums by the eastern fence, leisurely by the southern mountain; carefree and at ease, the Dao heart is clear.",
+    "grade": 0,
+    "effect": {
+      "SPR": 3,
+      "STR": -1,
+      "INT": -1
+    }
+  },
+  "2256": {
+    "id": 2256,
+    "name": "Plum Wife and Crane Child",
+    "description": "Plum shadows and crane traces, a life of pure cultivation; not attracting dust, the spirit naturally clears.",
+    "grade": 0,
+    "effect": {
+      "INT": 2,
+      "SPR": 1,
+      "MNY": -2
+    }
+  },
+  "2257": {
+    "id": 2257,
+    "name": "Forging Swords as a Slave",
+    "description": "Forging swords as a livelihood, the sword is life; tempered day and night, body and sword merge.",
+    "grade": 0,
+    "effect": {
+      "STR": 2,
+      "SPR": -1,
+      "CHR": -1
+    }
+  },
+  "2258": {
+    "id": 2258,
+    "name": "Heaven-Born Sword Bone",
+    "description": "Sword bone formed by heaven, ten thousand swords cry in unison; yet envied by heaven, lifespan is flawed.",
+    "grade": 3,
+    "effect": {
+      "STR": 5,
+      "INT": 2,
+      "LIF": -2
+    },
+    "exclude": [
+      2257
+    ],
+    "status": 2
+  },
+  "2259": {
+    "id": 2259,
+    "name": "Divination Peeping Heaven",
+    "description": "Roughly versed in divination, occasionally glimpsing heavenly secrets, but the Dao heart is easily confused.",
+    "grade": 0,
+    "effect": {
+      "INT": 2,
+      "SPR": -1
+    }
+  },
+  "2260": {
+    "id": 2260,
+    "name": "Forsaking the World, Walking Alone",
+    "description": "Abandoned by the clan, traveling alone far away, instead forging a resilient Dao heart.",
+    "grade": 1,
+    "effect": {
+      "SPR": 2,
+      "MNY": -2
+    }
+  },
+  "2261": {
+    "id": 2261,
+    "name": "Sweeping and Cleaning Foundation Building",
+    "description": "Sweeping and cleaning daily, building bone and heart amidst dusty labor.",
+    "grade": 0,
+    "effect": {
+      "STR": 1,
+      "SPR": 1
+    }
+  },
+  "2262": {
+    "id": 2262,
+    "name": "Old Friend of Mist and Cloud",
+    "description": "Long hidden among mountains and forests, dining on mist and drinking dew, bearing an otherworldly demeanor, calamities rarely touch.",
+    "grade": 1,
+    "effect": {
+      "CHR": 2,
+      "SPR": 2,
+      "MNY": -1
+    }
+  },
+  "2264": {
+    "id": 2264,
+    "name": "Investigating Things to Attain Knowledge",
+    "description": "Using mortal wisdom to deduce all methods, comprehension unparalleled, but physical constitution is deficient.",
+    "grade": 1,
+    "effect": {
+      "INT": 3,
+      "STR": -2
+    }
+  },
+  "2265": {
+    "id": 2265,
+    "name": "Hibernating Dragon in the Abyss",
+    "description": "Carrying the bloodline of a true dragon, though discarded like a dormant dragon in the deep abyss; when the moment comes, fortune flows smoothly.",
+    "grade": 2,
+    "effect": {
+      "LIF": 3,
+      "CHR": 1,
+      "MNY": -1
+    }
+  },
+  "2266": {
+    "id": 2266,
+    "name": "Dust Hides a Pearl",
+    "description": "In insignificance, occasionally obtaining the legacy of a predecessor, attaining Dao and resources.",
+    "grade": 0,
+    "effect": {
+      "INT": 1,
+      "SPR": 1,
+      "MNY": 1
+    }
+  },
+  "2267": {
+    "id": 2267,
+    "name": "Transcendent Immortal Guest",
+    "description": "Hidden cultivation in early years, Dao heart stable with an otherworldly demeanor, but unfamiliar with worldly affairs, the potential for later adjustment is slightly reduced.",
+    "grade": 0,
+    "effect": {
+      "SPR": 2,
+      "CHR": 2
+    },
+    "status": -1
+  },
+  "2268": {
+    "id": 2268,
+    "name": "Serving the Sword and Living",
+    "description": "A sword slave, serving the sword as life, tempering the body and penetrating the subtle; but always living under others, the Dao heart is hard to complete.",
+    "grade": 0,
+    "effect": {
+      "STR": 2,
+      "SPR": -1
+    }
+  },
+  "2269": {
+    "id": 2269,
+    "name": "Slight Mastery of Talisman Arts",
+    "description": "In childhood, obtained a tattered talisman book from a street stall; amidst cinnabar and yellow paper, drew thin spiritual energy, yet due to long sitting and refining, fell into a condition of physical weakness.",
+    "grade": 0,
+    "effect": {
+      "CHR": 1,
+      "INT": 1,
+      "STR": -1
+    }
+  },
+  "2270": {
+    "id": 2270,
+    "name": "Sickly Body",
+    "description": "Sickly and bedridden since childhood, fortunate to learn breathing techniques from a wandering Taoist priest. Though lacking spiritual roots, the mortal body was tempered into an unyielding Dao heart.",
+    "grade": 0,
+    "effect": {
+      "STR": -2,
+      "INT": 1,
+      "SPR": 1
+    }
+  },
+  "2271": {
+    "id": 2271,
+    "name": "Clan Disgrace Brand",
+    "description": "Born of a lowly mother, the clan regards you as a disgrace. The tattoo on the forehead is like an ingrown bone, burning day and night, yet it tempers extraordinary endurance.",
+    "grade": 0,
+    "effect": {
+      "CHR": -1,
+      "SPR": -1,
+      "STR": 1
+    }
+  },
+  "2272": {
+    "id": 2272,
+    "name": "Secret Scroll Hoard",
+    "description": "On the night of banishment, sneaked into the library and snatched a charred-edge forbidden art. Between the broken lines seems to hide a chance to defy fate.",
+    "grade": 0,
+    "effect": {
+      "INT": 1,
+      "MNY": -1
+    }
+  },
+  "2273": {
+    "id": 2273,
+    "name": "Relentless Chores",
+    "description": "Carried water and chopped wood in the kitchen for three years. The rough labor delayed chanting and enlightenment but earned a body of steel and iron.",
+    "grade": 0,
+    "effect": {
+      "STR": 2,
+      "INT": -1
+    }
+  },
+  "2274": {
+    "id": 2274,
+    "name": "Ascetic Wild Practice",
+    "description": "Lived alone in a dilapidated temple on a wild mountain, eating wild fruits. Despite lacking elixirs and artifacts, a free and easy Dao heart became ever clearer.",
+    "grade": 0,
+    "effect": {
+      "SPR": 2,
+      "MNY": -1
+    }
+  },
+  "2275": {
+    "id": 2275,
+    "name": "Sitting in Forgetfulness",
+    "description": "Fell off a cliff and stumbled into an ancient cultivator's cave. The remnant of the 'Sitting and Forgetting Sutra' on the wall entered the eyes and transformed, leaving the consciousness gradually empty, as if in the realm of Dao union.",
+    "grade": 1,
+    "effect": {
+      "INT": 2,
+      "SPR": 2,
+      "STR": -1
+    }
+  },
+  "2276": {
+    "id": 2276,
+    "name": "Sword Qi Tempered Bones",
+    "description": "Locked in a sword tomb guarding swords for three autumns, enduring the invasion of thousands of residual sword auras day and night. The bones mutated, birthing a strand of unmatched sword intent.",
+    "grade": 1,
+    "effect": {
+      "STR": 2,
+      "CHR": 1,
+      "SPR": -1
+    }
+  },
+  "2277": {
+    "id": 2277,
+    "name": "Waste Cauldron Golden Elixir",
+    "description": "While cleaning the waste cauldron in the alchemy room, dug out a dust-covered discarded elixir. After taking it, turbid qi dissipated, a complete transformation, drawing sidelong glances from fellow disciples.",
+    "grade": 2,
+    "effect": {
+      "STR": 2,
+      "INT": 1,
+      "RDM": 2
+    },
+    "exclusive": 1
+  },
+  "2278": {
+    "id": 2278,
+    "name": "Master-Slaying Sword Bones",
+    "description": "As a slave for ten years, personally testing thousands of sword scars. Finally, on a snowy night, comprehended the master's sword moves. After one throat-slitting strike, the ordinary iron sword emitted a mournful sound.",
+    "grade": 3,
+    "effect": {
+      "STR": 3,
+      "INT": 2,
+      "CHR": -1,
+      "RDM": 3
+    },
+    "exclusive": 1
+  }
+}

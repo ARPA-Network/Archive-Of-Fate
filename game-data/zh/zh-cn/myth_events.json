@@ -1,0 +1,625 @@
+[
+  {
+    "id": "myth_zh-cn_1",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "古寺塌圮，你拾得一枚温润舍利。当夜梦见老僧讲经。精神+5。",
+    "pollution_type": true,
+    "effect": {
+      "SPR": 5
+    }
+  },
+  {
+    "id": "myth_zh-cn_2",
+    "rarity": "rare",
+    "grade": 2,
+    "fallback": "旧书摊淘得泛黄笔记，所载推演之法令你茅塞顿开。智力+3。",
+    "pollution_type": true,
+    "effect": {
+      "INT": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn_3",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "救起昏倒老翁，获赠古玉一枚，此后言谈自带亲和。魅力+3。",
+    "pollution_type": false,
+    "effect": {
+      "CHR": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn_4",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "工地挖出残剑，触碰时庚金之气入体，臂力大增。力量+4。",
+    "pollution_type": true,
+    "effect": {
+      "STR": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn_5",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "病危之际见光门，醒后沉疴渐愈，医者称奇。寿命+6。",
+    "pollution_type": false,
+    "effect": {
+      "LIF": 6
+    }
+  },
+  {
+    "id": "myth_zh-cn_6",
+    "rarity": "common",
+    "grade": 2,
+    "fallback": "随手买的旧彩票竟中二奖，解了燃眉之急。金钱+4。",
+    "pollution_type": false,
+    "effect": {
+      "MNY": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn_7",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "雨后双虹，你静观片刻，忽感天地韵律入心。精神+2，智力+2。",
+    "pollution_type": false,
+    "effect": {
+      "SPR": 2,
+      "INT": 2
+    }
+  },
+  {
+    "id": "myth_zh-cn_8",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "收养的老狗临去前舔你手心，留一缕灵光，此后你善感人心。魅力+3，精神+3。",
+    "pollution_type": true,
+    "effect": {
+      "CHR": 3,
+      "SPR": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn_9",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "梦与古人对弈，醒后棋艺超群，且觉体轻目明。智力+4，寿命+2。",
+    "pollution_type": true,
+    "effect": {
+      "INT": 4,
+      "LIF": 2
+    }
+  },
+  {
+    "id": "myth_zh-cn_10",
+    "rarity": "common",
+    "grade": 2,
+    "fallback": "健身时突破极限，气血奔涌，顿成大力士。力量+3。",
+    "pollution_type": false,
+    "effect": {
+      "STR": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn_11",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "地摊淘古画转手高价，获圈内赏识，财名双收。金钱+3，魅力+2。",
+    "pollution_type": true,
+    "effect": {
+      "MNY": 3,
+      "CHR": 2
+    }
+  },
+  {
+    "id": "myth_zh-cn_12",
+    "rarity": "rare",
+    "grade": 2,
+    "fallback": "月圆之夜，你无意识画符，次日竟能隔空移杯。精神+4。",
+    "pollution_type": false,
+    "effect": {
+      "SPR": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn_13",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "破解古籍密码，得前人藏宝，小发一笔。智力+3，金钱+2。",
+    "pollution_type": true,
+    "effect": {
+      "INT": 3,
+      "MNY": 2
+    }
+  },
+  {
+    "id": "myth_zh-cn_14",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "火海救人无数，自身毫发无伤，被奉为福星。魅力+4，精神+3。",
+    "pollution_type": false,
+    "effect": {
+      "CHR": 4,
+      "SPR": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn_15",
+    "rarity": "rare",
+    "grade": 2,
+    "fallback": "误食野果上吐下泻，痊愈后脱胎换骨，力增寿延。力量+3，寿命+3。",
+    "pollution_type": false,
+    "effect": {
+      "STR": 3,
+      "LIF": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn_16",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "网文爆红，版权售出高价，转眼身家百万。金钱+5。",
+    "pollution_type": false,
+    "effect": {
+      "MNY": 5
+    }
+  },
+  {
+    "id": "myth_zh-cn_17",
+    "rarity": "common",
+    "grade": 2,
+    "fallback": "公益结益友，交谈中思辨口才俱增。智力+2，魅力+2。",
+    "pollution_type": false,
+    "effect": {
+      "INT": 2,
+      "CHR": 2
+    }
+  },
+  {
+    "id": "myth_zh-cn_18",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "生辰夜莫名落泪，似有前尘影事，此后少眠而神足。精神+3，寿命+2。",
+    "pollution_type": true,
+    "effect": {
+      "SPR": 3,
+      "LIF": 2
+    }
+  },
+  {
+    "id": "myth_zh-cn_19",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "继承远亲遗物，得健身法与理财术，多方受益。力量+2，智力+2，金钱+2。",
+    "pollution_type": true,
+    "effect": {
+      "STR": 2,
+      "INT": 2,
+      "MNY": 2
+    }
+  },
+  {
+    "id": "myth_zh-cn_20",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "黄河古道得残经一页，读后身心焕然，如获新生。魅力+3，精神+3，寿命+3。",
+    "pollution_type": true,
+    "effect": {
+      "CHR": 3,
+      "SPR": 3,
+      "LIF": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn_21",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "偶遇旧书摊，一册无字天书，翻之则灵光乍现，尔后心智渐开。",
+    "pollution_type": false,
+    "effect": {
+      "INT": 3,
+      "RDM": 1
+    }
+  },
+  {
+    "id": "myth_zh-cn_22",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "地铁瞥见镜中己影，眸中金芒一闪，自此容光焕发，笑靥如春。",
+    "pollution_type": true,
+    "effect": {
+      "CHR": 4,
+      "SPR": 2
+    }
+  },
+  {
+    "id": "myth_zh-cn_23",
+    "rarity": "common",
+    "grade": 2,
+    "fallback": "晨跑遇雾中老者，传你呼吸法，习之身轻如燕，旧疾渐愈。",
+    "pollution_type": false,
+    "effect": {
+      "STR": 3,
+      "LIF": 1
+    }
+  },
+  {
+    "id": "myth_zh-cn_24",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "废弃矿洞拾得拳头大灵石，卖得巨款，家资陡富，疑是天赐。",
+    "pollution_type": true,
+    "effect": {
+      "MNY": 6
+    }
+  },
+  {
+    "id": "myth_zh-cn_25",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "深夜加班，窗外磷火成字，劝你惜命，从此洒脱，不惧无常。",
+    "pollution_type": false,
+    "effect": {
+      "SPR": 4,
+      "RDM": -1
+    }
+  },
+  {
+    "id": "myth_zh-cn_26",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "误入拆迁区的老祠堂，触碰残碑，脑中涌入古代方士记忆碎片。",
+    "pollution_type": true,
+    "effect": {
+      "INT": 2,
+      "CHR": 2,
+      "SPR": 2
+    }
+  },
+  {
+    "id": "myth_zh-cn_27",
+    "rarity": "common",
+    "grade": 2,
+    "fallback": "食摊老者赠你一碗龙骨汤，饮后通体暖融，宿病若失。",
+    "pollution_type": false,
+    "effect": {
+      "LIF": 3,
+      "STR": 1
+    }
+  },
+  {
+    "id": "myth_zh-cn_28",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "雷雨夜遭雷击未死，反觉五感超常，偶能预见片断未来。",
+    "pollution_type": false,
+    "effect": {
+      "RDM": 5,
+      "SPR": 1
+    }
+  },
+  {
+    "id": "myth_zh-cn_29",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "巷尾偶遇落魄画师，为你画像，竟画出前世轮廓，从此气质出尘。",
+    "pollution_type": true,
+    "effect": {
+      "CHR": 3,
+      "MNY": 1
+    }
+  },
+  {
+    "id": "myth_zh-cn_30",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "工地挖出青铜残片，触碰后臂力大增，搬砖如捏纸，同事皆惊。",
+    "pollution_type": false,
+    "effect": {
+      "STR": 4,
+      "LIF": 2
+    }
+  },
+  {
+    "id": "myth_zh-cn_31",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "旧卷尘封忽启，字句如刀刻灵台。恍惚间，依稀见前人伏案，墨迹未干，心头顿明。",
+    "pollution_type": true,
+    "effect": {
+      "INT": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn_32",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "糖画之龙，须臾欲飞。老翁笑而不语，归后数日，事事顺遂。",
+    "pollution_type": false,
+    "effect": {
+      "SPR": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn_33",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "遗笺半张，字迹模糊。触手处温润如玉，镜中容颜恍有亲旧影子。",
+    "pollution_type": true,
+    "effect": {
+      "CHR": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn_34",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "空站旧影，回眸一瞬。归来夜梦沉沉，气息绵长，似有故人相护。",
+    "pollution_type": true,
+    "effect": {
+      "LIF": 5
+    }
+  },
+  {
+    "id": "myth_zh-cn_35",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "掌中明珠，非珠也，是一点未烬之灵。握之，昔日欢愉如潮涌来。",
+    "pollution_type": false,
+    "effect": {
+      "SPR": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn_36",
+    "rarity": "common",
+    "grade": 2,
+    "fallback": "旧时记忆，忽如闸开。原是昔年同窗，今借残灵一晤，神思清明。",
+    "pollution_type": true,
+    "effect": {
+      "INT": 2
+    }
+  },
+  {
+    "id": "myth_zh-cn_37",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "古纹入掌，热流滚滚。自此遇事不惑，仿佛有千百年智识傍身。",
+    "pollution_type": true,
+    "effect": {
+      "INT": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn_38",
+    "rarity": "common",
+    "grade": 2,
+    "fallback": "镯温如血，祖辈余泽。典当不得，却使财路渐宽。",
+    "pollution_type": true,
+    "effect": {
+      "MNY": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn_39",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "油伞轻斜，幽香一缕。此后半月，如踩云端，俗忧尽忘。",
+    "pollution_type": false,
+    "effect": {
+      "SPR": 5
+    }
+  },
+  {
+    "id": "myth_zh-cn_40",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "古钱入梦，与古人语。醒后，钱财自来，似有先人铺路。",
+    "pollution_type": true,
+    "effect": {
+      "MNY": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn_41",
+    "rarity": "common",
+    "grade": 2,
+    "fallback": "旧卷得笺，字迹如己，恍见前尘影事，心智微明。",
+    "pollution_type": true,
+    "effect": {
+      "INT": 2
+    }
+  },
+  {
+    "id": "myth_zh-cn_42",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "电梯异坠，过眼千面，心魂一颤，灵台稍澈。",
+    "pollution_type": true,
+    "effect": {
+      "SPR": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn_43",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "古玉入手，梦历沧桑，容止之间，隐有风华。",
+    "pollution_type": true,
+    "effect": {
+      "CHR": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn_44",
+    "rarity": "common",
+    "grade": 2,
+    "fallback": "水洼映影，韶华暂驻，心底生暖，自得怡然。",
+    "pollution_type": false,
+    "effect": {
+      "SPR": 2
+    }
+  },
+  {
+    "id": "myth_zh-cn_45",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "意外拾钱，运道微转，铜绿斑驳，似续前缘。",
+    "pollution_type": true,
+    "effect": {
+      "MNY": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn_46",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "月华成缕，掌现玄字，筋骨暗壮，力从中生。",
+    "pollution_type": false,
+    "effect": {
+      "STR": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn_47",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "白本承赠，落笔字生，智如泉涌，皆为前音。",
+    "pollution_type": true,
+    "effect": {
+      "INT": 6
+    }
+  },
+  {
+    "id": "myth_zh-cn_48",
+    "rarity": "common",
+    "grade": 2,
+    "fallback": "异香醒神，如饮朝露，生机微增，徐徐润身。",
+    "pollution_type": false,
+    "effect": {
+      "LIF": 2
+    }
+  },
+  {
+    "id": "myth_zh-cn_49",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "旧戒触指，心音入耳，神采之间，平添异色。",
+    "pollution_type": true,
+    "effect": {
+      "CHR": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn_50",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "拨号逢故，闻声如昨，气运诡转，前缘未烬。",
+    "pollution_type": true,
+    "effect": {
+      "RDM": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn_51",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "此册泛黄，字迹如蛆，然所言之事与你今日境地暗合，似有旧魂借纸重生，智识微涨。",
+    "pollution_type": true,
+    "effect": {
+      "INT": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn_52",
+    "rarity": "common",
+    "grade": 2,
+    "fallback": "地下铁空无一人，广播忽响，唤一旧名，你应声答到，顿觉筋骨松活，似是借了往昔某人的气力。",
+    "pollution_type": false,
+    "effect": {
+      "STR": 2
+    }
+  },
+  {
+    "id": "myth_zh-cn_53",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "墙皮剥落，露出旧笔预言‘今岁汝在此’，心弦一震，欢悦莫名，仿佛命运早已落笔。",
+    "pollution_type": true,
+    "effect": {
+      "SPR": 5
+    }
+  },
+  {
+    "id": "myth_zh-cn_54",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "阿婆塞币，言‘还汝’，遁入人潮，币温尚存，手气转顺，似前债已清。",
+    "pollution_type": true,
+    "effect": {
+      "MNY": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn_55",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "梦中得号，拨之，彼言‘终至’，断线。醒后镜中己貌添了一种说不清的风霜，似是借了前生的容色。",
+    "pollution_type": true,
+    "effect": {
+      "CHR": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn_56",
+    "rarity": "rare",
+    "grade": 2,
+    "fallback": "旧照突兀，己立故亲之侧，记忆却了无痕迹，凝视间脊凉而智开，疑是承了先人遗识。",
+    "pollution_type": true,
+    "effect": {
+      "INT": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn_57",
+    "rarity": "common",
+    "grade": 2,
+    "fallback": "雨檐偶闻校服女哼唱，不觉泪下，曲终人渺，心间却漾开一片暖意，如偷来的一刻欢愉。",
+    "pollution_type": false,
+    "effect": {
+      "SPR": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn_58",
+    "rarity": "uncommon",
+    "grade": 3,
+    "fallback": "案头日现所欲之饮，终得笺曰‘勿寻’，饮罢夜眠酣甜，气力渐复，似有人暗中照拂。",
+    "pollution_type": true,
+    "effect": {
+      "LIF": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn_59",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "断墙寻启，相中人肖己七分，撕下后连梦其旧事，醒而命力盈然，仿佛魂魄交融。",
+    "pollution_type": true,
+    "effect": {
+      "LIF": 6
+    }
+  },
+  {
+    "id": "myth_zh-cn_60",
+    "rarity": "rare",
+    "grade": 2,
+    "fallback": "无名诗抄，字字入心，翻至空页忽见墨迹：‘汝在读吾？’惊而欣悦，似是诗魂跨时相交。",
+    "pollution_type": true,
+    "effect": {
+      "SPR": 5
+    }
+  }
+]

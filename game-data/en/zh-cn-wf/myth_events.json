@@ -1,0 +1,761 @@
+[
+  {
+    "id": "myth_zh-cn-wf_1",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "The blood of an ancient dragon is branded on your arm, whispers turning into immense power; from then on, fate resonates with dragon wings.",
+    "pollution_type": false,
+    "effect": {
+      "STR": 6
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_2",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "At the top of the observatory tower, you witness a void rift, countless volumes of knowledge pour into your soul, and a star mark is etched upon your forehead.",
+    "pollution_type": true,
+    "effect": {
+      "INT": 5,
+      "SPR": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_3",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "A white deer leads you to an ancient spring in the woods; you drink the moonlit dew, and your face reveals the ancient radiance of the elves.",
+    "pollution_type": true,
+    "effect": {
+      "CHR": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_4",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "A fallen deity weaves their final prayer into your heartbeat; you become a living sanctuary, a mortal body bearing compassion.",
+    "pollution_type": false,
+    "effect": {
+      "SPR": 5,
+      "LIF": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_5",
+    "rarity": "common",
+    "grade": 2,
+    "fallback": "You pick up a rust-free knight's insignia on an ancient battlefield; a blacksmith recognizes it as a lost hero's relic and offers a high price for it.",
+    "pollution_type": false,
+    "effect": {
+      "MNY": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_6",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "In a sunken arena, you duel the shadow of a past champion; upon victory, the essence of their swordsmanship is transferred to you.",
+    "pollution_type": true,
+    "effect": {
+      "STR": 4,
+      "INT": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_7",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "Dancing with wind spirits under the moon, your skirt is stained with traceless fairy dust, and your words henceforth carry the magic of a gentle breeze.",
+    "pollution_type": true,
+    "effect": {
+      "CHR": 3,
+      "SPR": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_8",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "The strings of fate are plucked by a hermit; you brush past the reflections of myriad worlds, clutching a paradox seed in your hand.",
+    "pollution_type": false,
+    "effect": {
+      "RDM": 6
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_9",
+    "rarity": "common",
+    "grade": 2,
+    "fallback": "Having eaten a blood fruit grown from dragon-ash soil, when severely wounded, your heart pounds like a war drum, and broken bones instantly mend.",
+    "pollution_type": false,
+    "effect": {
+      "LIF": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_10",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "From an old box in the attic, you find a mad king's manuscript; deciphering a lost formation within, knowledge turns into a mint.",
+    "pollution_type": true,
+    "effect": {
+      "INT": 4,
+      "MNY": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_11",
+    "rarity": "common",
+    "grade": 2,
+    "fallback": "You touch a remnant scale of an ancient dragon; draconic power surges into your limbs, as if claws tear open the veil of fate.",
+    "pollution_type": false,
+    "effect": {
+      "STR": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_12",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "In a secret room of the magic academy, you decipher a lost rune; the whispers of countless predecessors' wisdom echo in your mind.",
+    "pollution_type": true,
+    "effect": {
+      "INT": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_13",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "Under the moon, the elven queen crowns you; her blessing covers you like a light veil, and mortal eyes henceforth follow you.",
+    "pollution_type": false,
+    "effect": {
+      "CHR": 5
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_14",
+    "rarity": "common",
+    "grade": 2,
+    "fallback": "Excavating an ancient battlefield, you obtain a blood-stained gold coin, engraved with the greed and oaths of a forgotten royal family.",
+    "pollution_type": true,
+    "effect": {
+      "MNY": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_15",
+    "rarity": "uncommon",
+    "grade": 3,
+    "fallback": "You drink the water of the holy spring; your soul is cleansed of dust, and joy lights the path ahead like morning light.",
+    "pollution_type": false,
+    "effect": {
+      "SPR": 6
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_16",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "Death plays chess with you, you win the endgame, henceforth life intertwines with the breath of the underworld, neither undead nor alive.",
+    "pollution_type": true,
+    "effect": {
+      "LIF": 5
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_17",
+    "rarity": "rare",
+    "grade": 2,
+    "fallback": "The spindle of fate reverses, you touch the threads, fragments of countless possibilities pour into your palm.",
+    "pollution_type": true,
+    "effect": {
+      "RDM": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_18",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "At the knight's knighting ceremony, the holy sword shines, ancestral spirits whisper, courage pierces through the chest.",
+    "pollution_type": false,
+    "effect": {
+      "STR": 2
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_19",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "You glimpse the sleeping dream of ancient gods, wisdom falls like starlight, burning mortal thoughts yet illuminating truth.",
+    "pollution_type": false,
+    "effect": {
+      "INT": 6
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_20",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "Bathed in dragon blood, scales grow under the skin, you become a half-dragon form, majesty and curse coexist, destiny is no longer human.",
+    "pollution_type": true,
+    "effect": {
+      "CHR": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_21",
+    "rarity": "common",
+    "grade": 2,
+    "fallback": "Your arm is splashed with ancient dragon blood, at that moment, you feel mountain-like power surging through your body. — The thread of fate gently stirs.",
+    "pollution_type": false,
+    "effect": {
+      "STR": 2
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_22",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "In the dusty secret room of the magic academy, you touch the notes of sages, wisdom floods into your mind like a tide, yet you vaguely hear ancient whispers.",
+    "pollution_type": true,
+    "effect": {
+      "INT": 2
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_23",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "During the adventure, you stumble upon the lost vault of the Dwarf King, wealth spreads before your eyes like starlight. — The gift of fate has long been priced.",
+    "pollution_type": false,
+    "effect": {
+      "MNY": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_24",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "The gods crown you in the clouds, glory weaves your cloak, but in the mirror, your eyes hold the sorrow of predecessors.",
+    "pollution_type": true,
+    "effect": {
+      "CHR": 6
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_25",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "In the elven ruins under moonlight, you drink the spring of life, joy like a forest breeze brushes your heart.",
+    "pollution_type": false,
+    "effect": {
+      "SPR": 2
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_26",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "The heart of the ancient dragon beats in your chest, the flame of life rekindles, but the memories of the old master remain like embers not yet extinguished.",
+    "pollution_type": true,
+    "effect": {
+      "LIF": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_27",
+    "rarity": "common",
+    "grade": 2,
+    "fallback": "A mysterious coin of fate flips, deciding what blessing you will receive. — Everything is unknown.",
+    "pollution_type": false,
+    "effect": {
+      "RDM": 2
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_28",
+    "rarity": "uncommon",
+    "grade": 3,
+    "fallback": "Grasping that cursed greatsword, the power of ancient souls surges into your arms, but also brings their obsessions.",
+    "pollution_type": true,
+    "effect": {
+      "STR": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_29",
+    "rarity": "rare",
+    "grade": 2,
+    "fallback": "The baptism of the spring of wisdom makes your mind as clear as stars, past difficulties suddenly become clear.",
+    "pollution_type": false,
+    "effect": {
+      "INT": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_30",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "The goddess of beauty personally paints your face, henceforth mortals are dazzled by you, while the mirror may reflect the sorrow of the gods.",
+    "pollution_type": true,
+    "effect": {
+      "CHR": 5
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_31",
+    "rarity": "common",
+    "grade": 2,
+    "fallback": "The essence of the earth gushes from the mountain spring; after bathing, your old wounds are fully healed. This is Eldland's first gift to you.",
+    "pollution_type": false,
+    "effect": {
+      "LIF": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_32",
+    "rarity": "common",
+    "grade": 2,
+    "fallback": "In the basement of the Adventurers' Guild, a battle hammer covered with cracks resonates with you; the remnant souls of heroes infuse your arms.",
+    "pollution_type": true,
+    "effect": {
+      "STR": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_33",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "The ghost caravan of the ancient trade route brushes past you, leaving a chest full of exotic gold coins; the sounds of camel bells and haggling still echo in your ears.",
+    "pollution_type": true,
+    "effect": {
+      "MNY": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_34",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "In the storm, a sea chart unfurls by itself; the constellations mark a new route for you. This is the beginning of an epic that belongs only to you.",
+    "pollution_type": false,
+    "effect": {
+      "INT": 2,
+      "SPR": 2
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_35",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "Gazing at the stars atop the Sage Tower, you comprehend the trajectory of a celestial body; your wisdom and soul ascend together. Stargazers of all ages stand by your side.",
+    "pollution_type": true,
+    "effect": {
+      "INT": 3,
+      "SPR": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_36",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "A lost elven lute sounds by itself without being plucked; the notes reshape your demeanor and mind, and the strings are entwined with the fates of ancient bards.",
+    "pollution_type": true,
+    "effect": {
+      "CHR": 3,
+      "INT": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_37",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "A fragment of the ancient dragon's heart merges into your chest; the dragon's might tempers your body, your countenance becomes handsome, and your life force blazes fiercely. The lingering memories of the dragon soul whisper: you are our descendant.",
+    "pollution_type": true,
+    "effect": {
+      "STR": 4,
+      "CHR": 2,
+      "LIF": 2
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_38",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "The rainbow bridge once trodden by deities reappears; you walk upon it, and your appearance, soul, and life are all sanctified. The former shadows of the gods turn to watch.",
+    "pollution_type": true,
+    "effect": {
+      "CHR": 3,
+      "SPR": 3,
+      "LIF": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_39",
+    "rarity": "common",
+    "grade": 2,
+    "fallback": "Your radiance falls like the morning sun; even the harper in the tavern improvises a song for you.",
+    "pollution_type": false,
+    "effect": {
+      "CHR": 2
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_40",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "The dusty scrolls of the Arcane Tower unfurl before you; ancient wisdom pours into you like stars.",
+    "pollution_type": false,
+    "effect": {
+      "INT": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_41",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "Amid the dragon's roar, the arm holding your sword no longer trembles; the earth grants you great strength.",
+    "pollution_type": true,
+    "effect": {
+      "STR": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_42",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "Deep in the dungeon, the phylactery blooms with golden light; the treasures left by kings whisper to you.",
+    "pollution_type": true,
+    "effect": {
+      "MNY": 5
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_43",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "The spiritual energy of the ancient elven tree cleanses your soul; you hear the song of the world's birth.",
+    "pollution_type": false,
+    "effect": {
+      "SPR": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_44",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "At the destined moment, the river of time pauses for you; old wounds and plagues all vanish.",
+    "pollution_type": true,
+    "effect": {
+      "LIF": 5
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_45",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "The spindle of fate stops turning; you glimpse the woven threads and seize a wisp of chaos in your hand.",
+    "pollution_type": true,
+    "effect": {
+      "RDM": 6
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_46",
+    "rarity": "common",
+    "grade": 2,
+    "fallback": "The wandering mage left behind a torn page, and you understood the truth at the edge of the world.",
+    "pollution_type": false,
+    "effect": {
+      "INT": 2
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_47",
+    "rarity": "uncommon",
+    "grade": 3,
+    "fallback": "The moon goddess gently kissed your brow, and from then on, mortal dust could not dim your radiance.",
+    "pollution_type": false,
+    "effect": {
+      "CHR": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_48",
+    "rarity": "rare",
+    "grade": 2,
+    "fallback": "Under the starry sky, a unicorn drank water from your palm, and your worries dissipated like ripples.",
+    "pollution_type": true,
+    "effect": {
+      "SPR": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_49",
+    "rarity": "common",
+    "grade": 2,
+    "fallback": "Encountering a white-robed prophet on the road, starlight entered your forehead from their fingertip, and suddenly your thoughts became clear, as if a faint light guided the way ahead.",
+    "pollution_type": false,
+    "effect": {
+      "INT": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_50",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "Picking up an ancient dragon scale in the ruins, it burned in your palm, and a dormant roar surged within your bloodline.",
+    "pollution_type": false,
+    "effect": {
+      "STR": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_51",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "In the forest, moonlight was like water; a unicorn's eyes reflected the stars. It lowered its head and touched your heart with its horn, healing all old wounds as if you were reborn.",
+    "pollution_type": false,
+    "effect": {
+      "LIF": 5
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_52",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "The smoke of ancient battlefields reignited; a heroic spirit appeared wielding a broken sword, bestowing upon you the name of a hero, and the sword's light penetrated your bloodline like a rainbow.",
+    "pollution_type": true,
+    "effect": {
+      "STR": 3,
+      "CHR": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_53",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "A golden-winged messenger descended from the clouds, tossing a coin of fate into your pouch. With a clink, your fortune and destiny turned.",
+    "pollution_type": false,
+    "effect": {
+      "MNY": 6
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_54",
+    "rarity": "rare",
+    "grade": 2,
+    "fallback": "Drinking the spring of night stars, the reflection in the water suddenly seemed sculpted by a deity; all mortals marveled at your celestial beauty.",
+    "pollution_type": false,
+    "effect": {
+      "CHR": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_55",
+    "rarity": "uncommon",
+    "grade": 3,
+    "fallback": "Gently touching the runes of a magic array, a torrent of knowledge surged into your soul, and in an instant, you understood all the secrets of ancient and modern arcane arts.",
+    "pollution_type": true,
+    "effect": {
+      "INT": 5
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_56",
+    "rarity": "common",
+    "grade": 2,
+    "fallback": "In the inn, firelight flickered; in the song, you suddenly heard your own name. Raising your glass with a smile, all shadows in your heart dissipated.",
+    "pollution_type": false,
+    "effect": {
+      "SPR": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_57",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "The ancient dragon flapped its wings, mountains trembled, and old legends awoke once more in the adventurer's heart.",
+    "pollution_type": true,
+    "effect": {
+      "STR": 5
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_58",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "The scholar turned the pages of an ancient book, and a lost arcane art reappeared, but the price remained unknown.",
+    "pollution_type": false,
+    "effect": {
+      "INT": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_59",
+    "rarity": "common",
+    "grade": 2,
+    "fallback": "The golden sword was laid upon your shoulder, the oath rang clear, and the heroic spirits of old seemed to whisper.",
+    "pollution_type": true,
+    "effect": {
+      "SPR": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_60",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "Deep in the dungeon, ancient gold coins were piled like mountains, but the one who picked them up heard the lament of those before.",
+    "pollution_type": true,
+    "effect": {
+      "MNY": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_61",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "The sky splits, holy light descends, and mortals glimpse the threads of fate for a moment.",
+    "pollution_type": false,
+    "effect": {
+      "SPR": 6
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_62",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "Five form an oath, blood sworn in a tavern, the shadow of ancient heroes quietly looms.",
+    "pollution_type": true,
+    "effect": {
+      "CHR": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_63",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "Dragon breath sweeps by, the flame of life rekindles, yet the dragon's fate also entwines itself.",
+    "pollution_type": true,
+    "effect": {
+      "LIF": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_64",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "The gods cast dice, mortal destinies shift, the unknown path may inherit old deeds.",
+    "pollution_type": false,
+    "effect": {
+      "RDM": 6
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_65",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "Excavating an ancient battlefield, a broken sword still rings, the holder feels past obsessions.",
+    "pollution_type": true,
+    "effect": {
+      "MNY": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_66",
+    "rarity": "common",
+    "grade": 2,
+    "fallback": "Passing the trial, the robe is donned, yet behind knowledge lie countless unfinished paths of sages.",
+    "pollution_type": false,
+    "effect": {
+      "INT": 2
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_67",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "The soul of an ancient red dragon is branded upon you, dragon fire tempers bones and sinews, your blood boils like magma, destiny henceforth intertwined with the dragon clan.",
+    "pollution_type": true,
+    "effect": {
+      "STR": 5,
+      "LIF": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_68",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "The sword in the stone sings, your hand touches it, memories of past holy knights flood into your spirit, your shadow overlaps with ancient heroes, majesty emanates naturally.",
+    "pollution_type": true,
+    "effect": {
+      "STR": 4,
+      "CHR": 2
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_69",
+    "rarity": "rare",
+    "grade": 2,
+    "fallback": "You unseal an ancient scroll atop the Star Tower, esoteric rituals infuse the sea of consciousness, the mysteries of the starry vault unfold like a book, wisdom's light purifies the soul.",
+    "pollution_type": false,
+    "effect": {
+      "INT": 6
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_70",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "Gambling with the god of trickery, you stake your fate, win a room full of gold, your family prospers henceforth, yet the deity's lingering laugh remains.",
+    "pollution_type": false,
+    "effect": {
+      "MNY": 6
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_71",
+    "rarity": "common",
+    "grade": 2,
+    "fallback": "A moon elf gently kisses your brow, an ancient bloodline awakens, your countenance shines like stars, and brings a touch of eternal bliss.",
+    "pollution_type": true,
+    "effect": {
+      "CHR": 4,
+      "SPR": 2
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_72",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "The tomb of a nameless hero appears, its spirit bestows a secret treasure map and lifelong learning, the threads of fate tie to past regrets.",
+    "pollution_type": true,
+    "effect": {
+      "MNY": 3,
+      "INT": 2
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_73",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "Baptized in the Grand Cathedral of Light, holy light tempers the body, you are knighted as a kingdom's knight, glory and martial prowess shine together.",
+    "pollution_type": false,
+    "effect": {
+      "STR": 3,
+      "CHR": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn-wf_74",
+    "rarity": "common",
+    "grade": 2,
+    "fallback": "Stumbling into a time rift, you see your future self offering blessings, vitality and joy fill you, yet the closed loop of fate is hard to resolve.",
+    "pollution_type": true,
+    "effect": {
+      "LIF": 4,
+      "SPR": 2
+    }
+  }
+]

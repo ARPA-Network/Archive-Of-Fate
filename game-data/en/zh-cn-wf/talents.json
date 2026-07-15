@@ -1,0 +1,1750 @@
+{
+  "3000": {
+    "id": 3000,
+    "name": "Dragon Corpse Merchant's Nose",
+    "description": "You once followed a caravan through Dragon Graveyard, discerning the authenticity and residual magic of dragon bones by smell, but the mercenary spirit has worn away the edge of your pursuit of knowledge.",
+    "grade": 0,
+    "effect": {
+      "MNY": 2,
+      "INT": -1
+    }
+  },
+  "3001": {
+    "id": 3001,
+    "name": "Dreamwalker's Mark",
+    "description": "Every time you fall asleep, you step onto the seven-colored staircase of the Dreamlands. Your mind grows sharper amidst the bizarre landscapes, but your vitality in reality quietly wanes.",
+    "grade": 1,
+    "effect": {
+      "INT": 2,
+      "SPR": 1,
+      "LIF": -1
+    }
+  },
+  "3002": {
+    "id": 3002,
+    "name": "Ascetic Curse-Breaking Oath",
+    "description": "You branded an oath with searing runes in an ancient monastery, self-harming to break curses. Faith grants you endurance, but the scars are hard to hide.",
+    "grade": 0,
+    "effect": {
+      "STR": 1,
+      "SPR": 1,
+      "CHR": -1
+    }
+  },
+  "3003": {
+    "id": 3003,
+    "name": "Star Chart Mapping Legacy",
+    "description": "The astrolabe and star charts passed down through your family have regained their luster in your hands. You can deduce the rhythm of ley line nodes, but you have spent your fortune on research.",
+    "grade": 0,
+    "effect": {
+      "INT": 2,
+      "MNY": -1
+    }
+  },
+  "3004": {
+    "id": 3004,
+    "name": "Runic Lawyer's Sophistry",
+    "description": "Amid contract disputes between the Dwarf King's court and human city-states, you have mastered runic legal principles and are silver-tongued, but sophistry is eroding your true heart.",
+    "grade": 0,
+    "effect": {
+      "INT": 1,
+      "MNY": 1,
+      "SPR": -1
+    }
+  },
+  "3005": {
+    "id": 3005,
+    "name": "Fallen Knight's Glory",
+    "description": "You were once a knight, but after your family's decline, only a broken sword and full pride remain. Honor is the only treasure you cannot sell.",
+    "grade": 0,
+    "effect": {
+      "STR": 1,
+      "CHR": 1,
+      "MNY": -2
+    },
+    "exclude": [
+      3004
+    ]
+  },
+  "3006": {
+    "id": 3006,
+    "name": "Forbidden Scholar's Banned Book",
+    "description": "You sneaked into the mage college's cellar and read the Necronomicon bound in human skin. The void whispers in your eyes, but the cracks in your soul will never heal.",
+    "grade": 2,
+    "effect": {
+      "INT": 3,
+      "SPR": -2,
+      "LIF": -1
+    },
+    "exclude": [
+      3001
+    ]
+  },
+  "3007": {
+    "id": 3007,
+    "name": "Forest Guardian's Blessing",
+    "description": "When you were born, an elven ancient tree dripped silver dew, granting you the blessing of listening to the voices of plants, but your knowledge of the human world is somewhat dulled.",
+    "grade": 0,
+    "effect": {
+      "SPR": 1,
+      "STR": 1,
+      "INT": -1
+    }
+  },
+  "3008": {
+    "id": 3008,
+    "name": "Dragonblood Scion Awakening",
+    "description": "The blazing blood of ancient dragons surges within you, granting you power and life beyond ordinary humans, but the wildness of draconic nature gradually clouds your reason—your fate is destined to diverge from the mundane.",
+    "grade": 3,
+    "effect": {
+      "STR": 5,
+      "CHR": 2,
+      "INT": -2,
+      "LIF": 3
+    },
+    "exclude": [
+      3000,
+      3009
+    ],
+    "status": -3
+  },
+  "3009": {
+    "id": 3009,
+    "name": "Godforsaken Brand",
+    "description": "At your birth, a deity branded an inverted cross on your forehead. Henceforth, holy light shuns you. Forsaken by faith, you are also immune to divine judgment.",
+    "grade": 1,
+    "effect": {
+      "SPR": -2,
+      "LIF": 2,
+      "INT": 1
+    }
+  },
+  "3010": {
+    "id": 3010,
+    "name": "Dragon Corpse Merchant",
+    "description": "You walk between black markets and adventurers, trading dragon bones and scales; wealth and danger go hand in hand.",
+    "grade": 1,
+    "effect": {
+      "MNY": 3,
+      "SPR": -1
+    }
+  },
+  "3011": {
+    "id": 3011,
+    "name": "Dreamland Walker",
+    "description": "You can freely roam the other side of dreams, glimpsing the phantoms of the world, but the boundary between reality and dreams gradually blurs.",
+    "grade": 2,
+    "effect": {
+      "INT": 2,
+      "SPR": -1,
+      "RDM": 1
+    }
+  },
+  "3012": {
+    "id": 3012,
+    "name": "Ascetic Curse-Breaker",
+    "description": "You temper yourself through asceticism, breaking curses with blood and pain. Your will is like steel, but your body is covered in wounds.",
+    "grade": 0,
+    "effect": {
+      "SPR": 3,
+      "LIF": -2
+    }
+  },
+  "3013": {
+    "id": 3013,
+    "name": "Star Chart Mapper",
+    "description": "You gaze at the stars, plotting constellation trajectories, discerning the resonance between magic and celestial bodies. Your wisdom shines, yet you are detached from the mundane world.",
+    "grade": 2,
+    "effect": {
+      "INT": 3,
+      "CHR": -2
+    }
+  },
+  "3014": {
+    "id": 3014,
+    "name": "Runic Lawyer",
+    "description": "You are proficient in every line of runic contracts, defending interests with ancient laws. Words are magic, clauses are swords.",
+    "grade": 0,
+    "effect": {
+      "MNY": 2,
+      "CHR": 1
+    }
+  },
+  "3015": {
+    "id": 3015,
+    "name": "Fallen Noble Knight",
+    "description": "You were born noble but your family fell into decline, leaving only an ancestral longsword and a rusted coat of arms. Your martial skills remain, but your purse is empty.",
+    "grade": 0,
+    "effect": {
+      "STR": 2,
+      "CHR": 1,
+      "MNY": -3
+    }
+  },
+  "3016": {
+    "id": 3016,
+    "name": "Forbidden Scholar",
+    "description": "You study banned books sealed by the gods, glimpsing the horror behind truth. Knowledge can distort reality, but madness quietly gnaws at your soul.",
+    "grade": 3,
+    "effect": {
+      "INT": 5,
+      "SPR": -2,
+      "LIF": -1
+    },
+    "exclusive": 1
+  },
+  "3017": {
+    "id": 3017,
+    "name": "Forest Guardian",
+    "description": "You befriend ancient trees and beasts. The whispers of the forest grant you strength; your body is as tough as oak, but you feel out of place in the civilized world.",
+    "grade": 0,
+    "effect": {
+      "STR": 2,
+      "SPR": 1,
+      "CHR": -1
+    }
+  },
+  "3018": {
+    "id": 3018,
+    "name": "Dragonblood Scion",
+    "description": "Thin ancient dragon blood surges within you, sometimes granting draconic power, sometimes making your blood boil uncontrollably.",
+    "grade": 1,
+    "effect": {
+      "STR": 3,
+      "INT": -1
+    },
+    "exclude": [
+      3010
+    ]
+  },
+  "3019": {
+    "id": 3019,
+    "name": "Godforsaken",
+    "description": "At your coming-of-age ceremony, the gods ignored you, and holy light no longer favors you. But as a mortal, you defy fate with iron faith, and misfortune follows you.",
+    "grade": 2,
+    "effect": {
+      "SPR": 3,
+      "LIF": -2,
+      "RDM": -1
+    },
+    "condition": "AGE >= 18"
+  },
+  "3020": {
+    "id": 3020,
+    "name": "Dragon Bone Appraiser",
+    "description": "You have sharpened your eyes in the dragon bone black market, able to discern the authenticity and magical residue of dragon bones at a glance.",
+    "grade": 1,
+    "effect": {
+      "INT": 1,
+      "MNY": 2,
+      "SPR": -1
+    }
+  },
+  "3021": {
+    "id": 3021,
+    "name": "Dreamweaver Traveler",
+    "description": "Your soul once wandered in the Dreamlands for a hundred years. Awakening, you can no longer distinguish reality from illusion, but you have gained inspiration that distorts reality.",
+    "grade": 1,
+    "effect": {
+      "SPR": 2,
+      "INT": 1,
+      "LIF": -1
+    }
+  },
+  "3022": {
+    "id": 3022,
+    "name": "Sunset Knight",
+    "description": "Your family crest has rusted, but the oath of knighthood still burns in your blood, even the last coin offered to horse and sword.",
+    "grade": 2,
+    "effect": {
+      "STR": 2,
+      "CHR": 2,
+      "MNY": -3
+    },
+    "status": -1
+  },
+  "3023": {
+    "id": 3023,
+    "name": "Ancient Forest Oathguard",
+    "description": "You once drank the water of the Emerald Dragon Well, forging a symbiotic pact with the ancient tree spirits. Henceforth, the forest is your sanctuary.",
+    "grade": 0,
+    "effect": {
+      "SPR": 1,
+      "STR": 1,
+      "CHR": -1
+    }
+  },
+  "3024": {
+    "id": 3024,
+    "name": "Dwarf Rune Carver",
+    "description": "You inherited the lost 'Blazing Rune' craft of the mountain dwarves. Every chisel stroke erupts with thunder, at the cost of never being able to look directly at sunlight again.",
+    "grade": 0,
+    "effect": {
+      "INT": 2,
+      "STR": -1,
+      "CHR": -1
+    }
+  },
+  "3025": {
+    "id": 3025,
+    "name": "Elf Songweaver",
+    "description": "Your voice has been steeped in the veins of the World Tree. Each syllable makes petals dance and dragon bones tremble, but your body is as fragile as morning mist.",
+    "grade": 0,
+    "effect": {
+      "CHR": 2,
+      "INT": 1,
+      "STR": -2
+    }
+  },
+  "3026": {
+    "id": 3026,
+    "name": "Dragon Bone Black Marketeer",
+    "description": "Raised in the black market, you are well-versed in dragon bone trading, able to pass off inferior goods as high quality and rake in exorbitant profits.",
+    "grade": 0,
+    "effect": {
+      "MNY": 2,
+      "CHR": -1,
+      "INT": -1
+    }
+  },
+  "3027": {
+    "id": 3027,
+    "name": "Ascetic Cursebreaker",
+    "description": "Through whipping and prayer, you have tempered your will and learned the ascetic secret arts to dissolve curses.",
+    "grade": 0,
+    "effect": {
+      "SPR": 2,
+      "STR": 1,
+      "MNY": -3
+    }
+  },
+  "3028": {
+    "id": 3028,
+    "name": "Rune Legist",
+    "description": "You are proficient in runic law, able to plant traps in contracts that catch opponents off guard.",
+    "grade": 0,
+    "effect": {
+      "INT": 2,
+      "MNY": 1,
+      "STR": -2
+    }
+  },
+  "3029": {
+    "id": 3029,
+    "name": "Impoverished Knight",
+    "description": "Born into prominence but fallen on hard times, you retain only your knightly title and a tattered pride.",
+    "grade": 0,
+    "effect": {
+      "CHR": 2,
+      "STR": 1,
+      "MNY": -2,
+      "SPR": -1
+    }
+  },
+  "3030": {
+    "id": 3030,
+    "name": "Forest Guardian",
+    "description": "You have forged a pact with ancient trees, able to summon vines and beasts, but you are unskilled in human affairs.",
+    "grade": 0,
+    "effect": {
+      "STR": 1,
+      "SPR": 2,
+      "INT": -2,
+      "MNY": -1
+    }
+  },
+  "3031": {
+    "id": 3031,
+    "name": "God-forsaken Brand",
+    "description": "Your prayers never reach the divine throne, and the world regards you as an ill omen, but despair has made your heart as hard as iron.",
+    "grade": 0,
+    "effect": {
+      "SPR": 3,
+      "CHR": -3,
+      "MNY": -2
+    }
+  },
+  "3032": {
+    "id": 3032,
+    "name": "Dreamland Traveler",
+    "description": "You often step into the Dreamlands in your sleep, and upon waking, still retain some eerie magic.",
+    "grade": 1,
+    "effect": {
+      "INT": 2,
+      "SPR": 2,
+      "CHR": -1
+    }
+  },
+  "3033": {
+    "id": 3033,
+    "name": "Bone Whisperer",
+    "description": "The residual will in dragon bones whispers to you, teaching you ancient ways of trade.",
+    "grade": 0,
+    "effect": {
+      "MNY": 2,
+      "SPR": -1
+    }
+  },
+  "3034": {
+    "id": 3034,
+    "name": "Star Cartographer",
+    "description": "You have mastered the art of charting star maps and interpreting celestial trajectories, foreseeing the tributaries of fate.",
+    "grade": 0,
+    "effect": {
+      "INT": 1,
+      "SPR": 1
+    }
+  },
+  "3035": {
+    "id": 3035,
+    "name": "Tarnished Glory",
+    "description": "Though your family has declined, you still adhere to the knight's creed: honor is my life.",
+    "grade": 0,
+    "effect": {
+      "STR": 2,
+      "CHR": 1,
+      "MNY": -2
+    }
+  },
+  "3036": {
+    "id": 3036,
+    "name": "Ancient Wood Pact",
+    "description": "You have forged a pact with the primeval forest, and all things in the woods become your eyes and ears.",
+    "grade": 0,
+    "effect": {
+      "STR": 1,
+      "SPR": 2
+    }
+  },
+  "3037": {
+    "id": 3037,
+    "name": "Cursed Ascetic",
+    "description": "The curse marks densely covering your body are your ascetic practice; each scar neutralizes a vile curse.",
+    "grade": 0,
+    "effect": {
+      "INT": 1,
+      "SPR": 2,
+      "CHR": -1
+    }
+  },
+  "3038": {
+    "id": 3038,
+    "name": "God-forsaken Mark",
+    "description": "You are abandoned by the gods, without divine favor, but fate itself has become your ally.",
+    "grade": 0,
+    "effect": {
+      "RDM": 3,
+      "SPR": -2
+    }
+  },
+  "3039": {
+    "id": 3039,
+    "name": "Dream Web Spinner",
+    "description": "Your soul shuttles through the Dreamlands in sleep, weaving threads of reality and illusion.",
+    "grade": 1,
+    "effect": {
+      "INT": 2,
+      "SPR": 2,
+      "LIF": -1
+    },
+    "status": -2
+  },
+  "3040": {
+    "id": 3040,
+    "name": "Rune Codex",
+    "description": "You carve legal texts into runes, binding contracts with magical force.",
+    "grade": 1,
+    "effect": {
+      "INT": 2,
+      "CHR": 1,
+      "MNY": 1
+    }
+  },
+  "3041": {
+    "id": 3041,
+    "name": "Dragon Blood Awakening",
+    "description": "The dormant dragon blood within you awakens, scales and majesty gradually emerging.",
+    "grade": 2,
+    "effect": {
+      "STR": 3,
+      "CHR": 2,
+      "LIF": 2
+    },
+    "status": -2,
+    "exclusive": 1
+  },
+  "3042": {
+    "id": 3042,
+    "name": "Forbidden Wisdom",
+    "description": "You study forbidden tomes sealed by the gods, trading sanity for transcendent wisdom.",
+    "grade": 3,
+    "effect": {
+      "INT": 5,
+      "SPR": -2,
+      "LIF": -2
+    },
+    "status": -3,
+    "exclusive": 1
+  },
+  "3043": {
+    "id": 3043,
+    "name": "Exiled Noble",
+    "description": "Born of illustrious lineage but burdened with blood feud, your noble demeanor conceals the vicissitudes of exile.",
+    "grade": 1,
+    "effect": {
+      "CHR": 2,
+      "MNY": -2,
+      "SPR": 1
+    },
+    "exclude": [
+      3048
+    ]
+  },
+  "3044": {
+    "id": 3044,
+    "name": "Dragon Blood Scion",
+    "description": "Ancient dragon blood surges within you, granting an extraordinary physique and a proud nature.",
+    "grade": 3,
+    "effect": {
+      "STR": 3,
+      "CHR": 1,
+      "LIF": 2,
+      "INT": -1
+    },
+    "exclude": [
+      3049,
+      3052
+    ],
+    "status": -1,
+    "exclusive": 1
+  },
+  "3045": {
+    "id": 3045,
+    "name": "Shadowmoon Ranger",
+    "description": "A dark elf hunter prowling under moonlight, renowned for precise archery and darkvision.",
+    "grade": 2,
+    "effect": {
+      "STR": 2,
+      "CHR": -1,
+      "SPR": 1
+    }
+  },
+  "3046": {
+    "id": 3046,
+    "name": "Bone Speaker",
+    "description": "You can hear the whispers of remains; your necromantic talent makes the living tremble.",
+    "grade": 2,
+    "effect": {
+      "INT": 3,
+      "CHR": -2,
+      "SPR": -1
+    }
+  },
+  "3047": {
+    "id": 3047,
+    "name": "Rune Forger",
+    "description": "You fuse runes into steel, your forging imbues mundane metal with magical spirit.",
+    "grade": 1,
+    "effect": {
+      "STR": 1,
+      "INT": 1,
+      "MNY": 1,
+      "CHR": -1
+    }
+  },
+  "3048": {
+    "id": 3048,
+    "name": "Fallen Royal Heir",
+    "description": "The last descendant of a fallen dynasty, bearing the fate of restoration and a hidden bloodline in exile.",
+    "grade": 2,
+    "effect": {
+      "CHR": 2,
+      "INT": 1,
+      "MNY": -2,
+      "SPR": -1
+    },
+    "exclude": [
+      3043
+    ]
+  },
+  "3049": {
+    "id": 3049,
+    "name": "Dragonblood Warrior",
+    "description": "Dragon breath burns enemy ranks; your battle cry evokes ancient draconic might.",
+    "grade": 2,
+    "effect": {
+      "STR": 3,
+      "SPR": 1,
+      "CHR": -1
+    },
+    "exclude": [
+      3044,
+      3052
+    ]
+  },
+  "3050": {
+    "id": 3050,
+    "name": "Oath of Shadow",
+    "description": "Your soul contracts with the shadows, gaining the swiftness and perception blessed by darkness.",
+    "grade": 1,
+    "effect": {
+      "STR": 1,
+      "SPR": 2,
+      "CHR": -1
+    }
+  },
+  "3051": {
+    "id": 3051,
+    "name": "Avenger",
+    "description": "Blood feud drives you onto dangerous paths; hatred tempers your martial skills and soul.",
+    "grade": 0,
+    "effect": {
+      "STR": 1,
+      "SPR": 1,
+      "MNY": -1
+    }
+  },
+  "3052": {
+    "id": 3052,
+    "name": "Dragonblood Wanderer",
+    "description": "You carry dragon blood but have no fixed abode; journeys have honed your will and physique.",
+    "grade": 0,
+    "effect": {
+      "STR": 1,
+      "SPR": 1,
+      "MNY": -2,
+      "CHR": -1
+    },
+    "exclude": [
+      3044,
+      3049
+    ],
+    "status": 1
+  },
+  "3053": {
+    "id": 3053,
+    "name": "Shattered Golden Branch",
+    "description": "You were once of a noble house with lavish feasts, reduced to commoner overnight, yet your elegant bearing and unyielding pride remain undimmed.",
+    "grade": 0,
+    "effect": {
+      "CHR": 2,
+      "MNY": -2,
+      "SPR": 1
+    },
+    "status": 1
+  },
+  "3054": {
+    "id": 3054,
+    "name": "Orphan of Fallen Kingdom",
+    "description": "Born in a collapsing royal court, exiled in childhood, memories of the throne turned to dust, only the dream of restoration burns in your blood.",
+    "grade": 0,
+    "effect": {
+      "CHR": 1,
+      "SPR": 2,
+      "MNY": -1
+    }
+  },
+  "3055": {
+    "id": 3055,
+    "name": "Son of the Anvil",
+    "description": "Raised by the forge, your hands can craft divine weapons and wield mighty hammers.",
+    "grade": 0,
+    "effect": {
+      "STR": 2,
+      "MNY": 1
+    }
+  },
+  "3056": {
+    "id": 3056,
+    "name": "Shadowpath Stalker",
+    "description": "Since childhood you've traversed the murky deepwoods; archery and stealth are as natural as breathing.",
+    "grade": 0,
+    "effect": {
+      "STR": 1,
+      "SPR": 1
+    }
+  },
+  "3057": {
+    "id": 3057,
+    "name": "Ash Whisper",
+    "description": "You can hear the murmurs among the dead bones; death is not an end, but the beginning of another conversation.",
+    "grade": 0,
+    "effect": {
+      "INT": 1,
+      "SPR": -1
+    }
+  },
+  "3058": {
+    "id": 3058,
+    "name": "Vengeful Flame Hunter",
+    "description": "Hatred is your compass, the wilderness your court.",
+    "grade": 0,
+    "effect": {
+      "STR": 1,
+      "SPR": 1,
+      "CHR": -1
+    }
+  },
+  "3059": {
+    "id": 3059,
+    "name": "Burning Dragonblood",
+    "description": "Dragon breath once tempered your ancestral blood; now that heat awakens within you.",
+    "grade": 1,
+    "effect": {
+      "STR": 2,
+      "LIF": 1
+    },
+    "exclude": [
+      3061,
+      3062
+    ]
+  },
+  "3060": {
+    "id": 3060,
+    "name": "Rune Engraver",
+    "description": "You are no ordinary blacksmith; you can infuse elemental runes into metal, forging magical weapons and armor.",
+    "grade": 1,
+    "effect": {
+      "INT": 2,
+      "STR": 1
+    }
+  },
+  "3061": {
+    "id": 3061,
+    "name": "Ember of the Ancient Dragon",
+    "description": "You are the last descendant of the immortal ancient dragon's direct bloodline. Scales are faintly visible beneath your skin, and dragon language echoes in your dreams.",
+    "grade": 2,
+    "effect": {
+      "STR": 3,
+      "CHR": 1,
+      "INT": 1,
+      "LIF": 2
+    },
+    "exclude": [
+      3059,
+      3062
+    ],
+    "status": -1
+  },
+  "3062": {
+    "id": 3062,
+    "name": "Shadow of Dragon Wings",
+    "description": "You were born bearing the shadow of dragon wings—the ancient dragon king once blessed your bloodline, and your destiny is linked to the sky.",
+    "grade": 3,
+    "effect": {
+      "STR": 4,
+      "CHR": 2,
+      "LIF": 2,
+      "SPR": 1
+    },
+    "exclude": [
+      3059,
+      3061
+    ],
+    "status": -2,
+    "exclusive": 1
+  },
+  "3063": {
+    "id": 3063,
+    "name": "Declined Noble Blood",
+    "description": "Born into a fallen noble family, you retain elegant manners but are short on money, with only sighs for past glory.",
+    "grade": 0,
+    "effect": {
+      "CHR": 2,
+      "MNY": -2,
+      "SPR": -1
+    }
+  },
+  "3064": {
+    "id": 3064,
+    "name": "Vow of Vengeance",
+    "description": "Blood feud is deeply branded in your heart, driving you to hone your killing skills. Your stern face keeps others at a distance.",
+    "grade": 0,
+    "effect": {
+      "STR": 1,
+      "SPR": 1,
+      "CHR": -1
+    }
+  },
+  "3065": {
+    "id": 3065,
+    "name": "Pact of Bones",
+    "description": "You have made a secret pact with bones, able to summon skeletal servants, but are deemed heretical by the Holy Light Church.",
+    "grade": 0,
+    "effect": {
+      "INT": 2,
+      "CHR": -1,
+      "SPR": -1
+    },
+    "exclude": [
+      3069
+    ]
+  },
+  "3066": {
+    "id": 3066,
+    "name": "Rune Engraving",
+    "description": "You know a little about runes, enough to engrave faint glowing runes on blades and armor, but the study is mentally draining.",
+    "grade": 0,
+    "effect": {
+      "INT": 1,
+      "STR": 1,
+      "SPR": -1
+    }
+  },
+  "3067": {
+    "id": 3067,
+    "name": "Brand of Blood Feud",
+    "description": "Your enemy left an indelible brand on you. Pain has transformed into unyielding will.",
+    "grade": 0,
+    "effect": {
+      "SPR": 2,
+      "CHR": -2
+    }
+  },
+  "3068": {
+    "id": 3068,
+    "name": "Dwarven Bloodline",
+    "description": "The resilience and boldness of dwarves flow in your blood. You can drink and fight, but are not adept at complex magic.",
+    "grade": 0,
+    "effect": {
+      "STR": 2,
+      "INT": -1,
+      "SPR": 1
+    }
+  },
+  "3069": {
+    "id": 3069,
+    "name": "Whispers of the Dead",
+    "description": "You resonate with the whispers of the dead and have learned forbidden necromancy, but the living instinctively fear you.",
+    "grade": 1,
+    "effect": {
+      "INT": 3,
+      "CHR": -2,
+      "SPR": -1
+    },
+    "exclude": [
+      3065
+    ]
+  },
+  "3070": {
+    "id": 3070,
+    "name": "Son of the Forge",
+    "description": "You grew up in front of an anvil, smelling of smoke and fire, with exquisite forging skills but a temper as fierce as a furnace.",
+    "grade": 1,
+    "effect": {
+      "STR": 2,
+      "MNY": 1,
+      "SPR": -1
+    }
+  },
+  "3071": {
+    "id": 3071,
+    "name": "Shadowmoon Bloodline",
+    "description": "The moon-shadow blessing of dark elves flows through your veins, granting you sharpness in shadows and magic, but making you somewhat weak under the sun.",
+    "grade": 2,
+    "effect": {
+      "INT": 2,
+      "STR": 1,
+      "CHR": -1,
+      "SPR": 1
+    },
+    "status": -1
+  },
+  "3072": {
+    "id": 3072,
+    "name": "Dragonblood Inheritance",
+    "description": "The bloodline of ancient dragons awakens within you, granting extraordinary physique and majesty, but also bringing draconic aloofness and nightmares.",
+    "grade": 3,
+    "effect": {
+      "STR": 3,
+      "CHR": 2,
+      "INT": 1,
+      "SPR": -1
+    },
+    "status": -2
+  },
+  "3073": {
+    "id": 3073,
+    "name": "Rune Forge Master",
+    "description": "Your hammer strikes like thunder, runes awaken on the anvil. The blades you forged once crowned heroes.",
+    "grade": 0,
+    "effect": {
+      "INT": 1,
+      "MNY": 2,
+      "STR": -1
+    }
+  },
+  "3074": {
+    "id": 3074,
+    "name": "Vengeful Ranger",
+    "description": "The family emblem is stained with blood; every arrow in your quiver is inscribed with an enemy's name. Only whispers of vengeance pass through the woods.",
+    "grade": 0,
+    "effect": {
+      "STR": 1,
+      "SPR": -1
+    }
+  },
+  "3075": {
+    "id": 3075,
+    "name": "Shadow Ranger",
+    "description": "Darkness is your ally. You breathe with shadow leaves, moving silently in the gloom.",
+    "grade": 0,
+    "effect": {
+      "INT": 1,
+      "SPR": 1,
+      "CHR": -1
+    },
+    "exclude": [
+      3045
+    ]
+  },
+  "3076": {
+    "id": 3076,
+    "name": "Oak Stigmata",
+    "description": "The mark of the sacred tree leaf burns in your palm, granting you steadfastness against darkness and a pure physique.",
+    "grade": 0,
+    "effect": {
+      "STR": 1,
+      "SPR": 1
+    },
+    "exclude": [
+      3085,
+      3083
+    ]
+  },
+  "3077": {
+    "id": 3077,
+    "name": "Wind Traveler",
+    "description": "You wander the world with strings and ballads, free as the wind but short on money.",
+    "grade": 0,
+    "effect": {
+      "CHR": 1,
+      "SPR": 1,
+      "MNY": -1
+    }
+  },
+  "3078": {
+    "id": 3078,
+    "name": "Witness of Legends",
+    "description": "The whispers of fate destined you to sing epics. Your voice carries magical resonance.",
+    "grade": 0,
+    "effect": {
+      "CHR": 1,
+      "INT": 1
+    }
+  },
+  "3079": {
+    "id": 3079,
+    "name": "Ironblood Company",
+    "description": "You once led a mercenary company, tempered in blood and fire, gaining battlefield instincts and meager wealth.",
+    "grade": 0,
+    "effect": {
+      "STR": 1,
+      "MNY": 1
+    }
+  },
+  "3080": {
+    "id": 3080,
+    "name": "Banner of Glory",
+    "description": "The raised banner inspires the troops, but the military expenses drain your coffers.",
+    "grade": 0,
+    "effect": {
+      "SPR": 1,
+      "CHR": 1,
+      "MNY": -1
+    }
+  },
+  "3081": {
+    "id": 3081,
+    "name": "Equivalent Exchange",
+    "description": "You grasp the taboo law of alchemy, trading life for wisdom.",
+    "grade": 0,
+    "effect": {
+      "INT": 1,
+      "LIF": -1
+    }
+  },
+  "3082": {
+    "id": 3082,
+    "name": "Chaos Formula",
+    "description": "Chaos alchemy, uncovered from the mad sage's manuscripts, grants extraordinary wisdom but slowly destroys the mind.",
+    "grade": 1,
+    "effect": {
+      "INT": 3,
+      "SPR": -1
+    }
+  },
+  "3083": {
+    "id": 3083,
+    "name": "Void Remnant",
+    "description": "The family bloodline tainted by the void lets you resonate with shadows, yet you are shunned by the world.",
+    "grade": 1,
+    "effect": {
+      "INT": 2,
+      "CHR": -2,
+      "STR": 1
+    },
+    "exclude": [
+      3076,
+      3084
+    ]
+  },
+  "3084": {
+    "id": 3084,
+    "name": "Radiance Knight",
+    "description": "A Radiance Knight knighted by the Temple Order, protected by holy light but bound by vows of poverty.",
+    "grade": 2,
+    "effect": {
+      "STR": 3,
+      "MNY": -1
+    },
+    "exclude": [
+      3085,
+      3083
+    ],
+    "status": -1
+  },
+  "3085": {
+    "id": 3085,
+    "name": "Bloodmoon Birth",
+    "description": "Born on the night of the twin moons' alignment, an ancient curse binds you to the dark source, granting terrifying power at the cost of lifespan and sanity.",
+    "grade": 3,
+    "effect": {
+      "STR": 2,
+      "INT": 2,
+      "LIF": -2,
+      "SPR": -2
+    },
+    "exclude": [
+      3076,
+      3084
+    ],
+    "status": -2,
+    "exclusive": 1
+  },
+  "3086": {
+    "id": 3086,
+    "name": "Light's Favor",
+    "description": "During prayer at the sanctuary, you were bathed in the true god's light, occasionally perceiving faint divine guidance.",
+    "grade": 0,
+    "effect": {
+      "SPR": 1
+    },
+    "exclude": [
+      3089
+    ]
+  },
+  "3087": {
+    "id": 3087,
+    "name": "Knight's Oath",
+    "description": "You swore an unbreakable oath before sword and shield, your faith forged into solid armor.",
+    "grade": 0,
+    "effect": {
+      "SPR": 2
+    },
+    "exclude": [
+      3090
+    ]
+  },
+  "3088": {
+    "id": 3088,
+    "name": "Wandering Melody",
+    "description": "Your lute once calmed a raging griffin, melodies holding a natural affinity.",
+    "grade": 0,
+    "effect": {
+      "CHR": 1,
+      "SPR": 1
+    }
+  },
+  "3089": {
+    "id": 3089,
+    "name": "Void Whisper",
+    "description": "You occasionally hear indescribable murmurs from the void, bringing knowledge yet eroding the mind.",
+    "grade": 0,
+    "effect": {
+      "INT": 1,
+      "SPR": -2
+    },
+    "exclude": [
+      3086
+    ],
+    "status": -1
+  },
+  "3090": {
+    "id": 3090,
+    "name": "Fate Rebounds",
+    "description": "Your very existence seems to invite fate's backlash; luck eludes you.",
+    "grade": 0,
+    "effect": {
+      "LIF": -1,
+      "RDM": -1
+    },
+    "exclude": [
+      3087
+    ],
+    "status": -1
+  },
+  "3091": {
+    "id": 3091,
+    "name": "Blood-Money Pact",
+    "description": "You once traded several years of life for a demonic pact; power growls within your veins.",
+    "grade": 0,
+    "effect": {
+      "STR": 2,
+      "LIF": -1
+    }
+  },
+  "3092": {
+    "id": 3092,
+    "name": "Inspiration Gush",
+    "description": "When creating, you feel as if kissed by the Muse; words and melodies gush like a spring.",
+    "grade": 1,
+    "effect": {
+      "INT": 2,
+      "SPR": 1
+    },
+    "status": 1
+  },
+  "3093": {
+    "id": 3093,
+    "name": "Philosopher's Stone Secrets",
+    "description": "You once pored over forbidden tomes, grasping part of the Philosopher's Stone's mysteries, bringing wealth and wisdom.",
+    "grade": 2,
+    "effect": {
+      "INT": 3,
+      "MNY": 2
+    },
+    "status": 2
+  },
+  "3094": {
+    "id": 3094,
+    "name": "Banner Never Falls",
+    "description": "As long as one comrade stands, your battle banner never falls, granting the whole team unyielding morale and strength.",
+    "grade": 3,
+    "effect": {
+      "STR": 3,
+      "SPR": 3
+    },
+    "status": 5,
+    "exclusive": 1
+  },
+  "3095": {
+    "id": 3095,
+    "name": "Sanction's Wings",
+    "description": "Blessed by the Sanction Court, your countenance radiates sacred majesty, but rigorous training burdens you early.",
+    "grade": 0,
+    "effect": {
+      "CHR": 1,
+      "SPR": 1,
+      "LIF": -1
+    },
+    "exclude": [
+      3101,
+      3102
+    ],
+    "status": 1
+  },
+  "3096": {
+    "id": 3096,
+    "name": "Oath of Radiance",
+    "description": "You were once bathed in radiance during the holy war, henceforth sacred power never wanes, but the oath restricts your wealth accumulation.",
+    "grade": 1,
+    "effect": {
+      "STR": 2,
+      "SPR": 2,
+      "MNY": -2
+    },
+    "exclude": [
+      3101,
+      3102
+    ]
+  },
+  "3097": {
+    "id": 3097,
+    "name": "String Traveler",
+    "description": "Roaming freely has made you knowledgeable, but your pack is always empty.",
+    "grade": 0,
+    "effect": {
+      "INT": 1,
+      "SPR": 1,
+      "MNY": -1
+    },
+    "status": 1
+  },
+  "3098": {
+    "id": 3098,
+    "name": "Eternal Ballad",
+    "description": "Your ability to compose heroic epics has reached perfection; your charm and wisdom are astounding, but excessive sensitivity weakens your physique slightly.",
+    "grade": 1,
+    "effect": {
+      "CHR": 2,
+      "INT": 1,
+      "STR": -1
+    },
+    "exclude": [
+      3104
+    ]
+  },
+  "3099": {
+    "id": 3099,
+    "name": "Garden in a Bottle",
+    "description": "The miniature ecosystem in a small bottle yields precious materials, but maintenance drains your energy.",
+    "grade": 0,
+    "effect": {
+      "MNY": 2,
+      "SPR": -1
+    },
+    "status": 1
+  },
+  "3100": {
+    "id": 3100,
+    "name": "Philosopher's Stone Fragment",
+    "description": "You accidentally dissected a fragment of the Philosopher's Stone, your intelligence skyrocketed, but the cost of glimpsing the truth is the loss of vitality.",
+    "grade": 3,
+    "effect": {
+      "INT": 5,
+      "LIF": -3
+    },
+    "status": -2,
+    "exclusive": 1
+  },
+  "3101": {
+    "id": 3101,
+    "name": "Shadow Gift",
+    "description": "Dark power lurks within your body, granting you extra physique, but makes your countenance gloomy.",
+    "grade": 0,
+    "effect": {
+      "STR": 2,
+      "CHR": -1,
+      "SPR": -1
+    },
+    "exclude": [
+      3095,
+      3096
+    ],
+    "status": 1
+  },
+  "3102": {
+    "id": 3102,
+    "name": "Evil Eye Brand",
+    "description": "Your right eye is branded with a cursed mark, allowing you to see the flow of dark magic, but you are shunned by the church.",
+    "grade": 0,
+    "effect": {
+      "INT": 2,
+      "CHR": -2,
+      "SPR": 1
+    },
+    "exclude": [
+      3095,
+      3096
+    ]
+  },
+  "3103": {
+    "id": 3103,
+    "name": "Oath of the Tattered Banner",
+    "description": "Once a remnant of a mercenary company, you inherited the war banner and gained conviction, but your wealth has been exhausted.",
+    "grade": 0,
+    "effect": {
+      "STR": 1,
+      "SPR": 2,
+      "MNY": -2
+    },
+    "status": 1
+  },
+  "3104": {
+    "id": 3104,
+    "name": "Iron Blood Contract",
+    "description": "Your reputation can attract desperadoes. You start with elite mercenary resources, but being too pragmatic reduces your charisma.",
+    "grade": 2,
+    "effect": {
+      "MNY": 3,
+      "STR": 2,
+      "CHR": -2
+    },
+    "exclude": [
+      3098
+    ],
+    "status": -1
+  },
+  "3105": {
+    "id": 3105,
+    "name": "Holy Light Covenant",
+    "description": "The holy light baptism grants you a resilient physique and sacred charisma, but maintaining it consumes vitality.",
+    "grade": 1,
+    "effect": {
+      "CHR": 1,
+      "STR": 2,
+      "SPR": 1,
+      "LIF": -1
+    }
+  },
+  "3106": {
+    "id": 3106,
+    "name": "Knight Enfeoffment",
+    "description": "The king presided over your knighting ceremony, honor and rewards make your start higher than ordinary people.",
+    "grade": 0,
+    "effect": {
+      "CHR": 2,
+      "MNY": 1
+    }
+  },
+  "3107": {
+    "id": 3107,
+    "name": "Heart of the Lute",
+    "description": "A lute made of ancient elf wood can play music that moves the gods. Your very existence is a troubadour's poem.",
+    "grade": 2,
+    "effect": {
+      "CHR": 3,
+      "INT": 1,
+      "SPR": 2,
+      "STR": -1
+    }
+  },
+  "3108": {
+    "id": 3108,
+    "name": "Wandering Narrative",
+    "description": "The stories you collected are scattered in taverns across the kingdoms; your fame is widespread, but your pockets are often empty.",
+    "grade": 0,
+    "effect": {
+      "CHR": 1,
+      "INT": 1,
+      "SPR": 1,
+      "MNY": -1
+    }
+  },
+  "3109": {
+    "id": 3109,
+    "name": "Philosopher's Stone",
+    "description": "You have touched the pinnacle of alchemy—the secret of the Philosopher's Stone, but the cost is vitality and ordinary human emotions.",
+    "grade": 3,
+    "effect": {
+      "INT": 4,
+      "MNY": 3,
+      "LIF": -2,
+      "SPR": -1
+    },
+    "status": -3,
+    "exclusive": 1
+  },
+  "3110": {
+    "id": 3110,
+    "name": "Shadow Mark",
+    "description": "The mark of the Shadow Realm grants you extraordinary power and vitality, but distorts your appearance and beliefs.",
+    "grade": 2,
+    "effect": {
+      "STR": 3,
+      "LIF": 2,
+      "CHR": -2,
+      "SPR": -1
+    }
+  },
+  "3111": {
+    "id": 3111,
+    "name": "Whisper of the Dead",
+    "description": "The whispers of the dead bring forbidden knowledge, and also silently devour your life.",
+    "grade": 1,
+    "effect": {
+      "INT": 2,
+      "SPR": 1,
+      "LIF": -1
+    }
+  },
+  "3112": {
+    "id": 3112,
+    "name": "Iron Blood Leadership",
+    "description": "You lead mercenaries with an iron fist, gaining wealth and awe, but the high pressure exhausts your spirit.",
+    "grade": 1,
+    "effect": {
+      "STR": 2,
+      "CHR": 1,
+      "MNY": 1,
+      "SPR": -1
+    }
+  },
+  "3113": {
+    "id": 3113,
+    "name": "Mercenary Contract",
+    "description": "A contract with the Adventurer's Guild allows you to quickly accumulate wealth, but in the process of commissions, you lose your original intention.",
+    "grade": 0,
+    "effect": {
+      "MNY": 2,
+      "STR": 1,
+      "SPR": -1
+    }
+  },
+  "3114": {
+    "id": 3114,
+    "name": "Shadow Apprentice",
+    "description": "You grew up in the dark alleys of the Thieves' Guild, and have just learned the rudiments of the art of shadow-stealing.",
+    "grade": 0,
+    "effect": {
+      "CHR": 1,
+      "SPR": -1
+    },
+    "exclude": [
+      3119
+    ]
+  },
+  "3115": {
+    "id": 3115,
+    "name": "Dragonkin Friend",
+    "description": "In your childhood, you bonded with a young dragon, and its scales still shine in your dreams.",
+    "grade": 0,
+    "effect": {
+      "CHR": 1,
+      "RDM": 1
+    },
+    "exclude": [
+      3120
+    ]
+  },
+  "3116": {
+    "id": 3116,
+    "name": "Bookworm Scholar",
+    "description": "You have been immersed in the ancient tomes of the Arcane Academy; the scent of pages is more familiar than bread.",
+    "grade": 0,
+    "effect": {
+      "INT": 1,
+      "STR": -1
+    },
+    "exclude": [
+      3121
+    ]
+  },
+  "3117": {
+    "id": 3117,
+    "name": "Sea Rover",
+    "description": "Salt wind and rum shaped your childhood; the tide was your lullaby.",
+    "grade": 0,
+    "effect": {
+      "STR": 1,
+      "INT": -1
+    },
+    "exclude": [
+      3122
+    ]
+  },
+  "3118": {
+    "id": 3118,
+    "name": "Wandering Traveler",
+    "description": "You have traveled through many strange lands; starlight and dust are your cloak.",
+    "grade": 0,
+    "effect": {
+      "SPR": 1,
+      "MNY": -1
+    },
+    "exclude": [
+      3123
+    ]
+  },
+  "3119": {
+    "id": 3119,
+    "name": "Shadow Blade Steward",
+    "description": "You hold the key to the Shadow Blade Hall; assassination contracts and intelligence networks are at your command.",
+    "grade": 2,
+    "effect": {
+      "CHR": 3,
+      "STR": 1,
+      "MNY": 1
+    },
+    "exclude": [
+      3114
+    ],
+    "status": -2
+  },
+  "3120": {
+    "id": 3120,
+    "name": "Skywatch",
+    "description": "Bound by an ancient oath to the wings of the sky, your name makes dragons bow.",
+    "grade": 3,
+    "effect": {
+      "STR": 3,
+      "SPR": 2,
+      "LIF": 1
+    },
+    "exclude": [
+      3115
+    ],
+    "status": -3,
+    "exclusive": 1
+  },
+  "3121": {
+    "id": 3121,
+    "name": "Arcane Hunter",
+    "description": "You hunt far and wide, tracking lost grimoires, forbidden knowledge etched into your marrow.",
+    "grade": 2,
+    "effect": {
+      "INT": 3,
+      "CHR": 1
+    },
+    "exclude": [
+      3116
+    ],
+    "status": -2
+  },
+  "3122": {
+    "id": 3122,
+    "name": "Abyss Captain",
+    "description": "Under your command sails a ghost ship with a crew of desperadoes; the treasures of the abyss beckon to you.",
+    "grade": 1,
+    "effect": {
+      "STR": 2,
+      "MNY": 2,
+      "SPR": -1
+    },
+    "exclude": [
+      3117
+    ],
+    "status": -1
+  },
+  "3123": {
+    "id": 3123,
+    "name": "Astral Walker",
+    "description": "Your gaze has glimpsed the secrets among the stars; wandering is no longer drift but pilgrimage.",
+    "grade": 1,
+    "effect": {
+      "INT": 2,
+      "SPR": 1,
+      "MNY": -1
+    },
+    "exclude": [
+      3118
+    ]
+  },
+  "3124": {
+    "id": 3124,
+    "name": "Thieves' Guild Member",
+    "description": "Dark alleys are your cradle, shadows' tricks dance at your fingertips, but gold never lingers in your purse.",
+    "grade": 0,
+    "effect": {
+      "STR": 1,
+      "MNY": -1
+    },
+    "exclude": [
+      3129
+    ]
+  },
+  "3125": {
+    "id": 3125,
+    "name": "Dragon Tamer",
+    "description": "You once met a hatchling's gaze on a lonely peak; in that moment, the ambition to tame the sky ignited in your heart.",
+    "grade": 0,
+    "effect": {
+      "SPR": 1
+    },
+    "exclude": [
+      3130
+    ]
+  },
+  "3126": {
+    "id": 3126,
+    "name": "Grimoire Researcher",
+    "description": "The ancient script on parchment is your sole companion; wisdom grows, but joy is forgotten in the passage of time.",
+    "grade": 0,
+    "effect": {
+      "INT": 1,
+      "SPR": -1
+    },
+    "exclude": [
+      3131
+    ]
+  },
+  "3127": {
+    "id": 3127,
+    "name": "Pirate",
+    "description": "The salty sea wind forged your iron will but also stained you with a savage reputation.",
+    "grade": 0,
+    "effect": {
+      "STR": 1,
+      "CHR": -1
+    },
+    "exclude": [
+      3132
+    ]
+  },
+  "3128": {
+    "id": 3128,
+    "name": "Wandering Sage",
+    "description": "Your footprints span many lands, your bags are full of tales, and your wisdom shines bright amidst hardship.",
+    "grade": 0,
+    "effect": {
+      "INT": 1,
+      "MNY": -1
+    },
+    "exclude": [
+      3133
+    ]
+  },
+  "3129": {
+    "id": 3129,
+    "name": "Shadow Blade - Thieves' Guild Steward",
+    "description": "Shadows obey your command, daggers judge betrayal; you stand atop the guild's iron law.",
+    "grade": 1,
+    "effect": {
+      "STR": 2,
+      "SPR": 1
+    },
+    "exclude": [
+      3124
+    ]
+  },
+  "3130": {
+    "id": 3130,
+    "name": "Dragon Binder - Skywatch",
+    "description": "Dragon wings tear across the sky; your blood resonates with ancient dragons, and the sky is but the start of your journey.",
+    "grade": 1,
+    "effect": {
+      "CHR": 2,
+      "SPR": 1
+    },
+    "exclude": [
+      3125
+    ]
+  },
+  "3131": {
+    "id": 3131,
+    "name": "Origin Tracker - Grimoire Hunter",
+    "description": "You traverse ruins and forbidden zones, seeking fragments of lost truth; every page's remnant is destiny's revelation.",
+    "grade": 1,
+    "effect": {
+      "INT": 2,
+      "SPR": 1
+    },
+    "exclude": [
+      3126
+    ]
+  },
+  "3132": {
+    "id": 3132,
+    "name": "Abyss Captain - Queen of the Waves",
+    "description": "You command the ghost ship's figurehead; the abyss's wrath is your war drum, and even death dares not meet your gaze.",
+    "grade": 1,
+    "effect": {
+      "STR": 2,
+      "LIF": 1
+    },
+    "exclude": [
+      3127
+    ]
+  },
+  "3133": {
+    "id": 3133,
+    "name": "Star Walker - Wandering Sage",
+    "description": "Having read all mortal books, you now listen to stardust's whisper; earthly boundaries dissolve into light beneath your feet.",
+    "grade": 3,
+    "effect": {
+      "INT": 3,
+      "SPR": 2
+    },
+    "exclude": [
+      3128
+    ],
+    "exclusive": 1
+  },
+  "3134": {
+    "id": 3134,
+    "name": "Shadow Guild Fresh Blood",
+    "description": "You grew up in the shadows; theft, deceit, and infiltration are your instincts, but trust is a luxury when hearts are fickle.",
+    "grade": 0,
+    "effect": {
+      "CHR": 1,
+      "INT": 1,
+      "SPR": -1
+    },
+    "exclude": [
+      3119
+    ],
+    "status": -1
+  },
+  "3135": {
+    "id": 3135,
+    "name": "Dragon Taming Apprentice",
+    "description": "You first touched dragon scales on a mountain peak; that searing heat branded you. Since then, you yearn to walk with dragons, yet grow distant from people.",
+    "grade": 0,
+    "effect": {
+      "INT": 1,
+      "SPR": 1,
+      "CHR": -1
+    },
+    "exclude": [
+      3138
+    ]
+  },
+  "3136": {
+    "id": 3136,
+    "name": "Grimoire Scholar",
+    "description": "You bury yourself in yellowed grimoires, seeking lost runes; knowledge fills your mind but empties your purse.",
+    "grade": 0,
+    "effect": {
+      "INT": 2,
+      "MNY": -1,
+      "SPR": -1
+    },
+    "exclude": [
+      3139
+    ]
+  },
+  "3137": {
+    "id": 3137,
+    "name": "Pirate Sailor",
+    "description": "You were once a sea outlaw, living on the edge, plundering merchant ships; wealth and infamy rang equally loud, but the abyss within also deepened.",
+    "grade": 0,
+    "effect": {
+      "STR": 1,
+      "MNY": 1,
+      "SPR": -1,
+      "CHR": -1
+    },
+    "exclude": [
+      3122
+    ]
+  },
+  "3138": {
+    "id": 3138,
+    "name": "Sky Dragon Binder",
+    "description": "You forged a blood pact with the cloud-dwelling dragon, sharing senses with heaven and earth; your breath summons thunder, your gaze pierces storms, but the dragon's roar never ceases in your heart.",
+    "grade": 1,
+    "effect": {
+      "CHR": 2,
+      "STR": 1,
+      "LIF": 2,
+      "SPR": -1
+    },
+    "exclude": [
+      3135
+    ],
+    "status": -2
+  },
+  "3139": {
+    "id": 3139,
+    "name": "Grimoire Hunter",
+    "description": "You traverse the continent's ruins and forbidden lands, seeking lost arcane tomes; each page of truth brings you closer to the world's secrets, but the journey costs worldly ties and depletes your wealth.",
+    "grade": 2,
+    "effect": {
+      "INT": 3,
+      "SPR": 2,
+      "MNY": -1,
+      "CHR": -1
+    },
+    "exclude": [
+      3136
+    ],
+    "status": -2
+  },
+  "3140": {
+    "id": 3140,
+    "name": "Starwalker Sage",
+    "description": "You have learned to read the paths of the stars, weaving prophecies from starlight, walking through the wilds of night as if on flat ground. Your words make kings listen, but worldly gold remains out of your reach.",
+    "grade": 1,
+    "effect": {
+      "INT": 2,
+      "SPR": 3,
+      "CHR": 1,
+      "MNY": -1
+    },
+    "exclude": [
+      3128
+    ],
+    "status": -2
+  }
+}

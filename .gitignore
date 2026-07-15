@@ -1,0 +1,11 @@
+.env
+.env.production
+.env.local
+.env.*.local
+src/contracts/.env
+
+node_modules/
+dist/
+src/contracts/out/
+src/contracts/cache/
+src/contracts/broadcast/

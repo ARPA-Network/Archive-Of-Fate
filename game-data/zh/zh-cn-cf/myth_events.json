@@ -1,0 +1,1299 @@
+[
+  {
+    "id": "myth_zh-cn-cf_1",
+    "rarity": "common",
+    "grade": 2,
+    "fallback": "一枚古简自秘境浮出，字迹如蚯蚓，观之识海翻涌，似有人低语授道。",
+    "pollution_type": false,
+    "effect": {
+      "INT": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_2",
+    "rarity": "uncommon",
+    "grade": 3,
+    "fallback": "渡劫时天雷淬体，骨骼炸响如爆竹，醒后肌肤隐现雷纹，力涨千斤。",
+    "pollution_type": false,
+    "effect": {
+      "STR": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_3",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "误入上古丹室，服下霞光缭绕之丹药，灵台清明，容颜亦返几分少年气。",
+    "pollution_type": true,
+    "effect": {
+      "SPR": 5,
+      "CHR": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_4",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "天降太乙真水，融入命泉，寿轮逆转，白发转黑，凭空多出甲子之寿。",
+    "pollution_type": true,
+    "effect": {
+      "LIF": 6
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_5",
+    "rarity": "common",
+    "grade": 2,
+    "fallback": "市坊赌石，一刀切开，满室生辉，得中品灵石数袋，解修行之资。",
+    "pollution_type": false,
+    "effect": {
+      "MNY": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_6",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "山间偶遇兰若寺，与画中仙对弈一局，心神俱醉，梦醒嘴角含笑。",
+    "pollution_type": false,
+    "effect": {
+      "CHR": 2,
+      "SPR": 2
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_7",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "得窥天书残页，强行推演，呕血三升，然识海开辟，窥见一丝天机。",
+    "pollution_type": true,
+    "effect": {
+      "INT": 4,
+      "RDM": 2
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_8",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "剑冢万剑齐鸣，一柄锈剑认主，人剑合一，剑气冲霄，斩断因果锁链。",
+    "pollution_type": false,
+    "effect": {
+      "STR": 5,
+      "RDM": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_9",
+    "rarity": "common",
+    "grade": 2,
+    "fallback": "路边老道赠酒，饮下昏沉，醒时已在千里外，怀中多出一枚锦囊。",
+    "pollution_type": false,
+    "effect": {
+      "RDM": 2
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_10",
+    "rarity": "uncommon",
+    "grade": 3,
+    "fallback": "寻得前辈洞府，破禁而入，得功法灵石，更悟得逍遥真意，心境大进。",
+    "pollution_type": false,
+    "effect": {
+      "SPR": 3,
+      "MNY": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_11",
+    "rarity": "common",
+    "grade": 2,
+    "fallback": "静室悟道，灵光乍现，神识豁然开朗。",
+    "pollution_type": false,
+    "effect": {
+      "INT": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_12",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "误入古洞，得龙血淬体，筋骨宛若金石。",
+    "pollution_type": true,
+    "effect": {
+      "STR": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_13",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "天劫余波中采得雷劫液，饮之寿元增二十载。",
+    "pollution_type": false,
+    "effect": {
+      "LIF": 5
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_14",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "仙姿玉骨天成，一朝脱胎换骨，容华惊世，道心亦澄。",
+    "pollution_type": true,
+    "effect": {
+      "CHR": 6
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_15",
+    "rarity": "common",
+    "grade": 2,
+    "fallback": "观云海日出，心境开阔，尘烦尽去。",
+    "pollution_type": false,
+    "effect": {
+      "SPR": 2
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_16",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "于墟市得残剑，竟藏前辈宝物，换来灵石千枚。",
+    "pollution_type": true,
+    "effect": {
+      "MNY": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_17",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "古碑天书，苦参三载终明一页，道法更上一层。",
+    "pollution_type": false,
+    "effect": {
+      "INT": 5
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_18",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "逢仙缘，得窥天机一线；命途倾覆，福祸相依。",
+    "pollution_type": true,
+    "effect": {
+      "RDM": 6
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_19",
+    "rarity": "rare",
+    "grade": 2,
+    "fallback": "与妖兽搏杀，濒死间血脉觉醒，体内沉睡的凶煞之力苏生。",
+    "pollution_type": true,
+    "effect": {
+      "STR": 5
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_20",
+    "rarity": "uncommon",
+    "grade": 3,
+    "fallback": "误饮千年醉仙酿，大梦三日，醒来心魔已消，快乐逍遥。",
+    "pollution_type": false,
+    "effect": {
+      "SPR": 5
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_21",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "星核入体，筋骨重塑，似有星辰之力流转。命运轮盘，悄然转动。",
+    "pollution_type": true,
+    "effect": {
+      "STR": 6
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_22",
+    "rarity": "rare",
+    "grade": 2,
+    "fallback": "红烛映双影，道心亦动情。此生因果，与卿共担。",
+    "pollution_type": false,
+    "effect": {
+      "SPR": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_23",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "雷劫淬体，九死一生。天威过后，竟是造化。",
+    "pollution_type": true,
+    "effect": {
+      "LIF": 5
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_24",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "虚妄尽破，灵台清明。前尘纷扰，一刀两断。",
+    "pollution_type": true,
+    "effect": {
+      "INT": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_25",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "残卷泛黄，字字珠玑。一朝参悟，直上青云。",
+    "pollution_type": true,
+    "effect": {
+      "INT": 6
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_26",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "梦境千重，我是蝶耶？醒时方觉，两世为人。",
+    "pollution_type": true,
+    "effect": {
+      "INT": 5
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_27",
+    "rarity": "rare",
+    "grade": 2,
+    "fallback": "石门洞开，宝光冲霄。前贤洞府，今作吾乡。",
+    "pollution_type": true,
+    "effect": {
+      "MNY": 5
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_28",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "剑痕如诗，道痕如刻。一剑出鞘，天地失色。",
+    "pollution_type": false,
+    "effect": {
+      "STR": 5
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_29",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "丹田如沸，灵根涅槃。昔日凡骨，今日仙胎。",
+    "pollution_type": false,
+    "effect": {
+      "STR": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_30",
+    "rarity": "rare",
+    "grade": 2,
+    "fallback": "天地为证，因果为丝。今日种因，他日得果。",
+    "pollution_type": true,
+    "effect": {
+      "RDM": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_31",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "偶入荒山古洞，残卷蒙尘而字字珠玑，一朝顿悟，神识清明如洗。",
+    "pollution_type": false,
+    "effect": {
+      "INT": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_32",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "劫雷劈开迷雾，前世种种如画闪过，刹那执念消散，灵台一片空明。",
+    "pollution_type": true,
+    "effect": {
+      "SPR": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_33",
+    "rarity": "common",
+    "grade": 2,
+    "fallback": "剑光如瀑洗髓，筋骨齐鸣，似有龙吟虎啸之象。",
+    "pollution_type": false,
+    "effect": {
+      "STR": 2
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_34",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "梦入太古，见真人负手而立，一指点出，万象生灭，醒来神念通明。",
+    "pollution_type": true,
+    "effect": {
+      "INT": 5
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_35",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "冰莲绽放，一缕清辉入体，肌骨生香，恍若谪仙。",
+    "pollution_type": false,
+    "effect": {
+      "CHR": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_36",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "心魔化形为故人，一剑斩落，竟见莲花遍地，寿元涓涓增长。",
+    "pollution_type": true,
+    "effect": {
+      "LIF": 6
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_37",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "擂台上术法争锋，终夺魁首，长老赐下储物袋，灵石灿若星河。",
+    "pollution_type": false,
+    "effect": {
+      "MNY": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_38",
+    "rarity": "common",
+    "grade": 2,
+    "fallback": "光华闪过，周身如遭重塑，未知之力悄然流入，不知所加何处。",
+    "pollution_type": false,
+    "effect": {
+      "RDM": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_39",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "古劫云未散，你步入废墟，残雷贯体。筋骨淬炼，仿若重生。",
+    "pollution_type": true,
+    "effect": {
+      "STR": 5
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_40",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "幻境如镜，你见自身执念化魔。一念顿悟，心台澄明。",
+    "pollution_type": false,
+    "effect": {
+      "SPR": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_41",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "破旧玉简载神丹，你苦心炼成，服下顿感生机勃发。",
+    "pollution_type": true,
+    "effect": {
+      "LIF": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_42",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "月下遇知己，携手同游。心意相通，道途不孤。",
+    "pollution_type": false,
+    "effect": {
+      "SPR": 2,
+      "INT": 2
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_43",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "夜观星象，有宝光坠地。得之，似有天命加身。",
+    "pollution_type": true,
+    "effect": {
+      "MNY": 6,
+      "CHR": 2
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_44",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "于瀑布下枯坐，忽闻水声皆剑鸣。一剑出，山河色变。",
+    "pollution_type": false,
+    "effect": {
+      "STR": 6
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_45",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "心魔肆虐，你守灵台清明。劫后余悸，却道心弥坚。",
+    "pollution_type": false,
+    "effect": {
+      "SPR": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_46",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "秘境尘封万载，你破阵而入，得古仙衣钵。智慧如海，容颜焕新。",
+    "pollution_type": true,
+    "effect": {
+      "INT": 5,
+      "CHR": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_47",
+    "rarity": "common",
+    "grade": 2,
+    "fallback": "雷劫降下，你以肉身硬抗。金丹成时，脱胎换骨。",
+    "pollution_type": false,
+    "effect": {
+      "STR": 3,
+      "LIF": 2
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_48",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "山中遇灵果，异香诱人。食之，丹田暖意流转，未知变化已生。",
+    "pollution_type": false,
+    "effect": {
+      "RDM": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_49",
+    "rarity": "common",
+    "grade": 2,
+    "fallback": "夜半于潭边打坐，月华如水，忽觉灵台清明，道法自然。",
+    "pollution_type": false,
+    "effect": {
+      "INT": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_50",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "误入古修洞府，得一瓶筑基丹，可易百枚灵石。",
+    "pollution_type": false,
+    "effect": {
+      "MNY": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_51",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "渡金丹劫时，天雷贯体，苦撑过后筋骨如铁，修为反进。",
+    "pollution_type": false,
+    "effect": {
+      "STR": 5
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_52",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "与道侣双修数载，心意相通，道心益坚。",
+    "pollution_type": false,
+    "effect": {
+      "SPR": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_53",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "心魔劫中历经百世轮回，醒来后眼神澄澈，容貌反增灵韵。",
+    "pollution_type": true,
+    "effect": {
+      "CHR": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_54",
+    "rarity": "common",
+    "grade": 2,
+    "fallback": "宗门小比，剑挑诸人，得赐锻骨灵液，体魄更进。",
+    "pollution_type": false,
+    "effect": {
+      "STR": 2
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_55",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "梦中见一仙人抚顶，醒来觉寿元凭空增了百年，似是前生宿慧。",
+    "pollution_type": true,
+    "effect": {
+      "LIF": 6
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_56",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "闯秘境触发上古传送阵，不知去向何方，却有大机缘随身。",
+    "pollution_type": false,
+    "effect": {
+      "RDM": 5
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_57",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "偶得残卷，悟道于星陨之夜。从此心台明澈，推演万法如观掌纹。",
+    "pollution_type": false,
+    "effect": {
+      "INT": 5
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_58",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "天劫淬体，九死一生。雷火煅尽凡胎，寿元再续百年，天地同贺。",
+    "pollution_type": false,
+    "effect": {
+      "LIF": 6
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_59",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "灵池沐体，秽垢尽去。肌肤生辉，气韵出尘，恍若谪仙临世。",
+    "pollution_type": true,
+    "effect": {
+      "CHR": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_60",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "古兽陨落，血雨滂沱。沐浴其血，筋骨雷鸣，力可撼山岳。",
+    "pollution_type": false,
+    "effect": {
+      "STR": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_61",
+    "rarity": "common",
+    "grade": 2,
+    "fallback": "心魔袭来，险堕魔障。破妄见真，道心愈发澄净，红尘不染。",
+    "pollution_type": true,
+    "effect": {
+      "SPR": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_62",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "误入光阴长河，窥见前世今生。命轨偏移，天机再塑。",
+    "pollution_type": true,
+    "effect": {
+      "RDM": 6
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_63",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "掘得上古药园，灵药满圃。换得万枚灵石，修炼无忧。",
+    "pollution_type": false,
+    "effect": {
+      "MNY": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_64",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "高人梦中传法，剑意纵横识海。醒时挥袖，剑气凌霄。",
+    "pollution_type": true,
+    "effect": {
+      "INT": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_65",
+    "rarity": "common",
+    "grade": 2,
+    "fallback": "误服朱果，经脉鼓胀。熬过焚身之苦，气力陡增三成。",
+    "pollution_type": false,
+    "effect": {
+      "STR": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_66",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "坐忘红尘三十载，一朝悟道。心与天地合，万般执念化作清风。",
+    "pollution_type": true,
+    "effect": {
+      "SPR": 5
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_67",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "九霄雷劫劈落，你神魂离体飘摇似烛火，忽见前世道果幻灭，一丝灵光护住心脉，寿元陡增百年。",
+    "pollution_type": true,
+    "effect": {
+      "LIF": 5,
+      "STR": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_68",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "古仙洞府破空而现，石壁上‘道法自然’四字化作流光入脑，你顿悟太虚玄法，识海翻涌如潮。",
+    "pollution_type": false,
+    "effect": {
+      "INT": 6,
+      "SPR": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_69",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "心魔趁虚而入，幻境中你与道侣决绝厮杀，惊醒后虽神色憔悴，眉间却添一抹冷艳，魂力波动诡谲。",
+    "pollution_type": true,
+    "effect": {
+      "CHR": 4,
+      "RDM": -2
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_70",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "天降功德化作金雨，你摊掌承接，竟是上古丹方与灵石如山，宗门气运随之升腾，你心有所悟。",
+    "pollution_type": false,
+    "effect": {
+      "MNY": 6,
+      "SPR": 2
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_71",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "前世因果缠身，你梦中斩却执念之龙，醒来肉身隐隐泛光，力量暴涨似要破空而去，却添白发几缕。",
+    "pollution_type": true,
+    "effect": {
+      "STR": 6,
+      "LIF": 2
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_72",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "魔潮突袭宗门，你舍身护山大阵，精血洒落化为灵光屏障，战后虽元气大伤，道心却明澈如镜。",
+    "pollution_type": false,
+    "effect": {
+      "SPR": 4,
+      "MNY": 2
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_73",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "误入上古秘境，断剑斜插处忽现‘诛仙’残意，你神识被刺，却也由此窥见剑道真谛，脑中轰鸣不休。",
+    "pollution_type": false,
+    "effect": {
+      "RDM": 5,
+      "INT": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_74",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "轮回道果悬于虚空，你指尖触碰刹那，三生七世记忆灌顶，容貌重回青春，寿元与因果线纠缠不清。",
+    "pollution_type": true,
+    "effect": {
+      "CHR": 5,
+      "LIF": 5
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_75",
+    "rarity": "common",
+    "grade": 2,
+    "fallback": "得残卷于古洞，字迹斑驳，道韵犹存，似有前人低语。你参悟三日，灵台清明。",
+    "pollution_type": true,
+    "effect": {
+      "INT": 2
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_76",
+    "rarity": "uncommon",
+    "grade": 3,
+    "fallback": "无名丹药入腹，热气如龙游走经脉，旧伤尽去，筋骨强健。",
+    "pollution_type": false,
+    "effect": {
+      "STR": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_77",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "时空错乱，古仙残影战于苍穹，一招一式皆蕴天道。你心神震撼，若有所悟。",
+    "pollution_type": true,
+    "effect": {
+      "INT": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_78",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "雷劫加身，万钧之力贯体，你咬牙硬抗，终得雷火炼就金刚之躯。",
+    "pollution_type": false,
+    "effect": {
+      "STR": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_79",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "红尘旧友携酒而来，月下对饮，往事如烟。你大笑一场，心魔尽消。",
+    "pollution_type": false,
+    "effect": {
+      "SPR": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_80",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "洞府幽深，枯骨盘坐，乾坤袋中灵石如山，功法玉简静躺。传承与因果，一并担下。",
+    "pollution_type": true,
+    "effect": {
+      "MNY": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_81",
+    "rarity": "common",
+    "grade": 2,
+    "fallback": "观云海翻涌，剑心自鸣，你拔剑而舞，豁然贯通，新招天成。",
+    "pollution_type": false,
+    "effect": {
+      "STR": 2
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_82",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "白狐自来，依偎膝前，灵眸映月。自此凡尘多一伴，仙途少孤寂。",
+    "pollution_type": false,
+    "effect": {
+      "CHR": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_83",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "擂台上剑光如练，长老抚须颔首。赐你‘青冥剑’，言：‘莫负此器，莫负仙途。’",
+    "pollution_type": false,
+    "effect": {
+      "MNY": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_84",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "白发转黑，枯木逢春。生死之间有大恐怖，亦有大机缘。你仰天大笑，再续仙路。",
+    "pollution_type": false,
+    "effect": {
+      "LIF": 5
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_85",
+    "rarity": "common",
+    "grade": 2,
+    "fallback": "古洞寻得半卷残经，字如蝌蚪，却藏筑基玄机。",
+    "pollution_type": true,
+    "effect": {
+      "INT": 2
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_86",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "心魔劫中，你斩却执念，道心澄明，似破茧之蝶。",
+    "pollution_type": false,
+    "effect": {
+      "SPR": 2
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_87",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "秘境中，与不知名道侣灵肉双修，七日如七劫，容颜焕发。",
+    "pollution_type": true,
+    "effect": {
+      "CHR": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_88",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "雷劫贯体，肉身崩而重聚，元婴出窍时，天地一白。",
+    "pollution_type": false,
+    "effect": {
+      "LIF": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_89",
+    "rarity": "common",
+    "grade": 2,
+    "fallback": "坊市救下一只瘸腿灵狐，数日后它衔来灵石袋，竟若报恩。",
+    "pollution_type": true,
+    "effect": {
+      "MNY": 2
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_90",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "古传送阵误启，得入仙宫废墟，丹炉余温尚存，造化归身。",
+    "pollution_type": true,
+    "effect": {
+      "STR": 5
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_91",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "宗门大比，一剑夺魁，满座哗然，从此仙途坦荡。",
+    "pollution_type": false,
+    "effect": {
+      "SPR": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_92",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "梦回前世，道侣拈花而笑：“你来了。”醒时泪湿衣襟，境界松动。",
+    "pollution_type": true,
+    "effect": {
+      "INT": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_93",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "你于月下枯坐，忽见一天青道种自九天垂落，没入丹田，顿觉面容焕发仙光。",
+    "pollution_type": false,
+    "effect": {
+      "CHR": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_94",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "误入破败洞府，得古仙手札一卷，字字珠玑，你智慧大开，往昔纷扰豁然贯通。",
+    "pollution_type": true,
+    "effect": {
+      "INT": 5
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_95",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "渡劫求生，雷蛇贯体，筋骨尽碎而重塑，醒时肉身体魄强横异常。",
+    "pollution_type": false,
+    "effect": {
+      "STR": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_96",
+    "rarity": "common",
+    "grade": 2,
+    "fallback": "与道侣双修十日，灵肉交融，道心愈坚，心头喜乐盈盈。",
+    "pollution_type": true,
+    "effect": {
+      "SPR": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_97",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "偶然发现山脉深处藏有灵脉，采掘灵石万千，一夜富甲一方。",
+    "pollution_type": false,
+    "effect": {
+      "MNY": 5
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_98",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "静坐时忽觉与天地共鸣，清风明月皆入怀，心神愉悦，久久不散。",
+    "pollution_type": false,
+    "effect": {
+      "SPR": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_99",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "梦中历尽百世轮回，醒时双目沧桑，世间万法皆在眼前清晰无比。",
+    "pollution_type": true,
+    "effect": {
+      "INT": 6
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_100",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "体内沉睡的真龙血脉觉醒，力量喷涌，举手投足间似有龙吟相随。",
+    "pollution_type": true,
+    "effect": {
+      "STR": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_101",
+    "rarity": "common",
+    "grade": 2,
+    "fallback": "误饮千年仙酿，醉倒三日，醒来容光焕发，气质出尘，宛若谪仙。",
+    "pollution_type": false,
+    "effect": {
+      "CHR": 2
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_102",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "闯入时间裂隙，习得逆流一刹之秘法，过去未来交织，命运从此莫测。",
+    "pollution_type": true,
+    "effect": {
+      "RDM": 6
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_103",
+    "rarity": "common",
+    "grade": 2,
+    "fallback": "朝采霞光，暮餐紫气，筋骨日强，如钢似铁。",
+    "pollution_type": false,
+    "effect": {
+      "STR": 2
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_104",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "偶获上古残简，参悟三日，豁然贯通，灵台清明。",
+    "pollution_type": false,
+    "effect": {
+      "INT": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_105",
+    "rarity": "uncommon",
+    "grade": 3,
+    "fallback": "古修洞府藏宝无数，取之不尽，然前人执念亦缠身不去。",
+    "pollution_type": true,
+    "effect": {
+      "MNY": 5
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_106",
+    "rarity": "rare",
+    "grade": 2,
+    "fallback": "仙泉濯身，垢尽明生，容颜如玉，气韵翩然。",
+    "pollution_type": false,
+    "effect": {
+      "CHR": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_107",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "天边流霞化道音入耳，欢喜顿生，似与古贤共逍遥。",
+    "pollution_type": true,
+    "effect": {
+      "SPR": 5
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_108",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "得道仙人遗赠延寿仙丹，服之添寿二百载，岁月沉淀其中。",
+    "pollution_type": true,
+    "effect": {
+      "LIF": 6
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_109",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "元神入冥冥，命运长河现前，偶触一线天机，似见前世今生。",
+    "pollution_type": true,
+    "effect": {
+      "RDM": 6
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_110",
+    "rarity": "rare",
+    "grade": 2,
+    "fallback": "以战悟道，肉身成圣，举手投足皆有龙象之力。",
+    "pollution_type": false,
+    "effect": {
+      "STR": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_111",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "灵台清明，忽感天地灵气如溪流汇入丹田，往日窒碍豁然贯通。",
+    "pollution_type": false,
+    "effect": {
+      "INT": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_112",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "古洞幽光现残碑，丹砂褪尽字犹明，此方或可炼长生。",
+    "pollution_type": true,
+    "effect": {
+      "MNY": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_113",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "雷劫贯体，心魔狂舞；以一剑斩执念，肉身重塑，更胜往昔。",
+    "pollution_type": false,
+    "effect": {
+      "STR": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_114",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "月下对坐，灵息交融，一瞬心念相通，道心愈坚。",
+    "pollution_type": false,
+    "effect": {
+      "SPR": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_115",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "劫云散尽，山崖留痕，隐隐有天道之音回响，福至心灵。",
+    "pollution_type": false,
+    "effect": {
+      "RDM": 5
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_116",
+    "rarity": "rare",
+    "grade": 2,
+    "fallback": "锈剑嗡鸣，似有英魂不灭，认主刹那，通体生寒复生暖。",
+    "pollution_type": true,
+    "effect": {
+      "STR": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_117",
+    "rarity": "common",
+    "grade": 2,
+    "fallback": "悬崖畔朱果莹莹，入口化作热流，寿元凭空增长。",
+    "pollution_type": false,
+    "effect": {
+      "LIF": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_118",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "入定极深处，前世如烟云过眼，醒来道行大进。",
+    "pollution_type": true,
+    "effect": {
+      "INT": 6
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_119",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "剑指云霄，力压群英；满堂彩声中，你名传四野。",
+    "pollution_type": false,
+    "effect": {
+      "CHR": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_120",
+    "rarity": "common",
+    "grade": 2,
+    "fallback": "幻阵十年如大梦，醒来山花依旧，道心却已澄澈。",
+    "pollution_type": true,
+    "effect": {
+      "INT": 2
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_121",
+    "rarity": "rare",
+    "grade": 3,
+    "fallback": "偶得古修遗简，一缕道韵入体，容貌微调，仙骨初现，仿佛前生注定。",
+    "pollution_type": true,
+    "effect": {
+      "CHR": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_122",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "天雷淬体，骨如金玉，劫后余生，似有前人替劫之影。",
+    "pollution_type": true,
+    "effect": {
+      "STR": 5
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_123",
+    "rarity": "uncommon",
+    "grade": 2,
+    "fallback": "偶遇故人之后，赠丹续命，言及旧约，命运之线交织不绝。",
+    "pollution_type": false,
+    "effect": {
+      "LIF": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_124",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "悟道碑前，心印传承，万象归一，似先贤借眼观世。",
+    "pollution_type": true,
+    "effect": {
+      "INT": 6
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_125",
+    "rarity": "rare",
+    "grade": 2,
+    "fallback": "得前人埋宝图，灵脉现世，富可敌国，因果承负难分。",
+    "pollution_type": true,
+    "effect": {
+      "MNY": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_126",
+    "rarity": "rare",
+    "grade": 2,
+    "fallback": "勘破心魔，一念清净，昔时执念化烟，此生因果自了。",
+    "pollution_type": false,
+    "effect": {
+      "SPR": 3
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_127",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "残魂入梦，灌顶传功，命数骤变，不知是福是劫。",
+    "pollution_type": true,
+    "effect": {
+      "RDM": 4
+    }
+  },
+  {
+    "id": "myth_zh-cn-cf_128",
+    "rarity": "legendary",
+    "grade": 3,
+    "fallback": "元婴初成，天降祥光，凤凰衔书来贺，前世道缘今方显。",
+    "pollution_type": true,
+    "effect": {
+      "INT": 5
+    }
+  }
+]

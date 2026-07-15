@@ -1,0 +1,466 @@
+{
+  "90000": {
+    "id": 90000,
+    "name": "凡人寿终",
+    "description": "你走完了平凡而漫长的一生，没有奇迹，也算幸运。",
+    "grade": 0,
+    "hide": 0,
+    "condition": "HAGE >= 80"
+  },
+  "90001": {
+    "id": 90001,
+    "name": "惊鸿一瞥",
+    "description": "某个瞬间，你似乎瞥见了世界帷幕后的微光。",
+    "grade": 1,
+    "hide": 0,
+    "condition": "MYTHC >= 1"
+  },
+  "90002": {
+    "id": 90002,
+    "name": "旧物呢喃",
+    "description": "你听见家中老物件在深夜发出低语，但天亮后一切如常。",
+    "grade": 2,
+    "hide": 1,
+    "condition": "MYTHC >= 2"
+  },
+  "90003": {
+    "id": 90003,
+    "name": "灵犀学者",
+    "description": "你试图用理性解释那些不可名状的现象，笔记写满了半懂不懂的符号。",
+    "grade": 2,
+    "hide": 0,
+    "condition": "HINT >= 15 AND MYTHC >= 2"
+  },
+  "90004": {
+    "id": 90004,
+    "name": "余烬拾荒人",
+    "description": "你渐渐习惯了那些不合常理的瞬间，甚至开始期待下一次。",
+    "grade": 3,
+    "hide": 0,
+    "condition": "MYTHC >= 5"
+  },
+  "90005": {
+    "id": 90005,
+    "name": "人鬼情未了",
+    "description": "你爱上了一个似有若无的存在，朋友都说你魔怔了。",
+    "grade": 2,
+    "hide": 1,
+    "condition": "HCHR >= 10 AND MYTHC >= 3"
+  },
+  "90006": {
+    "id": 90006,
+    "name": "钢铁意志",
+    "description": "你的一生铁板一块，什么奇怪的事都没发生过——也许这才是最奇怪的。",
+    "grade": 1,
+    "hide": 0,
+    "condition": "HAGE >= 70 AND MYTHC = 0"
+  },
+  "90007": {
+    "id": 90007,
+    "name": "流星",
+    "description": "你的故事刚开始就戛然而止。",
+    "grade": 0,
+    "hide": 0,
+    "condition": "HAGE < 20"
+  },
+  "90008": {
+    "id": 90008,
+    "name": "铸心为剑",
+    "description": "你在题海中杀出一条血路，成为别人家的孩子。",
+    "grade": 1,
+    "hide": 0,
+    "condition": "HINT >= 18"
+  },
+  "90009": {
+    "id": 90009,
+    "name": "人间富贵",
+    "description": "你赚到了足够多的钱，却发现有些东西永远买不到。",
+    "grade": 1,
+    "hide": 0,
+    "condition": "HMNY >= 1000000"
+  },
+  "90010": {
+    "id": 90010,
+    "name": "独身者",
+    "description": "你一生没踏入任何人的围城，独自看完了风景。",
+    "grade": 1,
+    "hide": 0,
+    "condition": "HSPR >= 10 AND HAGE >= 50"
+  },
+  "90011": {
+    "id": 90011,
+    "name": "病弱长寿",
+    "description": "你从小体弱多病，却比许多健康人活得更久。",
+    "grade": 2,
+    "hide": 0,
+    "condition": "HSTR < 5 AND HAGE >= 60"
+  },
+  "90012": {
+    "id": 90012,
+    "name": "朝闻道",
+    "description": "你在目睹真相后，无声无息地消逝了。",
+    "grade": 3,
+    "hide": 1,
+    "condition": "HAGE < 30 AND MYTHC >= 1"
+  },
+  "90013": {
+    "id": 90013,
+    "name": "天选之人",
+    "description": "你总能在关键时刻化险为夷，仿佛命运在暗中帮你。",
+    "grade": 2,
+    "hide": 0,
+    "condition": "FDLV >= 5"
+  },
+  "90014": {
+    "id": 90014,
+    "name": "灵犀觉醒",
+    "description": "某个午夜，你发现自己能听懂流浪猫的对话。",
+    "grade": 3,
+    "hide": 1,
+    "condition": "MYTHC >= 3 AND HSPR >= 15"
+  },
+  "90015": {
+    "id": 90015,
+    "name": "繁华落尽",
+    "description": "你坐过山巅，也摔过谷底，最后在小屋里平静地喝茶。",
+    "grade": 1,
+    "hide": 0,
+    "condition": "HAGE >= 60 AND HMNY < 10000"
+  },
+  "90016": {
+    "id": 90016,
+    "name": "校园怪谈",
+    "description": "你在晚自习后亲眼看见空无一人的教室里，粉笔自己在黑板上写字。",
+    "grade": 1,
+    "hide": 0,
+    "condition": "HAGE < 22 AND MYTHC >= 1"
+  },
+  "90017": {
+    "id": 90017,
+    "name": "加班见闻",
+    "description": "加班到深夜，你发现自己的影子没有跟着你动。",
+    "grade": 2,
+    "hide": 1,
+    "condition": "HAGE >= 30 AND HAGE < 50 AND MYTHC >= 2"
+  },
+  "90018": {
+    "id": 90018,
+    "name": "回光返照",
+    "description": "弥留之际，你看见所有逝去的亲人站在床边，表情平静。",
+    "grade": 2,
+    "hide": 0,
+    "condition": "HAGE >= 70 AND MYTHC >= 3"
+  },
+  "90019": {
+    "id": 90019,
+    "name": "帷幕撕裂",
+    "description": "那一天，你终于确信：这个世界不对劲。",
+    "grade": 3,
+    "hide": 1,
+    "condition": "MYTHC >= 10"
+  },
+  "90020": {
+    "id": 90020,
+    "name": "平凡人生",
+    "description": "你过完了不好不坏的一辈子，没有灵异，也没有奇迹，偶尔回想，茶杯里的倒影安静得像另一个世界。",
+    "grade": 0,
+    "hide": 0,
+    "condition": "HAGE >= 60 AND MYTHC == 0"
+  },
+  "90021": {
+    "id": 90021,
+    "name": "微光乍现",
+    "description": "那个加班的深夜，你看见办公室绿植无风自动，转头再看，又只是普通的橡皮树。",
+    "grade": 0,
+    "hide": 0,
+    "condition": "MYTHC >= 1"
+  },
+  "90022": {
+    "id": 90022,
+    "name": "灵气眷顾",
+    "description": "你抽屉里多了一块总也丢不掉的石头，淋雨回家身上却干爽，邻居家的猫每次见你都蹲得很端正。",
+    "grade": 1,
+    "hide": 0,
+    "condition": "MYTHC >= 3"
+  },
+  "90023": {
+    "id": 90023,
+    "name": "长寿明星",
+    "description": "你活过了大多数人，生日蛋糕上的蜡烛多到需要消防许可，但你还是舍不得吹灭它们。",
+    "grade": 1,
+    "hide": 0,
+    "condition": "HAGE >= 90"
+  },
+  "90024": {
+    "id": 90024,
+    "name": "颜值巅峰",
+    "description": "高中毕业照被挂在照相馆橱窗里，多年后老同学聚会，大家还说“你当年真该去当明星”。",
+    "grade": 1,
+    "hide": 0,
+    "condition": "HCHR >= 9"
+  },
+  "90025": {
+    "id": 90025,
+    "name": "学神附体",
+    "description": "你解数学题像在玩消消乐，老师私下议论你是不是偷偷把灵气余烬用在了学习上。",
+    "grade": 1,
+    "hide": 0,
+    "condition": "HINT >= 9"
+  },
+  "90026": {
+    "id": 90026,
+    "name": "钢铁之躯",
+    "description": "你淋暴雨、熬通宵、吃路边摊，体检报告却比健身教练还漂亮，医生皱眉嘀咕了一句“代谢异常”。",
+    "grade": 2,
+    "hide": 0,
+    "condition": "HSTR >= 9"
+  },
+  "90027": {
+    "id": 90027,
+    "name": "家财万贯",
+    "description": "你从没为钱发过愁，小时候以为全世界的孩子都有自己的游泳池，长大后发现真是这样。",
+    "grade": 1,
+    "hide": 0,
+    "condition": "HMNY >= 9"
+  },
+  "90028": {
+    "id": 90028,
+    "name": "快乐的穷人",
+    "description": "你住隔断间，吃泡面，但你傍晚在天台吹口琴时，整栋楼的愁容都淡了几分。",
+    "grade": 2,
+    "hide": 0,
+    "condition": "HSPR >= 8 AND HMNY <= 3"
+  },
+  "90029": {
+    "id": 90029,
+    "name": "命运宠儿",
+    "description": "你的一生像被谁精心编排过，所有门都为你敞开，连衰老都变得体面——有人在镜子里对你眨眼。",
+    "grade": 3,
+    "hide": 1,
+    "condition": "HCHR >= 8 AND HINT >= 8 AND HSTR >= 8 AND HMNY >= 8 AND HSPR >= 8 AND HAGE >= 80"
+  },
+  "90030": {
+    "id": 90030,
+    "name": "平凡是福",
+    "description": "你活到了八十多岁，一辈子没撞见什么怪力乱神，平平淡淡，也挺好。",
+    "grade": 0,
+    "hide": 0,
+    "condition": "MYTHC = 0 AND HAGE >= 80"
+  },
+  "90031": {
+    "id": 90031,
+    "name": "夭折",
+    "description": "你还没好好看看这个世界，就走了。",
+    "grade": 0,
+    "hide": 0,
+    "condition": "HAGE <= 5"
+  },
+  "90032": {
+    "id": 90032,
+    "name": "学神",
+    "description": "脑子好使得像开了挂，考试永远前三名，别人刷题你睡觉。",
+    "grade": 2,
+    "hide": 1,
+    "condition": "HINT >= 90"
+  },
+  "90033": {
+    "id": 90033,
+    "name": "倾城之貌",
+    "description": "长成这样，走街上都有人想给你花钱。",
+    "grade": 2,
+    "hide": 1,
+    "condition": "HCHR >= 90"
+  },
+  "90034": {
+    "id": 90034,
+    "name": "灵气绝缘体",
+    "description": "活了这么大岁数，愣是没感觉到半点灵气，大概天生跟神秘无缘吧。",
+    "grade": 1,
+    "hide": 0,
+    "condition": "MYTHC = 0 AND HAGE >= 60"
+  },
+  "90035": {
+    "id": 90035,
+    "name": "恍如隔世",
+    "description": "有那么两次，你仿佛看见了世界的另一层底色，醒来后很久，嘴角还挂着笑。",
+    "grade": 2,
+    "hide": 1,
+    "condition": "MYTHC >= 2 AND HSPR >= 80"
+  },
+  "90036": {
+    "id": 90036,
+    "name": "体弱志坚",
+    "description": "从小药罐子泡大的，谁都觉得你活不长，可你硬是撑过了八十大寿。",
+    "grade": 3,
+    "hide": 0,
+    "condition": "HSTR <= 20 AND HAGE >= 80"
+  },
+  "90037": {
+    "id": 90037,
+    "name": "悲伤终老",
+    "description": "活了很久，但心里那盏灯早就灭了。",
+    "grade": 1,
+    "hide": 0,
+    "condition": "HAGE >= 80 AND HSPR <= 10"
+  },
+  "90038": {
+    "id": 90038,
+    "name": "终见余烬",
+    "description": "在某个毫不起眼的午后，你指尖跃起一簇纯粹的灵光——这个世界，原来真的还有余烬。",
+    "grade": 3,
+    "hide": 1,
+    "condition": "FDLV >= 3"
+  },
+  "90039": {
+    "id": 90039,
+    "name": "凡人一生",
+    "description": "安安稳稳活到六十岁，一辈子没见过什么怪事，也算福气。",
+    "grade": 0,
+    "hide": 0,
+    "condition": "HAGE >= 60 AND MYTHC = 0"
+  },
+  "90040": {
+    "id": 90040,
+    "name": "长命百岁",
+    "description": "你活了九十多岁，熬走了同辈人，成了家族里的老寿星。",
+    "grade": 1,
+    "hide": 0,
+    "condition": "HAGE >= 90"
+  },
+  "90041": {
+    "id": 90041,
+    "name": "才智超群",
+    "description": "智商碾压众人，从小到大都是‘别人家的孩子’。",
+    "grade": 1,
+    "hide": 0,
+    "condition": "HINT >= 95"
+  },
+  "90042": {
+    "id": 90042,
+    "name": "盛世美颜",
+    "description": "长得实在太好看，走路上老有人偷瞄，靠脸能吃饭。",
+    "grade": 1,
+    "hide": 0,
+    "condition": "HCHR >= 95"
+  },
+  "90043": {
+    "id": 90043,
+    "name": "天生富翁",
+    "description": "投胎是门技术活，你家境殷实，这辈子没为钱犯过愁。",
+    "grade": 1,
+    "hide": 0,
+    "condition": "HMNY >= 90"
+  },
+  "90044": {
+    "id": 90044,
+    "name": "乐天派",
+    "description": "你整天乐呵呵的，快乐像是不用钱买的糖。",
+    "grade": 0,
+    "hide": 0,
+    "condition": "HSPR >= 95"
+  },
+  "90045": {
+    "id": 90045,
+    "name": "孤家寡人",
+    "description": "你内心孤寂，快乐似乎从来不持久，一个人走完大半生。",
+    "grade": 0,
+    "hide": 0,
+    "condition": "HSPR <= 10 AND HAGE >= 30"
+  },
+  "90046": {
+    "id": 90046,
+    "name": "轮回老手",
+    "description": "你在这档案馆里反复重启人生，已经第十次了，像在翻一本旧相册。",
+    "grade": 0,
+    "hide": 0,
+    "condition": "SUM >= 10"
+  },
+  "90047": {
+    "id": 90047,
+    "name": "惊鸿一瞥",
+    "description": "某天深夜，你看见路灯下自己的影子没跟着走，揉了揉眼又觉得是幻觉。",
+    "grade": 2,
+    "hide": 1,
+    "condition": "MYTHC >= 1"
+  },
+  "90048": {
+    "id": 90048,
+    "name": "灵气缠身",
+    "description": "你已经习惯偶尔看见别人看不见的东西，分不清是真是幻，有时甚至想伸手摸一摸。",
+    "grade": 3,
+    "hide": 1,
+    "condition": "MYTHC >= 5"
+  },
+  "90049": {
+    "id": 90049,
+    "name": "初窥余烬",
+    "description": "某个加班的深夜，你在便利店看见罐装咖啡表面泛起微光，一瞬即逝。你愣了几秒，然后付钱离开，继续回工位改PPT。",
+    "grade": 1,
+    "hide": 0,
+    "condition": "MYTHC >= 1"
+  },
+  "90050": {
+    "id": 90050,
+    "name": "灵犀幸存者",
+    "description": "那晚地铁隧道里的低语让你毛骨悚然，你拼命跑出站，第二天照常上班，只是之后再也没坐过末班车。",
+    "grade": 2,
+    "hide": 1,
+    "condition": "MYTHC >= 2 AND HSTR >= 50"
+  },
+  "90051": {
+    "id": 90051,
+    "name": "房价真相",
+    "description": "某个看房的下午，你忽然“看见”这栋楼地基下埋着的东西。你不动声色地和中介砍价，拿到了一个不可思议的折扣。",
+    "grade": 2,
+    "hide": 1,
+    "condition": "HAGE >= 25 AND MYTHC >= 1 AND HMNY >= 100"
+  },
+  "90052": {
+    "id": 90052,
+    "name": "加班神游",
+    "description": "在连续工作三天后，你恍惚中看见空气中漂浮的符文。你记下了一张便签，然后趴在桌上睡着了，醒来什么都不记得。",
+    "grade": 1,
+    "hide": 0,
+    "condition": "HINT >= 70 AND HSPR <= 30 AND HAGE >= 22"
+  },
+  "90053": {
+    "id": 90053,
+    "name": "爱过",
+    "description": "你曾深夜为她煮过一碗面，也曾在搬家时发现她留下的字条，那些瞬间比任何灵气都真实。",
+    "grade": 0,
+    "hide": 0,
+    "condition": "HCHR >= 60 AND HSPR >= 60 AND HAGE >= 18"
+  },
+  "90054": {
+    "id": 90054,
+    "name": "余烬研究者",
+    "description": "你穷尽一生研究灵气余烬，发表了无数论文，却越来越不确定自己究竟在追寻什么。",
+    "grade": 3,
+    "hide": 0,
+    "condition": "HINT >= 90 AND MYTHC >= 3 AND HAGE >= 60"
+  },
+  "90055": {
+    "id": 90055,
+    "name": "都市怪谈",
+    "description": "从那之后，每次聚会他们都让你讲那个故事。你渐渐学会在关键处停顿，享受听众的尖叫。",
+    "grade": 1,
+    "hide": 0,
+    "condition": "MYTHC >= 1 AND HSTR <= 40"
+  },
+  "90056": {
+    "id": 90056,
+    "name": "临终关怀",
+    "description": "护士说你在弥留之际笑了，没有人知道那一刻你看见了来接你的谁。",
+    "grade": 2,
+    "hide": 1,
+    "condition": "HAGE >= 70 AND HSTR <= 30 AND MYTHC >= 1"
+  },
+  "90057": {
+    "id": 90057,
+    "name": "凡人飞升",
+    "description": "那天你像往常一样早起跑步，却再也没有回到地面。邻居们报了警，只有你知道自己只是去了更高的地方。",
+    "grade": 3,
+    "hide": 1,
+    "condition": "FDLV >= 1"
+  }
+}
