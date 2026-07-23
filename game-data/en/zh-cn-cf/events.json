@@ -9954,8 +9954,7 @@
     "grade": 0,
     "effect": {
       "SPR": 1
-    },
-    "include": "has_companion"
+    }
   },
   "21148": {
     "id": 21148,
@@ -10122,8 +10121,7 @@
     "grade": 0,
     "effect": {
       "MNY": -2
-    },
-    "include": "has_companion"
+    }
   },
   "21170": {
     "id": 21170,
@@ -16364,8 +16362,7 @@
     "effect": {
       "INT": 1
     },
-    "postEvent": "Thereafter, when facing enemies, if you and your Dao partner use this sword together, it increases mutual understanding by three-tenths.",
-    "include": "has_spouse = true"
+    "postEvent": "Thereafter, when facing enemies, if you and your Dao partner use this sword together, it increases mutual understanding by three-tenths."
   },
   "21878": {
     "id": 21878,

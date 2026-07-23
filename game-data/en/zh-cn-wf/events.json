@@ -5605,7 +5605,7 @@
       "LIF": -1
     },
     "postEvent": "Chrome flowers hum your childhood rhyme; your name on foam stone warns mischievous children.",
-    "exclude": "Role: Necromancer"
+    "NoRandom": 1
   },
   "30620": {
     "id": 30620,
