@@ -1,4 +1,4 @@
-import type { ContentItem, InscriptionEntry, TalentInfo } from './types'
+import type { ContentItem, InscriptionEntry, PollutionEntry, TalentInfo } from './types'
 
 export interface ApiError {
   error: string
@@ -90,6 +90,18 @@ interface RawInscription {
   nft?: { chain: string; contract: string; token_id: string; tx_hash: string } | null
 }
 
+interface RawPollution {
+  id: string
+  title: string
+  character_name: string
+  world: string
+  traits: string[]
+  fate_level: string
+  seed: number
+  summary: string
+  added_at: number
+}
+
 const ZERO = '0x0000000000000000000000000000000000000000'
 
 export class ApiClient {
@@ -113,7 +125,7 @@ export class ApiClient {
     return (await res.json()) as T
   }
 
-  gameNew(payload: { language: string; wallet_address: string | null; run_count: number; username?: string | null }) {
+  gameNew(payload: { language: string; wallet_address: string | null; run_count: number; username?: string | null; player_id?: string }) {
     return this.request<GameNewResp>('/game/new', { method: 'POST', body: JSON.stringify(payload) })
   }
 
@@ -188,6 +200,15 @@ export class ApiClient {
     )
   }
 
+  pollutionList() {
+    return this.request<{ entries: RawPollution[] }>('/pollution/list')
+      .then((r) => ({ entries: r.entries.map(mapPollution) }))
+  }
+
+  userStats() {
+    return this.request<{ total_users: number; active_users: Record<string, number> }>('/admin/stats/users')
+  }
+
   replay(payload: {
     seed: number
     talent_ids: number[]
@@ -258,5 +279,19 @@ function mapInscription(r: RawInscription): InscriptionEntry {
     runCount: r.run_count ?? 0,
     verifyStatus: r.verify_status ?? null,
     nft: r.nft ? { chain: r.nft.chain, contract: r.nft.contract, tokenId: r.nft.token_id, txHash: r.nft.tx_hash } : null,
+  }
+}
+
+function mapPollution(r: RawPollution): PollutionEntry {
+  return {
+    id: r.id,
+    title: r.title,
+    characterName: r.character_name,
+    world: r.world,
+    traits: r.traits ?? [],
+    fateLevel: r.fate_level as PollutionEntry['fateLevel'],
+    seed: r.seed,
+    summary: r.summary,
+    addedAt: r.added_at,
   }
 }

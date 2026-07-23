@@ -2,7 +2,7 @@ import { Page } from '../ui/Page'
 import { h, button, clear } from '../ui/dom'
 import { buildScreen } from '../ui/screen'
 import { $ui, core, UI } from '../globals'
-import { $lang, isEn } from '../i18n'
+import { $lang, isEn, type LangKey } from '../i18n'
 import { LEVEL_COLORS, WORLD_COLORS, worldDisplayName } from '../core/enums'
 import { formatDate, shortAddress } from '../core/utils'
 import { verifyInscription } from '../web3/chain'
@@ -10,7 +10,16 @@ import type { InscriptionEntry, PropertyAllocate, TalentInfo } from '../core/typ
 
 const ZERO_ADDR = '0x0000000000000000000000000000000000000000'
 
-type Mode = 'all' | 'mine'
+type Mode = 'all' | 'mine' | 'stats'
+type StatsState = 'idle' | 'loading' | 'error'
+
+const STATS_WINDOWS: Array<{ key: string; label: LangKey }> = [
+  { key: 'day', label: 'stats_dau' },
+  { key: 'week', label: 'stats_wau' },
+  { key: 'month', label: 'stats_mau' },
+  { key: '3month', label: 'stats_3m' },
+  { key: '6month', label: 'stats_6m' },
+]
 
 export class WorldBoardPage extends Page {
   readonly name = UI.pages.WORLD_BOARD
@@ -18,22 +27,27 @@ export class WorldBoardPage extends Page {
   private mode: Mode = 'all'
   private tabAll!: HTMLButtonElement
   private tabMine!: HTMLButtonElement
+  private tabStats!: HTMLButtonElement
   private headEl!: HTMLElement
   private listEl!: HTMLElement
 
+  private statsState: StatsState = 'idle'
+  private stats: { totalUsers: number; activeUsers: Record<string, number> } | null = null
+
   override async init(): Promise<void> {
-    await core.refreshShared().catch(() => {}) 
+    await core.refreshShared().catch(() => {})
     const safe = buildScreen(this.root, { decoBars: true })
 
     this.tabAll = button($lang.tab_all, () => this.setMode('all'), 'board-tab')
     this.tabMine = button($lang.tab_mine, () => this.setMode('mine'), 'board-tab')
+    this.tabStats = button($lang.tab_stats, () => this.setMode('stats'), 'board-tab')
     this.headEl = h('div', { class: 'board-head' })
     this.listEl = h('div', { class: 'record-list scroll' })
 
     safe.append(
       button($lang.back, () => $ui.switchView(UI.pages.MAIN), 'btn--thin btn-back'),
       h('div', { class: 'screen-title txt', text: $lang.btn_archive, style: { top: '90px' } }),
-      h('div', { class: 'board-tabs' }, [this.tabAll, this.tabMine]),
+      h('div', { class: 'board-tabs' }, [this.tabAll, this.tabMine, this.tabStats]),
       this.headEl,
       this.listEl,
     )
@@ -44,11 +58,32 @@ export class WorldBoardPage extends Page {
     if (this.mode === m) return
     this.mode = m
     this.render()
+    if (m === 'stats' && !this.stats && this.statsState !== 'loading') void this.loadStats()
+  }
+
+  private async loadStats(): Promise<void> {
+    this.statsState = 'loading'
+    this.render()
+    try {
+      const r = await core.fetchUserStats()
+      this.stats = r
+      this.statsState = 'idle'
+    } catch (e) {
+      console.error('[stats] load failed', e)
+      this.statsState = 'error'
+    }
+    this.render()
   }
 
   private render(): void {
     this.tabAll.classList.toggle('active', this.mode === 'all')
     this.tabMine.classList.toggle('active', this.mode === 'mine')
+    this.tabStats.classList.toggle('active', this.mode === 'stats')
+
+    if (this.mode === 'stats') {
+      this.renderStats()
+      return
+    }
 
     const records = this.mode === 'all' ? core.worldRegistry.list : core.mythRegistry.list
 
@@ -75,6 +110,32 @@ export class WorldBoardPage extends Page {
     } else {
       ;[...records].reverse().forEach((r) => this.listEl.appendChild(this.card(r)))
     }
+  }
+
+  private renderStats(): void {
+    clear(this.headEl)
+    clear(this.listEl)
+
+    if (this.statsState === 'loading') {
+      this.listEl.appendChild(h('div', { class: 'empty-tip', text: $lang.stats_loading }))
+      return
+    }
+    if (this.statsState === 'error' || !this.stats) {
+      const retry = button($lang.stats_error, () => void this.loadStats(), 'btn--thin')
+      this.listEl.appendChild(retry)
+      return
+    }
+
+    this.headEl.append(
+      h('div', { class: 'board-count', text: $lang.t('stats_total', this.stats.totalUsers) }),
+    )
+    const panel = h('div', { class: 'stats-panel' })
+    for (const w of STATS_WINDOWS) {
+      panel.appendChild(
+        h('div', { class: 'stats-row', text: $lang.t(w.label, this.stats.activeUsers[w.key] ?? 0) }),
+      )
+    }
+    this.listEl.appendChild(panel)
   }
 
   private card(r: InscriptionEntry): HTMLElement {

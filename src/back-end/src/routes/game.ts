@@ -22,7 +22,9 @@ import {
   inscriptionByTokenId,
   inscriptionsByWallet,
   listInscriptions,
+  listPollution,
   pollutionChainOf,
+  recordActivity,
   upsertPlayerSave,
 } from '../db/repos'
 import type { InscriptionEntry, PollutionEntry, PropertySnapshot } from '../types'
@@ -101,6 +103,8 @@ export function createGameRouter(mgr: SessionManager, pollution: PollutionServic
     }
 
     const session = mgr.create()
+    const playerId: string = (body.player_id as string | undefined)?.trim() || session.id
+    await recordActivity(playerId, wallet, Date.now())
     const base = {
       wallet, language, username, runCount, limitExpansion,
       allocation: null, finalTalentIds: null, seedRequestTx: null,
@@ -437,6 +441,11 @@ export function createGameRouter(mgr: SessionManager, pollution: PollutionServic
     res.json(await pollutionChainOf(id))
   }))
 
+  router.get('/pollution/list', wrap(async (_req, res) => {
+    const entries = await listPollution()
+    res.json({ entries: entries.map(toSnakePollution) })
+  }))
+
   router.get('/nft/:tokenId', wrap(async (req, res) => {
     const tokenId = String(req.params.tokenId).replace(/\.json$/i, '') 
     const e = await inscriptionByTokenId(tokenId)
@@ -507,5 +516,19 @@ function toSnakeEntry(e: InscriptionEntry): Record<string, unknown> {
     nft: e.nft
       ? { chain: e.nft.chain, contract: e.nft.contract, token_id: e.nft.tokenId, tx_hash: e.nft.txHash }
       : null,
+  }
+}
+
+function toSnakePollution(p: PollutionEntry): Record<string, unknown> {
+  return {
+    id: p.id,
+    title: p.title,
+    character_name: p.characterName,
+    world: p.world,
+    traits: p.traits,
+    fate_level: p.fateLevel,
+    seed: p.seed,
+    summary: p.summary,
+    added_at: p.addedAt,
   }
 }

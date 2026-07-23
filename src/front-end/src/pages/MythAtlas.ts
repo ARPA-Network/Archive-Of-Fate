@@ -9,7 +9,8 @@ import type { InscriptionEntry } from '../core/types'
 export class MythAtlasPage extends Page {
   readonly name = UI.pages.MYTH_ATLAS
 
-  override init(): void {
+  override async init(): Promise<void> {
+    await core.refreshShared().catch(() => {})
     const records = core.mythRegistry.list
     const safe = buildScreen(this.root, { decoBars: true })
 

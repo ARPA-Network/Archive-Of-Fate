@@ -17,6 +17,12 @@ function resolveDataDirEn(): string {
   return path.resolve(REPO_ROOT, 'game-data/en')
 }
 
+function resolveRpcUrls(): string[] {
+  const list = process.env.BSC_RPC_URLS || process.env.BSC_RPC_URL || 'https://bsc-dataseed.binance.org/'
+  const urls = list.split(',').map((s) => s.trim()).filter(Boolean)
+  return urls.length > 0 ? urls : ['https://bsc-dataseed.binance.org/']
+}
+
 export const config = {
   port: Number(process.env.PORT || 8787),
   dataDir: resolveDataDir(),
@@ -42,6 +48,7 @@ export const config = {
     authorizerKey: process.env.AUTHORIZER_PRIVATE_KEY || '',
     authDeadlineSec: Number(process.env.AUTH_DEADLINE_SEC || 600), 
     rpcUrl: process.env.BSC_RPC_URL || 'https://bsc-dataseed.binance.org/',
+    rpcUrls: resolveRpcUrls(),
     consumer: process.env.RANDCAST_CONSUMER || '',
     seedCostBnb: process.env.SEED_COST_BNB || '0.0001',
     operatorKey: process.env.OPERATOR_PRIVATE_KEY || '',

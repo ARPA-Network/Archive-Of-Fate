@@ -10,6 +10,8 @@ const mem = {
   gameRuns: [] as GameRun[],
   monitor: new Map<string, string>(),
   randcast: new Map<string, unknown>(),
+  activity: [] as Array<{ playerId: string; wallet: string | null; createdAt: number }>,
+  activitySourceIds: new Set<string>(),
 }
 
 export interface ListPage {
@@ -233,6 +235,65 @@ export async function insertGameRun(g: GameRun): Promise<void> {
     return
   }
   mem.gameRuns.push(g)
+}
+
+export async function recordActivity(
+  playerId: string, wallet: string | null, at: number, sourceRequestId?: string,
+): Promise<boolean> {
+  if (hasDb) {
+    const r = await pool!.query(
+      `INSERT INTO activity_log (player_id, wallet_address, created_at, source_request_id)
+       VALUES ($1,$2,$3,$4) ON CONFLICT (source_request_id) DO NOTHING`,
+      [playerId, wallet, at, sourceRequestId ?? null],
+    )
+    return (r.rowCount ?? 0) > 0
+  }
+  if (sourceRequestId && mem.activitySourceIds.has(sourceRequestId)) return false
+  if (sourceRequestId) mem.activitySourceIds.add(sourceRequestId)
+  mem.activity.push({ playerId, wallet, createdAt: at })
+  return true
+}
+
+export const USER_STATS_WINDOWS: Record<string, number> = {
+  day: 24 * 60 * 60 * 1000,
+  week: 7 * 24 * 60 * 60 * 1000,
+  month: 30 * 24 * 60 * 60 * 1000,
+  '3month': 90 * 24 * 60 * 60 * 1000,
+  '6month': 180 * 24 * 60 * 60 * 1000,
+}
+
+export interface UserStats {
+  totalUsers: number
+  activeUsers: Record<string, number>
+}
+
+export async function getUserStats(window?: string): Promise<UserStats> {
+  const now = Date.now()
+  const windows = window ? { [window]: USER_STATS_WINDOWS[window] } : USER_STATS_WINDOWS
+  const activeUsers: Record<string, number> = {}
+
+  if (hasDb) {
+    const totalRes = await pool!.query(
+      'SELECT COUNT(DISTINCT COALESCE(wallet_address, player_id))::int AS n FROM activity_log',
+    )
+    for (const [key, ms] of Object.entries(windows)) {
+      const r = await pool!.query(
+        `SELECT COUNT(DISTINCT COALESCE(wallet_address, player_id))::int AS n
+         FROM activity_log WHERE created_at >= $1`,
+        [now - ms],
+      )
+      activeUsers[key] = r.rows[0].n
+    }
+    return { totalUsers: totalRes.rows[0].n, activeUsers }
+  }
+
+  const identityOf = (a: { playerId: string; wallet: string | null }) => a.wallet ?? a.playerId
+  for (const [key, ms] of Object.entries(windows)) {
+    const cutoff = now - ms
+    const identities = new Set(mem.activity.filter((a) => a.createdAt >= cutoff).map(identityOf))
+    activeUsers[key] = identities.size
+  }
+  return { totalUsers: new Set(mem.activity.map(identityOf)).size, activeUsers }
 }
 
 function stripCreatedAt(x: InscriptionEntry & { createdAt: number }): InscriptionEntry {

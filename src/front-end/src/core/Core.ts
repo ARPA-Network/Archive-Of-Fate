@@ -71,6 +71,7 @@ export class Core {
 
   private sharedRegistry: InscriptionEntry[] = []
   private sharedPollution: PollutionEntry[] = []
+  private sharedMyRegistry: InscriptionEntry[] = []
 
   async initial(language: string): Promise<void> {
     setLanguage(language)
@@ -103,6 +104,7 @@ export class Core {
         wallet_address: wallet,
         run_count: wallet ? prog.runCount : progression.anonTimes(),
         username: progression.username() || null,
+        player_id: progression.playerId(),
       })
       this.sessionId = r.session_id
 
@@ -458,6 +460,9 @@ export class Core {
   }
 
   get mythRegistry(): { list: InscriptionEntry[]; count: number } {
+    if (this.useApi && progression.isWalletConnected()) {
+      return { list: this.sharedMyRegistry, count: this.sharedMyRegistry.length }
+    }
     const list = progression.inscriptions()
     return { list, count: list.length }
   }
@@ -476,9 +481,21 @@ export class Core {
 
   async refreshShared(): Promise<void> {
     if (!this.useApi || !this.api) return
-    const reg = await this.api.registryList({ limit: 50 })
+    const wallet = progression.isWalletConnected() ? progression.walletAddress() : null
+    const [reg, pol, mine] = await Promise.all([
+      this.api.registryList({ limit: 50 }),
+      this.api.pollutionList(),
+      wallet ? this.api.registryByPlayer(wallet) : Promise.resolve({ entries: [] as InscriptionEntry[] }),
+    ])
     this.sharedRegistry = reg.entries ?? []
-    this.sharedPollution = []
+    this.sharedPollution = pol.entries ?? []
+    this.sharedMyRegistry = mine.entries ?? []
+  }
+
+  async fetchUserStats(): Promise<{ totalUsers: number; activeUsers: Record<string, number> } | null> {
+    if (!this.useApi || !this.api) return null
+    const r = await this.api.userStats()
+    return { totalUsers: r.total_users, activeUsers: r.active_users }
   }
 
   get times(): number {

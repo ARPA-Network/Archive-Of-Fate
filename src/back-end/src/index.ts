@@ -9,8 +9,10 @@ import { SessionManager } from './engine/sessionManager'
 import { MockAIService } from './services/aiService'
 import { PollutionService } from './services/pollution'
 import { createGameRouter } from './routes/game'
+import { createStatsRouter } from './routes/stats'
 import { pool, hasDb } from './db/pool'
 import { listPollution } from './db/repos'
+import { rpcPoolStatus } from './services/chainVerifier'
 import type { Services } from './engine/session'
 
 async function ensureSchema(): Promise<void> {
@@ -60,10 +62,12 @@ async function main(): Promise<void> {
       pollution: pollution.size,
       db: hasDb ? 'postgres' : 'memory',
       ai: config.ai.apiKey ? `claude:${config.ai.model}` : 'fallback',
+      rpcHealthy: rpcPoolStatus().some((e) => e.healthy),
     })
   })
 
   app.use('/', createGameRouter(mgr, pollution))
+  app.use('/', createStatsRouter())
 
   app.use((err: Error, _req: express.Request, res: express.Response, _next: express.NextFunction) => {
     console.error('[backend] error', err)

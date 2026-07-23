@@ -1058,6 +1058,18 @@
   margin-top: 10px;
   color: var(--c-muted);
 }
+.stats-panel {
+  flex: none;
+  border: 2px solid var(--c-line);
+  background: var(--c-panel);
+  padding: 24px 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.stats-row {
+  font-size: 30px;
+}
 .empty-tip {
   position: absolute;
   inset: 0;

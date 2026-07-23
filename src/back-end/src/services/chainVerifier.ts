@@ -1,5 +1,6 @@
-import { JsonRpcProvider, Interface, Contract, Wallet, id as keccakId } from 'ethers'
+import { Interface, Contract, Wallet, id as keccakId } from 'ethers'
 import { config } from '../config'
+import { RpcPool, type RpcEndpointStatus } from './rpcPool'
 
 const NFT_EVENT_ABI = [
   'event InscriptionMinted(uint256 indexed tokenId, address indexed owner, string inscriptionId, uint256 seed, bytes32 randcastRequestTx, uint256 paidToken)',
@@ -31,15 +32,19 @@ export interface ExpectedMint {
   seed: number
 }
 
-let _provider: JsonRpcProvider | null = null
-function provider(): JsonRpcProvider {
-  if (!_provider) _provider = new JsonRpcProvider(config.chain.rpcUrl, config.chain.chainId)
-  return _provider
+let _pool: RpcPool | null = null
+function pool(): RpcPool {
+  if (!_pool) _pool = new RpcPool(config.chain.rpcUrls, config.chain.chainId).start()
+  return _pool
+}
+
+export function rpcPoolStatus(): RpcEndpointStatus[] {
+  return pool().status()
 }
 
 export async function verifyMint(txHash: string, expected: ExpectedMint): Promise<VerifiedMint> {
   const nft = config.chain.inscriptionNft.toLowerCase()
-  const receipt = await provider().getTransactionReceipt(txHash)
+  const receipt = await pool().run((p) => p.getTransactionReceipt(txHash))
   if (!receipt) throw new Error('Transaction not found or not yet confirmed')
   if (receipt.status !== 1) throw new Error('Transaction did not succeed (status != 1)')
   if ((receipt.to ?? '').toLowerCase() !== nft) throw new Error('Transaction target is not the inscription contract')
@@ -85,12 +90,17 @@ export function seedVerifyConfigured(): boolean {
 }
 
 export async function verifySeed(requestId: string, seed: number, expectedRequester?: string): Promise<void> {
-  const consumer = new Contract(config.chain.consumer, CONSUMER_ABI, provider())
-  const [onchainSeed, fulfilled] = (await consumer.getSeed(requestId)) as [bigint, boolean]
+  const [onchainSeed, fulfilled] = await pool().run(async (p) => {
+    const consumer = new Contract(config.chain.consumer, CONSUMER_ABI, p)
+    return (await consumer.getSeed(requestId)) as [bigint, boolean]
+  })
   if (!fulfilled) throw new Error('Randomness not yet fulfilled')
   if (Number(onchainSeed) !== seed) throw new Error(`seed does not match on-chain value (on-chain ${onchainSeed})`)
   if (expectedRequester) {
-    const r = (await consumer.requesters(requestId)) as string
+    const r = await pool().run(async (p) => {
+      const consumer = new Contract(config.chain.consumer, CONSUMER_ABI, p)
+      return (await consumer.requesters(requestId)) as string
+    })
     if (r.toLowerCase() !== expectedRequester.toLowerCase()) throw new Error('Randomness requester does not match this session\'s wallet')
   }
 }
@@ -100,7 +110,7 @@ export function operatorConfigured(): boolean {
 }
 
 export async function requestSeedForSession(sessionId: string): Promise<{ requestId: string; txHash: string }> {
-  const wallet = new Wallet(config.chain.operatorKey, provider())
+  const wallet = new Wallet(config.chain.operatorKey, pool().get())
   const consumer = new Contract(config.chain.consumer, CONSUMER_ABI, wallet)
   const gameSessionId = keccakId(sessionId) 
   const tx = await consumer.requestSeedFor(gameSessionId, { gasLimit: 600000n })
@@ -125,7 +135,9 @@ export async function requestSeedForSession(sessionId: string): Promise<{ reques
 }
 
 export async function readSeed(requestId: string): Promise<{ seed: number; fulfilled: boolean }> {
-  const consumer = new Contract(config.chain.consumer, CONSUMER_ABI, provider())
-  const [seed, fulfilled] = (await consumer.getSeed(requestId)) as [bigint, boolean]
+  const [seed, fulfilled] = await pool().run(async (p) => {
+    const consumer = new Contract(config.chain.consumer, CONSUMER_ABI, p)
+    return (await consumer.getSeed(requestId)) as [bigint, boolean]
+  })
   return { seed: Number(seed), fulfilled: Boolean(fulfilled) }
 }

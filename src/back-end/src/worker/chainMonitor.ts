@@ -1,12 +1,13 @@
 import '../loadEnv'
 import fs from 'fs'
 import path from 'path'
-import { JsonRpcProvider, Interface, Contract } from 'ethers'
+import { Interface, Contract } from 'ethers'
 import { config } from '../config'
 import { DataStore } from '../engine/dataLoader'
 import { SessionManager } from '../engine/sessionManager'
 import { MockAIService } from '../services/aiService'
 import { PollutionService } from '../services/pollution'
+import { RpcPool } from '../services/rpcPool'
 import type { Services } from '../engine/session'
 import {
   getMonitorState,
@@ -15,7 +16,7 @@ import {
   inscriptionByTokenId,
   setInscriptionVerifyStatus,
 } from '../db/repos'
-import { pool, hasDb } from '../db/pool'
+import { pool as dbPool, hasDb } from '../db/pool'
 import type { InscriptionEntry } from '../types'
 
 
@@ -94,7 +95,7 @@ function safeParse(iface: Interface, log: MinLog): { name: string; args: Record<
 const eqNumArr = (a: number[], b: number[]): boolean => a.length === b.length && a.every((x, i) => x === b[i])
 
 async function fetchLogsAdaptive(
-  provider: JsonRpcProvider, address: string[], from: number, to: number,
+  pool: RpcPool, address: string[], from: number, to: number,
 ): Promise<MinLog[]> {
   const logs: MinLog[] = []
   let start = from
@@ -103,7 +104,7 @@ async function fetchLogsAdaptive(
     const end = Math.min(start + effectiveChunk - 1, to)
     try {
       const chunk = (await withRetry(
-        () => provider.getLogs({ address, fromBlock: start, toBlock: end }),
+        () => pool.run((p) => p.getLogs({ address, fromBlock: start, toBlock: end })),
         `getLogs[${start}-${end}]`,
       )) as unknown as MinLog[]
       logs.push(...chunk)
@@ -119,17 +120,23 @@ async function fetchLogsAdaptive(
   return logs
 }
 
-async function verifyRecord(mgr: SessionManager, nft: Contract | null, rec: InscriptionEntry): Promise<string> {
+async function verifyRecord(mgr: SessionManager, pool: RpcPool, nftAddr: string | null, rec: InscriptionEntry): Promise<string> {
   const reasons: string[] = []
   const tokenId = rec.nft?.tokenId
   const alloc = rec.allocation ?? { CHR: 0, INT: 0, STR: 0, MNY: 0 }
   const allocArr = [alloc.CHR, alloc.INT, alloc.STR, alloc.MNY]
   const talents = rec.talentIds ?? []
 
-  if (nft && tokenId) {
+  if (nftAddr && tokenId) {
     try {
-      const fate = await withRetry(() => nft.getFate(tokenId) as Promise<[bigint, bigint[], bigint[], string]>, 'getFate')
-      const owner = String(await withRetry(() => nft.ownerOf(tokenId), 'ownerOf'))
+      const fate = await withRetry(() => pool.run((p) => {
+        const nft = new Contract(nftAddr, NFT_READ_ABI, p)
+        return nft.getFate(tokenId) as Promise<[bigint, bigint[], bigint[], string]>
+      }), 'getFate')
+      const owner = String(await withRetry(() => pool.run((p) => {
+        const nft = new Contract(nftAddr, NFT_READ_ABI, p)
+        return nft.ownerOf(tokenId)
+      }), 'ownerOf'))
       const chainSeed = Number(fate[0])
       const chainTalents = (fate[1] ?? []).map((x) => Number(x))
       const chainAlloc = (fate[2] ?? []).map((x) => Number(x))
@@ -169,11 +176,11 @@ async function verifyRecord(mgr: SessionManager, nft: Contract | null, rec: Insc
 }
 
 async function scan(
-  provider: JsonRpcProvider, mgr: SessionManager, nftRead: Contract | null,
+  pool: RpcPool, mgr: SessionManager,
   consumer: string, nftAddr: string, cIface: Interface, nIface: Interface, from: number, to: number,
 ): Promise<void> {
   const address = [consumer, nftAddr].filter((a): a is string => !!a)
-  const logs = await fetchLogsAdaptive(provider, address, from, to)
+  const logs = await fetchLogsAdaptive(pool, address, from, to)
 
   for (const log of logs) {
     const addr = log.address.toLowerCase()
@@ -196,7 +203,7 @@ async function scan(
           console.warn(`[monitor][RECONCILE] external mint tokenId=${tokenId} not found in DB (skipping) owner=${owner}`)
           continue
         }
-        const status = await verifyRecord(mgr, nftRead, rec)
+        const status = await verifyRecord(mgr, pool, nftAddr || null, rec)
         await setInscriptionVerifyStatus(rec.id, status)
         if (status === 'verified') console.log(`[monitor][RECONCILE] ✓ tokenId=${tokenId} verified`)
         else console.warn(`[monitor][RECONCILE] ✗ tokenId=${tokenId} ${status}`)
@@ -206,15 +213,14 @@ async function scan(
 }
 
 async function main(): Promise<void> {
-  const rpc = config.chain.rpcUrl
   const consumer = config.chain.consumer
   const nftAddr = config.chain.inscriptionNft
-  if (!rpc || (!consumer && !nftAddr)) {
-    console.error('[monitor] missing BSC_RPC_URL or contract address (RANDCAST_CONSUMER / INSCRIPTION_NFT), exiting')
+  if (config.chain.rpcUrls.length === 0 || (!consumer && !nftAddr)) {
+    console.error('[monitor] missing BSC_RPC_URL(S) or contract address (RANDCAST_CONSUMER / INSCRIPTION_NFT), exiting')
     process.exit(1)
   }
   if (hasDb) {
-    await pool!.query(fs.readFileSync(path.join(__dirname, '../db/schema.sql'), 'utf-8'))
+    await dbPool!.query(fs.readFileSync(path.join(__dirname, '../db/schema.sql'), 'utf-8'))
   } else {
     console.warn('[monitor] DATABASE_URL not configured: cursor/ledger/reconcile state is memory-only and will be lost on restart (recommend configuring a database)')
   }
@@ -227,24 +233,24 @@ async function main(): Promise<void> {
   }
   const mgr = new SessionManager(svc)
 
-  const provider = new JsonRpcProvider(rpc, config.chain.chainId, { batchMaxCount: 1 })
+  const pool = new RpcPool(config.chain.rpcUrls, config.chain.chainId).start()
   const cIface = new Interface(CONSUMER_ABI)
   const nIface = new Interface(NFT_EVENT_ABI)
-  const nftRead = nftAddr ? new Contract(nftAddr, NFT_READ_ABI, provider) : null
 
-  const latest = await withRetry(() => provider.getBlockNumber(), 'getBlockNumber')
+  const latest = await withRetry(() => pool.run((p) => p.getBlockNumber()), 'getBlockNumber')
   const saved = await getMonitorState(CURSOR_KEY)
   let cursor = saved
     ? Number(saved)
     : (process.env.MONITOR_START_BLOCK ? Number(process.env.MONITOR_START_BLOCK) : Math.max(0, latest - CHUNK))
   console.log(`[monitor] starting chainId=${config.chain.chainId}, from block ${cursor} (latest ${latest}, confirmations ${CONFIRMATIONS})`)
+  console.log(`[monitor] RPC pool: ${config.chain.rpcUrls.length} endpoint(s) configured`)
 
   const tick = async (): Promise<void> => {
     try {
-      const head = (await withRetry(() => provider.getBlockNumber(), 'getBlockNumber')) - CONFIRMATIONS
+      const head = (await withRetry(() => pool.run((p) => p.getBlockNumber()), 'getBlockNumber')) - CONFIRMATIONS
       while (cursor <= head) {
         const to = Math.min(cursor + effectiveChunk - 1, head)
-        await scan(provider, mgr, nftRead, consumer, nftAddr, cIface, nIface, cursor, to)
+        await scan(pool, mgr, consumer, nftAddr, cIface, nIface, cursor, to)
         cursor = to + 1
         await setMonitorState(CURSOR_KEY, String(cursor))
       }
