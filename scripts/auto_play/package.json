@@ -1,0 +1,12 @@
+{
+  "name": "aof-auto-play",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node auto_play.mjs"
+  },
+  "dependencies": {
+    "ethers": "^6.17.0"
+  }
+}
